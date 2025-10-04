@@ -17,7 +17,8 @@ cycling-workouts/
 │   └── workout-schema.json
 ├── workouts/           # Stored workout data (JSON files)
 ├── utils/              # Utility scripts
-│   └── csv_to_json.py
+│   ├── csv_to_json.py      # Convert CSV to JSON
+│   └── validate_json.py    # Validate JSON against schema
 └── examples/           # Example files
     └── sample-workouts.csv
 ```
@@ -83,6 +84,38 @@ workout-002,2024-01-17T17:00:00Z,45,18.2,24.3,38.5,152,175,tempo,Evening session
 ```
 
 See `examples/sample-workouts.csv` for a complete example.
+
+## JSON Validator
+
+The `validate_json.py` utility validates workout JSON files against the schema to ensure data integrity.
+
+### Usage
+
+**Validate a single workout file:**
+```bash
+python utils/validate_json.py workouts/workout-001.json
+```
+
+**Validate multiple workout files:**
+```bash
+python utils/validate_json.py workouts/workout-*.json
+```
+
+**Validate a file containing an array of workouts:**
+```bash
+python utils/validate_json.py all-workouts.json
+```
+
+**View help:**
+```bash
+python utils/validate_json.py --help
+```
+
+The validator checks:
+- All required fields are present (id, date, duration, distance)
+- Field types match the schema (strings, numbers, integers)
+- Numeric values are non-negative
+- workoutType is one of the valid enum values
 
 ## Getting Started
 
