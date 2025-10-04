@@ -1,0 +1,6 @@
+id,date,duration,distance,avgSpeed,maxSpeed,avgHeartRate,maxHeartRate,avgCadence,maxCadence,avgPower,maxPower,calories,elevationGain,workoutType,notes
+workout-001,2024-01-15T08:30:00Z,60,25.5,25.5,42.3,145,168,85,105,180,320,650,250,endurance,Morning ride with good weather
+workout-002,2024-01-17T17:00:00Z,45,18.2,24.3,38.5,152,175,88,98,195,280,550,180,tempo,Evening tempo session
+workout-003,2024-01-20T09:00:00Z,90,45.8,30.5,48.2,138,162,82,110,165,290,820,420,endurance,Long weekend ride
+workout-004,2024-01-22T18:30:00Z,30,12.5,25.0,35.8,130,155,75,95,140,240,380,95,recovery,Easy recovery spin
+workout-005,2024-01-25T07:45:00Z,75,35.2,28.2,52.5,165,188,90,115,220,450,720,310,interval,High intensity interval training
