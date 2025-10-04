@@ -1,88 +1,188 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/akarl16/cycling-workouts/schema/workout-schema.json",
   "title": "Cycling Workout",
-  "description": "Schema for cycling workout data",
+  "description": "A cycling workout with intervals and optional repeating blocks",
   "type": "object",
-  "required": ["id", "date", "duration", "distance"],
   "properties": {
     "id": {
       "type": "string",
       "description": "Unique identifier for the workout"
     },
-    "date": {
+    "name": {
       "type": "string",
-      "format": "date-time",
-      "description": "Date and time of the workout (ISO 8601 format)"
+      "description": "Display name of the workout",
+      "minLength": 1
     },
-    "duration": {
-      "type": "number",
-      "description": "Duration of the workout in minutes",
-      "minimum": 0
-    },
-    "distance": {
-      "type": "number",
-      "description": "Distance covered in kilometers",
-      "minimum": 0
-    },
-    "avgSpeed": {
-      "type": "number",
-      "description": "Average speed in km/h",
-      "minimum": 0
-    },
-    "maxSpeed": {
-      "type": "number",
-      "description": "Maximum speed in km/h",
-      "minimum": 0
-    },
-    "avgHeartRate": {
-      "type": "integer",
-      "description": "Average heart rate in bpm",
-      "minimum": 0
-    },
-    "maxHeartRate": {
-      "type": "integer",
-      "description": "Maximum heart rate in bpm",
-      "minimum": 0
-    },
-    "avgCadence": {
-      "type": "integer",
-      "description": "Average cadence in rpm",
-      "minimum": 0
-    },
-    "maxCadence": {
-      "type": "integer",
-      "description": "Maximum cadence in rpm",
-      "minimum": 0
-    },
-    "avgPower": {
-      "type": "integer",
-      "description": "Average power in watts",
-      "minimum": 0
-    },
-    "maxPower": {
-      "type": "integer",
-      "description": "Maximum power in watts",
-      "minimum": 0
-    },
-    "calories": {
-      "type": "integer",
-      "description": "Calories burned",
-      "minimum": 0
-    },
-    "elevationGain": {
-      "type": "number",
-      "description": "Total elevation gain in meters",
-      "minimum": 0
-    },
-    "workoutType": {
+    "description": {
       "type": "string",
-      "description": "Type of workout",
-      "enum": ["recovery", "endurance", "tempo", "threshold", "interval", "race", "other"]
+      "description": "Optional description of the workout"
     },
-    "notes": {
-      "type": "string",
-      "description": "Additional notes about the workout"
+    "intervals": {
+      "type": "array",
+      "description": "Array of workout intervals",
+      "items": {
+        "$ref": "#/definitions/WorkoutInterval"
+      }
+    },
+    "blocks": {
+      "type": "array",
+      "description": "Optional array of repeating interval blocks",
+      "items": {
+        "$ref": "#/definitions/WorkoutBlock"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "intervals"
+  ],
+  "additionalProperties": false,
+  "definitions": {
+    "WorkoutInterval": {
+      "type": "object",
+      "description": "Individual workout interval with power zone and cadence targets",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the interval"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display name of the interval",
+          "minLength": 1
+        },
+        "duration": {
+          "type": "integer",
+          "description": "Duration in seconds",
+          "minimum": 1
+        },
+        "powerZone": {
+          "oneOf": [
+            {
+              "type": "integer",
+              "description": "Power zone as number (1-7)",
+              "minimum": 1,
+              "maximum": 7
+            },
+            {
+              "type": "string",
+              "description": "Power zone with optional modifier (e.g., 'Z2+', '3-', 'Zone 4+')",
+              "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+            }
+          ]
+        },
+        "cadence": {
+          "type": "integer",
+          "description": "Target cadence in RPM",
+          "minimum": 40,
+          "maximum": 150
+        },
+        "alternating": {
+          "type": "object",
+          "description": "Optional alternating interval configuration - allows switching between two power zones",
+          "properties": {
+            "powerZoneA": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "description": "First power zone as number (1-7)",
+                  "minimum": 1,
+                  "maximum": 7
+                },
+                {
+                  "type": "string",
+                  "description": "First power zone with optional modifier (e.g., 'Z2+', '3-', 'Zone 4+')",
+                  "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+                }
+              ]
+            },
+            "powerZoneB": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "description": "Second power zone as number (1-7)",
+                  "minimum": 1,
+                  "maximum": 7
+                },
+                {
+                  "type": "string",
+                  "description": "Second power zone with optional modifier (e.g., 'Z2+', '3-', 'Zone 4+')",
+                  "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+                }
+              ]
+            },
+            "cadenceA": {
+              "type": "integer",
+              "description": "Target cadence for power zone A in RPM",
+              "minimum": 40,
+              "maximum": 150
+            },
+            "cadenceB": {
+              "type": "integer",
+              "description": "Target cadence for power zone B in RPM",
+              "minimum": 40,
+              "maximum": 150
+            },
+            "startWithZone": {
+              "type": "string",
+              "description": "Which zone to start with",
+              "enum": [
+                "A",
+                "B"
+              ],
+              "default": "A"
+            }
+          },
+          "required": [
+            "powerZoneA",
+            "powerZoneB"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "duration",
+        "powerZone"
+      ],
+      "additionalProperties": false
+    },
+    "WorkoutBlock": {
+      "type": "object",
+      "description": "Repeating block of intervals",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the block"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display name of the block",
+          "minLength": 1
+        },
+        "repetitions": {
+          "type": "integer",
+          "description": "Number of times to repeat the block",
+          "minimum": 1
+        },
+        "intervals": {
+          "type": "array",
+          "description": "Intervals within the block",
+          "items": {
+            "$ref": "#/definitions/WorkoutInterval"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "repetitions",
+        "intervals"
+      ],
+      "additionalProperties": false
     }
   }
 }

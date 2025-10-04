@@ -1,0 +1,43 @@
+{
+  "id": "tabata-intervals",
+  "name": "Tabata Power",
+  "intervals": [
+    {
+      "id": "warm1",
+      "name": "Warm Up",
+      "duration": 300,
+      "powerZone": 1,
+      "cadence": 80
+    },
+    {
+      "id": "build1",
+      "name": "Build",
+      "duration": 180,
+      "powerZone": 3,
+      "cadence": 90
+    }
+  ],
+  "blocks": [
+    {
+      "id": "tabata-block",
+      "name": "Tabata Set",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "work",
+          "name": "All Out",
+          "duration": 20,
+          "powerZone": 6,
+          "cadence": 110
+        },
+        {
+          "id": "rest",
+          "name": "Rest",
+          "duration": 10,
+          "powerZone": 1,
+          "cadence": 70
+        }
+      ]
+    }
+  ]
+}

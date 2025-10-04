@@ -1,0 +1,357 @@
+{
+  "id": "punch-out-90",
+  "name": "Punch Out (90)",
+  "description": "90-minute workout with progressive builds, tempo cadence variations, and punch intervals alternating between Z3 and Z4, finishing with high-intensity Z5-Z7 intervals",
+  "intervals": [
+    {
+      "id": "1",
+      "name": "Easy build",
+      "duration": 240,
+      "powerZone": 1
+    },
+    {
+      "id": "2",
+      "name": "Easy build",
+      "duration": 180,
+      "powerZone": 2
+    },
+    {
+      "id": "3",
+      "name": "Easy build",
+      "duration": 120,
+      "powerZone": "2+"
+    },
+    {
+      "id": "4",
+      "name": "Active",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "id": "5",
+      "name": "Build",
+      "duration": 30,
+      "powerZone": 3
+    },
+    {
+      "id": "6",
+      "name": "Active",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "id": "7",
+      "name": "Build",
+      "duration": 30,
+      "powerZone": "3+"
+    },
+    {
+      "id": "8",
+      "name": "Active",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "id": "9",
+      "name": "Build",
+      "duration": 30,
+      "powerZone": "4-"
+    },
+    {
+      "id": "10",
+      "name": "Active",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "id": "11",
+      "name": "Build",
+      "duration": 30,
+      "powerZone": 4
+    },
+    {
+      "id": "12",
+      "name": "Active",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "id": "13",
+      "name": "Build",
+      "duration": 30,
+      "powerZone": 4
+    },
+    {
+      "id": "14",
+      "name": "Active",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "id": "15",
+      "name": "Build",
+      "duration": 30,
+      "powerZone": "4+"
+    },
+    {
+      "id": "16",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "id": "17",
+      "name": "Tempo +Cad",
+      "duration": 30,
+      "powerZone": 3,
+      "cadence": 85
+    },
+    {
+      "id": "18",
+      "name": "Tempo +Cad",
+      "duration": 30,
+      "powerZone": 3,
+      "cadence": 90
+    },
+    {
+      "id": "19",
+      "name": "Tempo +Cad",
+      "duration": 30,
+      "powerZone": 3,
+      "cadence": 80
+    },
+    {
+      "id": "20",
+      "name": "Tempo +Cad",
+      "duration": 30,
+      "powerZone": 3,
+      "cadence": 100
+    },
+    {
+      "id": "21",
+      "name": "Tempo +Cad",
+      "duration": 30,
+      "powerZone": 3,
+      "cadence": 75
+    },
+    {
+      "id": "22",
+      "name": "Tempo +Cad",
+      "duration": 30,
+      "powerZone": 3,
+      "cadence": 105
+    },
+    {
+      "id": "23",
+      "name": "Tempo +Cad",
+      "duration": 30,
+      "powerZone": 3,
+      "cadence": 70
+    },
+    {
+      "id": "24",
+      "name": "Tempo +Cad",
+      "duration": 30,
+      "powerZone": 3,
+      "cadence": 110
+    },
+    {
+      "id": "25",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    }
+  ],
+  "blocks": [
+    {
+      "id": "punch-set-1",
+      "name": "Punch Over/Under Set 1",
+      "repetitions": 6,
+      "intervals": [
+        {
+          "id": "punch-over",
+          "name": "Punch over",
+          "duration": 60,
+          "powerZone": 4
+        },
+        {
+          "id": "under",
+          "name": "Under",
+          "duration": 60,
+          "powerZone": 3
+        }
+      ]
+    },
+    {
+      "id": "recover-1",
+      "name": "Recovery 1",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "recover",
+          "name": "Recover",
+          "duration": 120,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "id": "punch-set-2",
+      "name": "Punch Over/Under Set 2",
+      "repetitions": 6,
+      "intervals": [
+        {
+          "id": "punch-over",
+          "name": "Punch over",
+          "duration": 60,
+          "powerZone": 4
+        },
+        {
+          "id": "under",
+          "name": "Under",
+          "duration": 60,
+          "powerZone": 3
+        }
+      ]
+    },
+    {
+      "id": "recover-2",
+      "name": "Recovery 2",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "recover",
+          "name": "Recover",
+          "duration": 120,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "id": "punch-set-3",
+      "name": "Punch Over/Under Set 3",
+      "repetitions": 6,
+      "intervals": [
+        {
+          "id": "punch-over",
+          "name": "Punch over",
+          "duration": 60,
+          "powerZone": 4
+        },
+        {
+          "id": "under",
+          "name": "Under",
+          "duration": 60,
+          "powerZone": 3
+        }
+      ]
+    },
+    {
+      "id": "recover-3",
+      "name": "Recovery 3",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "recover",
+          "name": "Recover",
+          "duration": 120,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "id": "z5-intervals",
+      "name": "Zone 5 Intervals",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "active",
+          "name": "Active",
+          "duration": 45,
+          "powerZone": 2
+        },
+        {
+          "id": "punch-over",
+          "name": "Punch over",
+          "duration": 30,
+          "powerZone": 5
+        }
+      ]
+    },
+    {
+      "id": "recover-4",
+      "name": "Recovery 4",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "recover",
+          "name": "Recover",
+          "duration": 120,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "id": "z6-intervals",
+      "name": "Zone 6 Intervals",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "z6-alternating",
+          "name": "Z6 Punch Intervals",
+          "duration": 360,
+          "powerZone": 2,
+          "alternating": {
+            "powerZoneA": 2,
+            "powerZoneB": 6,
+            "startWithZone": "A"
+          }
+        }
+      ]
+    },
+    {
+      "id": "recover-5",
+      "name": "Recovery 5",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "recover",
+          "name": "Recover",
+          "duration": 120,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "id": "z7-intervals",
+      "name": "Zone 7 All-In Sprints",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "z7-alternating",
+          "name": "Z7 Sprint Intervals",
+          "duration": 280,
+          "powerZone": 2,
+          "alternating": {
+            "powerZoneA": 2,
+            "powerZoneB": 7,
+            "startWithZone": "A"
+          }
+        }
+      ]
+    },
+    {
+      "id": "spindown",
+      "name": "Spindown",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "spindown",
+          "name": "Spindown",
+          "duration": 300,
+          "powerZone": 1
+        }
+      ]
+    }
+  ]
+}

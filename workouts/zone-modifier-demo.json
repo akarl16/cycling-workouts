@@ -1,0 +1,69 @@
+{
+  "id": "zone-modifier-demo",
+  "name": "Zone Modifier Demo",
+  "intervals": [
+    {
+      "id": "warm1",
+      "name": "Easy Warm Up",
+      "duration": 300,
+      "powerZone": 1,
+      "cadence": 80
+    },
+    {
+      "id": "build1",
+      "name": "Low Zone 2",
+      "duration": 120,
+      "powerZone": "Z2-",
+      "cadence": 85
+    },
+    {
+      "id": "build2",
+      "name": "High Zone 2",
+      "duration": 120,
+      "powerZone": "2+",
+      "cadence": 90
+    },
+    {
+      "id": "threshold1",
+      "name": "Low Zone 4",
+      "duration": 180,
+      "powerZone": "Z4-",
+      "cadence": 95
+    },
+    {
+      "id": "recovery1",
+      "name": "Active Recovery",
+      "duration": 120,
+      "powerZone": 2,
+      "cadence": 85
+    },
+    {
+      "id": "threshold2",
+      "name": "High Zone 4",
+      "duration": 180,
+      "powerZone": "4+",
+      "cadence": 95
+    },
+    {
+      "id": "vo2max1",
+      "name": "Low VO2 Max",
+      "duration": 90,
+      "powerZone": "Z5-",
+      "cadence": 100
+    },
+    {
+      "id": "recovery2",
+      "name": "Easy Recovery",
+      "duration": 180,
+      "powerZone": 1,
+      "cadence": 80
+    },
+    {
+      "id": "cooldown",
+      "name": "Cool Down",
+      "duration": 240,
+      "powerZone": 1,
+      "cadence": 75
+    }
+  ]
+}

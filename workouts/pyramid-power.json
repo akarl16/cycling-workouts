@@ -1,0 +1,62 @@
+{
+  "id": "default",
+  "name": "Pyramid Power",
+  "intervals": [
+    {
+      "id": "1",
+      "name": "Warm Up",
+      "duration": 300,
+      "powerZone": 1,
+      "cadence": 80
+    },
+    {
+      "id": "2",
+      "name": "Build 1",
+      "duration": 240,
+      "powerZone": 3,
+      "cadence": 90
+    },
+    {
+      "id": "3",
+      "name": "Threshold",
+      "duration": 180,
+      "powerZone": 4,
+      "cadence": 95
+    },
+    {
+      "id": "4",
+      "name": "VO2 Max",
+      "duration": 120,
+      "powerZone": 5,
+      "cadence": 100
+    },
+    {
+      "id": "5",
+      "name": "Recovery",
+      "duration": 180,
+      "powerZone": 2,
+      "cadence": 85
+    },
+    {
+      "id": "6",
+      "name": "VO2 Max",
+      "duration": 120,
+      "powerZone": 5,
+      "cadence": 100
+    },
+    {
+      "id": "7",
+      "name": "Threshold",
+      "duration": 180,
+      "powerZone": 4,
+      "cadence": 95
+    },
+    {
+      "id": "8",
+      "name": "Cool Down",
+      "duration": 300,
+      "powerZone": 1,
+      "cadence": 80
+    }
+  ]
+}

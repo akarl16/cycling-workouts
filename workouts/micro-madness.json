@@ -1,0 +1,197 @@
+{
+  "id": "micro-madness",
+  "name": "Micro Madness",
+  "intervals": [
+    {
+      "id": "mm1",
+      "name": "Warm Up",
+      "duration": 300,
+      "powerZone": 1,
+      "cadence": 80
+    },
+    {
+      "id": "mm2",
+      "name": "Recovery",
+      "duration": 90,
+      "powerZone": 2,
+      "cadence": 85
+    },
+    {
+      "id": "mm3",
+      "name": "Build 1",
+      "duration": 90,
+      "powerZone": 2,
+      "cadence": 95
+    },
+    {
+      "id": "mm4",
+      "name": "Recovery",
+      "duration": 90,
+      "powerZone": 2,
+      "cadence": 85
+    },
+    {
+      "id": "mm5",
+      "name": "Build 2",
+      "duration": 90,
+      "powerZone": 3,
+      "cadence": 95
+    },
+    {
+      "id": "mm6",
+      "name": "Recovery",
+      "duration": 90,
+      "powerZone": 2,
+      "cadence": 85
+    },
+    {
+      "id": "mm7",
+      "name": "Build 3",
+      "duration": 90,
+      "powerZone": 3,
+      "cadence": 95
+    },
+    {
+      "id": "mm8",
+      "name": "Recovery",
+      "duration": 90,
+      "powerZone": 2,
+      "cadence": 85
+    },
+    {
+      "id": "mm9",
+      "name": "Build 4",
+      "duration": 90,
+      "powerZone": 4,
+      "cadence": 95
+    },
+    {
+      "id": "mm10",
+      "name": "Tempo",
+      "duration": 300,
+      "powerZone": 3,
+      "cadence": 90
+    },
+    {
+      "id": "mm11",
+      "name": "Easy Recovery",
+      "duration": 120,
+      "powerZone": 1,
+      "cadence": 80
+    }
+  ],
+  "blocks": [
+    {
+      "id": "threshold-micros",
+      "name": "Threshold Micro Intervals",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "threshold",
+          "name": "Threshold",
+          "duration": 30,
+          "powerZone": 4,
+          "cadence": 95
+        },
+        {
+          "id": "recovery",
+          "name": "Recovery",
+          "duration": 30,
+          "powerZone": 2,
+          "cadence": 85
+        }
+      ]
+    },
+    {
+      "id": "threshold-micros-2",
+      "name": "Threshold Micro Intervals Set 2",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "threshold",
+          "name": "Threshold",
+          "duration": 30,
+          "powerZone": 4,
+          "cadence": 95
+        },
+        {
+          "id": "recovery",
+          "name": "Recovery",
+          "duration": 30,
+          "powerZone": 2,
+          "cadence": 85
+        }
+      ]
+    },
+    {
+      "id": "tempo-block",
+      "name": "Tempo Block",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "tempo",
+          "name": "Tempo Block",
+          "duration": 300,
+          "powerZone": 3,
+          "cadence": 90
+        },
+        {
+          "id": "easy-recovery",
+          "name": "Easy Recovery",
+          "duration": 120,
+          "powerZone": 1,
+          "cadence": 80
+        }
+      ]
+    },
+    {
+      "id": "vo2max-micros",
+      "name": "VO2 Max Micro Intervals",
+      "repetitions": 10,
+      "intervals": [
+        {
+          "id": "vo2max",
+          "name": "VO2 Max",
+          "duration": 30,
+          "powerZone": 5,
+          "cadence": 100
+        },
+        {
+          "id": "recovery",
+          "name": "Recovery",
+          "duration": 30,
+          "powerZone": 2,
+          "cadence": 85
+        }
+      ]
+    },
+    {
+      "id": "final-tempo",
+      "name": "Final Tempo",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "tempo",
+          "name": "Final Tempo",
+          "duration": 300,
+          "powerZone": 3,
+          "cadence": 90
+        },
+        {
+          "id": "spindown-start",
+          "name": "Spindown Start",
+          "duration": 120,
+          "powerZone": 2,
+          "cadence": 85
+        },
+        {
+          "id": "spindown-end",
+          "name": "Spindown End",
+          "duration": 120,
+          "powerZone": 1,
+          "cadence": 80
+        }
+      ]
+    }
+  ]
+}
