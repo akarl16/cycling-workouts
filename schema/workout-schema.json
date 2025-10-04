@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/akarl16/cycling-workouts/schema/workout-schema.json",
+  "title": "Cycling Workout",
+  "description": "Schema for cycling workout data",
+  "type": "object",
+  "required": ["id", "date", "duration", "distance"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the workout"
+    },
+    "date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date and time of the workout (ISO 8601 format)"
+    },
+    "duration": {
+      "type": "number",
+      "description": "Duration of the workout in minutes",
+      "minimum": 0
+    },
+    "distance": {
+      "type": "number",
+      "description": "Distance covered in kilometers",
+      "minimum": 0
+    },
+    "avgSpeed": {
+      "type": "number",
+      "description": "Average speed in km/h",
+      "minimum": 0
+    },
+    "maxSpeed": {
+      "type": "number",
+      "description": "Maximum speed in km/h",
+      "minimum": 0
+    },
+    "avgHeartRate": {
+      "type": "integer",
+      "description": "Average heart rate in bpm",
+      "minimum": 0
+    },
+    "maxHeartRate": {
+      "type": "integer",
+      "description": "Maximum heart rate in bpm",
+      "minimum": 0
+    },
+    "avgCadence": {
+      "type": "integer",
+      "description": "Average cadence in rpm",
+      "minimum": 0
+    },
+    "maxCadence": {
+      "type": "integer",
+      "description": "Maximum cadence in rpm",
+      "minimum": 0
+    },
+    "avgPower": {
+      "type": "integer",
+      "description": "Average power in watts",
+      "minimum": 0
+    },
+    "maxPower": {
+      "type": "integer",
+      "description": "Maximum power in watts",
+      "minimum": 0
+    },
+    "calories": {
+      "type": "integer",
+      "description": "Calories burned",
+      "minimum": 0
+    },
+    "elevationGain": {
+      "type": "number",
+      "description": "Total elevation gain in meters",
+      "minimum": 0
+    },
+    "workoutType": {
+      "type": "string",
+      "description": "Type of workout",
+      "enum": ["recovery", "endurance", "tempo", "threshold", "interval", "race", "other"]
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes about the workout"
+    }
+  }
+}
