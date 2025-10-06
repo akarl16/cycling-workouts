@@ -24,8 +24,5 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Workout data (users generate their own)
-workouts/*.json
-
 # Keep the directory but not the generated files
 !workouts/.gitkeep

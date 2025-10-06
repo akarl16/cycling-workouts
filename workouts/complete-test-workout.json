@@ -1,0 +1,230 @@
+{
+  "id": "complete-test-workout",
+  "name": "🧪 Complete Test Workout",
+  "intervals": [
+    {
+      "id": "test1",
+      "name": "Z1 - Active Recovery",
+      "duration": 60,
+      "powerZone": 1,
+      "cadence": 70
+    },
+    {
+      "id": "test2",
+      "name": "Z2 - Endurance",
+      "duration": 60,
+      "powerZone": 2,
+      "cadence": 85
+    },
+    {
+      "id": "test3",
+      "name": "Z3 - Tempo",
+      "duration": 60,
+      "powerZone": 3,
+      "cadence": 90
+    },
+    {
+      "id": "test4",
+      "name": "Z4 - Threshold",
+      "duration": 60,
+      "powerZone": 4,
+      "cadence": 95
+    },
+    {
+      "id": "test5",
+      "name": "Z5 - VO2 Max",
+      "duration": 45,
+      "powerZone": 5,
+      "cadence": 100
+    },
+    {
+      "id": "test6",
+      "name": "Z6 - Anaerobic",
+      "duration": 30,
+      "powerZone": 6,
+      "cadence": 105
+    },
+    {
+      "id": "test7",
+      "name": "Z7 - Neuromuscular",
+      "duration": 20,
+      "powerZone": 7,
+      "cadence": 110
+    },
+    {
+      "id": "recovery1",
+      "name": "Recovery",
+      "duration": 60,
+      "powerZone": 1,
+      "cadence": 75
+    },
+    {
+      "id": "mod1",
+      "name": "Z2- Low Endurance",
+      "duration": 45,
+      "powerZone": "Z2-",
+      "cadence": 80
+    },
+    {
+      "id": "mod2",
+      "name": "Z2+ High Endurance",
+      "duration": 45,
+      "powerZone": "2+",
+      "cadence": 88
+    },
+    {
+      "id": "mod3",
+      "name": "Z3- Low Tempo",
+      "duration": 45,
+      "powerZone": "3-",
+      "cadence": 88
+    },
+    {
+      "id": "mod4",
+      "name": "Z3+ High Tempo",
+      "duration": 45,
+      "powerZone": "Z3+",
+      "cadence": 92
+    },
+    {
+      "id": "mod5",
+      "name": "Z4- Low Threshold",
+      "duration": 40,
+      "powerZone": "4-",
+      "cadence": 93
+    },
+    {
+      "id": "mod6",
+      "name": "Z4+ High Threshold",
+      "duration": 40,
+      "powerZone": "Z4+",
+      "cadence": 97
+    },
+    {
+      "id": "recovery2",
+      "name": "Recovery",
+      "duration": 60,
+      "powerZone": 1,
+      "cadence": 75
+    },
+    {
+      "id": "alt1",
+      "name": "Z3/Z4 Alternating",
+      "duration": 120,
+      "powerZone": 3,
+      "cadence": 90,
+      "alternating": {
+        "powerZoneA": 3,
+        "powerZoneB": 4,
+        "cadenceA": 90,
+        "cadenceB": 95,
+        "startWithZone": "A"
+      }
+    },
+    {
+      "id": "recovery3",
+      "name": "Recovery",
+      "duration": 45,
+      "powerZone": 2,
+      "cadence": 80
+    },
+    {
+      "id": "alt2",
+      "name": "Z5/Z6 Alternating",
+      "duration": 90,
+      "powerZone": 5,
+      "cadence": 100,
+      "alternating": {
+        "powerZoneA": 5,
+        "powerZoneB": 6,
+        "cadenceA": 100,
+        "cadenceB": 105,
+        "startWithZone": "A"
+      }
+    },
+    {
+      "id": "recovery4",
+      "name": "Recovery",
+      "duration": 60,
+      "powerZone": 1,
+      "cadence": 75
+    },
+    {
+      "id": "cad1",
+      "name": "Free Ride Z2",
+      "duration": 45,
+      "powerZone": 2
+    },
+    {
+      "id": "cad2",
+      "name": "Low Cadence Z3",
+      "duration": 45,
+      "powerZone": 3,
+      "cadence": 60
+    },
+    {
+      "id": "cad3",
+      "name": "High Cadence Z3",
+      "duration": 45,
+      "powerZone": 3,
+      "cadence": 110
+    },
+    {
+      "id": "cad4",
+      "name": "Sprint Cadence Z5",
+      "duration": 30,
+      "powerZone": 5,
+      "cadence": 120
+    },
+    {
+      "id": "recovery5",
+      "name": "Recovery",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "id": "prep",
+      "name": "Block Prep",
+      "duration": 45,
+      "powerZone": 2,
+      "cadence": 85
+    }
+  ],
+  "blocks": [
+    {
+      "id": "test-block",
+      "name": "Test Block (3x)",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "work1",
+          "name": "Hard Effort",
+          "duration": 20,
+          "powerZone": 6,
+          "cadence": 105
+        },
+        {
+          "id": "rest1",
+          "name": "Easy Spin",
+          "duration": 10,
+          "powerZone": 1,
+          "cadence": 70
+        },
+        {
+          "id": "work2",
+          "name": "Very Hard",
+          "duration": 15,
+          "powerZone": 7,
+          "cadence": 110
+        },
+        {
+          "id": "rest2",
+          "name": "Recovery",
+          "duration": 15,
+          "powerZone": 1,
+          "cadence": 70
+        }
+      ]
+    }
+  ]
+}
