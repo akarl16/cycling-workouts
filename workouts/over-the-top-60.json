@@ -59,7 +59,7 @@
           "id": "fastcadence",
           "name": "Fast Cadence",
           "duration": 180,
-          "powerZone": 2,
+          "powerZone": "3-",
           "cadence": 100
         },
         {
