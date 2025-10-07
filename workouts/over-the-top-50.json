@@ -1,0 +1,101 @@
+{
+  "id": "over-the-top-50",
+  "name": "Over the Top (50)",
+  "description": "50-minute workout with warm-up, builds, overgear/fast cadence intervals, and endurance work",
+  "duration": 3000,
+  "intervals": [
+    {
+      "id": "warmup",
+      "name": "Warm-up",
+      "duration": 240,
+      "powerZone": "Z1"
+    },
+    {
+      "id": "build1",
+      "name": "Build",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "id": "build2",
+      "name": "Build",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "id": "build3",
+      "name": "Build +Cad",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 95
+    },
+    {
+      "id": "build4",
+      "name": "Build +Cad",
+      "duration": 120,
+      "powerZone": "Z4-",
+      "cadence": 95
+    },
+    {
+      "id": "recover1",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "overgear-fastcadence",
+      "name": "Overgear / Fast Cadence",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "overgear",
+          "name": "Overgear",
+          "duration": 180,
+          "powerZone": "Z4",
+          "cadence": 65
+        },
+        {
+          "id": "fastcadence",
+          "name": "Fast Cadence",
+          "duration": 180,
+          "powerZone": "Z3-",
+          "cadence": 100
+        },
+        {
+          "id": "recover",
+          "name": "Recover",
+          "duration": 120,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "id": "endurance",
+      "name": "Endurance w/changes",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "endurance-work",
+          "name": "Endurance w/changes",
+          "duration": 600,
+          "powerZone": "Z3"
+        }
+      ]
+    },
+    {
+      "id": "spindown",
+      "name": "Spindown",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "spindown-cooldown",
+          "name": "Spindown",
+          "duration": 120,
+          "powerZone": "Z1"
+        }
+      ]
+    }
+  ]
+}
