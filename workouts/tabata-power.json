@@ -1,8 +1,9 @@
 {
   "id": "tabata-intervals",
   "name": "Tabata Power",
-  "intervals": [
+  "sequence": [
     {
+      "type": "interval",
       "id": "warm1",
       "name": "Warm Up",
       "duration": 300,
@@ -10,15 +11,15 @@
       "cadence": 80
     },
     {
+      "type": "interval",
       "id": "build1",
       "name": "Build",
       "duration": 180,
       "powerZone": 3,
       "cadence": 90
-    }
-  ],
-  "blocks": [
+    },
     {
+      "type": "block",
       "id": "tabata-block",
       "name": "Tabata Set",
       "repetitions": 4,

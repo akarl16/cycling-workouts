@@ -1,8 +1,9 @@
 {
   "id": "complete-test-workout",
   "name": "🧪 Complete Test Workout",
-  "intervals": [
+  "sequence": [
     {
+      "type": "interval",
       "id": "test1",
       "name": "Z1 - Active Recovery",
       "duration": 60,
@@ -10,6 +11,7 @@
       "cadence": 70
     },
     {
+      "type": "interval",
       "id": "test2",
       "name": "Z2 - Endurance",
       "duration": 60,
@@ -17,6 +19,7 @@
       "cadence": 85
     },
     {
+      "type": "interval",
       "id": "test3",
       "name": "Z3 - Tempo",
       "duration": 60,
@@ -24,6 +27,7 @@
       "cadence": 90
     },
     {
+      "type": "interval",
       "id": "test4",
       "name": "Z4 - Threshold",
       "duration": 60,
@@ -31,6 +35,7 @@
       "cadence": 95
     },
     {
+      "type": "interval",
       "id": "test5",
       "name": "Z5 - VO2 Max",
       "duration": 45,
@@ -38,6 +43,7 @@
       "cadence": 100
     },
     {
+      "type": "interval",
       "id": "test6",
       "name": "Z6 - Anaerobic",
       "duration": 30,
@@ -45,6 +51,7 @@
       "cadence": 105
     },
     {
+      "type": "interval",
       "id": "test7",
       "name": "Z7 - Neuromuscular",
       "duration": 20,
@@ -52,6 +59,7 @@
       "cadence": 110
     },
     {
+      "type": "interval",
       "id": "recovery1",
       "name": "Recovery",
       "duration": 60,
@@ -59,6 +67,7 @@
       "cadence": 75
     },
     {
+      "type": "interval",
       "id": "mod1",
       "name": "Z2- Low Endurance",
       "duration": 45,
@@ -66,6 +75,7 @@
       "cadence": 80
     },
     {
+      "type": "interval",
       "id": "mod2",
       "name": "Z2+ High Endurance",
       "duration": 45,
@@ -73,6 +83,7 @@
       "cadence": 88
     },
     {
+      "type": "interval",
       "id": "mod3",
       "name": "Z3- Low Tempo",
       "duration": 45,
@@ -80,6 +91,7 @@
       "cadence": 88
     },
     {
+      "type": "interval",
       "id": "mod4",
       "name": "Z3+ High Tempo",
       "duration": 45,
@@ -87,6 +99,7 @@
       "cadence": 92
     },
     {
+      "type": "interval",
       "id": "mod5",
       "name": "Z4- Low Threshold",
       "duration": 40,
@@ -94,6 +107,7 @@
       "cadence": 93
     },
     {
+      "type": "interval",
       "id": "mod6",
       "name": "Z4+ High Threshold",
       "duration": 40,
@@ -101,6 +115,7 @@
       "cadence": 97
     },
     {
+      "type": "interval",
       "id": "recovery2",
       "name": "Recovery",
       "duration": 60,
@@ -108,6 +123,7 @@
       "cadence": 75
     },
     {
+      "type": "interval",
       "id": "alt1",
       "name": "Z3/Z4 Alternating",
       "duration": 120,
@@ -122,6 +138,7 @@
       }
     },
     {
+      "type": "interval",
       "id": "recovery3",
       "name": "Recovery",
       "duration": 45,
@@ -129,6 +146,7 @@
       "cadence": 80
     },
     {
+      "type": "interval",
       "id": "alt2",
       "name": "Z5/Z6 Alternating",
       "duration": 90,
@@ -143,6 +161,7 @@
       }
     },
     {
+      "type": "interval",
       "id": "recovery4",
       "name": "Recovery",
       "duration": 60,
@@ -150,12 +169,14 @@
       "cadence": 75
     },
     {
+      "type": "interval",
       "id": "cad1",
       "name": "Free Ride Z2",
       "duration": 45,
       "powerZone": 2
     },
     {
+      "type": "interval",
       "id": "cad2",
       "name": "Low Cadence Z3",
       "duration": 45,
@@ -163,6 +184,7 @@
       "cadence": 60
     },
     {
+      "type": "interval",
       "id": "cad3",
       "name": "High Cadence Z3",
       "duration": 45,
@@ -170,6 +192,7 @@
       "cadence": 110
     },
     {
+      "type": "interval",
       "id": "cad4",
       "name": "Sprint Cadence Z5",
       "duration": 30,
@@ -177,21 +200,22 @@
       "cadence": 120
     },
     {
+      "type": "interval",
       "id": "recovery5",
       "name": "Recovery",
       "duration": 60,
       "powerZone": 1
     },
     {
+      "type": "interval",
       "id": "prep",
       "name": "Block Prep",
       "duration": 45,
       "powerZone": 2,
       "cadence": 85
-    }
-  ],
-  "blocks": [
+    },
     {
+      "type": "block",
       "id": "test-block",
       "name": "Test Block (3x)",
       "repetitions": 3,

@@ -1,8 +1,9 @@
 {
   "id": "progressive-build",
   "name": "Progressive Build",
-  "intervals": [
+  "sequence": [
     {
+      "type": "interval",
       "id": "pb1",
       "name": "Warm Up",
       "duration": 300,
@@ -10,6 +11,7 @@
       "cadence": 80
     },
     {
+      "type": "interval",
       "id": "pb2",
       "name": "Easy Pace",
       "duration": 120,
@@ -17,6 +19,7 @@
       "cadence": 85
     },
     {
+      "type": "interval",
       "id": "pb3",
       "name": "Tempo",
       "duration": 120,
@@ -24,36 +27,7 @@
       "cadence": 90
     },
     {
-      "id": "pb43",
-      "name": "Spindown 1",
-      "duration": 60,
-      "powerZone": 2,
-      "cadence": 85
-    },
-    {
-      "id": "pb44",
-      "name": "Spindown 2",
-      "duration": 60,
-      "powerZone": 2,
-      "cadence": 80
-    },
-    {
-      "id": "pb45",
-      "name": "Spindown 3",
-      "duration": 60,
-      "powerZone": 1,
-      "cadence": 75
-    },
-    {
-      "id": "pb46",
-      "name": "Cool Down",
-      "duration": 60,
-      "powerZone": 1,
-      "cadence": 70
-    }
-  ],
-  "blocks": [
-    {
+      "type": "block",
       "id": "short-builds",
       "name": "Short Build Intervals",
       "repetitions": 4,
@@ -75,20 +49,15 @@
       ]
     },
     {
+      "type": "interval",
       "id": "easy-recovery",
       "name": "Easy Recovery",
-      "repetitions": 1,
-      "intervals": [
-        {
-          "id": "recovery",
-          "name": "Easy Recovery",
-          "duration": 120,
-          "powerZone": 1,
-          "cadence": 80
-        }
-      ]
+      "duration": 120,
+      "powerZone": 1,
+      "cadence": 80
     },
     {
+      "type": "block",
       "id": "tempo-blocks",
       "name": "Tempo Intervals",
       "repetitions": 3,
@@ -110,20 +79,15 @@
       ]
     },
     {
+      "type": "interval",
       "id": "deep-recovery-1",
       "name": "Deep Recovery",
-      "repetitions": 1,
-      "intervals": [
-        {
-          "id": "recovery",
-          "name": "Deep Recovery",
-          "duration": 60,
-          "powerZone": 1,
-          "cadence": 80
-        }
-      ]
+      "duration": 60,
+      "powerZone": 1,
+      "cadence": 80
     },
     {
+      "type": "block",
       "id": "threshold-blocks",
       "name": "Threshold Intervals",
       "repetitions": 3,
@@ -145,20 +109,15 @@
       ]
     },
     {
+      "type": "interval",
       "id": "deep-recovery-2",
       "name": "Deep Recovery",
-      "repetitions": 1,
-      "intervals": [
-        {
-          "id": "recovery",
-          "name": "Deep Recovery",
-          "duration": 120,
-          "powerZone": 1,
-          "cadence": 80
-        }
-      ]
+      "duration": 120,
+      "powerZone": 1,
+      "cadence": 80
     },
     {
+      "type": "block",
       "id": "vo2max-blocks",
       "name": "VO2 Max Intervals",
       "repetitions": 3,
@@ -180,27 +139,23 @@
       ]
     },
     {
-      "id": "deep-recovery-3",
+      "type": "interval",
+      "id": "deep-recovery-3a",
       "name": "Deep Recovery",
-      "repetitions": 1,
-      "intervals": [
-        {
-          "id": "recovery",
-          "name": "Deep Recovery",
-          "duration": 120,
-          "powerZone": 1,
-          "cadence": 80
-        },
-        {
-          "id": "endurance-base",
-          "name": "Endurance Base",
-          "duration": 60,
-          "powerZone": 2,
-          "cadence": 85
-        }
-      ]
+      "duration": 120,
+      "powerZone": 1,
+      "cadence": 80
     },
     {
+      "type": "interval",
+      "id": "endurance-base",
+      "name": "Endurance Base",
+      "duration": 60,
+      "powerZone": 2,
+      "cadence": 85
+    },
+    {
+      "type": "block",
       "id": "sprint-intervals",
       "name": "Sprint Intervals",
       "repetitions": 3,
@@ -222,25 +177,52 @@
       ]
     },
     {
-      "id": "final-sprint",
-      "name": "Final Sprint",
-      "repetitions": 1,
-      "intervals": [
-        {
-          "id": "sprint",
-          "name": "Sprint",
-          "duration": 15,
-          "powerZone": 7,
-          "cadence": 120
-        },
-        {
-          "id": "endurance-base",
-          "name": "Endurance Base",
-          "duration": 60,
-          "powerZone": 2,
-          "cadence": 85
-        }
-      ]
+      "type": "interval",
+      "id": "final-sprint-work",
+      "name": "Sprint",
+      "duration": 15,
+      "powerZone": 7,
+      "cadence": 120
+    },
+    {
+      "type": "interval",
+      "id": "final-sprint-base",
+      "name": "Endurance Base",
+      "duration": 60,
+      "powerZone": 2,
+      "cadence": 85
+    },
+    {
+      "type": "interval",
+      "id": "pb43",
+      "name": "Spindown 1",
+      "duration": 60,
+      "powerZone": 2,
+      "cadence": 85
+    },
+    {
+      "type": "interval",
+      "id": "pb44",
+      "name": "Spindown 2",
+      "duration": 60,
+      "powerZone": 2,
+      "cadence": 80
+    },
+    {
+      "type": "interval",
+      "id": "pb45",
+      "name": "Spindown 3",
+      "duration": 60,
+      "powerZone": 1,
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "pb46",
+      "name": "Cool Down",
+      "duration": 60,
+      "powerZone": 1,
+      "cadence": 70
     }
   ]
 }

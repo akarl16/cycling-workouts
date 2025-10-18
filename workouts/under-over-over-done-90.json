@@ -1,0 +1,341 @@
+{
+  "id": "under-over-over-done-90",
+  "name": "Under, Over, Over, Done (90)",
+  "description": "90-minute workout with priming blocks, over/under intervals, cadence pyramid, and Matt's cool down",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup",
+      "name": "Warm up",
+      "duration": 300,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "priming-z2-plus",
+      "name": "Priming Z2+",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "prime-z2",
+          "name": "Z2",
+          "duration": 120,
+          "powerZone": 2
+        },
+        {
+          "id": "prime-z2-plus",
+          "name": "Z2+",
+          "duration": 20,
+          "powerZone": "2+"
+        },
+        {
+          "id": "prime-recover",
+          "name": "Recovery",
+          "duration": 60,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "priming-z3",
+      "name": "Priming Z3",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "prime-z2-2",
+          "name": "Z2",
+          "duration": 120,
+          "powerZone": 2
+        },
+        {
+          "id": "prime-z3",
+          "name": "Z3",
+          "duration": 20,
+          "powerZone": 3
+        },
+        {
+          "id": "prime-recover-2",
+          "name": "Recovery",
+          "duration": 60,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "priming-z4-minus",
+      "name": "Priming Z4-",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "prime-z2-3",
+          "name": "Z2",
+          "duration": 120,
+          "powerZone": 2
+        },
+        {
+          "id": "prime-z4-minus",
+          "name": "Z4-",
+          "duration": 20,
+          "powerZone": "4-"
+        },
+        {
+          "id": "prime-recover-3",
+          "name": "Recovery",
+          "duration": 60,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "priming-z4-z5",
+      "name": "Priming Z4/Z5",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "prime-z2-4",
+          "name": "Z2",
+          "duration": 120,
+          "powerZone": 2
+        },
+        {
+          "id": "prime-z4",
+          "name": "Z4",
+          "duration": 20,
+          "powerZone": 4
+        },
+        {
+          "id": "prime-recover-4",
+          "name": "Recovery",
+          "duration": 60,
+          "powerZone": 1
+        },
+        {
+          "id": "prime-z2-5",
+          "name": "Z2",
+          "duration": 120,
+          "powerZone": 2
+        },
+        {
+          "id": "prime-z5",
+          "name": "Z5",
+          "duration": 20,
+          "powerZone": 5
+        },
+        {
+          "id": "prime-recover-5",
+          "name": "Recovery",
+          "duration": 60,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "priming-z6",
+      "name": "Priming Z6",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "prime-z2-6",
+          "name": "Z2",
+          "duration": 120,
+          "powerZone": 2
+        },
+        {
+          "id": "prime-z6",
+          "name": "Z6",
+          "duration": 20,
+          "powerZone": 6
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "duration": 130,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "over-under-set-1",
+      "name": "Over/Under Set 1",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "over",
+          "name": "Over",
+          "duration": 60,
+          "powerZone": 5
+        },
+        {
+          "id": "under",
+          "name": "Under",
+          "duration": 180,
+          "powerZone": 3
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "over-under-set-2",
+      "name": "Over/Under Set 2",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "over",
+          "name": "Over",
+          "duration": 60,
+          "powerZone": 5
+        },
+        {
+          "id": "under",
+          "name": "Under",
+          "duration": 180,
+          "powerZone": 3
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-3",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "cadence-pyramid",
+      "name": "Cadence Pyramid",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "cadence-75",
+          "name": "75 RPM",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 75
+        },
+        {
+          "id": "cadence-80",
+          "name": "80 RPM",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 80
+        },
+        {
+          "id": "cadence-85",
+          "name": "85 RPM",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 85
+        },
+        {
+          "id": "cadence-90",
+          "name": "90 RPM",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 90
+        },
+        {
+          "id": "cadence-95",
+          "name": "95 RPM",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 95
+        },
+        {
+          "id": "cadence-100",
+          "name": "100 RPM",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 100
+        },
+        {
+          "id": "cadence-95-2",
+          "name": "95 RPM",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 95
+        },
+        {
+          "id": "cadence-90-2",
+          "name": "90 RPM",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 90
+        },
+        {
+          "id": "cadence-85-2",
+          "name": "85 RPM",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 85
+        },
+        {
+          "id": "cadence-80-2",
+          "name": "80 RPM",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 80
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-4",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "matts-cooldown",
+      "name": "Matt's Cool Down",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "matts-z3",
+          "name": "Z3",
+          "duration": 180,
+          "powerZone": 3
+        },
+        {
+          "id": "matts-z4",
+          "name": "Z4",
+          "duration": 120,
+          "powerZone": 4
+        },
+        {
+          "id": "matts-z5",
+          "name": "Z5",
+          "duration": 60,
+          "powerZone": 5
+        },
+        {
+          "id": "matts-z6",
+          "name": "Z6",
+          "duration": 30,
+          "powerZone": 6
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "actual-cooldown",
+      "name": "Actual Cool Down",
+      "duration": 240,
+      "powerZone": 1
+    }
+  ]
+}

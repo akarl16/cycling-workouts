@@ -1,8 +1,9 @@
 {
   "id": "micro-madness",
   "name": "Micro Madness",
-  "intervals": [
+  "sequence": [
     {
+      "type": "interval",
       "id": "mm1",
       "name": "Warm Up",
       "duration": 300,
@@ -10,78 +11,71 @@
       "cadence": 80
     },
     {
-      "id": "mm2",
-      "name": "Recovery",
-      "duration": 90,
-      "powerZone": 2,
-      "cadence": 85
+      "type": "block",
+      "id": "build-block",
+      "name": "Progressive Build",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "recovery-1",
+          "name": "Recovery",
+          "duration": 90,
+          "powerZone": 2,
+          "cadence": 85
+        },
+        {
+          "id": "build-1",
+          "name": "Build Z2",
+          "duration": 90,
+          "powerZone": 2,
+          "cadence": 95
+        },
+        {
+          "id": "recovery-2",
+          "name": "Recovery",
+          "duration": 90,
+          "powerZone": 2,
+          "cadence": 85
+        },
+        {
+          "id": "build-2",
+          "name": "Build Z3",
+          "duration": 90,
+          "powerZone": 3,
+          "cadence": 95
+        },
+        {
+          "id": "recovery-3",
+          "name": "Recovery",
+          "duration": 90,
+          "powerZone": 2,
+          "cadence": 85
+        },
+        {
+          "id": "build-3",
+          "name": "Build Z3",
+          "duration": 90,
+          "powerZone": 3,
+          "cadence": 95
+        },
+        {
+          "id": "recovery-4",
+          "name": "Recovery",
+          "duration": 90,
+          "powerZone": 2,
+          "cadence": 85
+        },
+        {
+          "id": "build-4",
+          "name": "Build Z4",
+          "duration": 90,
+          "powerZone": 4,
+          "cadence": 95
+        }
+      ]
     },
     {
-      "id": "mm3",
-      "name": "Build 1",
-      "duration": 90,
-      "powerZone": 2,
-      "cadence": 95
-    },
-    {
-      "id": "mm4",
-      "name": "Recovery",
-      "duration": 90,
-      "powerZone": 2,
-      "cadence": 85
-    },
-    {
-      "id": "mm5",
-      "name": "Build 2",
-      "duration": 90,
-      "powerZone": 3,
-      "cadence": 95
-    },
-    {
-      "id": "mm6",
-      "name": "Recovery",
-      "duration": 90,
-      "powerZone": 2,
-      "cadence": 85
-    },
-    {
-      "id": "mm7",
-      "name": "Build 3",
-      "duration": 90,
-      "powerZone": 3,
-      "cadence": 95
-    },
-    {
-      "id": "mm8",
-      "name": "Recovery",
-      "duration": 90,
-      "powerZone": 2,
-      "cadence": 85
-    },
-    {
-      "id": "mm9",
-      "name": "Build 4",
-      "duration": 90,
-      "powerZone": 4,
-      "cadence": 95
-    },
-    {
-      "id": "mm10",
-      "name": "Tempo",
-      "duration": 300,
-      "powerZone": 3,
-      "cadence": 90
-    },
-    {
-      "id": "mm11",
-      "name": "Easy Recovery",
-      "duration": 120,
-      "powerZone": 1,
-      "cadence": 80
-    }
-  ],
-  "blocks": [
-    {
+      "type": "block",
       "id": "threshold-micros",
       "name": "Threshold Micro Intervals",
       "repetitions": 5,
@@ -103,6 +97,23 @@
       ]
     },
     {
+      "type": "interval",
+      "id": "mm10",
+      "name": "Tempo",
+      "duration": 300,
+      "powerZone": 3,
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "mm11",
+      "name": "Easy Recovery",
+      "duration": 120,
+      "powerZone": 1,
+      "cadence": 80
+    },
+    {
+      "type": "block",
       "id": "threshold-micros-2",
       "name": "Threshold Micro Intervals Set 2",
       "repetitions": 5,
@@ -124,27 +135,23 @@
       ]
     },
     {
-      "id": "tempo-block",
+      "type": "interval",
+      "id": "tempo",
       "name": "Tempo Block",
-      "repetitions": 1,
-      "intervals": [
-        {
-          "id": "tempo",
-          "name": "Tempo Block",
-          "duration": 300,
-          "powerZone": 3,
-          "cadence": 90
-        },
-        {
-          "id": "easy-recovery",
-          "name": "Easy Recovery",
-          "duration": 120,
-          "powerZone": 1,
-          "cadence": 80
-        }
-      ]
+      "duration": 300,
+      "powerZone": 3,
+      "cadence": 90
     },
     {
+      "type": "interval",
+      "id": "easy-recovery",
+      "name": "Easy Recovery",
+      "duration": 120,
+      "powerZone": 1,
+      "cadence": 80
+    },
+    {
+      "type": "block",
       "id": "vo2max-micros",
       "name": "VO2 Max Micro Intervals",
       "repetitions": 10,
@@ -166,32 +173,28 @@
       ]
     },
     {
+      "type": "interval",
       "id": "final-tempo",
       "name": "Final Tempo",
-      "repetitions": 1,
-      "intervals": [
-        {
-          "id": "tempo",
-          "name": "Final Tempo",
-          "duration": 300,
-          "powerZone": 3,
-          "cadence": 90
-        },
-        {
-          "id": "spindown-start",
-          "name": "Spindown Start",
-          "duration": 120,
-          "powerZone": 2,
-          "cadence": 85
-        },
-        {
-          "id": "spindown-end",
-          "name": "Spindown End",
-          "duration": 120,
-          "powerZone": 1,
-          "cadence": 80
-        }
-      ]
+      "duration": 300,
+      "powerZone": 3,
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "spindown-start",
+      "name": "Spindown Start",
+      "duration": 120,
+      "powerZone": 2,
+      "cadence": 85
+    },
+    {
+      "type": "interval",
+      "id": "spindown-end",
+      "name": "Spindown End",
+      "duration": 120,
+      "powerZone": 1,
+      "cadence": 80
     }
   ]
 }

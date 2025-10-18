@@ -3,94 +3,92 @@
   "name": "FTP Test (50)",
   "description": "50-minute FTP test workout with warm-up, 20-minute test, and cooldown",
   "duration": 3000,
-  "intervals": [
+  "sequence": [
     {
+      "type": "interval",
       "id": "warm-1",
       "name": "Easy",
       "powerZone": "Z1",
       "duration": 180
     },
     {
+      "type": "interval",
       "id": "warm-2",
       "name": "Build",
       "powerZone": "Z2",
       "duration": 120
     },
     {
+      "type": "interval",
       "id": "warm-3",
       "name": "Build",
       "powerZone": "Z3",
       "duration": 120
     },
     {
-      "id": "prep-1",
-      "name": "Active",
-      "powerZone": "Z2",
-      "duration": 60
+      "type": "block",
+      "id": "prep-build-block",
+      "name": "Prep Build Block",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "prep-active",
+          "name": "Active",
+          "powerZone": "Z2",
+          "duration": 60
+        },
+        {
+          "id": "prep-build",
+          "name": "Build",
+          "powerZone": "Z3+",
+          "duration": 60
+        }
+      ]
     },
     {
-      "id": "prep-2",
-      "name": "Build",
-      "powerZone": "Z3+",
-      "duration": 60
-    },
-    {
-      "id": "prep-3",
-      "name": "Active",
-      "powerZone": "Z2",
-      "duration": 60
-    },
-    {
-      "id": "prep-4",
-      "name": "Build",
-      "powerZone": "Z4",
-      "duration": 60
-    },
-    {
+      "type": "interval",
       "id": "prep-5",
       "name": "Easy",
       "powerZone": "Z1",
       "duration": 60
     },
     {
+      "type": "interval",
       "id": "prep-6",
       "name": "Build",
       "powerZone": "Z4",
       "duration": 60
     },
     {
+      "type": "interval",
       "id": "rest-1",
       "name": "Easy",
       "powerZone": "Z1",
       "duration": 60
     },
     {
-      "id": "prep-7",
-      "name": "Active +CAD",
-      "powerZone": "Z2",
-      "cadence": 95,
-      "duration": 120
+      "type": "block",
+      "id": "tempo-prep-block",
+      "name": "Tempo Prep Block",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "tempo-prep",
+          "name": "Active +CAD",
+          "powerZone": "Z2",
+          "cadence": 95,
+          "duration": 120
+        },
+        {
+          "id": "tempo-rest",
+          "name": "Easy",
+          "powerZone": "Z1",
+          "duration": 60
+        }
+      ]
     },
     {
-      "id": "rest-2",
-      "name": "Easy",
-      "powerZone": "Z1",
-      "duration": 60
-    },
-    {
-      "id": "prep-8",
-      "name": "Tempo +CAD",
-      "powerZone": "Z3",
-      "cadence": 95,
-      "duration": 120
-    },
-    {
-      "id": "rest-3",
-      "name": "Easy",
-      "powerZone": "Z1",
-      "duration": 60
-    },
-    {
+      "type": "interval",
       "id": "prep-9",
       "name": "Tempo +CAD",
       "powerZone": "Z3",
@@ -98,30 +96,35 @@
       "duration": 120
     },
     {
+      "type": "interval",
       "id": "rest-prep",
       "name": "Resting prep",
       "powerZone": "Z1",
       "duration": 332
     },
     {
+      "type": "interval",
       "id": "test-q1",
       "name": "1st Quarter",
       "powerZone": "Z4-",
       "duration": 300
     },
     {
+      "type": "interval",
       "id": "test-q2",
       "name": "2nd Quarter",
       "powerZone": "Z4",
       "duration": 300
     },
     {
+      "type": "interval",
       "id": "test-q3",
       "name": "3rd Quarter",
       "powerZone": "Z4+",
       "duration": 300
     },
     {
+      "type": "interval",
       "id": "test-q4",
       "name": "4th Quarter",
       "powerZone": "Z4+",
@@ -134,30 +137,32 @@
       }
     },
     {
+      "type": "interval",
       "id": "cool-1",
       "name": "Recover",
       "powerZone": "Z1",
       "duration": 60
     },
     {
-      "id": "cool-2",
-      "name": "Spin up",
-      "powerZone": "Z2",
-      "cadence": 95,
-      "duration": 30
-    },
-    {
-      "id": "cool-3",
-      "name": "Easy",
-      "powerZone": "Z1",
-      "duration": 30
-    },
-    {
-      "id": "cool-4",
-      "name": "Spin up",
-      "powerZone": "Z2",
-      "cadence": 95,
-      "duration": 28
+      "type": "block",
+      "id": "cooldown-spinups",
+      "name": "Cooldown Spin-ups",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "spinup",
+          "name": "Spin up",
+          "powerZone": "Z2",
+          "cadence": 95,
+          "duration": 30
+        },
+        {
+          "id": "easy",
+          "name": "Easy",
+          "powerZone": "Z1",
+          "duration": 30
+        }
+      ]
     }
   ]
 }

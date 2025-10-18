@@ -2,26 +2,30 @@
   "id": "over-the-top-60",
   "name": "Over the Top (60)",
   "description": "60-minute workout featuring warm-up builds, overgear/fast cadence intervals, and steady endurance work",
-  "intervals": [
+  "sequence": [
     {
+      "type": "interval",
       "id": "warmup",
       "name": "Warm-up",
       "duration": 300,
       "powerZone": 1
     },
     {
+      "type": "interval",
       "id": "build1",
       "name": "Build",
       "duration": 180,
       "powerZone": 2
     },
     {
+      "type": "interval",
       "id": "build2",
       "name": "Build",
       "duration": 180,
       "powerZone": 3
     },
     {
+      "type": "interval",
       "id": "build3",
       "name": "Build +Cad",
       "duration": 180,
@@ -29,6 +33,7 @@
       "cadence": 95
     },
     {
+      "type": "interval",
       "id": "build4",
       "name": "Build +Cad",
       "duration": 180,
@@ -36,14 +41,14 @@
       "cadence": 95
     },
     {
+      "type": "interval",
       "id": "recover1",
       "name": "Recover",
       "duration": 120,
       "powerZone": 1
-    }
-  ],
-  "blocks": [
+    },
     {
+      "type": "block",
       "id": "overgear-fastcadence-block",
       "name": "Overgear/Fast Cadence Set",
       "repetitions": 3,
@@ -71,36 +76,25 @@
       ]
     },
     {
-      "id": "endurance-block",
-      "name": "Endurance",
-      "repetitions": 1,
-      "intervals": [
-        {
-          "id": "endurance",
-          "name": "Endurance w/changes",
-          "duration": 600,
-          "powerZone": "3-"
-        }
-      ]
+      "type": "interval",
+      "id": "endurance",
+      "name": "Endurance w/changes",
+      "duration": 600,
+      "powerZone": "3-"
     },
     {
-      "id": "spindown-block",
+      "type": "interval",
+      "id": "spindown1",
       "name": "Spindown",
-      "repetitions": 1,
-      "intervals": [
-        {
-          "id": "spindown1",
-          "name": "Spindown",
-          "duration": 120,
-          "powerZone": 2
-        },
-        {
-          "id": "spindown2",
-          "name": "Spindown",
-          "duration": 120,
-          "powerZone": 1
-        }
-      ]
+      "duration": 120,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "spindown2",
+      "name": "Spindown",
+      "duration": 120,
+      "powerZone": 1
     }
   ]
 }
