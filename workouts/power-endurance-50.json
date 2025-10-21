@@ -2,110 +2,134 @@
   "name": "Power Endurance (50)",
   "description": "50-minute power endurance workout with wave intervals and sustained endurance blocks",
   "totalDuration": 3000,
+  "id": "power-endurance-50",
   "sequence": [
     {
+      "type": "interval",
+      "id": "warmup",
       "name": "Warm-up",
-      "zone": 1,
+      "powerZone": 1,
       "duration": 240
     },
     {
       "type": "block",
+      "id": "build-block",
       "name": "Build",
       "repetitions": 1,
       "intervals": [
         {
-          "name": "Build Z2",
-          "zone": 2,
+          "id": "build-z2",
+          "name": "Build",
+          "powerZone": 2,
           "duration": 120
         },
         {
-          "name": "Build Z3",
-          "zone": 3,
+          "id": "build-z3",
+          "name": "Build",
+          "powerZone": 3,
           "duration": 60
         }
       ]
     },
     {
       "type": "block",
-      "name": "Wave Intervals",
+      "id": "waves-block",
+      "name": "Waves",
       "repetitions": 2,
       "intervals": [
         {
-          "name": "Wave Z2",
-          "zone": 2,
+          "id": "waves-z2",
+          "name": "Waves",
+          "powerZone": 2,
           "cadence": 80,
           "duration": 90
         },
         {
-          "name": "Wave Z3",
-          "zone": 3,
+          "id": "waves-z3",
+          "name": "Waves",
+          "powerZone": 3,
           "cadence": 90,
           "duration": 60
         },
         {
-          "name": "Wave Z4",
-          "zone": 4,
+          "id": "waves-z4",
+          "name": "Waves",
+          "powerZone": 4,
           "cadence": 100,
           "duration": 30
         }
       ]
     },
     {
+      "type": "interval",
+      "id": "recover",
       "name": "Recover",
-      "zone": 1,
+      "powerZone": 1,
       "duration": 120
     },
     {
+      "type": "interval",
+      "id": "endurance-lead-in",
+      "name": "Endurance block",
+      "powerZone": 2,
+      "duration": 60
+    },
+    {
       "type": "block",
-      "name": "Endurance Block",
+      "id": "endurance-block",
+      "name": "Endurance block",
       "repetitions": 3,
       "intervals": [
         {
-          "name": "Base Z2",
-          "zone": 2,
-          "duration": 60
-        },
-        {
-          "name": "Push Z3",
-          "zone": 3,
+          "id": "endurance-z3",
+          "name": "Endurance block",
+          "powerZone": 3,
           "duration": 120
         },
         {
-          "name": "Recover Z2",
-          "zone": 2,
+          "id": "endurance-z2-1",
+          "name": "Endurance block",
+          "powerZone": 2,
           "duration": 60
         },
         {
-          "name": "Threshold Z4-",
-          "zone": 4,
-          "zoneModifier": -1,
+          "id": "endurance-z4-minus",
+          "name": "Endurance block",
+          "powerZone": "4-",
           "duration": 120
         },
         {
-          "name": "Recover Z2",
-          "zone": 2,
+          "id": "endurance-z2-2",
+          "name": "Endurance block",
+          "powerZone": 2,
           "duration": 60
         },
         {
-          "name": "Threshold Z4",
-          "zone": 4,
+          "id": "endurance-z4",
+          "name": "Endurance block",
+          "powerZone": 4,
           "duration": 120
         },
         {
-          "name": "Recover Z2",
-          "zone": 2,
+          "id": "endurance-z2-3",
+          "name": "Endurance block",
+          "powerZone": 2,
           "duration": 60
         }
       ]
     },
     {
-      "name": "Flower Climb",
-      "zone": 4,
+      "type": "interval",
+      "id": "flower-climb",
+      "name": "Flower climb",
+      "powerZone": 4,
       "duration": 206
     },
     {
+      "type": "interval",
+      "id": "spindown",
       "name": "Spindown",
-      "zone": 1,
+      "powerZone": 1,
       "duration": 214
     }
   ]
