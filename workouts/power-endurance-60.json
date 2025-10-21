@@ -1,0 +1,230 @@
+{
+  "id": "power-endurance-60",
+  "name": "Power Endurance (60)",
+  "description": "60-minute workout with warm-up, wave intervals, endurance block with varying intensities, flower climb, and spindown",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup",
+      "name": "Warm-up",
+      "duration": 240,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "build1",
+      "name": "Build",
+      "duration": 120,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "build2",
+      "name": "Build",
+      "duration": 60,
+      "powerZone": 3
+    },
+    {
+      "type": "block",
+      "id": "waves",
+      "name": "Wave Intervals",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "wave-z2",
+          "name": "Z2 Base",
+          "duration": 90,
+          "powerZone": 2,
+          "cadence": 80
+        },
+        {
+          "id": "wave-z3",
+          "name": "Z3 Push",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 90
+        },
+        {
+          "id": "wave-z4",
+          "name": "Z4 Surge",
+          "duration": 30,
+          "powerZone": 4,
+          "cadence": 100
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover1",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "endurance-block",
+      "name": "Endurance Block",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "eb1",
+          "name": "Z3- Steady",
+          "duration": 120,
+          "powerZone": "3-"
+        },
+        {
+          "id": "eb2",
+          "name": "Z2 Recovery",
+          "duration": 60,
+          "powerZone": 2
+        },
+        {
+          "id": "eb3",
+          "name": "Z3 Tempo",
+          "duration": 120,
+          "powerZone": 3
+        },
+        {
+          "id": "eb4",
+          "name": "Z2 Recovery",
+          "duration": 60,
+          "powerZone": 2
+        },
+        {
+          "id": "eb5",
+          "name": "Z4- Threshold Low",
+          "duration": 120,
+          "powerZone": "4-"
+        },
+        {
+          "id": "eb6",
+          "name": "Z2 Recovery",
+          "duration": 60,
+          "powerZone": 2
+        },
+        {
+          "id": "eb7",
+          "name": "Z4 Threshold",
+          "duration": 120,
+          "powerZone": 4
+        },
+        {
+          "id": "eb8",
+          "name": "Z2 Recovery",
+          "duration": 60,
+          "powerZone": 2
+        },
+        {
+          "id": "eb9",
+          "name": "Z3- Steady",
+          "duration": 120,
+          "powerZone": "3-"
+        },
+        {
+          "id": "eb10",
+          "name": "Z2 Recovery",
+          "duration": 60,
+          "powerZone": 2
+        },
+        {
+          "id": "eb11",
+          "name": "Z3 Tempo",
+          "duration": 120,
+          "powerZone": 3
+        },
+        {
+          "id": "eb12",
+          "name": "Z2 Recovery",
+          "duration": 60,
+          "powerZone": 2
+        },
+        {
+          "id": "eb13",
+          "name": "Z4- Threshold Low",
+          "duration": 120,
+          "powerZone": "4-"
+        },
+        {
+          "id": "eb14",
+          "name": "Z2 Recovery",
+          "duration": 60,
+          "powerZone": 2
+        },
+        {
+          "id": "eb15",
+          "name": "Z4 Threshold",
+          "duration": 120,
+          "powerZone": 4
+        },
+        {
+          "id": "eb16",
+          "name": "Z2 Recovery",
+          "duration": 60,
+          "powerZone": 2
+        },
+        {
+          "id": "eb17",
+          "name": "Z3- Steady",
+          "duration": 120,
+          "powerZone": "3-"
+        },
+        {
+          "id": "eb18",
+          "name": "Z2 Recovery",
+          "duration": 60,
+          "powerZone": 2
+        },
+        {
+          "id": "eb19",
+          "name": "Z3 Tempo",
+          "duration": 120,
+          "powerZone": 3
+        },
+        {
+          "id": "eb20",
+          "name": "Z2 Recovery",
+          "duration": 60,
+          "powerZone": 2
+        },
+        {
+          "id": "eb21",
+          "name": "Z4- Threshold Low",
+          "duration": 120,
+          "powerZone": "4-"
+        },
+        {
+          "id": "eb22",
+          "name": "Z2 Recovery",
+          "duration": 60,
+          "powerZone": 2
+        },
+        {
+          "id": "eb23",
+          "name": "Z4 Threshold",
+          "duration": 120,
+          "powerZone": 4
+        },
+        {
+          "id": "eb24",
+          "name": "Z2 Recovery",
+          "duration": 60,
+          "powerZone": 2
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "flower-climb",
+      "name": "Flower Climb",
+      "duration": 206,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown",
+      "duration": 180,
+      "powerZone": 1
+    }
+  ]
+}
