@@ -17,25 +17,56 @@
       "type": "string",
       "description": "Optional description of the workout"
     },
+    "totalDuration": {
+      "type": "integer",
+      "description": "Total duration of the workout in seconds"
+    },
     "intervals": {
       "type": "array",
-      "description": "Array of workout intervals",
+      "description": "Array of workout intervals (legacy format - use sequence instead)",
       "items": {
         "$ref": "#/definitions/WorkoutInterval"
       }
     },
     "blocks": {
       "type": "array",
-      "description": "Optional array of repeating interval blocks",
+      "description": "Optional array of repeating interval blocks (legacy format - use sequence instead)",
       "items": {
         "$ref": "#/definitions/WorkoutBlock"
       }
+    },
+    "sequence": {
+      "type": "array",
+      "description": "New format: Mixed array of intervals and blocks in execution order",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/definitions/SequenceInterval"
+          },
+          {
+            "$ref": "#/definitions/SequenceBlock"
+          }
+        ]
+      }
+    },
+    "isSample": {
+      "type": "boolean",
+      "description": "Whether this is a sample workout"
     }
   },
   "required": [
     "id",
-    "name",
-    "intervals"
+    "name"
+  ],
+  "oneOf": [
+    {
+      "required": ["intervals"],
+      "description": "Legacy format with intervals array"
+    },
+    {
+      "required": ["sequence"],
+      "description": "New format with sequence array"
+    }
   ],
   "additionalProperties": false,
   "definitions": {
@@ -177,6 +208,150 @@
         }
       },
       "required": [
+        "id",
+        "name",
+        "repetitions",
+        "intervals"
+      ],
+      "additionalProperties": false
+    },
+    "SequenceInterval": {
+      "type": "object",
+      "description": "Interval in a sequence (with type discriminator)",
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "interval",
+          "description": "Type discriminator for mixed sequences"
+        },
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the interval"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display name of the interval",
+          "minLength": 1
+        },
+        "duration": {
+          "type": "integer",
+          "description": "Duration in seconds",
+          "minimum": 1
+        },
+        "powerZone": {
+          "oneOf": [
+            {
+              "type": "integer",
+              "description": "Power zone as number (1-7)",
+              "minimum": 1,
+              "maximum": 7
+            },
+            {
+              "type": "string",
+              "description": "Power zone with optional modifier (e.g., 'Z2+', '3-', 'Zone 4+')",
+              "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+            }
+          ]
+        },
+        "cadence": {
+          "type": "integer",
+          "description": "Target cadence in RPM",
+          "minimum": 40,
+          "maximum": 150
+        },
+        "alternating": {
+          "type": "object",
+          "description": "Optional alternating interval configuration",
+          "properties": {
+            "powerZoneA": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 7
+                },
+                {
+                  "type": "string",
+                  "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+                }
+              ]
+            },
+            "powerZoneB": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 7
+                },
+                {
+                  "type": "string",
+                  "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+                }
+              ]
+            },
+            "cadenceA": {
+              "type": "integer",
+              "minimum": 40,
+              "maximum": 150
+            },
+            "cadenceB": {
+              "type": "integer",
+              "minimum": 40,
+              "maximum": 150
+            },
+            "startWithZone": {
+              "type": "string",
+              "enum": ["A", "B"],
+              "default": "A"
+            }
+          },
+          "required": ["powerZoneA", "powerZoneB"],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "type",
+        "id",
+        "name",
+        "duration",
+        "powerZone"
+      ],
+      "additionalProperties": false
+    },
+    "SequenceBlock": {
+      "type": "object",
+      "description": "Repeating block in a sequence (with type discriminator)",
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "block",
+          "description": "Type discriminator for mixed sequences"
+        },
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the block"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display name of the block",
+          "minLength": 1
+        },
+        "repetitions": {
+          "type": "integer",
+          "description": "Number of times to repeat the block",
+          "minimum": 1
+        },
+        "intervals": {
+          "type": "array",
+          "description": "Intervals within the block (no type discriminator needed inside blocks)",
+          "items": {
+            "$ref": "#/definitions/WorkoutInterval"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "type",
         "id",
         "name",
         "repetitions",

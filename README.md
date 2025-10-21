@@ -1,27 +1,102 @@
 # cycling-workouts
 
-A repository for storing and managing cycling workout data using a standardized JSON schema.
+A repository for storing and managing cycling workout data using standardized JSON schemas.
 
 ## Overview
 
 This repository provides:
-- A JSON schema for structured cycling workout data
-- A utility to convert workout data from CSV to JSON format
-- Example files demonstrating the format
+- **JSON schemas** for structured cycling workout data
+- **Interval workout format** for power-based training with zones, cadence, and repeating blocks
+- **Ride tracking format** for recording completed rides with metrics
+- **Utility scripts** to convert and validate workout data
+- **Example files** demonstrating both formats
+
+## Documentation
+
+- **[Interval Workouts](INTERVAL_WORKOUTS.md)** - Complete guide to the interval workout schema
+- **[Import Guide](IMPORT_GUIDE.md)** - Quick reference for converting CSV to JSON
+- **Ride Tracking** - See below for the original ride tracking format
 
 ## Directory Structure
 
 ```
 cycling-workouts/
-├── schema/              # JSON schema definitions
-│   └── workout-schema.json
-├── workouts/           # Stored workout data (JSON files)
-├── utils/              # Utility scripts
-│   ├── csv_to_json.py      # Convert CSV to JSON
-│   └── validate_json.py    # Validate JSON against schema
-└── examples/           # Example files
-    └── sample-workouts.csv
+├── schema/                      # JSON schema definitions
+│   └── workout-schema.json      # Interval workout schema
+├── workouts/                    # Structured interval workouts (JSON)
+│   ├── power-endurance-50.json
+│   ├── pyramid-power.json
+│   ├── tabata-power.json
+│   └── ...
+├── utils/                       # Utility scripts
+│   ├── csv_to_json.py          # Convert CSV to JSON (ride tracking)
+│   └── validate_json.py        # Validate JSON against schema
+├── examples/                    # Example files
+│   └── sample-workouts.csv     # Sample ride tracking data
+├── INTERVAL_WORKOUTS.md        # Interval workout documentation
+└── IMPORT_GUIDE.md             # CSV to JSON import guide
 ```
+
+## Quick Start - Interval Workouts
+
+### Creating a New Interval Workout
+
+1. **Copy an existing workout** from `workouts/` as a template
+2. **Update the workout fields**:
+   - `id`: Unique kebab-case identifier
+   - `name`: Display name
+   - `description`: Brief description
+   - `totalDuration`: Total seconds
+3. **Build the sequence** with intervals and blocks
+4. **Validate** by importing into cyclesync-coach
+
+See [INTERVAL_WORKOUTS.md](INTERVAL_WORKOUTS.md) for complete format documentation.
+
+### Sequence Format Example
+
+```json
+{
+  "id": "my-workout",
+  "name": "My Custom Workout",
+  "description": "A great workout",
+  "totalDuration": 1800,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup",
+      "name": "Warm-up",
+      "powerZone": 2,
+      "duration": 300
+    },
+    {
+      "type": "block",
+      "id": "main-set",
+      "name": "Main Set",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "work",
+          "name": "Work",
+          "powerZone": 4,
+          "duration": 180
+        },
+        {
+          "id": "recover",
+          "name": "Recover",
+          "powerZone": 2,
+          "duration": 120
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## Ride Tracking Format (Original)
+
+The original ride tracking schema is still supported for recording completed rides.
 
 ## JSON Schema
 
