@@ -1,0 +1,195 @@
+{
+  "id": "endurance-playground-90",
+  "name": "Endurance Playground (90)",
+  "source": "imported-csv-2025-10-25",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup1",
+      "name": "Slow Build - Z1",
+      "duration": 270,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "warmup2",
+      "name": "Slow Build - Z2",
+      "duration": 225,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "warmup3",
+      "name": "Slow Build - Z3",
+      "duration": 200,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "warmup4",
+      "name": "Slow Build - Z1 (short)",
+      "duration": 20,
+      "powerZone": 1
+    },
+
+    {
+      "type": "block",
+      "id": "accelerations",
+      "name": "Accelerations (5x)",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "acc1",
+          "name": "Z2 @ 80rpm",
+          "duration": 20,
+          "powerZone": 2,
+          "cadence": 80
+        },
+        {
+          "id": "acc2",
+          "name": "Z3 @ 90rpm",
+          "duration": 20,
+          "powerZone": 3,
+          "cadence": 90
+        },
+        {
+          "id": "acc3",
+          "name": "Z4 @ 100rpm",
+          "duration": 20,
+          "powerZone": 4,
+          "cadence": 100
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recovery1",
+      "name": "Recovery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+
+    {
+      "type": "interval",
+      "id": "ss1",
+      "name": "Steady State - Z3",
+      "duration": 600,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "transition1",
+      "name": "Transition - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+
+    {
+      "type": "block",
+      "id": "decelerations1",
+      "name": "Decelerations Set 1 (5x)",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "dec1",
+          "name": "Hard - Z4 @ 105rpm",
+          "duration": 60,
+          "powerZone": 4,
+          "cadence": 105
+        },
+        {
+          "id": "dec2",
+          "name": "Moderate - Z3 @ 95rpm",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 95
+        },
+        { "id": "dec3", "name": "Easy - Z1", "duration": 30, "powerZone": 1 }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recovery2",
+      "name": "Recovery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+
+    {
+      "type": "interval",
+      "id": "ss2",
+      "name": "Steady State - Z3+",
+      "duration": 600,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "transition2",
+      "name": "Transition - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+
+    {
+      "type": "block",
+      "id": "decelerations2",
+      "name": "Decelerations Set 2 (5x)",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "dec1",
+          "name": "Hard - Z4 @ 105rpm",
+          "duration": 60,
+          "powerZone": 4,
+          "cadence": 105
+        },
+        {
+          "id": "dec2",
+          "name": "Moderate - Z3 @ 95rpm",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 95
+        },
+        { "id": "dec3", "name": "Easy - Z1", "duration": 30, "powerZone": 1 }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recovery3",
+      "name": "Recovery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+
+    {
+      "type": "interval",
+      "id": "ss3",
+      "name": "Steady State - Z4-",
+      "duration": 600,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "transition3",
+      "name": "Transition - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+
+    {
+      "type": "interval",
+      "id": "finale",
+      "name": "High Cadence Challenge - Z2 @ 115rpm",
+      "duration": 300,
+      "powerZone": 2,
+      "cadence": 115
+    },
+    {
+      "type": "interval",
+      "id": "cooldown",
+      "name": "Cool Down - Z1",
+      "duration": 65,
+      "powerZone": 1
+    }
+  ]
+}
