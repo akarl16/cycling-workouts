@@ -1,0 +1,238 @@
+{
+  "name": "No Bouncing Allowed (50)",
+  "description": "50-minute workout with step ups, intervals, and cadence builds (shorter hold-high block)",
+  "totalDuration": 3000,
+  "id": "no-bouncing-allowed-50",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "easy",
+      "name": "Easy",
+      "powerZone": 1,
+      "duration": 300
+    },
+    {
+      "type": "block",
+      "id": "step-ups",
+      "name": "Step ups",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "step-z2",
+          "name": "Step ups",
+          "powerZone": 2,
+          "duration": 120
+        },
+        {
+          "id": "step-z3",
+          "name": "Step ups",
+          "powerZone": 3,
+          "duration": 120
+        },
+        {
+          "id": "step-z4-minus",
+          "name": "Step ups",
+          "powerZone": "4-",
+          "duration": 60
+        },
+        {
+          "id": "step-z4-plus",
+          "name": "Step ups",
+          "powerZone": "4+",
+          "duration": 60
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "powerZone": 1,
+      "duration": 120
+    },
+    {
+      "type": "block",
+      "id": "20-on-20-off",
+      "name": "20 on / 20 off",
+      "repetitions": 9,
+      "intervals": [
+        {
+          "id": "on-z3",
+          "name": "20 on / 20 off",
+          "powerZone": 3,
+          "cadence": 110,
+          "duration": 20
+        },
+        {
+          "id": "off-z2",
+          "name": "20 on / 20 off",
+          "powerZone": 2,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "powerZone": 1,
+      "duration": 120
+    },
+    {
+      "type": "block",
+      "id": "10-on-10-off",
+      "name": "10 on / 10 off",
+      "repetitions": 9,
+      "intervals": [
+        {
+          "id": "on-z4-10",
+          "name": "10 on / 10 off",
+          "powerZone": 4,
+          "cadence": 120,
+          "duration": 10
+        },
+        {
+          "id": "off-z2-10",
+          "name": "10 on / 10 off",
+          "powerZone": 2,
+          "duration": 10
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-3",
+      "name": "Recover",
+      "powerZone": 1,
+      "duration": 120
+    },
+    {
+      "type": "block",
+      "id": "hold-high",
+      "name": "Hold high",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "hold-z3",
+          "name": "Hold high",
+          "powerZone": 3,
+          "cadence": 100,
+          "duration": 90
+        },
+        {
+          "id": "hold-z1",
+          "name": "Hold high",
+          "powerZone": 1,
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-4",
+      "name": "Recover",
+      "powerZone": 1,
+      "duration": 120
+    },
+    {
+      "type": "block",
+      "id": "add-cad-z3",
+      "name": "Add CAD / 1m (ramp 85-105)",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "add-cad-z3-1",
+          "name": "Add CAD 85 RPM",
+          "powerZone": 3,
+          "cadence": 85,
+          "duration": 60
+        },
+        {
+          "id": "add-cad-z3-2",
+          "name": "Add CAD 90 RPM",
+          "powerZone": 3,
+          "cadence": 90,
+          "duration": 60
+        },
+        {
+          "id": "add-cad-z3-3",
+          "name": "Add CAD 95 RPM",
+          "powerZone": 3,
+          "cadence": 95,
+          "duration": 60
+        },
+        {
+          "id": "add-cad-z3-4",
+          "name": "Add CAD 100 RPM",
+          "powerZone": 3,
+          "cadence": 100,
+          "duration": 60
+        },
+        {
+          "id": "add-cad-z3-5",
+          "name": "Add CAD 105 RPM",
+          "powerZone": 3,
+          "cadence": 105,
+          "duration": 60
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-5",
+      "name": "Recover",
+      "powerZone": 1,
+      "duration": 120
+    },
+    {
+      "type": "block",
+      "id": "add-cad-z4",
+      "name": "Add CAD / 1m (ramp 85-105)",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "add-cad-z4-1",
+          "name": "Add CAD 85 RPM",
+          "powerZone": 4,
+          "cadence": 85,
+          "duration": 60
+        },
+        {
+          "id": "add-cad-z4-2",
+          "name": "Add CAD 90 RPM",
+          "powerZone": 4,
+          "cadence": 90,
+          "duration": 60
+        },
+        {
+          "id": "add-cad-z4-3",
+          "name": "Add CAD 95 RPM",
+          "powerZone": 4,
+          "cadence": 95,
+          "duration": 60
+        },
+        {
+          "id": "add-cad-z4-4",
+          "name": "Add CAD 100 RPM",
+          "powerZone": 4,
+          "cadence": 100,
+          "duration": 60
+        },
+        {
+          "id": "add-cad-z4-5",
+          "name": "Add CAD 105 RPM",
+          "powerZone": 4,
+          "cadence": 105,
+          "duration": 60
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown",
+      "powerZone": 1,
+      "duration": 120
+    }
+  ]
+}
