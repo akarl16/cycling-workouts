@@ -1,0 +1,264 @@
+{
+  "id": "mixed-base-hits-90",
+  "name": "Mixed Base Hits (90)",
+  "description": "90-minute mixed base workout with strength intervals, ascent/descent work, and VO2 hits",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "interval-1",
+      "name": "Warm up - Z1",
+      "duration": 300,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "interval-2",
+      "name": "Warm up - Z2",
+      "duration": 180,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "interval-3",
+      "name": "Warm up - Z3",
+      "duration": 120,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "interval-4",
+      "name": "Primers - Z4",
+      "duration": 30,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "interval-5",
+      "name": "Primers - Z1",
+      "duration": 30,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "interval-6",
+      "name": "Primers - Z4+",
+      "duration": 30,
+      "powerZone": "4+"
+    },
+    {
+      "type": "interval",
+      "id": "interval-7",
+      "name": "Primers - Z1",
+      "duration": 30,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "interval-8",
+      "name": "Primers - Z5",
+      "duration": 30,
+      "powerZone": 5
+    },
+    {
+      "type": "interval",
+      "id": "interval-9",
+      "name": "Primers - Z1",
+      "duration": 30,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "interval-10",
+      "name": "Recover",
+      "duration": 120,
+      "powerZoneRange": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "type": "block",
+      "id": "base-strength-block",
+      "name": "Base Strength Set",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "base-strength-high",
+          "name": "Base Strength - Z3+ @ 90rpm",
+          "duration": 120,
+          "powerZone": "3+",
+          "cadence": 90
+        },
+        {
+          "id": "base-strength-low",
+          "name": "Base Strength - Z4- @ 60rpm",
+          "duration": 60,
+          "powerZone": "4-",
+          "cadence": 60
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "interval-21",
+      "name": "Recover",
+      "duration": 180,
+      "powerZoneRange": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "type": "interval",
+      "id": "interval-22",
+      "name": "Base Ascent - Z3- @ 70rpm",
+      "duration": 300,
+      "powerZone": "3-",
+      "cadence": 70
+    },
+    {
+      "type": "interval",
+      "id": "interval-23",
+      "name": "Base Ascent - Z3 @ 85rpm",
+      "duration": 300,
+      "powerZone": 3,
+      "cadence": 85
+    },
+    {
+      "type": "interval",
+      "id": "interval-24",
+      "name": "Base Ascent - Z3+ @ 100rpm",
+      "duration": 300,
+      "powerZone": "3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "interval-25",
+      "name": "Recover",
+      "duration": 180,
+      "powerZoneRange": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "type": "interval",
+      "id": "interval-26",
+      "name": "Base Descent - Z3+ @ 100rpm",
+      "duration": 300,
+      "powerZone": "3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "interval-27",
+      "name": "Base Descent - Z3 @ 85rpm",
+      "duration": 300,
+      "powerZone": 3,
+      "cadence": 85
+    },
+    {
+      "type": "interval",
+      "id": "interval-28",
+      "name": "Base Descent - Z3- @ 70rpm",
+      "duration": 300,
+      "powerZone": "3-",
+      "cadence": 70
+    },
+    {
+      "type": "interval",
+      "id": "interval-29",
+      "name": "Recover",
+      "duration": 180,
+      "powerZoneRange": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "type": "interval",
+      "id": "interval-30",
+      "name": "VO2 to Base - Z5 @ 65rpm",
+      "duration": 30,
+      "powerZone": 5,
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "interval-31",
+      "name": "VO2 to Base - Z4",
+      "duration": 30,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "interval-32",
+      "name": "VO2 to Base - Z3 @ 90rpm",
+      "duration": 300,
+      "powerZone": 3,
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "interval-33",
+      "name": "Recover",
+      "duration": 120,
+      "powerZoneRange": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "type": "interval",
+      "id": "interval-34",
+      "name": "VO2 to Base - Z5 @ 65rpm",
+      "duration": 30,
+      "powerZone": 5,
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "interval-35",
+      "name": "VO2 to Base - Z4",
+      "duration": 30,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "interval-36",
+      "name": "VO2 to Base - Z3 @ 90rpm",
+      "duration": 300,
+      "powerZone": 3,
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "interval-37",
+      "name": "Recover",
+      "duration": 120,
+      "powerZoneRange": {
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "type": "interval",
+      "id": "interval-38",
+      "name": "Time Trial Build",
+      "duration": 150,
+      "powerZoneRange": {
+        "start": 3,
+        "end": 5
+      }
+    },
+    {
+      "type": "interval",
+      "id": "interval-39",
+      "name": "Spindown",
+      "duration": 150,
+      "powerZone": 1
+    }
+  ]
+}

@@ -103,6 +103,44 @@
             }
           ]
         },
+        "powerZoneRange": {
+          "type": "object",
+          "description": "Optional power zone range for gradual progression through zones",
+          "properties": {
+            "start": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "description": "Starting power zone as number (1-7)",
+                  "minimum": 1,
+                  "maximum": 7
+                },
+                {
+                  "type": "string",
+                  "description": "Starting power zone with optional modifier",
+                  "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+                }
+              ]
+            },
+            "end": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "description": "Ending power zone as number (1-7)",
+                  "minimum": 1,
+                  "maximum": 7
+                },
+                {
+                  "type": "string",
+                  "description": "Ending power zone with optional modifier",
+                  "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+                }
+              ]
+            }
+          },
+          "required": ["start", "end"],
+          "additionalProperties": false
+        },
         "cadence": {
           "type": "integer",
           "description": "Target cadence in RPM",
@@ -175,8 +213,15 @@
       "required": [
         "id",
         "name",
-        "duration",
-        "powerZone"
+        "duration"
+      ],
+      "oneOf": [
+        {
+          "required": ["powerZone"]
+        },
+        {
+          "required": ["powerZoneRange"]
+        }
       ],
       "additionalProperties": false
     },
@@ -253,6 +298,44 @@
             }
           ]
         },
+        "powerZoneRange": {
+          "type": "object",
+          "description": "Optional power zone range for gradual progression through zones",
+          "properties": {
+            "start": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "description": "Starting power zone as number (1-7)",
+                  "minimum": 1,
+                  "maximum": 7
+                },
+                {
+                  "type": "string",
+                  "description": "Starting power zone with optional modifier",
+                  "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+                }
+              ]
+            },
+            "end": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "description": "Ending power zone as number (1-7)",
+                  "minimum": 1,
+                  "maximum": 7
+                },
+                {
+                  "type": "string",
+                  "description": "Ending power zone with optional modifier",
+                  "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+                }
+              ]
+            }
+          },
+          "required": ["start", "end"],
+          "additionalProperties": false
+        },
         "cadence": {
           "type": "integer",
           "description": "Target cadence in RPM",
@@ -313,8 +396,15 @@
         "type",
         "id",
         "name",
-        "duration",
-        "powerZone"
+        "duration"
+      ],
+      "oneOf": [
+        {
+          "required": ["powerZone"]
+        },
+        {
+          "required": ["powerZoneRange"]
+        }
       ],
       "additionalProperties": false
     },
