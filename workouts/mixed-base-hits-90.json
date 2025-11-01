@@ -178,70 +178,41 @@
       }
     },
     {
-      "type": "interval",
-      "id": "interval-30",
-      "name": "VO2 to Base - Z5 @ 65rpm",
-      "duration": 30,
-      "powerZone": 5,
-      "cadence": 65
-    },
-    {
-      "type": "interval",
-      "id": "interval-31",
-      "name": "VO2 to Base - Z4",
-      "duration": 30,
-      "powerZone": 4
-    },
-    {
-      "type": "interval",
-      "id": "interval-32",
-      "name": "VO2 to Base - Z3 @ 90rpm",
-      "duration": 300,
-      "powerZone": 3,
-      "cadence": 90
-    },
-    {
-      "type": "interval",
-      "id": "interval-33",
-      "name": "Recover",
-      "duration": 120,
-      "powerZoneRange": {
-        "start": 1,
-        "end": 2
-      }
-    },
-    {
-      "type": "interval",
-      "id": "interval-34",
-      "name": "VO2 to Base - Z5 @ 65rpm",
-      "duration": 30,
-      "powerZone": 5,
-      "cadence": 65
-    },
-    {
-      "type": "interval",
-      "id": "interval-35",
-      "name": "VO2 to Base - Z4",
-      "duration": 30,
-      "powerZone": 4
-    },
-    {
-      "type": "interval",
-      "id": "interval-36",
-      "name": "VO2 to Base - Z3 @ 90rpm",
-      "duration": 300,
-      "powerZone": 3,
-      "cadence": 90
-    },
-    {
-      "type": "interval",
-      "id": "interval-37",
-      "name": "Recover",
-      "duration": 120,
-      "powerZoneRange": {
-        "start": 1,
-        "end": 2
-      }
+      "type": "block",
+      "id": "vo2-to-base-block",
+      "name": "VO2 to Base Set",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "vo2-hit",
+          "name": "VO2 to Base - Z5 @ 65rpm",
+          "duration": 30,
+          "powerZone": 5,
+          "cadence": 65
+        },
+        {
+          "id": "vo2-transition",
+          "name": "VO2 to Base - Z4",
+          "duration": 30,
+          "powerZone": 4
+        },
+        {
+          "id": "vo2-base",
+          "name": "VO2 to Base - Z3 @ 90rpm",
+          "duration": 300,
+          "powerZone": 3,
+          "cadence": 90
+        },
+        {
+          "id": "vo2-recover",
+          "name": "Recover",
+          "duration": 120,
+          "powerZoneRange": {
+            "start": 1,
+            "end": 2
+          }
+        }
+      ]
     },
     {
       "type": "interval",
