@@ -1,0 +1,89 @@
+{
+  "id": "zone-range-demo",
+  "name": "Zone Range Options",
+  "description": "Demonstrates zone range feature where ranges represent acceptable zone options rather than gradual progressions",
+  "totalDuration": 2160,
+  "intervals": [
+    {
+      "id": "zr1",
+      "name": "Progressive Warmup",
+      "duration": 420,
+      "powerZoneRange": {
+        "start": 1,
+        "end": 3
+      },
+      "cadence": 85
+    },
+    {
+      "id": "zr2",
+      "name": "Settle In",
+      "duration": 60,
+      "powerZone": 2,
+      "cadence": 85
+    },
+    {
+      "id": "zr3",
+      "name": "Build to VO2",
+      "duration": 300,
+      "powerZoneRange": {
+        "start": 3,
+        "end": 5
+      },
+      "cadence": 90
+    },
+    {
+      "id": "zr4",
+      "name": "Active Recovery",
+      "duration": 180,
+      "powerZoneRange": {
+        "start": 3,
+        "end": 1
+      },
+      "cadence": 75
+    },
+    {
+      "id": "zr5",
+      "name": "Threshold Push",
+      "duration": 240,
+      "powerZoneRange": {
+        "start": 4,
+        "end": 6
+      },
+      "cadence": 95
+    },
+    {
+      "id": "zr6",
+      "name": "Easy Spin",
+      "duration": 120,
+      "powerZone": 2,
+      "cadence": 80
+    },
+    {
+      "id": "zr7",
+      "name": "Max Build",
+      "duration": 180,
+      "powerZoneRange": {
+        "start": 3,
+        "end": 7
+      },
+      "cadence": 100
+    },
+    {
+      "id": "zr8",
+      "name": "Gradual Cool Down",
+      "duration": 300,
+      "powerZoneRange": {
+        "start": 4,
+        "end": 1
+      },
+      "cadence": 75
+    },
+    {
+      "id": "zr9",
+      "name": "Easy Finish",
+      "duration": 120,
+      "powerZone": 1,
+      "cadence": 70
+    }
+  ]
+}

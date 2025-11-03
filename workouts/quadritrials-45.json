@@ -1,0 +1,173 @@
+{
+  "id": "quadritrials-45",
+  "name": "QuadriTrials (45)",
+  "description": "45-minute workout with 4 progressive trials building from Z2/Z3 to Z4+",
+  "totalDuration": 2700,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup-1",
+      "name": "Easy - Z1",
+      "duration": 180,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "warmup-2",
+      "name": "Build - Z2",
+      "duration": 180,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "warmup-3",
+      "name": "Build - Z3",
+      "duration": 180,
+      "powerZone": 3
+    },
+    {
+      "type": "block",
+      "id": "primers-z4-block",
+      "name": "Z4 Primers",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "primer-active",
+          "name": "Active - Z2",
+          "duration": 30,
+          "powerZone": 2
+        },
+        {
+          "id": "primer-build",
+          "name": "Build - Z4 @ 95rpm",
+          "duration": 30,
+          "powerZone": 4,
+          "cadence": 95
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "primers-z5-block",
+      "name": "Z5 Primers",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "primer-active",
+          "name": "Active - Z2",
+          "duration": 30,
+          "powerZone": 2
+        },
+        {
+          "id": "primer-build",
+          "name": "Build - Z5 @ 100rpm",
+          "duration": 30,
+          "powerZone": 5,
+          "cadence": 100
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "trial1-recovery",
+      "name": "Trial #1 - Z1",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "trial1-base",
+      "name": "Trial #1 - Z2 @ 95rpm",
+      "duration": 180,
+      "powerZone": 2,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "trial1-work",
+      "name": "Trial #1 - Z3",
+      "duration": 180,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "trial2-recovery",
+      "name": "Trial #2 - Z1",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "trial2-base",
+      "name": "Trial #2 - Z2 @ 95rpm",
+      "duration": 180,
+      "powerZone": 2,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "trial2-work",
+      "name": "Trial #2 - Z4-",
+      "duration": 180,
+      "powerZone": "4-"
+    },
+    {
+      "type": "interval",
+      "id": "trial3-recovery",
+      "name": "Trial #3 - Z1",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "trial3-base",
+      "name": "Trial #3 - Z2 @ 95rpm",
+      "duration": 180,
+      "powerZone": 2,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "trial3-work",
+      "name": "Trial #3 - Z4",
+      "duration": 180,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "trial4-recovery",
+      "name": "Trial #4 - Z1",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "trial4-base",
+      "name": "Trial #4 - Z2 @ 95rpm",
+      "duration": 180,
+      "powerZone": 2,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "trial4-work",
+      "name": "Trial #4 - Z4+",
+      "duration": 180,
+      "powerZone": "4+"
+    },
+    {
+      "type": "interval",
+      "id": "recover",
+      "name": "Recover - Z1",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown - Z1",
+      "duration": 180,
+      "powerZone": 1
+    }
+  ]
+}
