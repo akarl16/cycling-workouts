@@ -1,0 +1,126 @@
+{
+  "id": "slo-mo-flow-50",
+  "name": "Slo-mo Flow (50min)",
+  "description": "A 50-minute flow workout with slow cadence intervals and strength-building efforts. Three progressive slow flow sets with decreasing cadences.",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "easy-spin",
+      "name": "Easy Spin",
+      "duration": 180,
+      "powerZone": 1,
+      "cadence": 70
+    },
+    {
+      "type": "interval",
+      "id": "ramp-z2",
+      "name": "Ramp - Z2",
+      "duration": 120,
+      "powerZone": 2,
+      "cadence": 85
+    },
+    {
+      "type": "interval",
+      "id": "ramp-z3",
+      "name": "Ramp - Z3",
+      "duration": 120,
+      "powerZone": 3,
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "ramp-z4",
+      "name": "Ramp - Z4",
+      "duration": 60,
+      "powerZone": 4,
+      "cadence": 95
+    },
+    {
+      "type": "block",
+      "id": "primers-block",
+      "name": "Primers (3x) - 20s on 40s off",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "primer-recover",
+          "name": "Primer - Recover",
+          "duration": 40,
+          "powerZone": 2,
+          "cadence": 85
+        },
+        {
+          "id": "primer-on",
+          "name": "Primer - Z5",
+          "duration": 20,
+          "powerZone": 5,
+          "cadence": 100
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "slow-flow-block",
+      "name": "Slow Flow Set (3x)",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "slow-flow-recover-long",
+          "name": "Recover",
+          "duration": 120,
+          "powerZone": 1,
+          "cadence": 70
+        },
+        {
+          "id": "slow-flow-z4-75",
+          "name": "Z4 @ 75rpm",
+          "duration": 120,
+          "powerZone": 4,
+          "cadence": 75
+        },
+        {
+          "id": "slow-flow-z4-70",
+          "name": "Z4- @ 70rpm",
+          "duration": 120,
+          "powerZone": "4-",
+          "cadence": 70
+        },
+        {
+          "id": "slow-flow-z3-65",
+          "name": "Z3+ @ 65rpm",
+          "duration": 120,
+          "powerZone": "3+",
+          "cadence": 65
+        },
+        {
+          "id": "slow-flow-z3-60",
+          "name": "Z3 @ 60rpm",
+          "duration": 120,
+          "powerZone": 3,
+          "cadence": 60
+        },
+        {
+          "id": "slow-flow-recover",
+          "name": "Recover",
+          "duration": 30,
+          "powerZone": 1,
+          "cadence": 70
+        },
+        {
+          "id": "slow-flow-z5",
+          "name": "Z5 Sprint",
+          "duration": 120,
+          "powerZone": 5,
+          "cadence": 100
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown",
+      "duration": 90,
+      "powerZone": 1,
+      "cadence": 70
+    }
+  ]
+}
