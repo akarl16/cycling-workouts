@@ -1,0 +1,222 @@
+{
+  "id": "slo-mo-flow-60",
+  "name": "Slo-mo Flow (60min)",
+  "description": "A 60-minute flow workout with slow cadence intervals, recovery periods, and a Fast Cadence section. Designed to build strength and control.",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "easy-spin",
+      "name": "Easy Spin",
+      "duration": 240,
+      "powerZone": 1,
+      "cadence": 70
+    },
+    {
+      "type": "interval",
+      "id": "ramp-z2",
+      "name": "Ramp - Z2",
+      "duration": 180,
+      "powerZone": 2,
+      "cadence": 85
+    },
+    {
+      "type": "interval",
+      "id": "ramp-z3",
+      "name": "Ramp - Z3",
+      "duration": 120,
+      "powerZone": 3,
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "ramp-z4",
+      "name": "Ramp - Z4",
+      "duration": 60,
+      "powerZone": 4,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1,
+      "cadence": 70
+    },
+    {
+      "type": "block",
+      "id": "primers-block",
+      "name": "Primers (3x) - 20s on 40s off",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "primer-on",
+          "name": "Primer - Z5",
+          "duration": 20,
+          "powerZone": 5,
+          "cadence": 100
+        },
+        {
+          "id": "primer-recover",
+          "name": "Primer - Recover",
+          "duration": 40,
+          "powerZone": 2,
+          "cadence": 85
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1,
+      "cadence": 70
+    },
+    {
+      "type": "block",
+      "id": "slow-flow-block",
+      "name": "Slow Flow Set (3x)",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "slow-flow-z4-75",
+          "name": "Z4 @ 75rpm",
+          "duration": 120,
+          "powerZone": 4,
+          "cadence": 75
+        },
+        {
+          "id": "slow-flow-z4-70",
+          "name": "Z4 @ 70rpm",
+          "duration": 120,
+          "powerZone": 4,
+          "cadence": 70
+        },
+        {
+          "id": "slow-flow-z3-65",
+          "name": "Z3 @ 65rpm",
+          "duration": 120,
+          "powerZone": 3,
+          "cadence": 65
+        },
+        {
+          "id": "slow-flow-z3-60",
+          "name": "Z3 @ 60rpm",
+          "duration": 120,
+          "powerZone": 3,
+          "cadence": 60
+        },
+        {
+          "id": "slow-flow-recover",
+          "name": "Recover",
+          "duration": 30,
+          "powerZone": 1,
+          "cadence": 70
+        },
+        {
+          "id": "slow-flow-z5",
+          "name": "Z5 Sprint",
+          "duration": 120,
+          "powerZone": 5,
+          "cadence": 100
+        },
+        {
+          "id": "slow-flow-recover-long",
+          "name": "Recover",
+          "duration": 150,
+          "powerZone": 1,
+          "cadence": 70
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-5",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": 1,
+      "cadence": 70
+    },
+    {
+      "type": "interval",
+      "id": "fc-z2-95",
+      "name": "Fast Cadence - Z2 @ 95rpm",
+      "duration": 30,
+      "powerZone": 2,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "og-z1-60-1",
+      "name": "Over Gear - Z1 @ 60rpm",
+      "duration": 30,
+      "powerZone": 1,
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "fc-z3-100",
+      "name": "Fast Cadence - Z3 @ 100rpm",
+      "duration": 30,
+      "powerZone": 3,
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "og-z1-60-2",
+      "name": "Over Gear - Z1 @ 60rpm",
+      "duration": 30,
+      "powerZone": 1,
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "fc-z4-105",
+      "name": "Fast Cadence - Z4 @ 105rpm",
+      "duration": 30,
+      "powerZone": 4,
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "og-z1-60-3",
+      "name": "Over Gear - Z1 @ 60rpm",
+      "duration": 30,
+      "powerZone": 1,
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "fc-z3-95",
+      "name": "Fast Cadence - Z3 @ 95rpm",
+      "duration": 30,
+      "powerZone": 3,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "og-z1-60-4",
+      "name": "Over Gear - Z1 @ 60rpm",
+      "duration": 30,
+      "powerZone": 1,
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "fc-z2-90",
+      "name": "Fast Cadence - Z2 @ 90rpm",
+      "duration": 30,
+      "powerZone": 2,
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "cooldown",
+      "name": "Cooldown",
+      "duration": 60,
+      "powerZone": 1,
+      "cadence": 70
+    }
+  ]
+}
