@@ -2,6 +2,7 @@
     "id": "team-crit-45",
     "name": "Team Crit (45)",
     "description": "45-minute team crit simulation with odds/evens attacks and finish sprint",
+    "theme": "criterium",
     "sequence": [
         {
             "type": "interval",

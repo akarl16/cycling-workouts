@@ -17,6 +17,19 @@
       "type": "string",
       "description": "Optional description of the workout"
     },
+    "theme": {
+      "type": "string",
+      "description": "Optional theme to apply for this workout",
+      "enum": [
+        "default",
+        "halloween",
+        "christmas",
+        "valentines",
+        "holyhill",
+        "criterium",
+        "custom"
+      ]
+    },
     "totalDuration": {
       "type": "integer",
       "description": "Total duration of the workout in seconds"
