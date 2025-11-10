@@ -1,0 +1,277 @@
+{
+    "id": "team-crit-45",
+    "name": "Team Crit (45)",
+    "description": "45-minute team crit simulation with odds/evens attacks and finish sprint",
+    "sequence": [
+        {
+            "type": "interval",
+            "id": "warmup-1",
+            "name": "Easy",
+            "duration": 120,
+            "powerZone": 1
+        },
+        {
+            "type": "interval",
+            "id": "warmup-2",
+            "name": "Build",
+            "duration": 120,
+            "powerZone": 2
+        },
+        {
+            "type": "interval",
+            "id": "warmup-3",
+            "name": "Build",
+            "duration": 120,
+            "powerZone": 3
+        },
+        {
+            "type": "interval",
+            "id": "primers-active-1",
+            "name": "Active",
+            "duration": 30,
+            "powerZone": 2
+        },
+        {
+            "type": "interval",
+            "id": "primers-build-1",
+            "name": "Build",
+            "duration": 30,
+            "powerZone": 4
+        },
+        {
+            "type": "interval",
+            "id": "primers-active-2",
+            "name": "Active",
+            "duration": 30,
+            "powerZone": 2
+        },
+        {
+            "type": "interval",
+            "id": "primers-build-2",
+            "name": "Build",
+            "duration": 30,
+            "powerZone": "Z4+"
+        },
+        {
+            "type": "interval",
+            "id": "primers-active-3",
+            "name": "Active",
+            "duration": 30,
+            "powerZone": 2
+        },
+        {
+            "type": "interval",
+            "id": "primers-build-3",
+            "name": "Build",
+            "duration": 30,
+            "powerZone": 5
+        },
+        {
+            "type": "interval",
+            "id": "primers-active-4",
+            "name": "Active",
+            "duration": 30,
+            "powerZone": 2
+        },
+        {
+            "type": "interval",
+            "id": "primers-build-4",
+            "name": "Build",
+            "duration": 30,
+            "powerZone": "Z5+"
+        },
+        {
+            "type": "interval",
+            "id": "recover-1",
+            "name": "Recover",
+            "duration": 180,
+            "powerZone": 1
+        },
+        {
+            "type": "interval",
+            "id": "starting-gun",
+            "name": "Starting Gun",
+            "duration": 30,
+            "powerZone": 6
+        },
+        {
+            "type": "interval",
+            "id": "tempo-recover",
+            "name": "Tempo recover",
+            "duration": 30,
+            "powerZone": 3
+        },
+        {
+            "type": "block",
+            "id": "odds-evens-1",
+            "name": "Odds/Evens Attacks 1",
+            "repetitions": 4,
+            "intervals": [
+                {
+                    "id": "odds-attack",
+                    "name": "Odds attack",
+                    "duration": 60,
+                    "powerZone": 4,
+                    "alternating": {
+                        "powerZoneA": 4,
+                        "powerZoneB": 2,
+                        "startWithZone": "A",
+                        "labelA": "Odds",
+                        "labelB": "Evens"
+                    }
+                },
+                {
+                    "id": "evens-attack",
+                    "name": "Evens attack",
+                    "duration": 60,
+                    "powerZone": 4,
+                    "alternating": {
+                        "powerZoneA": 4,
+                        "powerZoneB": 2,
+                        "startWithZone": "A",
+                        "labelA": "Evens",
+                        "labelB": "Odds"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "interval",
+            "id": "recover-2",
+            "name": "Recover",
+            "duration": 120,
+            "powerZone": 1
+        },
+        {
+            "type": "block",
+            "id": "all-attacks",
+            "name": "All Attacks",
+            "repetitions": 4,
+            "intervals": [
+                {
+                    "id": "all-attack",
+                    "name": "All Attack",
+                    "duration": 60,
+                    "powerZone": 4
+                },
+                {
+                    "id": "all-tempo",
+                    "name": "All Tempo",
+                    "duration": 60,
+                    "powerZone": 3
+                }
+            ]
+        },
+        {
+            "type": "block",
+            "id": "odds-evens-2",
+            "name": "Odds/Evens Attacks 2",
+            "repetitions": 1,
+            "intervals": [
+                {
+                    "id": "odds-attack-z5",
+                    "name": "Odds Attack",
+                    "duration": 60,
+                    "powerZone": 5,
+                    "alternating": {
+                        "powerZoneA": 5,
+                        "powerZoneB": 2,
+                        "startWithZone": "A",
+                        "labelA": "Odds",
+                        "labelB": "Evens"
+                    }
+                },
+                {
+                    "id": "evens-attack-z5",
+                    "name": "Evens attack",
+                    "duration": 60,
+                    "powerZone": 5,
+                    "alternating": {
+                        "powerZoneA": 5,
+                        "powerZoneB": 2,
+                        "startWithZone": "A",
+                        "labelA": "Evens",
+                        "labelB": "Odds"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "interval",
+            "id": "recover-3",
+            "name": "Recover",
+            "duration": 120,
+            "powerZone": 1
+        },
+        {
+            "type": "interval",
+            "id": "all-tempo-long",
+            "name": "All tempo",
+            "duration": 120,
+            "powerZone": 3
+        },
+        {
+            "type": "interval",
+            "id": "odds-attack-final-1",
+            "name": "Odds Attack",
+            "duration": 30,
+            "powerZone": 4,
+            "alternating": {
+                "powerZoneA": 4,
+                "powerZoneB": 2,
+                "startWithZone": "A",
+                "labelA": "Odds",
+                "labelB": "Evens"
+            }
+        },
+        {
+            "type": "interval",
+            "id": "evens-attack-final-1",
+            "name": "Evens attack",
+            "duration": 30,
+            "powerZone": 4,
+            "alternating": {
+                "powerZoneA": 4,
+                "powerZoneB": 2,
+                "startWithZone": "A",
+                "labelA": "Evens",
+                "labelB": "Odds"
+            }
+        },
+        {
+            "type": "interval",
+            "id": "all-active",
+            "name": "All active",
+            "duration": 120,
+            "powerZone": 2
+        },
+        {
+            "type": "interval",
+            "id": "leadout-1",
+            "name": "Lead out",
+            "duration": 20,
+            "powerZone": 4
+        },
+        {
+            "type": "interval",
+            "id": "leadout-2",
+            "name": "Lead out",
+            "duration": 20,
+            "powerZone": 5
+        },
+        {
+            "type": "interval",
+            "id": "finish",
+            "name": "Finish!",
+            "duration": 20,
+            "powerZone": 7
+        },
+        {
+            "type": "interval",
+            "id": "spindown",
+            "name": "Spindown",
+            "duration": 180,
+            "powerZone": 1
+        }
+    ]
+}

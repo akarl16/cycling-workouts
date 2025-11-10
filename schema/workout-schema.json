@@ -201,6 +201,14 @@
                 "B"
               ],
               "default": "A"
+            },
+            "labelA": {
+              "type": "string",
+              "description": "Optional text to display above zone A indicator"
+            },
+            "labelB": {
+              "type": "string",
+              "description": "Optional text to display above zone B indicator"
             }
           },
           "required": [
