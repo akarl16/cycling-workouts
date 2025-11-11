@@ -1,0 +1,362 @@
+{
+  "id": "pyramid-climb-60",
+  "name": "Pyramid Climb",
+  "description": "60-minute pyramid workout building up and down through zones with progressive intervals",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup",
+      "name": "Easy spin",
+      "duration": 300,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "ramp-z2-off",
+      "name": "Recovery Z2",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "ramp-z2-on",
+      "name": "Ramp Z2",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "ramp-z3-off",
+      "name": "Recovery Z2",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "ramp-z3-on",
+      "name": "Ramp Z3",
+      "duration": 30,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "ramp-z4-off",
+      "name": "Recovery Z2",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "ramp-z4-on",
+      "name": "Ramp Z4",
+      "duration": 30,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "ramp-z5-off",
+      "name": "Recovery Z2",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "ramp-z5-on",
+      "name": "Ramp Z5",
+      "duration": 30,
+      "powerZone": 5
+    },
+    {
+      "type": "interval",
+      "id": "ramp-recovery",
+      "name": "Recovery",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "ramps-30s",
+      "name": "30s ramps",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "climb-30s-z3",
+          "name": "10s Z3",
+          "duration": 10,
+          "powerZone": 3,
+          "cadence": 70
+        },
+        {
+          "id": "climb-30s-z4",
+          "name": "10s Z4",
+          "duration": 10,
+          "powerZone": 4,
+          "cadence": 70
+        },
+        {
+          "id": "climb-30s-z5",
+          "name": "10s Z5",
+          "duration": 10,
+          "powerZone": 5,
+          "cadence": 70
+        },
+        {
+          "id": "recovery-30s",
+          "name": "Recovery",
+          "duration": 60,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recovery-1",
+      "name": "Recovery",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "ramps-60s",
+      "name": "60s ramps",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "climb-60s-z3",
+          "name": "20s Z3",
+          "duration": 20,
+          "powerZone": 3,
+          "cadence": 70
+        },
+        {
+          "id": "climb-60s-z4",
+          "name": "20s Z4",
+          "duration": 20,
+          "powerZone": 4,
+          "cadence": 70
+        },
+        {
+          "id": "climb-60s-z5",
+          "name": "20s Z5",
+          "duration": 20,
+          "powerZone": 5,
+          "cadence": 70
+        },
+        {
+          "id": "recovery-60s",
+          "name": "Recovery",
+          "duration": 60,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recovery-2",
+      "name": "Recovery",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "ramps-90s-up",
+      "name": "90s ramps up",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "climb-90s-z3",
+          "name": "30s Z3",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 70
+        },
+        {
+          "id": "climb-90s-z4",
+          "name": "30s Z4",
+          "duration": 30,
+          "powerZone": 4,
+          "cadence": 70
+        },
+        {
+          "id": "climb-90s-z5",
+          "name": "30s Z5",
+          "duration": 30,
+          "powerZone": 5,
+          "cadence": 70
+        },
+        {
+          "id": "recovery-90s-up",
+          "name": "Recovery",
+          "duration": 60,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "ramps-90s-down",
+      "name": "90s ramps down",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "downhill-90s-z5",
+          "name": "30s Z5",
+          "duration": 30,
+          "powerZone": 5,
+          "cadence": 95
+        },
+        {
+          "id": "downhill-90s-z4",
+          "name": "30s Z4",
+          "duration": 30,
+          "powerZone": 4,
+          "cadence": 95
+        },
+        {
+          "id": "downhill-90s-z3",
+          "name": "30s Z3",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 95
+        },
+        {
+          "id": "recovery-90s-down",
+          "name": "Recovery",
+          "duration": 60,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recovery-3",
+      "name": "Recovery",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "ramps-60s-down",
+      "name": "60s ramps down",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "downhill-60s-z5",
+          "name": "20s Z5",
+          "duration": 20,
+          "powerZone": 5,
+          "cadence": 95
+        },
+        {
+          "id": "downhill-60s-z4",
+          "name": "20s Z4",
+          "duration": 20,
+          "powerZone": 4,
+          "cadence": 95
+        },
+        {
+          "id": "downhill-60s-z3",
+          "name": "20s Z3",
+          "duration": 20,
+          "powerZone": 3,
+          "cadence": 95
+        },
+        {
+          "id": "recovery-60s-down",
+          "name": "Recovery",
+          "duration": 60,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recovery-4",
+      "name": "Recovery",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "ramps-30s-down",
+      "name": "30s ramps down",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "downhill-30s-z5",
+          "name": "10s Z5",
+          "duration": 10,
+          "powerZone": 5,
+          "cadence": 95
+        },
+        {
+          "id": "downhill-30s-z4",
+          "name": "10s Z4",
+          "duration": 10,
+          "powerZone": 4,
+          "cadence": 95
+        },
+        {
+          "id": "downhill-30s-z3",
+          "name": "10s Z3",
+          "duration": 10,
+          "powerZone": 3,
+          "cadence": 95
+        },
+        {
+          "id": "recovery-30s-down",
+          "name": "Recovery",
+          "duration": 60,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recovery-5",
+      "name": "Recovery",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "time-trial",
+      "name": "TT",
+      "duration": 240,
+      "powerZone": 4
+    },
+    {
+      "type": "block",
+      "id": "cooldown",
+      "name": "Cool down",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "cooldown-z1-1",
+          "name": "Cool down Z1",
+          "duration": 60,
+          "powerZone": 1
+        },
+        {
+          "id": "cooldown-z3",
+          "name": "Cool down Z3",
+          "duration": 60,
+          "powerZone": 3
+        },
+        {
+          "id": "cooldown-z2",
+          "name": "Cool down Z2",
+          "duration": 60,
+          "powerZone": 2
+        },
+        {
+          "id": "cooldown-z1-2",
+          "name": "Cool down Z1",
+          "duration": 60,
+          "powerZone": 1
+        }
+      ]
+    }
+  ]
+}
