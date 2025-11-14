@@ -1,0 +1,69 @@
+{
+  "id": "2025-11-15-strength-sammy-90",
+  "name": "Strength Sammy",
+  "description": "90-minute power workout featuring builds, power sprints, long tempo intervals, and progressive cadence work",
+  "totalDuration": 5400,
+  "sequence": [
+    { "type": "interval", "id": "i001", "name": "Easy spin", "duration": 300, "powerZone": "Z1" },
+    { "type": "interval", "id": "i002", "name": "Build Z2-Z3", "duration": 180, "powerZone": "Z2", "cadence": 85 },
+    { "type": "interval", "id": "i003", "name": "Build Z3", "duration": 180, "powerZone": "Z3", "cadence": 90 },
+    { "type": "interval", "id": "i004", "name": "Recovery Z2", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "i005", "name": "Build Z4", "duration": 120, "powerZone": "Z4", "cadence": 95 },
+    { "type": "interval", "id": "i006", "name": "Recovery Z2", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "i007", "name": "Build Z4", "duration": 60, "powerZone": "Z4", "cadence": 100 },
+    { "type": "interval", "id": "i008", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Sprint Primers",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "b001-i001", "name": "Sprint", "duration": 30, "powerZone": "Z5", "cadence": 50 },
+        { "id": "b001-i002", "name": "Recovery", "duration": 60, "powerZone": "Z2", "cadence": 95 }
+      ]
+    },
+    { "type": "interval", "id": "i009", "name": "Recover to Active", "duration": 210, "powerZone": "Z2" },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Power Sprints Z6",
+      "repetitions": 5,
+      "intervals": [
+        { "id": "b002-i001", "name": "Sprint", "duration": 15, "powerZone": "Z6", "cadence": 50 },
+        { "id": "b002-i002", "name": "Recovery", "duration": 75, "powerZone": "Z2", "cadence": 95 }
+      ]
+    },
+    { "type": "interval", "id": "i010", "name": "Recover", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "i011", "name": "Long tempo 80rpm", "duration": 300, "powerZone": "Z3", "cadence": 80 },
+    { "type": "interval", "id": "i012", "name": "Long tempo 85rpm", "duration": 300, "powerZone": "Z3", "cadence": 85 },
+    { "type": "interval", "id": "i013", "name": "Long tempo 90rpm", "duration": 300, "powerZone": "Z3", "cadence": 90 },
+    { "type": "interval", "id": "i014", "name": "Recover", "duration": 180, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Power Sprints Z6 Second Set",
+      "repetitions": 5,
+      "intervals": [
+        { "id": "b003-i001", "name": "Sprint", "duration": 15, "powerZone": "Z6", "cadence": 50 },
+        { "id": "b003-i002", "name": "Recovery", "duration": 75, "powerZone": "Z2", "cadence": 95 }
+      ]
+    },
+    { "type": "interval", "id": "i015", "name": "Recover", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "i016", "name": "Long tempo 100rpm", "duration": 300, "powerZone": "Z3", "cadence": 100 },
+    { "type": "interval", "id": "i017", "name": "Long tempo 95rpm", "duration": 300, "powerZone": "Z3", "cadence": 95 },
+    { "type": "interval", "id": "i018", "name": "Long tempo 90rpm", "duration": 300, "powerZone": "Z3", "cadence": 90 },
+    { "type": "interval", "id": "i019", "name": "Recover", "duration": 180, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "Power Sprints Z7",
+      "repetitions": 5,
+      "intervals": [
+        { "id": "b004-i001", "name": "Sprint", "duration": 15, "powerZone": "Z7", "cadence": 50 },
+        { "id": "b004-i002", "name": "Recovery", "duration": 75, "powerZone": "Z2", "cadence": 95 }
+      ]
+    },
+    { "type": "interval", "id": "i020", "name": "Spindown", "duration": 210, "powerZone": "Z1" }
+  ],
+  "isSample": false
+}
