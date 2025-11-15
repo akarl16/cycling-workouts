@@ -54,14 +54,18 @@
     { "type": "interval", "id": "i018", "name": "Long tempo 90rpm", "duration": 300, "powerZone": "Z3", "cadence": 90 },
     { "type": "interval", "id": "i019", "name": "Recover", "duration": 180, "powerZone": "Z1" },
     {
-      "type": "block",
+      "type": "interval",
       "id": "b004",
       "name": "Power Sprints Z7",
-      "repetitions": 5,
-      "intervals": [
-        { "id": "b004-i001", "name": "Sprint", "duration": 15, "powerZone": "Z7", "cadence": 50 },
-        { "id": "b004-i002", "name": "Recovery", "duration": 75, "powerZone": "Z2", "cadence": 95 }
-      ]
+      "duration": 450,
+      "powerZone": "Z2",
+      "cadence": 95,
+      "alternating": {
+        "powerZoneA": "Z7",
+        "powerZoneB": "Z2",
+        "cadenceA": 50,
+        "cadenceB": 95
+      }
     },
     { "type": "interval", "id": "i020", "name": "Spindown", "duration": 210, "powerZone": "Z1" }
   ],
