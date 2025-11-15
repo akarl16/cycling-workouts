@@ -34,9 +34,17 @@
       ]
     },
     { "type": "interval", "id": "i010", "name": "Recover", "duration": 60, "powerZone": "Z1" },
-    { "type": "interval", "id": "i011", "name": "Long tempo 80rpm", "duration": 300, "powerZone": "Z3", "cadence": 80 },
-    { "type": "interval", "id": "i012", "name": "Long tempo 85rpm", "duration": 300, "powerZone": "Z3", "cadence": 85 },
-    { "type": "interval", "id": "i013", "name": "Long tempo 90rpm", "duration": 300, "powerZone": "Z3", "cadence": 90 },
+    {
+      "type": "block",
+      "id": "b002a",
+      "name": "Progressive Tempo (80-90 rpm)",
+      "repetitions": 1,
+      "intervals": [
+        { "id": "i011", "name": "Long tempo 80rpm", "duration": 300, "powerZone": "Z3", "cadence": 80 },
+        { "id": "i012", "name": "Long tempo 85rpm", "duration": 300, "powerZone": "Z3", "cadence": 85 },
+        { "id": "i013", "name": "Long tempo 90rpm", "duration": 300, "powerZone": "Z3", "cadence": 90 }
+      ]
+    },
     { "type": "interval", "id": "i014", "name": "Recover", "duration": 180, "powerZone": "Z1" },
     {
       "type": "block",
@@ -49,9 +57,17 @@
       ]
     },
     { "type": "interval", "id": "i015", "name": "Recover", "duration": 60, "powerZone": "Z1" },
-    { "type": "interval", "id": "i016", "name": "Long tempo 100rpm", "duration": 300, "powerZone": "Z3", "cadence": 100 },
-    { "type": "interval", "id": "i017", "name": "Long tempo 95rpm", "duration": 300, "powerZone": "Z3", "cadence": 95 },
-    { "type": "interval", "id": "i018", "name": "Long tempo 90rpm", "duration": 300, "powerZone": "Z3", "cadence": 90 },
+    {
+      "type": "block",
+      "id": "b003a",
+      "name": "Regressive Tempo (100-90 rpm)",
+      "repetitions": 1,
+      "intervals": [
+        { "id": "i016", "name": "Long tempo 100rpm", "duration": 300, "powerZone": "Z3", "cadence": 100 },
+        { "id": "i017", "name": "Long tempo 95rpm", "duration": 300, "powerZone": "Z3", "cadence": 95 },
+        { "id": "i018", "name": "Long tempo 90rpm", "duration": 300, "powerZone": "Z3", "cadence": 90 }
+      ]
+    },
     { "type": "interval", "id": "i019", "name": "Recover", "duration": 180, "powerZone": "Z1" },
     {
       "type": "interval",
