@@ -2,14 +2,14 @@
   "id": "we-think-we-pedal-50",
   "name": "We think, We pedal (50)",
   "description": "50-minute structured workout with builds, single-leg drills, overgear/fast cadence intervals, and high-intensity Z6 work",
-  "totalDuration": 3060,
+  "totalDuration": 3000,
   "sequence": [
     {
       "type": "interval",
       "id": "warm-up-1",
       "name": "Easy warm-up",
       "powerZone": "Z1",
-      "duration": 240
+      "duration": 180
     },
     {
       "type": "interval",
