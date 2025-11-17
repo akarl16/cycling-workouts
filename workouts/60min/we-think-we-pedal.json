@@ -1,221 +1,229 @@
 {
+  "id": "we-think-we-pedal",
   "name": "We think, We pedal",
-  "date": "2025-11-18",
-  "duration": 3600,
   "description": "60-minute structured workout with builds, single-leg drills, overgear/fast cadence intervals, and high-intensity Z6 work",
-  "intervals": [
+  "totalDuration": 3600,
+  "sequence": [
     {
+      "type": "interval",
+      "id": "warm-up-1",
       "name": "Easy Warm-up",
-      "power_zone": "Z1",
-      "cadence": null,
-      "duration": 300,
-      "notes": ""
+      "powerZone": "Z1",
+      "duration": 300
     },
     {
+      "type": "interval",
+      "id": "builds-z3-1",
       "name": "Builds - Z3",
-      "power_zone": "Z3",
+      "powerZone": "Z3",
       "cadence": 95,
-      "duration": 30,
-      "notes": ""
+      "duration": 30
     },
     {
+      "type": "interval",
+      "id": "builds-z2-1",
       "name": "Builds - Z2",
-      "power_zone": "Z2",
-      "cadence": null,
-      "duration": 120,
-      "notes": ""
+      "powerZone": "Z2",
+      "duration": 120
     },
     {
+      "type": "interval",
+      "id": "builds-z4-1",
       "name": "Builds - Z4",
-      "power_zone": "Z4",
+      "powerZone": "Z4",
       "cadence": 95,
-      "duration": 30,
-      "notes": ""
+      "duration": 30
     },
     {
+      "type": "interval",
+      "id": "builds-z3-2",
       "name": "Builds - Z3",
-      "power_zone": "Z3",
-      "cadence": null,
-      "duration": 120,
-      "notes": ""
+      "powerZone": "Z3",
+      "duration": 120
     },
     {
+      "type": "interval",
+      "id": "builds-z5-1",
       "name": "Builds - Z5",
-      "power_zone": "Z5",
+      "powerZone": "Z5",
       "cadence": 95,
-      "duration": 30,
-      "notes": ""
+      "duration": 30
     },
     {
+      "type": "interval",
+      "id": "builds-z4-2",
       "name": "Builds - Z4",
-      "power_zone": "Z4",
-      "cadence": null,
-      "duration": 120,
-      "notes": ""
+      "powerZone": "Z4",
+      "duration": 120
     },
     {
+      "type": "interval",
+      "id": "recovery-1",
       "name": "Recovery",
-      "power_zone": "Z2",
-      "cadence": null,
-      "duration": 120,
-      "notes": ""
+      "powerZone": "Z2",
+      "duration": 120
     },
     {
+      "type": "block",
+      "id": "single-leg-drills",
       "name": "Single leg drills",
-      "repeat": 2,
+      "repetitions": 2,
       "intervals": [
         {
+          "id": "single-leg-left",
           "name": "Single leg Left",
-          "power_zone": "Z2",
+          "powerZone": "Z2",
           "cadence": 95,
-          "duration": 30,
-          "notes": ""
+          "duration": 30
         },
         {
+          "id": "recovery-left",
           "name": "Recovery",
-          "power_zone": "Z2",
-          "cadence": null,
-          "duration": 30,
-          "notes": ""
+          "powerZone": "Z2",
+          "duration": 30
         },
         {
+          "id": "single-leg-right",
           "name": "Single leg Right",
-          "power_zone": "Z2",
+          "powerZone": "Z2",
           "cadence": 95,
-          "duration": 30,
-          "notes": ""
+          "duration": 30
         },
         {
+          "id": "recovery-right",
           "name": "Recovery",
-          "power_zone": "Z2",
-          "cadence": null,
-          "duration": 30,
-          "notes": ""
+          "powerZone": "Z2",
+          "duration": 30
         }
       ]
     },
     {
+      "type": "interval",
+      "id": "recover-2",
       "name": "Recover",
-      "power_zone": "Z1",
-      "cadence": null,
-      "duration": 120,
-      "notes": ""
+      "powerZone": "Z1",
+      "duration": 120
     },
     {
+      "type": "block",
+      "id": "overgear-fast-cadence-block",
       "name": "Overgear/Fast Cadence Block",
-      "repeat": 2,
+      "repetitions": 2,
       "intervals": [
         {
+          "id": "overgear-1",
           "name": "Overgear",
-          "power_zone": "Z4",
+          "powerZone": "Z4",
           "cadence": 65,
-          "duration": 180,
-          "notes": ""
+          "duration": 180
         },
         {
+          "id": "fast-cadence-1",
           "name": "Fast cadence",
-          "power_zone": "Z3",
+          "powerZone": "Z3",
           "cadence": 95,
-          "duration": 180,
-          "notes": ""
+          "duration": 180
         },
         {
+          "id": "recover-1",
           "name": "Recover",
-          "power_zone": "Z1",
-          "cadence": null,
-          "duration": 120,
-          "notes": ""
+          "powerZone": "Z1",
+          "duration": 120
         },
         {
+          "id": "fast-cadence-2",
           "name": "Fast cadence",
-          "power_zone": "Z5",
+          "powerZone": "Z5",
           "cadence": 95,
-          "duration": 30,
-          "notes": ""
+          "duration": 30
         },
         {
+          "id": "overgear-2",
           "name": "Overgear",
-          "power_zone": "Z3",
+          "powerZone": "Z3",
           "cadence": 60,
-          "duration": 150,
-          "notes": ""
+          "duration": 150
         },
         {
+          "id": "recover-2",
           "name": "Recover",
-          "power_zone": "Z1",
-          "cadence": null,
-          "duration": 120,
-          "notes": ""
+          "powerZone": "Z1",
+          "duration": 120
         }
       ]
     },
     {
+      "type": "block",
+      "id": "z6-intervals-set-1",
       "name": "Z6 Intervals - Set 1",
-      "repeat": 3,
+      "repetitions": 3,
       "intervals": [
         {
+          "id": "fast-cadence-z6",
           "name": "Fast cadence - Z6",
-          "power_zone": "Z6",
+          "powerZone": "Z6",
           "cadence": 95,
-          "duration": 15,
-          "notes": ""
+          "duration": 15
         },
         {
+          "id": "overgear-recovery",
           "name": "Overgear Recovery",
-          "power_zone": "Z2",
+          "powerZone": "Z2",
           "cadence": 60,
-          "duration": 60,
-          "notes": ""
+          "duration": 60
         }
       ]
     },
     {
+      "type": "interval",
+      "id": "recover-3",
       "name": "Recover",
-      "power_zone": "Z1",
-      "cadence": null,
-      "duration": 60,
-      "notes": ""
+      "powerZone": "Z1",
+      "duration": 60
     },
     {
+      "type": "block",
+      "id": "z6-intervals-set-2",
       "name": "Z6 Intervals - Set 2",
-      "repeat": 3,
+      "repetitions": 3,
       "intervals": [
         {
+          "id": "fast-cadence-z6-2",
           "name": "Fast cadence - Z6",
-          "power_zone": "Z6",
+          "powerZone": "Z6",
           "cadence": 95,
-          "duration": 15,
-          "notes": ""
+          "duration": 15
         },
         {
+          "id": "overgear-recovery-2",
           "name": "Overgear Recovery",
-          "power_zone": "Z2",
+          "powerZone": "Z2",
           "cadence": 60,
-          "duration": 60,
-          "notes": ""
+          "duration": 60
         }
       ]
     },
     {
+      "type": "interval",
+      "id": "z2-cadence-95",
       "name": "Z2 Cadence 95",
-      "power_zone": "Z2",
+      "powerZone": "Z2",
       "cadence": 95,
-      "duration": 120,
-      "notes": ""
+      "duration": 120
     },
     {
+      "type": "interval",
+      "id": "cool-down-z2",
       "name": "Cool-down Z2",
-      "power_zone": "Z2",
-      "cadence": null,
-      "duration": 120,
-      "notes": ""
+      "powerZone": "Z2",
+      "duration": 120
     },
     {
+      "type": "interval",
+      "id": "cool-down-z1",
       "name": "Cool-down Z1",
-      "power_zone": "Z1",
-      "cadence": null,
-      "duration": 60,
-      "notes": ""
+      "powerZone": "Z1",
+      "duration": 60
     }
   ]
 }
