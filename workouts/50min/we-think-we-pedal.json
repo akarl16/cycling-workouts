@@ -1,0 +1,214 @@
+{
+  "id": "we-think-we-pedal-50",
+  "name": "We think, We pedal (50)",
+  "description": "50-minute structured workout with builds, single-leg drills, overgear/fast cadence intervals, and high-intensity Z6 work",
+  "totalDuration": 3000,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warm-up-1",
+      "name": "Easy warm-up",
+      "powerZone": "Z1",
+      "duration": 180
+    },
+    {
+      "type": "interval",
+      "id": "builds-z3-1",
+      "name": "Builds - Z3",
+      "powerZone": "Z3",
+      "cadence": 95,
+      "duration": 30
+    },
+    {
+      "type": "interval",
+      "id": "builds-z2-1",
+      "name": "Builds - Z2",
+      "powerZone": "Z2",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "builds-z4-1",
+      "name": "Builds - Z4",
+      "powerZone": "Z4",
+      "cadence": 95,
+      "duration": 30
+    },
+    {
+      "type": "interval",
+      "id": "builds-z3-2",
+      "name": "Builds - Z3",
+      "powerZone": "Z3",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "builds-z5-1",
+      "name": "Builds - Z5",
+      "powerZone": "Z5",
+      "cadence": 95,
+      "duration": 30
+    },
+    {
+      "type": "interval",
+      "id": "builds-z4-2",
+      "name": "Builds - Z4",
+      "powerZone": "Z4",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "recovery-1",
+      "name": "Recovery",
+      "powerZone": "Z2",
+      "duration": 60
+    },
+    {
+      "type": "block",
+      "id": "single-leg-drills",
+      "name": "Single leg drills",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "single-leg-left",
+          "name": "Single leg Left",
+          "powerZone": "Z2",
+          "cadence": 95,
+          "duration": 30
+        },
+        {
+          "id": "recovery-left",
+          "name": "Recovery",
+          "powerZone": "Z2",
+          "duration": 30
+        },
+        {
+          "id": "single-leg-right",
+          "name": "Single leg Right",
+          "powerZone": "Z2",
+          "cadence": 95,
+          "duration": 30
+        },
+        {
+          "id": "recovery-right",
+          "name": "Recovery",
+          "powerZone": "Z2",
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-after-single-leg",
+      "name": "Recover after single leg",
+      "powerZone": "Z1",
+      "duration": 120
+    },
+    {
+      "type": "block",
+      "id": "overgear-fast-cadence-block-1",
+      "name": "Overgear/Fast Cadence Block 1",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "overgear-1",
+          "name": "Overgear",
+          "powerZone": "Z4",
+          "cadence": 65,
+          "duration": 180
+        },
+        {
+          "id": "fast-cadence-1",
+          "name": "Fast cadence",
+          "powerZone": "Z3",
+          "cadence": 95,
+          "duration": 180
+        },
+        {
+          "id": "recover-1",
+          "name": "Recover",
+          "powerZone": "Z1",
+          "duration": 120
+        },
+        {
+          "id": "fast-cadence-2",
+          "name": "Fast cadence",
+          "powerZone": "Z5",
+          "cadence": 95,
+          "duration": 30
+        },
+        {
+          "id": "overgear-2",
+          "name": "Overgear",
+          "powerZone": "Z3",
+          "cadence": 60,
+          "duration": 150
+        },
+        {
+          "id": "recover-2",
+          "name": "Recover",
+          "powerZone": "Z1",
+          "duration": 120
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "z6-intervals-set-1",
+      "name": "Z6 Intervals - Set 1",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "fast-cadence-z6",
+          "name": "Fast cadence - Z6",
+          "powerZone": "Z6",
+          "cadence": 95,
+          "duration": 15
+        },
+        {
+          "id": "overgear-recovery",
+          "name": "Overgear Recovery",
+          "powerZone": "Z2",
+          "cadence": 60,
+          "duration": 60
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-between-z6-sets",
+      "name": "Recover after first overgear block",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "block",
+      "id": "z6-intervals-set-2",
+      "name": "Z6 Intervals - Set 2",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "fast-cadence-z6-2",
+          "name": "Fast cadence - Z6",
+          "powerZone": "Z6",
+          "cadence": 95,
+          "duration": 15
+        },
+        {
+          "id": "overgear-recovery-2",
+          "name": "Overgear Recovery",
+          "powerZone": "Z2",
+          "cadence": 60,
+          "duration": 60
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "cool-down-z1",
+      "name": "Recover after second overgear block",
+      "powerZone": "Z1",
+      "duration": 60
+    }
+  ]
+}
