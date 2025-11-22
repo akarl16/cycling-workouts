@@ -1,0 +1,397 @@
+{
+  "id": "wacu-winter-anaerobic-check-up-90",
+  "name": "W.A.C.U. (Winter Anaerobic Check Up)",
+  "description": "90-minute structured interval workout with progressive power builds and music cues",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup-easy-spin",
+      "name": "Easy spin",
+      "duration": 300,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "slow-build-z2-80",
+      "name": "Slow build",
+      "duration": 120,
+      "powerZone": 2,
+      "cadence": 80
+    },
+    {
+      "type": "interval",
+      "id": "slow-build-z2-85",
+      "name": "Slow build",
+      "duration": 120,
+      "powerZone": "2+",
+      "cadence": 85
+    },
+    {
+      "type": "interval",
+      "id": "slow-build-z3-85",
+      "name": "Slow build",
+      "duration": 120,
+      "powerZone": "3-",
+      "cadence": 85
+    },
+    {
+      "type": "interval",
+      "id": "slow-build-z3-90",
+      "name": "Slow build",
+      "duration": 120,
+      "powerZone": 3,
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "slow-build-z3plus-90",
+      "name": "Slow build",
+      "duration": 120,
+      "powerZone": "3+",
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "slow-build-z3plus-95",
+      "name": "Slow build",
+      "duration": 120,
+      "powerZone": "3+",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "slow-build-z4minus-95",
+      "name": "Slow build",
+      "duration": 120,
+      "powerZone": "4-",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "slow-build-z4minus-100",
+      "name": "Slow build",
+      "duration": 120,
+      "powerZone": "4-",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "saddle-play-1",
+      "name": "Saddle play",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "saddle-play-in-saddle",
+          "name": "In-saddle",
+          "duration": 30,
+          "powerZone": 3
+        },
+        {
+          "id": "saddle-play-out-of-saddle",
+          "name": "Out of saddle",
+          "duration": 30,
+          "powerZone": 3
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "big-1",
+      "name": "Big",
+      "duration": 180,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "easy-recover-1",
+      "name": "Easy Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "big-2",
+      "name": "Big",
+      "duration": 180,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "easy-recover-2",
+      "name": "Easy Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "bigger-1",
+      "name": "Bigger",
+      "duration": 120,
+      "powerZone": "4+"
+    },
+    {
+      "type": "interval",
+      "id": "easy-recover-3",
+      "name": "Easy Recover",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "active-1",
+      "name": "Active",
+      "duration": 60,
+      "powerZone": 2,
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "bigger-2",
+      "name": "Bigger",
+      "duration": 60,
+      "powerZone": 5
+    },
+    {
+      "type": "interval",
+      "id": "easy-recover-4",
+      "name": "Easy Recover",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "active-2",
+      "name": "Active",
+      "duration": 120,
+      "powerZone": 2,
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "biggest",
+      "name": "Biggest",
+      "duration": 30,
+      "powerZone": 6
+    },
+    {
+      "type": "interval",
+      "id": "easy-recover-5",
+      "name": "Easy Recover",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "active-3",
+      "name": "Active",
+      "duration": 120,
+      "powerZone": 2,
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "bigger-plus",
+      "name": "Bigger+",
+      "duration": 60,
+      "powerZone": "5+"
+    },
+    {
+      "type": "interval",
+      "id": "easy-recover-6",
+      "name": "Easy Recover",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "active-4",
+      "name": "Active",
+      "duration": 120,
+      "powerZone": 2,
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "bigger-3",
+      "name": "Bigger",
+      "duration": 90,
+      "powerZone": "5+"
+    },
+    {
+      "type": "interval",
+      "id": "easy-recover-7",
+      "name": "Easy Recover",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "active-5",
+      "name": "Active",
+      "duration": 120,
+      "powerZone": 2,
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "a-little-less",
+      "name": "A little less",
+      "duration": 120,
+      "powerZone": "4+"
+    },
+    {
+      "type": "interval",
+      "id": "easy-recover-8",
+      "name": "Easy Recover",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "active-6",
+      "name": "Active",
+      "duration": 120,
+      "powerZone": 2,
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "even-less-1",
+      "name": "Even less",
+      "duration": 120,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "easy-recover-9",
+      "name": "Easy Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "even-less-2",
+      "name": "Even less",
+      "duration": 120,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "easy-recover-10",
+      "name": "Easy Recover",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "slow-descent-z3plus",
+      "name": "Slow descent Z3+",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "slow-descent-z3plus-in-saddle",
+          "name": "In-saddle",
+          "duration": 30,
+          "powerZone": "3+"
+        },
+        {
+          "id": "slow-descent-z3plus-out-of-saddle",
+          "name": "Out of saddle",
+          "duration": 30,
+          "powerZone": "3+"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "slow-descent-z2plus",
+      "name": "Slow descent Z2+ with Acceleration",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "slow-descent-z2plus-steady",
+          "name": "Steady cadence",
+          "duration": 40,
+          "powerZone": "2+"
+        },
+        {
+          "id": "slow-descent-z2plus-acceleration",
+          "name": "Acceleration",
+          "duration": 20,
+          "powerZone": "2+",
+          "cadence": 105
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "slow-descent-z3",
+      "name": "Slow descent Z3",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "slow-descent-z3-in-saddle",
+          "name": "In-saddle",
+          "duration": 30,
+          "powerZone": 3
+        },
+        {
+          "id": "slow-descent-z3-out-of-saddle",
+          "name": "Out of saddle",
+          "duration": 30,
+          "powerZone": 3
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "slow-descent-z2",
+      "name": "Slow descent Z2 with Acceleration",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "slow-descent-z2-steady",
+          "name": "Steady cadence",
+          "duration": 40,
+          "powerZone": 2
+        },
+        {
+          "id": "slow-descent-z2-acceleration",
+          "name": "Acceleration",
+          "duration": 20,
+          "powerZone": 2,
+          "cadence": 105
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "easy-steady",
+      "name": "Easy steady",
+      "duration": 180,
+      "powerZone": "3-"
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown",
+      "duration": 120,
+      "powerZone": 1
+    }
+  ]
+}
