@@ -43,7 +43,7 @@
       "id": "warmup-z4",
       "name": "Warm-up",
       "duration": 60,
-      "powerZone": "Z4",
+      "powerZone": "Z4-",
       "cadence": 100
     },
     {
@@ -59,7 +59,7 @@
       "id": "build-1",
       "name": "Build effort",
       "duration": 60,
-      "powerZone": "Z4",
+      "powerZone": "Z4-",
       "notes": "Build effort"
     },
     {
