@@ -1,0 +1,241 @@
+{
+  "id": "the-norwegian-60",
+  "name": "The Norwegian (60)",
+  "description": "60-minute threshold workout featuring 7x4min threshold intervals with varied recovery styles between efforts",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup-z1",
+      "name": "Warm-up - Easy spin",
+      "duration": 240,
+      "powerZone": "Z1",
+      "cadence": 80,
+      "notes": "Easy spin"
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z2",
+      "name": "Warm-up",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 85
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z3-1",
+      "name": "Warm-up - Gradual build",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 90,
+      "notes": "Gradual build"
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z3-2",
+      "name": "Warm-up",
+      "duration": 60,
+      "powerZone": "Z3+",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z4",
+      "name": "Warm-up",
+      "duration": 60,
+      "powerZone": "Z4",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "recovery-1",
+      "name": "Easy recovery",
+      "duration": 60,
+      "powerZone": "Z1",
+      "notes": "Easy recovery"
+    },
+    {
+      "type": "interval",
+      "id": "build-1",
+      "name": "Build effort",
+      "duration": 60,
+      "powerZone": "Z4",
+      "notes": "Build effort"
+    },
+    {
+      "type": "interval",
+      "id": "recovery-2",
+      "name": "Recovery spin",
+      "duration": 120,
+      "powerZone": "Z1",
+      "notes": "Recovery spin"
+    },
+    {
+      "type": "block",
+      "id": "threshold-block-1",
+      "name": "Threshold Block 1",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "threshold-1",
+          "name": "Threshold interval 1",
+          "duration": 240,
+          "powerZone": "Z4",
+          "notes": "Threshold interval 1"
+        },
+        {
+          "id": "recovery-1-1",
+          "name": "Smooth circles recovery",
+          "duration": 120,
+          "powerZone": "Z1",
+          "notes": "Smooth circles recovery"
+        },
+        {
+          "id": "threshold-2",
+          "name": "Threshold interval 2",
+          "duration": 240,
+          "powerZone": "Z4",
+          "notes": "Threshold interval 2"
+        },
+        {
+          "id": "recovery-1-2",
+          "name": "Standing easy climb",
+          "duration": 120,
+          "powerZone": "Z1",
+          "notes": "Standing easy climb"
+        },
+        {
+          "id": "threshold-3",
+          "name": "Threshold interval 3",
+          "duration": 240,
+          "powerZone": "Z4",
+          "notes": "Threshold interval 3"
+        },
+        {
+          "id": "recovery-1-3",
+          "name": "High cadence drill",
+          "duration": 120,
+          "powerZone": "Z2",
+          "cadence": 100,
+          "notes": "High cadence drill"
+        },
+        {
+          "id": "threshold-4",
+          "name": "Threshold interval 4",
+          "duration": 240,
+          "powerZone": "Z4",
+          "notes": "Threshold interval 4"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "between-blocks",
+      "name": "Between Blocks - Position Changes",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "position-1",
+          "name": "Hands on top - upright",
+          "duration": 60,
+          "powerZone": "Z1",
+          "notes": "Hands on top - upright"
+        },
+        {
+          "id": "position-2",
+          "name": "Hands on hoods - forward lean",
+          "duration": 60,
+          "powerZone": "Z1",
+          "notes": "Hands on hoods - forward lean"
+        },
+        {
+          "id": "position-3",
+          "name": "Forearms on bars - low aero",
+          "duration": 60,
+          "powerZone": "Z1",
+          "notes": "Forearms on bars - low aero"
+        },
+        {
+          "id": "position-4",
+          "name": "Narrow grip - aggressive tuck",
+          "duration": 60,
+          "powerZone": "Z1",
+          "notes": "Narrow grip - aggressive tuck"
+        },
+        {
+          "id": "position-5",
+          "name": "Easy spin - choice position",
+          "duration": 60,
+          "powerZone": "Z1",
+          "notes": "Easy spin - choice position"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "threshold-block-2",
+      "name": "Threshold Block 2",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "threshold-5",
+          "name": "Threshold interval 5",
+          "duration": 240,
+          "powerZone": "Z4",
+          "notes": "Threshold interval 5"
+        },
+        {
+          "id": "recovery-2-1",
+          "name": "Low cadence strength",
+          "duration": 120,
+          "powerZone": "Z1",
+          "cadence": 65,
+          "notes": "Low cadence strength"
+        },
+        {
+          "id": "threshold-6",
+          "name": "Threshold interval 6",
+          "duration": 240,
+          "powerZone": "Z4",
+          "notes": "Threshold interval 6"
+        },
+        {
+          "id": "recovery-2-2",
+          "name": "Easy spin with bursts",
+          "duration": 120,
+          "powerZone": "Z2",
+          "notes": "Easy spin with 3x 10sec standing bursts"
+        },
+        {
+          "id": "threshold-7",
+          "name": "Threshold interval 7",
+          "duration": 240,
+          "powerZone": "Z4",
+          "notes": "Threshold interval 7"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "cooldown-z3",
+      "name": "Cool-down - Gradual decrease",
+      "duration": 60,
+      "powerZone": "Z3",
+      "notes": "Gradual decrease"
+    },
+    {
+      "type": "interval",
+      "id": "cooldown-z2",
+      "name": "Cool-down",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "cooldown-z1",
+      "name": "Cool-down",
+      "duration": 60,
+      "powerZone": "Z1"
+    }
+  ]
+}
