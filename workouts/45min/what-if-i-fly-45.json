@@ -1,0 +1,209 @@
+{
+  "id": "what-if-i-fly-45",
+  "name": "What If I Fly? (45)",
+  "description": "45-minute flight-themed workout with progressive intensity sections: Pre-flight, Takeoff, Fly, Fly Higher, and Higher. Each section builds through Z2-Z5 with 95rpm cadence targets.",
+  "totalDuration": 2700,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup-easy",
+      "name": "Easy - Z1",
+      "duration": 240,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "build-z2",
+      "name": "Build - Z2",
+      "duration": 120,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "build-z3",
+      "name": "Build - Z3",
+      "duration": 120,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "build-z2-2",
+      "name": "Build - Z2",
+      "duration": 60,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "build-z4-",
+      "name": "Build - Z4-",
+      "duration": 60,
+      "powerZone": "4-"
+    },
+    {
+      "type": "block",
+      "id": "preflight-block",
+      "name": "Pre-flight",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "preflight-z2",
+          "name": "Z2 @ 95rpm",
+          "duration": 120,
+          "powerZone": 2,
+          "cadence": 95
+        },
+        {
+          "id": "preflight-z3",
+          "name": "Z3",
+          "duration": 120,
+          "powerZone": 3
+        },
+        {
+          "id": "preflight-z4-",
+          "name": "Z4-",
+          "duration": 60,
+          "powerZone": "4-"
+        },
+        {
+          "id": "preflight-recover",
+          "name": "Z1",
+          "duration": 120,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "takeoff-block",
+      "name": "Takeoff",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "takeoff-z2",
+          "name": "Z2+ @ 95rpm",
+          "duration": 120,
+          "powerZone": "2+",
+          "cadence": 95
+        },
+        {
+          "id": "takeoff-z3",
+          "name": "Z3",
+          "duration": 120,
+          "powerZone": 3
+        },
+        {
+          "id": "takeoff-z4",
+          "name": "Z4",
+          "duration": 60,
+          "powerZone": 4
+        },
+        {
+          "id": "takeoff-recover",
+          "name": "Z1",
+          "duration": 120,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "fly-block",
+      "name": "Fly",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "fly-z3",
+          "name": "Z3 @ 95rpm",
+          "duration": 120,
+          "powerZone": 3,
+          "cadence": 95
+        },
+        {
+          "id": "fly-z3+",
+          "name": "Z3+",
+          "duration": 120,
+          "powerZone": "3+"
+        },
+        {
+          "id": "fly-z4",
+          "name": "Z4",
+          "duration": 60,
+          "powerZone": 4
+        },
+        {
+          "id": "fly-recover",
+          "name": "Z1",
+          "duration": 120,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "flyhigher-block",
+      "name": "Fly Higher",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "flyhigher-z2",
+          "name": "Z2 @ 95rpm",
+          "duration": 120,
+          "powerZone": 2,
+          "cadence": 95
+        },
+        {
+          "id": "flyhigher-z4",
+          "name": "Z4",
+          "duration": 120,
+          "powerZone": 4
+        },
+        {
+          "id": "flyhigher-z5",
+          "name": "Z5",
+          "duration": 60,
+          "powerZone": 5
+        },
+        {
+          "id": "flyhigher-recover",
+          "name": "Z1",
+          "duration": 120,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "andhigher-block",
+      "name": "and Higher",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "andhigher-z3",
+          "name": "Z3 @ 95rpm",
+          "duration": 120,
+          "powerZone": 3,
+          "cadence": 95
+        },
+        {
+          "id": "andhigher-z4",
+          "name": "Z4",
+          "duration": 120,
+          "powerZone": 4
+        },
+        {
+          "id": "andhigher-z5",
+          "name": "Z5",
+          "duration": 60,
+          "powerZone": 5
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown - Z1",
+      "duration": 120,
+      "powerZone": 1
+    }
+  ]
+}
