@@ -1,0 +1,280 @@
+{
+  "id": "rev-your-engine-90",
+  "name": "Rev your Engine (90)",
+  "description": "Imported from CSV",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "interval-1",
+      "name": "Easy",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "interval-2",
+      "name": "Build",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "interval-3",
+      "name": "Build",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "interval-4",
+      "name": "Build",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "interval-5",
+      "name": "Build",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "interval-6",
+      "name": "Build",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "interval-7",
+      "name": "Build -CAD",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "interval-8",
+      "name": "Build -CAD",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "interval-9",
+      "name": "Build -CAD",
+      "duration": 60,
+      "powerZone": "Z4",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "interval-10",
+      "name": "Build +CAD",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "interval-11",
+      "name": "Build +CAD",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "interval-12",
+      "name": "Build +CAD",
+      "duration": 60,
+      "powerZone": "Z4",
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "interval-13",
+      "name": "Rev",
+      "duration": 30,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "interval-14",
+      "name": "Rev",
+      "duration": 30,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "interval-15",
+      "name": "Rev",
+      "duration": 30,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "interval-16",
+      "name": "Rev",
+      "duration": 30,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "interval-17",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "steady-revs-block",
+      "name": "Steady Revs Block",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "steady-revs-z3",
+          "name": "Steady Revs",
+          "duration": 120,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "steady-revs-z4",
+          "name": "Steady Revs",
+          "duration": 60,
+          "powerZone": "Z4"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "interval-28",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "long-rev-up-block",
+      "name": "Long Rev Up Block",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "long-rev-up-z2",
+          "name": "Long rev up",
+          "duration": 300,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "long-rev-up-z3",
+          "name": "Long rev up",
+          "duration": 300,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "long-rev-up-z4",
+          "name": "Long rev up",
+          "duration": 300,
+          "powerZone": "Z4"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "interval-32",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "long-rev-down-block",
+      "name": "Long Rev Down Block",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "long-rev-down-z4",
+          "name": "Long rev down",
+          "duration": 300,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "long-rev-down-z3",
+          "name": "Long rev down",
+          "duration": 300,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "long-rev-down-z2",
+          "name": "Long rev down",
+          "duration": 300,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "interval-36",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "rev-intervals-block",
+      "name": "Rev Intervals Block",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "tempo-revs-z3",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "rev-up-1",
+          "name": "Rev up",
+          "duration": 30,
+          "powerZoneRange": {
+            "start": "Z3",
+            "end": "Z5"
+          }
+        },
+        {
+          "id": "rev-up-2",
+          "name": "Rev up",
+          "duration": 30,
+          "powerZone": "Z5",
+          "cadence": 105
+        },
+        {
+          "id": "rev-down-1",
+          "name": "Rev down",
+          "duration": 30,
+          "powerZoneRange": {
+            "start": "Z5",
+            "end": "Z3"
+          }
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "interval-57",
+      "name": "Spindown",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "interval-58",
+      "name": "Spindown",
+      "duration": 150,
+      "powerZone": "Z1"
+    }
+  ],
+  "totalDuration": 5400
+}
