@@ -1,0 +1,432 @@
+{
+  "id": "return-of-the-stinger-90",
+  "name": "Return of The Stinger (90)",
+  "description": "90-minute high-intensity workout featuring progressive ramps, single leg drills, cadence skills, decreasing time trials (5-4-3-2 min), killer minutes intervals, and surprise sprints",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "easy-spin",
+      "name": "Easy Spin",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "ramp-1",
+      "name": "Ramp 1: Z1-Z2-Z3-Z1",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ramp-1-z1",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "ramp-1-z2",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ramp-1-z3",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "ramp-1-z1-recover",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "ramp-2",
+      "name": "Ramp 2: Z2-Z3-Z4-Z1",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ramp-2-z2",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ramp-2-z3",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "ramp-2-z4",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "ramp-2-z1-recover",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "ramp-3",
+      "name": "Ramp 3: Z2-Z3-Z4-Z1",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ramp-3-z2",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ramp-3-z3",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "ramp-3-z4",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "ramp-3-z1-recover",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "ramp-4",
+      "name": "Ramp 4: Z3-Z4-Z5-Z1",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ramp-4-z3",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "ramp-4-z4",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "ramp-4-z5",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "ramp-4-z1-recover",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "single-leg",
+      "name": "Single Leg Drills",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "single-leg-left",
+          "name": "Left leg",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "single-leg-both-1",
+          "name": "Both legs",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "single-leg-right",
+          "name": "Right leg",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "single-leg-both-2",
+          "name": "Both legs",
+          "duration": 30,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "single-leg-recover",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1",
+      "cadence": 95
+    },
+    {
+      "type": "block",
+      "id": "cadence-skills",
+      "name": "Cadence Skills",
+      "repetitions": 6,
+      "intervals": [
+        {
+          "id": "cadence-seated",
+          "name": "Seated",
+          "duration": 20,
+          "powerZone": "Z3",
+          "cadence": 110
+        },
+        {
+          "id": "cadence-standing",
+          "name": "Standing",
+          "duration": 10,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "cadence-rest",
+          "name": "Rest",
+          "duration": 30,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "tt-1",
+      "name": "TT 1",
+      "duration": 300,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "recover-3",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "killer-minutes-1",
+      "name": "Killer minutes 1",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "killer-on",
+          "name": "Killer",
+          "duration": 60,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "killer-off",
+          "name": "Active Recovery",
+          "duration": 60,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-4",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "tt-2",
+      "name": "TT 2",
+      "duration": 240,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "recover-5",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "killer-minutes-2",
+      "name": "Killer minutes 2",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "killer-on",
+          "name": "Killer",
+          "duration": 60,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "killer-off",
+          "name": "Active Recovery",
+          "duration": 60,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-6",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "tt-3",
+      "name": "TT 3",
+      "duration": 180,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "recover-7",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "killer-minutes-3",
+      "name": "Killer minutes 3",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "killer-on",
+          "name": "Killer",
+          "duration": 60,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "killer-off",
+          "name": "Active Recovery",
+          "duration": 60,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-8",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "tt-4",
+      "name": "TT 4",
+      "duration": 120,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "recover-9",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "killer-minutes-4",
+      "name": "Killer minutes 4",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "killer-on",
+          "name": "Killer",
+          "duration": 60,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "killer-off",
+          "name": "Active Recovery",
+          "duration": 60,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-10",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "surprise-sprints",
+      "name": "Surprise sprints",
+      "duration": 180,
+      "powerZone": "Z6",
+      "alternating": {
+        "powerZoneA": "Z6",
+        "powerZoneB": "Z2",
+        "startWithZone": "B",
+        "labelA": "Sprint",
+        "labelB": "Recovery"
+      }
+    },
+    {
+      "type": "interval",
+      "id": "recover-11",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "gradual-descent-z3",
+      "name": "Gradual descent",
+      "duration": 180,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "gradual-descent-z2",
+      "name": "Gradual descent",
+      "duration": 180,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown",
+      "duration": 240,
+      "powerZone": "Z1"
+    }
+  ]
+}
