@@ -1,0 +1,211 @@
+{
+  "id": "tempo-ing-we-go-60",
+  "name": "Tempo-ing we go (60)",
+  "description": "60-minute festive tempo workout with multiple Z3 holds and threshold efforts",
+  "totalDuration": 3630,
+  "theme": "christmas",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "twinkly-build-z1",
+      "name": "Twinkly Build - Z1",
+      "duration": 300,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "twinkly-build-z2",
+      "name": "Twinkly Build - Z2",
+      "duration": 120,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "twinkly-build-z3",
+      "name": "Twinkly Build - Z3",
+      "duration": 120,
+      "powerZone": 3
+    },
+    {
+      "type": "block",
+      "id": "mistle-twinkled-primers",
+      "name": "Mistle-twinkled Primers",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "primer-easy",
+          "name": "Mistle-twinkled Primers",
+          "duration": 20,
+          "powerZone": 2
+        },
+        {
+          "id": "primer-hard",
+          "name": "Mistle-twinkled Primers",
+          "duration": 40,
+          "powerZoneRange": {
+            "start": 4,
+            "end": 5
+          }
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "reindeer-covery",
+      "name": "Reindeer-covery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "jingle-jangly-tempo",
+      "name": "Jingle Jangly Tempo - Z3",
+      "duration": 300,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "star-covery",
+      "name": "Star-covery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "sparkle-spirited-threshold",
+      "name": "Sparkle-spirited Threshold",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "sparkle-z4",
+          "name": "Sparkle-spirited Threshold - Z4",
+          "duration": 30,
+          "powerZone": 4
+        },
+        {
+          "id": "sparkle-z2",
+          "name": "Sparkle-spirited Threshold - Z2",
+          "duration": 30,
+          "powerZone": 2
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "jolly-covery",
+      "name": "Jolly-covery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "elf-tastic-tempo",
+      "name": "Elf-tastic Tempo - Z3",
+      "duration": 300,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "frost-covery",
+      "name": "Frost-covery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "tinsel-tastic-threshold",
+      "name": "Tinsel-tastic Threshold",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "tinsel-z4",
+          "name": "Tinsel-tastic Threshold - Z4",
+          "duration": 30,
+          "powerZone": 4
+        },
+        {
+          "id": "tinsel-z2",
+          "name": "Tinsel-tastic Threshold - Z2",
+          "duration": 30,
+          "powerZone": 2
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "candy-covery",
+      "name": "Candy-covery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "ho-ho-hilarious-tempo",
+      "name": "Ho-ho-hilarious Tempo - Z3",
+      "duration": 300,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "jingle-covery",
+      "name": "Jingle-covery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "festive-finish-1",
+      "name": "Festive Finish - Z3 @ 60rpm",
+      "duration": 60,
+      "powerZone": 3,
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "festive-finish-2",
+      "name": "Festive Finish - Z3 @ 105rpm",
+      "duration": 60,
+      "powerZone": 3,
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "festive-finish-3",
+      "name": "Festive Finish - Z3 @ 60rpm",
+      "duration": 60,
+      "powerZone": 3,
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "festive-finish-4",
+      "name": "Festive Finish - Z3 @ 105rpm",
+      "duration": 60,
+      "powerZone": 3,
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "festive-finish-5",
+      "name": "Festive Finish - Z3 @ 60rpm",
+      "duration": 60,
+      "powerZone": 3,
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "festive-finish-6",
+      "name": "Festive Finish - Z4+ @ 105rpm",
+      "duration": 90,
+      "powerZone": "Z4+",
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "stocking-spindown",
+      "name": "Stocking Spindown - Z1",
+      "duration": 180,
+      "powerZone": 1
+    }
+  ]
+}
