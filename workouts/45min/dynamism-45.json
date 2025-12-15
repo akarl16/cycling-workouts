@@ -1,0 +1,243 @@
+{
+  "id": "dynamism-45",
+  "name": "Dynamism (45)",
+  "description": "45-minute dynamic workout with tempo holds, climbing legs, and threshold efforts",
+  "totalDuration": 2700,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "easy-build-z1",
+      "name": "Easy build - Z1",
+      "duration": 180,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "easy-build-z2",
+      "name": "Easy build - Z2",
+      "duration": 120,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "accel-z3",
+      "name": "Accelerate - Z3 @ 95rpm",
+      "duration": 30,
+      "powerZone": "Z3",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "accel-recover-1",
+      "name": "Recover - Z2",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "accel-z3-plus",
+      "name": "Accelerate - Z3+ @ 95rpm",
+      "duration": 30,
+      "powerZone": "Z3+",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "accel-recover-2",
+      "name": "Recover - Z2",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "accel-z4-minus",
+      "name": "Accelerate - Z4- @ 100rpm",
+      "duration": 30,
+      "powerZone": "Z4-",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "accel-recover-3",
+      "name": "Recover - Z2",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "accel-z4",
+      "name": "Accelerate - Z4 @ 100rpm",
+      "duration": 30,
+      "powerZone": 4,
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "accel-recover-4",
+      "name": "Recover - Z2",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "accel-z4-plus",
+      "name": "Accelerate - Z4+ @ 110rpm",
+      "duration": 30,
+      "powerZone": "Z4+",
+      "cadence": 110
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover - Z1",
+      "duration": 90,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "tempo-hold",
+      "name": "Steady rock @ 65rpm",
+      "duration": 180,
+      "powerZone": 3,
+      "cadence": 65,
+      "notes": "Rocking power"
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover - Z1",
+      "duration": 90,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "climbing-legs",
+      "name": "Climbing legs",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "climbing-legs-1",
+          "name": "Z3 OOS",
+          "duration": 60,
+          "powerZone": 3,
+          "notes": "OOS"
+        },
+        {
+          "id": "climbing-legs-2",
+          "name": "Z3",
+          "duration": 60,
+          "powerZone": 3
+        },
+        {
+          "id": "climbing-legs-3",
+          "name": "Z3 OOS",
+          "duration": 60,
+          "powerZone": 3,
+          "notes": "OOS"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-3",
+      "name": "Recover - Z1",
+      "duration": 90,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "high-tempo-hold",
+      "name": "High tempo hold - Z3+ @ 95rpm",
+      "duration": 180,
+      "powerZone": "Z3+",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "recover-4",
+      "name": "Recover - Z1",
+      "duration": 90,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "up-and-out",
+      "name": "Up and out",
+      "duration": 180,
+      "powerZone": 3,
+      "cadence": 90,
+      "alternating": {
+        "powerZoneA": 3,
+        "powerZoneB": 4,
+        "cadenceA": 90,
+        "cadenceB": 90,
+        "startWithZone": "A",
+        "labelA": "Seated",
+        "labelB": "Out of the saddle"
+      }
+    },
+    {
+      "type": "block",
+      "id": "up-down-and-go",
+      "name": "Up down and go",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "udg-z2",
+          "name": "Z2",
+          "duration": 40,
+          "powerZone": 2
+        },
+        {
+          "id": "udg-z3",
+          "name": "Z3 OOS",
+          "duration": 20,
+          "powerZone": 3,
+          "notes": "OOS"
+        },
+        {
+          "id": "udg-z4",
+          "name": "Z4 @ 95rpm",
+          "duration": 60,
+          "powerZone": 4,
+          "cadence": 95
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-5",
+      "name": "Recover - Z1",
+      "duration": 90,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "threshold",
+      "name": "Threshold - Z4",
+      "duration": 180,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "recover-6",
+      "name": "Recover - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "cross-the-line",
+      "name": "Cross the line - Z5",
+      "duration": 180,
+      "powerZone": 5
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown - Z1",
+      "duration": 120,
+      "powerZone": 1
+    }
+  ]
+}
