@@ -1,0 +1,253 @@
+{
+  "id": "mostly-nice-but-a-little-naughty-90",
+  "name": "Mostly Nice (but a little naughty) (90)",
+  "description": "90-minute Christmas-themed workout with pyramids, alternating cadence intervals, and tempo work",
+  "totalDuration": 5400,
+  "theme": "christmas",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "easy-build-z1",
+      "name": "Easy Build",
+      "duration": 300,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "easy-build-z2",
+      "name": "Easy Build",
+      "duration": 180,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "easy-build-z3",
+      "name": "Easy Build",
+      "duration": 120,
+      "powerZone": 3
+    },
+    {
+      "type": "block",
+      "id": "slow-fast-cadence-block",
+      "name": "Slow/Fast Cadence",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "slow-cadence",
+          "name": "Slow Cadence",
+          "duration": 30,
+          "powerZone": 2,
+          "cadence": 60
+        },
+        {
+          "id": "fast-cadence-1",
+          "name": "Fast Cadence",
+          "duration": 30,
+          "powerZoneRange": {
+            "start": 3,
+            "end": 5
+          },
+          "cadence": 95
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "short-pyramids",
+      "name": "Short Pyramid",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "pyramid-z2",
+          "name": "Short Pyramid",
+          "duration": 120,
+          "powerZone": 2,
+          "cadence": 80
+        },
+        {
+          "id": "pyramid-z3",
+          "name": "Short Pyramid",
+          "duration": 120,
+          "powerZone": 3,
+          "cadence": 85
+        },
+        {
+          "id": "pyramid-z4",
+          "name": "Short Pyramid",
+          "duration": 60,
+          "powerZone": 4,
+          "cadence": 90
+        },
+        {
+          "id": "pyramid-z3-down",
+          "name": "Short Pyramid",
+          "duration": 120,
+          "powerZone": 3,
+          "cadence": 85
+        },
+        {
+          "id": "pyramid-z2-down",
+          "name": "Short Pyramid",
+          "duration": 120,
+          "powerZone": 2,
+          "cadence": 80
+        },
+        {
+          "id": "pyramid-recover",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-post-pyramids",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "fast-slow-alternating",
+      "name": "Fast/Slow Cadence",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "slow-z3",
+          "name": "Slow Cadence",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 60
+        },
+        {
+          "id": "fast-z3",
+          "name": "Fast Cadence",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 95
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-5",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "long-pyramids",
+      "name": "Long Pyramid",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "long-pyramid-z2",
+          "name": "Long Pyramid",
+          "duration": 90,
+          "powerZone": 2,
+          "cadence": 80
+        },
+        {
+          "id": "long-pyramid-z3",
+          "name": "Long Pyramid",
+          "duration": 90,
+          "powerZone": 3,
+          "cadence": 85
+        },
+        {
+          "id": "long-pyramid-z4",
+          "name": "Long Pyramid",
+          "duration": 30,
+          "powerZone": 4,
+          "cadence": 90
+        },
+        {
+          "id": "long-pyramid-z5",
+          "name": "Long Pyramid",
+          "duration": 30,
+          "powerZone": 5,
+          "cadence": 95
+        },
+        {
+          "id": "long-pyramid-z4-down",
+          "name": "Long Pyramid",
+          "duration": 30,
+          "powerZone": 4,
+          "cadence": 90
+        },
+        {
+          "id": "long-pyramid-z3-down",
+          "name": "Long Pyramid",
+          "duration": 90,
+          "powerZone": 3,
+          "cadence": 85
+        },
+        {
+          "id": "long-pyramid-z2-down",
+          "name": "Long Pyramid",
+          "duration": 90,
+          "powerZone": 2,
+          "cadence": 80
+        },
+        {
+          "id": "pyramid-recover",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-post-long-pyramids",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "final-alternating",
+      "name": "Slow/Fast Cadence",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "slow-z3",
+          "name": "Slow Cadence",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 60
+        },
+        {
+          "id": "fast-z3",
+          "name": "Fast Cadence",
+          "duration": 60,
+          "powerZone": 3,
+          "cadence": 95
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "thankful-tt",
+      "name": "Thankful TT",
+      "duration": 180,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown",
+      "duration": 150,
+      "powerZone": 1
+    }
+  ]
+}
