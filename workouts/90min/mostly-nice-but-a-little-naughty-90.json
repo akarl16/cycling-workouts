@@ -8,21 +8,21 @@
     {
       "type": "interval",
       "id": "easy-build-z1",
-      "name": "Easy Build",
+      "name": "Nice & Easy Build",
       "duration": 300,
       "powerZone": 1
     },
     {
       "type": "interval",
       "id": "easy-build-z2",
-      "name": "Easy Build",
+      "name": "Nice Easy Build",
       "duration": 180,
       "powerZone": 2
     },
     {
       "type": "interval",
       "id": "easy-build-z3",
-      "name": "Easy Build",
+      "name": "Nice Build",
       "duration": 120,
       "powerZone": 3
     },
@@ -34,14 +34,14 @@
       "intervals": [
         {
           "id": "slow-cadence",
-          "name": "Slow Cadence",
+          "name": "Nice & Steady",
           "duration": 30,
           "powerZone": 2,
           "cadence": 60
         },
         {
           "id": "fast-cadence-1",
-          "name": "Fast Cadence",
+          "name": "Nice & Naughty",
           "duration": 30,
           "powerZoneRange": {
             "start": 3,
@@ -54,7 +54,7 @@
     {
       "type": "interval",
       "id": "recover-1",
-      "name": "Recover",
+      "name": "Being Nice",
       "duration": 120,
       "powerZone": 1
     },
@@ -66,35 +66,35 @@
       "intervals": [
         {
           "id": "pyramid-z2",
-          "name": "Short Pyramid",
+          "name": "Nice Start",
           "duration": 120,
           "powerZone": 2,
           "cadence": 80
         },
         {
           "id": "pyramid-z3",
-          "name": "Short Pyramid",
+          "name": "Nice Climb",
           "duration": 120,
           "powerZone": 3,
           "cadence": 85
         },
         {
           "id": "pyramid-z4",
-          "name": "Short Pyramid",
+          "name": "Naughty Peak",
           "duration": 60,
           "powerZone": 4,
           "cadence": 90
         },
         {
           "id": "pyramid-z3-down",
-          "name": "Short Pyramid",
+          "name": "Nice Descent",
           "duration": 120,
           "powerZone": 3,
           "cadence": 85
         },
         {
           "id": "pyramid-z2-down",
-          "name": "Short Pyramid",
+          "name": "Nice Finish",
           "duration": 120,
           "powerZone": 2,
           "cadence": 80
@@ -110,7 +110,7 @@
     {
       "type": "interval",
       "id": "recover-post-pyramids",
-      "name": "Recover",
+      "name": "So Nice",
       "duration": 60,
       "powerZone": 1
     },
@@ -122,14 +122,14 @@
       "intervals": [
         {
           "id": "slow-z3",
-          "name": "Slow Cadence",
+          "name": "Nice Grind",
           "duration": 60,
           "powerZone": 3,
           "cadence": 60
         },
         {
           "id": "fast-z3",
-          "name": "Fast Cadence",
+          "name": "Nice Spin",
           "duration": 60,
           "powerZone": 3,
           "cadence": 95
@@ -139,7 +139,7 @@
     {
       "type": "interval",
       "id": "recover-5",
-      "name": "Recover",
+      "name": "Stay Nice",
       "duration": 120,
       "powerZone": 1
     },
@@ -151,56 +151,56 @@
       "intervals": [
         {
           "id": "long-pyramid-z2",
-          "name": "Long Pyramid",
+          "name": "Nice Tempo",
           "duration": 90,
           "powerZone": 2,
           "cadence": 80
         },
         {
           "id": "long-pyramid-z3",
-          "name": "Long Pyramid",
+          "name": "Nice Build",
           "duration": 90,
           "powerZone": 3,
           "cadence": 85
         },
         {
           "id": "long-pyramid-z4",
-          "name": "Long Pyramid",
+          "name": "Getting Naughty",
           "duration": 30,
           "powerZone": 4,
           "cadence": 90
         },
         {
           "id": "long-pyramid-z5",
-          "name": "Long Pyramid",
+          "name": "Very Naughty",
           "duration": 30,
           "powerZone": 5,
           "cadence": 95
         },
         {
           "id": "long-pyramid-z4-down",
-          "name": "Long Pyramid",
+          "name": "Less Naughty",
           "duration": 30,
           "powerZone": 4,
           "cadence": 90
         },
         {
           "id": "long-pyramid-z3-down",
-          "name": "Long Pyramid",
+          "name": "Nice Again",
           "duration": 90,
           "powerZone": 3,
           "cadence": 85
         },
         {
           "id": "long-pyramid-z2-down",
-          "name": "Long Pyramid",
+          "name": "Nice Landing",
           "duration": 90,
           "powerZone": 2,
           "cadence": 80
         },
         {
           "id": "pyramid-recover",
-          "name": "Recover",
+          "name": "Nice Rest",
           "duration": 60,
           "powerZone": 1
         }
@@ -209,7 +209,7 @@
     {
       "type": "interval",
       "id": "recover-post-long-pyramids",
-      "name": "Recover",
+      "name": "Pretty Nice",
       "duration": 60,
       "powerZone": 1
     },
@@ -220,15 +220,15 @@
       "repetitions": 2,
       "intervals": [
         {
-          "id": "slow-z3",
-          "name": "Slow Cadence",
+          "id": "final-slow-z3",
+          "name": "Nice Mash",
           "duration": 60,
           "powerZone": 3,
           "cadence": 60
         },
         {
-          "id": "fast-z3",
-          "name": "Fast Cadence",
+          "id": "final-fast-z3",
+          "name": "Nice Twirl",
           "duration": 60,
           "powerZone": 3,
           "cadence": 95
@@ -238,14 +238,14 @@
     {
       "type": "interval",
       "id": "thankful-tt",
-      "name": "Thankful TT",
+      "name": "Nice & Thankful",
       "duration": 180,
       "powerZone": 2
     },
     {
       "type": "interval",
       "id": "spindown",
-      "name": "Spindown",
+      "name": "Nice Spindown",
       "duration": 150,
       "powerZone": 1
     }
