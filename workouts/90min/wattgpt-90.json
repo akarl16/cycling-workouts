@@ -1,0 +1,524 @@
+{
+  "id": "wattgpt-90",
+  "name": "WattGPT (90)",
+  "description": "90-minute comprehensive workout featuring spin-ups, endurance playground, strength intervals, and cadence sprints",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup-z1",
+      "name": "Warm-up",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "spinup-1-work",
+      "name": "Spin up",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "spinup-1-rec",
+      "name": "Spin up",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "spinup-2-work",
+      "name": "Spin up",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "spinup-2-rec",
+      "name": "Spin up",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "spinup-2-rec2",
+      "name": "Spin up",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "spinup-3-work",
+      "name": "Spin up",
+      "duration": 60,
+      "powerZone": "Z4-",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "spinup-3-rec",
+      "name": "Spin up",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "spinup-4-work",
+      "name": "Spin up",
+      "duration": 60,
+      "powerZone": "Z4",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "spinup-4-rec",
+      "name": "Spin up",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "spinup-5-work",
+      "name": "Spin up",
+      "duration": 60,
+      "powerZone": "Z4+",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "endurance-playground-1",
+      "name": "Endurance playground",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ep1-z3minus-95",
+          "name": "Endurance playground",
+          "duration": 120,
+          "powerZone": "Z3-",
+          "cadence": 95
+        },
+        {
+          "id": "ep1-z3minus-85",
+          "name": "Endurance playground",
+          "duration": 120,
+          "powerZone": "Z3-",
+          "cadence": 85
+        },
+        {
+          "id": "ep1-z3minus-oos",
+          "name": "Endurance playground OOS",
+          "duration": 60,
+          "powerZone": "Z3-",
+          "cadence": 75
+        },
+        {
+          "id": "ep1-z3plus-95",
+          "name": "Endurance playground",
+          "duration": 120,
+          "powerZone": "Z3+",
+          "cadence": 95
+        },
+        {
+          "id": "ep1-z3plus-85",
+          "name": "Endurance playground",
+          "duration": 120,
+          "powerZone": "Z3+",
+          "cadence": 85
+        },
+        {
+          "id": "ep1-z3plus-oos",
+          "name": "Endurance playground OOS",
+          "duration": 60,
+          "powerZone": "Z3+",
+          "cadence": 75
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "strength-intervals",
+      "name": "Strength intervals",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "si-1-work",
+          "name": "Strength intervals",
+          "duration": 240,
+          "powerZone": "Z4-",
+          "cadence": 80
+        },
+        {
+          "id": "si-1-rec",
+          "name": "Strength intervals",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "si-2-work",
+          "name": "Strength intervals",
+          "duration": 240,
+          "powerZone": "Z4-",
+          "cadence": 80
+        },
+        {
+          "id": "si-2-rec",
+          "name": "Strength intervals",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "si-3-work",
+          "name": "Strength intervals",
+          "duration": 240,
+          "powerZone": "Z4-",
+          "cadence": 80
+        },
+        {
+          "id": "si-3-rec",
+          "name": "Strength intervals",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 95
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-3",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "cadence-sprints-1",
+      "name": "Cadence sprints 1",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "cs1-z3-100-1",
+          "name": "Cadence sprints 1",
+          "duration": 30,
+          "powerZone": "Z3",
+          "cadence": 100
+        },
+        {
+          "id": "cs1-rec-1",
+          "name": "Cadence sprints 1",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "cs1-z3-100-2",
+          "name": "Cadence sprints 1",
+          "duration": 30,
+          "powerZone": "Z3",
+          "cadence": 100
+        },
+        {
+          "id": "cs1-rec-2",
+          "name": "Cadence sprints 1",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "cs1-z3-100-3",
+          "name": "Cadence sprints 1",
+          "duration": 30,
+          "powerZone": "Z3",
+          "cadence": 100
+        },
+        {
+          "id": "cs1-rec-3",
+          "name": "Cadence sprints 1",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "cs1-z3plus-105-1",
+          "name": "Cadence sprints 1",
+          "duration": 30,
+          "powerZone": "Z3+",
+          "cadence": 105
+        },
+        {
+          "id": "cs1-rec-4",
+          "name": "Cadence sprints 1",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "cs1-z3plus-105-2",
+          "name": "Cadence sprints 1",
+          "duration": 30,
+          "powerZone": "Z3+",
+          "cadence": 105
+        },
+        {
+          "id": "cs1-rec-5",
+          "name": "Cadence sprints 1",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "cs1-z3plus-105-3",
+          "name": "Cadence sprints 1",
+          "duration": 30,
+          "powerZone": "Z3+",
+          "cadence": 105
+        },
+        {
+          "id": "cs1-rec-6",
+          "name": "Cadence sprints 1",
+          "duration": 30,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "cadence-sprints-2",
+      "name": "Cadence sprints 2",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "cs2-z3-100-1",
+          "name": "Cadence sprints 2",
+          "duration": 30,
+          "powerZone": "Z3",
+          "cadence": 100
+        },
+        {
+          "id": "cs2-rec-1",
+          "name": "Cadence sprints 2",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "cs2-z3-100-2",
+          "name": "Cadence sprints 2",
+          "duration": 30,
+          "powerZone": "Z3",
+          "cadence": 100
+        },
+        {
+          "id": "cs2-rec-2",
+          "name": "Cadence sprints 2",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "cs2-z3-100-3",
+          "name": "Cadence sprints 2",
+          "duration": 30,
+          "powerZone": "Z3",
+          "cadence": 100
+        },
+        {
+          "id": "cs2-rec-3",
+          "name": "Cadence sprints 2",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "cs2-z3plus-105-1",
+          "name": "Cadence sprints 2",
+          "duration": 30,
+          "powerZone": "Z3+",
+          "cadence": 105
+        },
+        {
+          "id": "cs2-rec-4",
+          "name": "Cadence sprints 2",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "cs2-z3plus-105-2",
+          "name": "Cadence sprints 2",
+          "duration": 30,
+          "powerZone": "Z3+",
+          "cadence": 105
+        },
+        {
+          "id": "cs2-rec-5",
+          "name": "Cadence sprints 2",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "cs2-z3plus-105-3",
+          "name": "Cadence sprints 2",
+          "duration": 30,
+          "powerZone": "Z3+",
+          "cadence": 105
+        },
+        {
+          "id": "cs2-rec-6",
+          "name": "Cadence sprints 2",
+          "duration": 30,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-4",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "endurance-playground-2",
+      "name": "Endurance playground",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ep2-z3minus-95",
+          "name": "Endurance playground",
+          "duration": 120,
+          "powerZone": "Z3-",
+          "cadence": 95
+        },
+        {
+          "id": "ep2-z3minus-85",
+          "name": "Endurance playground",
+          "duration": 120,
+          "powerZone": "Z3-",
+          "cadence": 85
+        },
+        {
+          "id": "ep2-z3minus-oos",
+          "name": "Endurance playground OOS",
+          "duration": 60,
+          "powerZone": "Z3-",
+          "cadence": 75
+        },
+        {
+          "id": "ep2-z3plus-95",
+          "name": "Endurance playground",
+          "duration": 120,
+          "powerZone": "Z3+",
+          "cadence": 95
+        },
+        {
+          "id": "ep2-z3plus-85",
+          "name": "Endurance playground",
+          "duration": 120,
+          "powerZone": "Z3+",
+          "cadence": 85
+        },
+        {
+          "id": "ep2-z3plus-oos",
+          "name": "Endurance playground OOS",
+          "duration": 60,
+          "powerZone": "Z3+",
+          "cadence": 75
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-5",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "strength-finale",
+      "name": "Strength",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "sf-z3",
+          "name": "Strength",
+          "duration": 120,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "sf-z3plus",
+          "name": "Strength",
+          "duration": 120,
+          "powerZone": "Z3+",
+          "cadence": 80
+        },
+        {
+          "id": "sf-z4plus-oos",
+          "name": "Strength OOS",
+          "duration": 120,
+          "powerZone": "Z4+",
+          "cadence": 80
+        },
+        {
+          "id": "sf-rec",
+          "name": "Strength",
+          "duration": 60,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "sf-z3-2",
+          "name": "Strength",
+          "duration": 120,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "sf-z4minus",
+          "name": "Strength",
+          "duration": 120,
+          "powerZone": "Z4-",
+          "cadence": 80
+        },
+        {
+          "id": "sf-z5-oos",
+          "name": "Strength OOS",
+          "duration": 120,
+          "powerZone": "Z5",
+          "cadence": 80
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "spindown-1",
+      "name": "Spindown",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "spindown-2",
+      "name": "Spindown",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "spindown-3",
+      "name": "Spindown",
+      "duration": 60,
+      "powerZone": "Z1"
+    }
+  ]
+}
