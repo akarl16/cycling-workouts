@@ -1,0 +1,266 @@
+{
+  "id": "rollercoaster-60",
+  "name": "Rollercoaster (60)",
+  "description": "60-minute rollercoaster workout with step-up warm-up, under-over intervals, and cadence variations",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "easy",
+      "name": "Easy",
+      "duration": 240,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "step-up",
+      "name": "Step up",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "step-up-z2",
+          "name": "Step up Z2",
+          "duration": 120,
+          "powerZone": 2,
+          "cadence": 80
+        },
+        {
+          "id": "step-up-z3",
+          "name": "Step up Z3",
+          "duration": 120,
+          "powerZone": 3,
+          "cadence": 90
+        },
+        {
+          "id": "step-up-z4-",
+          "name": "Step up Z4-",
+          "duration": 120,
+          "powerZone": "4-",
+          "cadence": 100
+        },
+        {
+          "id": "step-up-z4+",
+          "name": "Step up Z4+",
+          "duration": 60,
+          "powerZone": "4+",
+          "cadence": 110
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "reset",
+      "name": "Reset",
+      "duration": 180,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "under-over-intervals",
+      "name": "Under Over Intervals",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "under-z3",
+          "name": "Under",
+          "duration": 90,
+          "powerZone": 3
+        },
+        {
+          "id": "over-z5",
+          "name": "Over",
+          "duration": 60,
+          "powerZone": 5
+        },
+        {
+          "id": "at-z4",
+          "name": "At",
+          "duration": 120,
+          "powerZone": 4
+        },
+        {
+          "id": "under-z3-2",
+          "name": "Under",
+          "duration": 60,
+          "powerZone": 3
+        },
+        {
+          "id": "recover-z1",
+          "name": "Recover",
+          "duration": 120,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "cadence-variations",
+      "name": "Overgear/Fast Cadence",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "overgear-z3",
+          "name": "Overgear",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 65
+        },
+        {
+          "id": "fast-cadence-z3",
+          "name": "Fast Cadence",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 105
+        },
+        {
+          "id": "overgear-z3-2",
+          "name": "Overgear",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 65
+        },
+        {
+          "id": "fast-cadence-z3-2",
+          "name": "Fast Cadence",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 105
+        },
+        {
+          "id": "overgear-z3-3",
+          "name": "Overgear",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 65
+        },
+        {
+          "id": "fast-cadence-z3-3",
+          "name": "Fast Cadence",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 105
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "break-1",
+      "name": "Break",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "cadence-variations-2",
+      "name": "Cadence Variations",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "overgear-z3-4",
+          "name": "Overgear",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 65
+        },
+        {
+          "id": "fast-cadence-z3-4",
+          "name": "Fast Cadence",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 105
+        },
+        {
+          "id": "overgear-z3-5",
+          "name": "Overgear",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 65
+        },
+        {
+          "id": "fast-cadence-z3-5",
+          "name": "Fast Cadence",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 105
+        },
+        {
+          "id": "overgear-z3-6",
+          "name": "Overgear",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 65
+        },
+        {
+          "id": "fast-cadence-z3-6",
+          "name": "Fast Cadence",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 105
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "break-2",
+      "name": "Break",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "cadence-variations-3",
+      "name": "Cadence Variations",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "overgear-z3-7",
+          "name": "Overgear",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 65
+        },
+        {
+          "id": "fast-cadence-z3-7",
+          "name": "Fast Cadence",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 105
+        },
+        {
+          "id": "overgear-z3-8",
+          "name": "Overgear",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 65
+        },
+        {
+          "id": "fast-cadence-z3-8",
+          "name": "Fast Cadence",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 105
+        },
+        {
+          "id": "overgear-z3-9",
+          "name": "Overgear",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 65
+        },
+        {
+          "id": "fast-cadence-z3-9",
+          "name": "Fast Cadence",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 105
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown",
+      "duration": 180,
+      "powerZone": 1
+    }
+  ]
+}
