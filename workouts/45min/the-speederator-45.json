@@ -1,0 +1,235 @@
+{
+  "id": "the-speederator-45",
+  "name": "The Speederator (45)",
+  "description": "45-minute speed-focused workout with progressive cadence intervals: Quick (110rpm), Quicker (115rpm), and Quickest (120rpm). Includes Off-On power builds, tempo breathing section, and final sprint set with Z6-Z7 efforts.",
+  "totalDuration": 2700,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup-easy",
+      "name": "Easy",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z2",
+      "name": "Warmup Z2",
+      "duration": 120,
+      "powerZone": 2
+    },
+    {
+      "type": "block",
+      "id": "off-on-build",
+      "name": "Off-On Build",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "offon-1",
+          "name": "Z2",
+          "duration": 30,
+          "powerZone": 2
+        },
+        {
+          "id": "offon-2",
+          "name": "Z3",
+          "duration": 30,
+          "powerZone": 3
+        },
+        {
+          "id": "offon-3",
+          "name": "Z2",
+          "duration": 30,
+          "powerZone": 2
+        },
+        {
+          "id": "offon-4",
+          "name": "Z3+",
+          "duration": 30,
+          "powerZone": "3+"
+        },
+        {
+          "id": "offon-5",
+          "name": "Z2",
+          "duration": 30,
+          "powerZone": 2
+        },
+        {
+          "id": "offon-6",
+          "name": "Z4",
+          "duration": 30,
+          "powerZone": 4
+        },
+        {
+          "id": "offon-7",
+          "name": "Z2",
+          "duration": 30,
+          "powerZone": 2
+        },
+        {
+          "id": "offon-8",
+          "name": "Z5",
+          "duration": 30,
+          "powerZone": 5
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "quick-block",
+      "name": "Quick",
+      "repetitions": 7,
+      "intervals": [
+        {
+          "id": "quick-on",
+          "name": "Z3 @ 110rpm",
+          "duration": 30,
+          "powerZone": 3,
+          "cadence": 110
+        },
+        {
+          "id": "quick-off",
+          "name": "Z1",
+          "duration": 30,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "quicker-block",
+      "name": "Quicker",
+      "repetitions": 7,
+      "intervals": [
+        {
+          "id": "quicker-on",
+          "name": "Z4 @ 115rpm",
+          "duration": 30,
+          "powerZone": 4,
+          "cadence": 115
+        },
+        {
+          "id": "quicker-off",
+          "name": "Z1",
+          "duration": 30,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-3",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "quickest-block",
+      "name": "Quickest",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "quickest-on",
+          "name": "Z5 @ 120rpm",
+          "duration": 20,
+          "powerZone": 5,
+          "cadence": 120
+        },
+        {
+          "id": "quickest-off",
+          "name": "Z1",
+          "duration": 40,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-4",
+      "name": "Recover",
+      "duration": 90,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "tempo-breather",
+      "name": "Tempo Breather",
+      "duration": 240,
+      "powerZone": 3,
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "recover-5",
+      "name": "Recover",
+      "duration": 40,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "sprint-set",
+      "name": "Sprint Set",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "sprint-rest-1",
+          "name": "Z1",
+          "duration": 50,
+          "powerZone": 1
+        },
+        {
+          "id": "sprint-1",
+          "name": "Sprint Z7",
+          "duration": 20,
+          "powerZone": 7
+        },
+        {
+          "id": "sprint-rest-2",
+          "name": "Z1",
+          "duration": 40,
+          "powerZone": 1
+        },
+        {
+          "id": "sprint-2",
+          "name": "Power Z6",
+          "duration": 30,
+          "powerZone": 6
+        },
+        {
+          "id": "sprint-rest-3",
+          "name": "Z1",
+          "duration": 45,
+          "powerZone": 1
+        },
+        {
+          "id": "sprint-3",
+          "name": "Sprint Z7",
+          "duration": 20,
+          "powerZone": 7
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "cooldown",
+      "name": "Cooldown",
+      "duration": 205,
+      "powerZone": 1
+    }
+  ]
+}

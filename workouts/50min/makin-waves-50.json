@@ -1,0 +1,331 @@
+{
+  "id": "makin-waves-50",
+  "name": "Makin Waves (50)",
+  "description": "A 50-minute wave-themed workout with progressive power and cadence intervals. Features wave patterns that build in intensity from easy to top-of-the-wave sprints.",
+  "totalDuration": 3000,
+  "sequence": [
+    {
+      "type": "block",
+      "id": "easy-wave-block",
+      "name": "Easy wave",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "easy-wave-1",
+          "name": "Easy wave Z1@80",
+          "powerZone": "Z1",
+          "cadence": 80,
+          "duration": 60
+        },
+        {
+          "id": "easy-wave-2",
+          "name": "Easy wave Z1@90",
+          "powerZone": "Z1",
+          "cadence": 90,
+          "duration": 60
+        },
+        {
+          "id": "easy-wave-3",
+          "name": "Easy wave Z1@100",
+          "powerZone": "Z1",
+          "cadence": 100,
+          "duration": 30
+        },
+        {
+          "id": "easy-wave-4",
+          "name": "Easy wave Z1@95",
+          "powerZone": "Z1",
+          "cadence": 95,
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "active-wave-block",
+      "name": "Active wave",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "active-wave-1",
+          "name": "Active wave Z2@80",
+          "powerZone": "Z2",
+          "cadence": 80,
+          "duration": 60
+        },
+        {
+          "id": "active-wave-2",
+          "name": "Active wave Z2@90",
+          "powerZone": "Z2",
+          "cadence": 90,
+          "duration": 60
+        },
+        {
+          "id": "active-wave-3",
+          "name": "Active wave Z2@100",
+          "powerZone": "Z2",
+          "cadence": 100,
+          "duration": 30
+        },
+        {
+          "id": "active-wave-4",
+          "name": "Active wave Z2@95",
+          "powerZone": "Z2",
+          "cadence": 95,
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "warm-wave-block",
+      "name": "Warm wave",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "warm-wave-1",
+          "name": "Warm wave Z2@80",
+          "powerZone": "Z2",
+          "cadence": 80,
+          "duration": 60
+        },
+        {
+          "id": "warm-wave-2",
+          "name": "Warm wave Z3@90",
+          "powerZone": "Z3",
+          "cadence": 90,
+          "duration": 60
+        },
+        {
+          "id": "warm-wave-3",
+          "name": "Warm wave Z4@100",
+          "powerZone": "Z4",
+          "cadence": 100,
+          "duration": 30
+        },
+        {
+          "id": "warm-wave-4",
+          "name": "Warm wave Z3@95",
+          "powerZone": "Z3",
+          "cadence": 95,
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "heat-wave-block",
+      "name": "Heat wave",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "heat-wave-1",
+          "name": "Heat wave Z2@80",
+          "powerZone": "Z2",
+          "cadence": 80,
+          "duration": 60
+        },
+        {
+          "id": "heat-wave-2",
+          "name": "Heat wave Z3@90",
+          "powerZone": "Z3",
+          "cadence": 90,
+          "duration": 60
+        },
+        {
+          "id": "heat-wave-3",
+          "name": "Heat wave Z5@100",
+          "powerZone": "Z5",
+          "cadence": 100,
+          "duration": 30
+        },
+        {
+          "id": "heat-wave-4",
+          "name": "Heat wave Z4@95",
+          "powerZone": "Z4",
+          "cadence": 95,
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 120
+    },
+    {
+      "type": "block",
+      "id": "wave-surfing-block",
+      "name": "Wave surfing",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "wave-surfing-1",
+          "name": "Wave surfing Z2@80",
+          "powerZone": "Z2",
+          "cadence": 80,
+          "duration": 90
+        },
+        {
+          "id": "wave-surfing-2",
+          "name": "Wave surfing Z3@90",
+          "powerZone": "Z3",
+          "cadence": 90,
+          "duration": 90
+        },
+        {
+          "id": "wave-surfing-3",
+          "name": "Wave surfing Z4@100",
+          "powerZone": "Z4",
+          "cadence": 100,
+          "duration": 30
+        },
+        {
+          "id": "wave-surfing-4",
+          "name": "Wave surfing Z3@95",
+          "powerZone": "Z3",
+          "cadence": 95,
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "block",
+      "id": "bigger-waves-block",
+      "name": "Bigger waves",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "bigger-waves-1",
+          "name": "Bigger waves Z2@80",
+          "powerZone": "Z2",
+          "cadence": 80,
+          "duration": 90
+        },
+        {
+          "id": "bigger-waves-2",
+          "name": "Bigger waves Z4@90",
+          "powerZone": "Z4",
+          "cadence": 90,
+          "duration": 90
+        },
+        {
+          "id": "bigger-waves-3",
+          "name": "Bigger waves Z5@100",
+          "powerZone": "Z5",
+          "cadence": 100,
+          "duration": 30
+        },
+        {
+          "id": "bigger-waves-4",
+          "name": "Bigger waves Z3@95",
+          "powerZone": "Z3",
+          "cadence": 95,
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-3",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "block",
+      "id": "climb-wave-block",
+      "name": "Climb the wave",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "climb-wave-1",
+          "name": "Climb the wave Z2@80",
+          "powerZone": "Z2",
+          "cadence": 80,
+          "duration": 90
+        },
+        {
+          "id": "climb-wave-2",
+          "name": "Climb the wave Z3@90",
+          "powerZone": "Z3",
+          "cadence": 90,
+          "duration": 90
+        },
+        {
+          "id": "climb-wave-3",
+          "name": "Climb the wave Z6 (out of saddle)",
+          "powerZone": "Z6",
+          "duration": 30,
+          "notes": "Out of the saddle"
+        },
+        {
+          "id": "climb-wave-4",
+          "name": "Climb the wave Z3@95",
+          "powerZone": "Z3",
+          "cadence": 95,
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-4",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 120
+    },
+    {
+      "type": "block",
+      "id": "top-wave-block",
+      "name": "Top of the wave",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "top-wave-1",
+          "name": "Top of the wave Z2@80",
+          "powerZone": "Z2",
+          "cadence": 80,
+          "duration": 60
+        },
+        {
+          "id": "top-wave-2",
+          "name": "Top of the wave Z4@90",
+          "powerZone": "Z4",
+          "cadence": 90,
+          "duration": 60
+        },
+        {
+          "id": "top-wave-3",
+          "name": "Top of the wave Z7@120",
+          "powerZone": "Z7",
+          "cadence": 120,
+          "duration": 15
+        },
+        {
+          "id": "top-wave-4",
+          "name": "Top of the wave Z2@95",
+          "powerZone": "Z2",
+          "cadence": 95,
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown",
+      "powerZone": "Z1",
+      "duration": 150
+    }
+  ]
+}

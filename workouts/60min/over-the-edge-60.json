@@ -1,0 +1,264 @@
+{
+  "id": "over-the-edge-60",
+  "name": "Over the Edge (60)",
+  "description": "60-minute high-intensity workout featuring on/off intervals, single-leg drills, time trials, and multiple pullover efforts with varied intensity levels",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup-z1",
+      "name": "Easy Build",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z2",
+      "name": "Easy Build",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z3",
+      "name": "Easy Build",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "block",
+      "id": "on-off-block-1",
+      "name": "On/Off Intervals - Set 1",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "off-1",
+          "name": "Off",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "on-1",
+          "name": "On",
+          "duration": 30,
+          "powerZone": "Z4-"
+        },
+        {
+          "id": "off-2",
+          "name": "Off",
+          "duration": 60,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "on-2",
+          "name": "On",
+          "duration": 60,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "off-3",
+          "name": "Off",
+          "duration": 30,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "on-3",
+          "name": "On",
+          "duration": 30,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "off-4",
+          "name": "Off",
+          "duration": 60,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "on-4",
+          "name": "On",
+          "duration": 60,
+          "powerZone": "Z4+"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "single-leg-drills",
+      "name": "Single Leg Drills",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "single-leg-left",
+          "name": "Single Leg - left",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "single-leg-right",
+          "name": "Single Leg - right",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 95
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "time-trial-1",
+      "name": "Smooth time trial",
+      "duration": 240,
+      "powerZoneRange": {
+        "start": "3",
+        "end": "4"
+      }
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "pullover-block-1",
+      "name": "Steady + Pullover - Set 1",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "steady-1",
+          "name": "Steady",
+          "duration": 240,
+          "powerZone": "Z3+"
+        },
+        {
+          "id": "pullover-1",
+          "name": "Pullover",
+          "duration": 60,
+          "powerZone": "Z4"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-3",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "pullover-block-2",
+      "name": "Steady + Pullover - Set 2",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "steady-2",
+          "name": "Steady",
+          "duration": 180,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "pullover-2",
+          "name": "Pullover",
+          "duration": 60,
+          "powerZone": "Z5"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-4",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "pullover-block-3",
+      "name": "Steady + Pullover - Set 3",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "steady-3",
+          "name": "Steady",
+          "duration": 240,
+          "powerZone": "Z3+"
+        },
+        {
+          "id": "pullover-3",
+          "name": "Pullover",
+          "duration": 60,
+          "powerZone": "Z4"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-5",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "pullover-block-4",
+      "name": "Steady + Pullover - Set 4",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "steady-4",
+          "name": "Steady",
+          "duration": 180,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "pullover-4",
+          "name": "Pullover",
+          "duration": 60,
+          "powerZone": "Z5"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-6",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "time-trial-2",
+      "name": "Smooth time trial",
+      "duration": 240,
+      "powerZoneRange": {
+        "start": "3",
+        "end": "4"
+      }
+    },
+    {
+      "type": "interval",
+      "id": "spindown-z2",
+      "name": "Spindown",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "spindown-z1",
+      "name": "Spindown",
+      "duration": 120,
+      "powerZone": "Z1"
+    }
+  ]
+}

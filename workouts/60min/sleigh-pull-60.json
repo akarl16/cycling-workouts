@@ -1,0 +1,146 @@
+{
+  "id": "sleigh-pull-60",
+  "name": "Sleigh Pull (60)",
+  "description": "60-minute holiday-themed workout featuring progressive 'sleigh pull' intervals with varying cadences and power zones",
+  "theme": "christmas",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "easy-spin",
+      "name": "Easy Spin",
+      "duration": 240,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "build1",
+      "name": "Simple build",
+      "duration": 180,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "build2",
+      "name": "Build",
+      "duration": 120,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "build3",
+      "name": "Build",
+      "duration": 60,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "recover1",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "primers",
+      "name": "Primers",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "primer-on",
+          "name": "20s Z5",
+          "duration": 20,
+          "powerZone": 5
+        },
+        {
+          "id": "primer-off",
+          "name": "40s Z2",
+          "duration": 40,
+          "powerZone": 2
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover2",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "sleigh-pulls",
+      "name": "Sleigh Pulls",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "pull-pretty-slow",
+          "name": "Pull pretty slow",
+          "duration": 120,
+          "powerZone": 4,
+          "cadence": 75
+        },
+        {
+          "id": "pull-slower",
+          "name": "Pull slower",
+          "duration": 120,
+          "powerZone": 4,
+          "cadence": 70
+        },
+        {
+          "id": "pull-actually-slow",
+          "name": "Pull actually slow",
+          "duration": 120,
+          "powerZone": 3,
+          "cadence": 65
+        },
+        {
+          "id": "pull-really-slow",
+          "name": "Pull really slow",
+          "duration": 120,
+          "powerZone": 3,
+          "cadence": 60
+        },
+        {
+          "id": "breather",
+          "name": "Breather",
+          "duration": 30,
+          "powerZone": 1
+        },
+        {
+          "id": "pull-fast",
+          "name": "Pull Fast!",
+          "duration": 120,
+          "powerZone": 5
+        },
+        {
+          "id": "recover-set",
+          "name": "Recover",
+          "duration": 150,
+          "powerZone": 1
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "spindown1",
+      "name": "Spin down",
+      "duration": 60,
+      "powerZone": 3,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "spindown2",
+      "name": "Spin down",
+      "duration": 120,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "spindown3",
+      "name": "Spin down",
+      "duration": 60,
+      "powerZone": 1
+    }
+  ]
+}
