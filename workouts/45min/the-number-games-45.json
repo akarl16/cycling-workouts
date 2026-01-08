@@ -1,0 +1,328 @@
+{
+  "id": "the-number-games-45",
+  "name": "The Number Games (45)",
+  "description": "45-minute cadence-focused workout featuring number-themed intervals including down-up cadence progressions, Drive 55, and 99 finishers",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup-z1",
+      "name": "Warm-up",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z2-1",
+      "name": "Warm-up",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z3",
+      "name": "Warm-up",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "block",
+      "id": "warmup-build",
+      "name": "Warm-up Build",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "build-z2-1",
+          "name": "Warm-up",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "build-z4-1",
+          "name": "Warm-up",
+          "duration": 30,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "build-z2-2",
+          "name": "Warm-up",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "build-z4plus",
+          "name": "Warm-up",
+          "duration": 30,
+          "powerZone": "Z4+"
+        },
+        {
+          "id": "build-z2-3",
+          "name": "Warm-up",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "build-z5",
+          "name": "Warm-up",
+          "duration": 30,
+          "powerZone": "Z5"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "down-up-cadence",
+      "name": "Down-up cadence",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "downup-60",
+          "name": "Down-up cadence",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 60
+        },
+        {
+          "id": "downup-70",
+          "name": "Down-up cadence",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 70
+        },
+        {
+          "id": "downup-80",
+          "name": "Down-up cadence",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "downup-90",
+          "name": "Down-up cadence",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "downup-100",
+          "name": "Down-up cadence",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 100
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "up-down-cadence",
+      "name": "Up-down cadence",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "updown-100",
+          "name": "Up-down cadence",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 100
+        },
+        {
+          "id": "updown-90",
+          "name": "Up-down cadence",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "updown-80",
+          "name": "Up-down cadence",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "updown-70",
+          "name": "Up-down cadence",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 70
+        },
+        {
+          "id": "updown-60",
+          "name": "Up-down cadence",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 60
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-3",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "drive-55",
+      "name": "Drive 55",
+      "duration": 240,
+      "powerZone": "Z4-",
+      "cadence": 55
+    },
+    {
+      "type": "interval",
+      "id": "recover-4",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "tune-it-1",
+      "name": "Tune it",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "tune1-90",
+          "name": "Tune it",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "tune1-95",
+          "name": "Tune it",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 95
+        },
+        {
+          "id": "tune1-85",
+          "name": "Tune it",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 85
+        },
+        {
+          "id": "tune1-95-2",
+          "name": "Tune it",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 95
+        },
+        {
+          "id": "tune1-75",
+          "name": "Tune it",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 75
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-5",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "tune-it-2",
+      "name": "Tune it",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "tune2-90",
+          "name": "Tune it",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "tune2-95",
+          "name": "Tune it",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 95
+        },
+        {
+          "id": "tune2-85",
+          "name": "Tune it",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 85
+        },
+        {
+          "id": "tune2-95-2",
+          "name": "Tune it",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 95
+        },
+        {
+          "id": "tune2-75",
+          "name": "Tune it",
+          "duration": 45,
+          "powerZone": "Z3",
+          "cadence": 75
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-6",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "not-6-7",
+      "name": "Not 6-7",
+      "duration": 120,
+      "powerZone": "Z4-",
+      "cadence": 69
+    },
+    {
+      "type": "interval",
+      "id": "recover-7",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "99-finishers",
+      "name": "99 finishers",
+      "duration": 240,
+      "powerZone": "Z4",
+      "cadence": 99
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown",
+      "duration": 120,
+      "powerZone": "Z1"
+    }
+  ]
+}
