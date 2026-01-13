@@ -1,6 +1,6 @@
 {
   "id": "ftp-test-50",
-  "name": "FTP Test (50)",
+  "name": "FTP Test",
   "description": "50-minute FTP test workout with warm-up, 20-minute test, and cooldown",
   "duration": 3000,
   "sequence": [

@@ -1,6 +1,6 @@
 {
   "id": "endurance-playground-90",
-  "name": "Endurance Playground (90)",
+  "name": "Endurance Playground",
   "source": "imported-csv-2025-10-25",
   "sequence": [
     {
@@ -31,7 +31,6 @@
       "duration": 20,
       "powerZone": 1
     },
-
     {
       "type": "block",
       "id": "accelerations",
@@ -68,7 +67,6 @@
       "duration": 120,
       "powerZone": 1
     },
-
     {
       "type": "interval",
       "id": "ss1",
@@ -83,7 +81,6 @@
       "duration": 120,
       "powerZone": 1
     },
-
     {
       "type": "block",
       "id": "decelerations1",
@@ -104,7 +101,12 @@
           "powerZone": 3,
           "cadence": 95
         },
-        { "id": "dec3", "name": "Easy - Z1", "duration": 30, "powerZone": 1 }
+        {
+          "id": "dec3",
+          "name": "Easy - Z1",
+          "duration": 30,
+          "powerZone": 1
+        }
       ]
     },
     {
@@ -114,7 +116,6 @@
       "duration": 120,
       "powerZone": 1
     },
-
     {
       "type": "interval",
       "id": "ss2",
@@ -129,7 +130,6 @@
       "duration": 120,
       "powerZone": 1
     },
-
     {
       "type": "block",
       "id": "decelerations2",
@@ -150,7 +150,12 @@
           "powerZone": 3,
           "cadence": 95
         },
-        { "id": "dec3", "name": "Easy - Z1", "duration": 30, "powerZone": 1 }
+        {
+          "id": "dec3",
+          "name": "Easy - Z1",
+          "duration": 30,
+          "powerZone": 1
+        }
       ]
     },
     {
@@ -160,7 +165,6 @@
       "duration": 120,
       "powerZone": 1
     },
-
     {
       "type": "interval",
       "id": "ss3",
@@ -175,7 +179,6 @@
       "duration": 120,
       "powerZone": 1
     },
-
     {
       "type": "interval",
       "id": "finale",
