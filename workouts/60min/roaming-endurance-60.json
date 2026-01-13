@@ -1,0 +1,240 @@
+{
+  "id": "roaming-endurance-60",
+  "name": "Roaming Endurance (60)",
+  "description": "60-minute endurance workout with varied tempo efforts and cadence changes",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "easy-z1",
+      "name": "Easy",
+      "duration": 240,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "low-build",
+      "name": "Low build",
+      "duration": 180,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "z2-95rpm",
+      "name": "Build",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "z3-70rpm",
+      "name": "Tempo",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 70
+    },
+    {
+      "type": "interval",
+      "id": "last-z1",
+      "name": "Last Z1",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "tempo-1",
+      "name": "Tempo",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "active-1",
+      "name": "Active",
+      "duration": 180,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "high-tempo-1",
+      "name": "High Tempo",
+      "duration": 120,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "active-2",
+      "name": "Active",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "threshold-1",
+      "name": "Threshold",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "active-3",
+      "name": "Active",
+      "duration": 180,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "high-tempo-2",
+      "name": "High Tempo",
+      "duration": 60,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "active-4",
+      "name": "Active",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "tempo-2",
+      "name": "Tempo",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "active-5",
+      "name": "Active",
+      "duration": 180,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "active-cad-low",
+      "name": "Active -CAD",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "active-6",
+      "name": "Active",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "threshold-2",
+      "name": "Threshold",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "tempo-3",
+      "name": "Tempo",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "active-7",
+      "name": "Active",
+      "duration": 180,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "tempo-cad-low-1",
+      "name": "Tempo -CAD",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 70
+    },
+    {
+      "type": "interval",
+      "id": "high-tempo-3",
+      "name": "High Tempo",
+      "duration": 60,
+      "powerZone": "Z3+",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "tempo-cad-low-2",
+      "name": "Tempo -CAD",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 70
+    },
+    {
+      "type": "interval",
+      "id": "active-8",
+      "name": "Active",
+      "duration": 180,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "high-tempo-4",
+      "name": "High Tempo",
+      "duration": 60,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "threshold-3",
+      "name": "Threshold",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "active-9",
+      "name": "Active",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "active-10",
+      "name": "Active",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "tempo-4",
+      "name": "Tempo",
+      "duration": 180,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "threshold-4",
+      "name": "Threshold",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown",
+      "duration": 180,
+      "powerZone": "Z1"
+    }
+  ]
+}
