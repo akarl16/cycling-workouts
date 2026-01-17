@@ -2,6 +2,24 @@
   "id": "cx-is-here-90",
   "name": "CX is Here",
   "description": "90-minute cyclocross race simulation featuring technical skills, multiple race laps with varied terrain, and explosive efforts",
+  "videos": [
+    {
+      "id": "cx-warmup-video",
+      "name": "CX Warmup",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hVa7Xh60oe0",
+      "startTime": 0,
+      "triggerIntervalId": "recover-2",
+      "endIntervalId": "active-2"
+    },
+    {
+      "id": "cx-race-video",
+      "name": "CX Race",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uPaJV_Cn0YI",
+      "startTime": 49,
+      "triggerIntervalId": "hole-shot",
+      "endIntervalId": "max-finish"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
