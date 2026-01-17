@@ -1,0 +1,742 @@
+{
+  "id": "cx-is-here-90",
+  "name": "CX is Here",
+  "description": "90-minute cyclocross race simulation featuring technical skills, multiple race laps with varied terrain, and explosive efforts",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "easy",
+      "name": "Easy",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "build-z2",
+      "name": "Build",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "build-z3",
+      "name": "Build",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "block",
+      "id": "ramp-15s",
+      "name": "Ramp 15s",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ramp-15s-z2",
+          "name": "Ramp",
+          "duration": 15,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ramp-15s-z3",
+          "name": "Ramp",
+          "duration": 15,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "ramp-15s-z4",
+          "name": "Ramp",
+          "duration": 15,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "ramp-15s-oos",
+          "name": "Out of saddle",
+          "duration": 15,
+          "powerZone": "Z4"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "ramp-30s",
+      "name": "Ramp 30s",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ramp-30s-z2",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ramp-30s-z3",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "ramp-30s-z4",
+          "name": "Ramp",
+          "duration": 30,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "ramp-30s-oos",
+          "name": "Out of saddle",
+          "duration": 30,
+          "powerZone": "Z4"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "ramp-45s",
+      "name": "Ramp 45s",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ramp-45s-z2",
+          "name": "Ramp",
+          "duration": 45,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ramp-45s-z3",
+          "name": "Ramp",
+          "duration": 45,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "ramp-45s-z4",
+          "name": "Ramp",
+          "duration": 45,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "ramp-45s-oos",
+          "name": "Out of saddle",
+          "duration": 45,
+          "powerZone": "Z4"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "ramp-60s",
+      "name": "Ramp 60s",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ramp-60s-z2",
+          "name": "Ramp",
+          "duration": 60,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ramp-60s-z3",
+          "name": "Ramp",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "ramp-60s-z4",
+          "name": "Ramp",
+          "duration": 60,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "ramp-60s-oos",
+          "name": "Out of saddle",
+          "duration": 60,
+          "powerZone": "Z4"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "single-leg-drills",
+      "name": "Single leg drills",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "sld-left-1",
+          "name": "Single leg / left",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "sld-both-1",
+          "name": "Both",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "sld-right-1",
+          "name": "Single leg / right",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "sld-both-2",
+          "name": "Both",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "sld-left-2",
+          "name": "Single leg / left",
+          "duration": 15,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "sld-both-3",
+          "name": "Both",
+          "duration": 15,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "sld-right-2",
+          "name": "Single leg / right",
+          "duration": 15,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "sld-both-4",
+          "name": "Both",
+          "duration": 15,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "sld-left-3",
+          "name": "Single leg / left",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "sld-both-5",
+          "name": "Both",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "sld-right-3",
+          "name": "Single leg / right",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "sld-both-6",
+          "name": "Both",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "warmup-lap",
+      "name": "Warm up lap",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "easy-in",
+          "name": "Easy in",
+          "duration": 120,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "flyover",
+          "name": "Flyover",
+          "duration": 30,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "tempo-1",
+          "name": "Tempo",
+          "duration": 120,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "off-bike-1",
+          "name": "Off the bike",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "active-1",
+          "name": "Active",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "stand-1",
+          "name": "Stand",
+          "duration": 30,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "tempo-2",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "recover-3",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "sand-1",
+          "name": "Sand",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 60
+        },
+        {
+          "id": "tempo-3",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "recover-4",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "climb-1",
+          "name": "Seated climb",
+          "duration": 30,
+          "powerZone": "Z4",
+          "cadence": 70
+        },
+        {
+          "id": "tempo-4",
+          "name": "Tempo",
+          "duration": 120,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "active-2",
+          "name": "Active",
+          "duration": 90,
+          "powerZone": "Z2",
+          "cadence": 95
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "pre-race",
+      "name": "Pre-race",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "lap-1",
+      "name": "Lap 1",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "hole-shot",
+          "name": "Hole Shot",
+          "duration": 15,
+          "powerZone": "Z6",
+          "cadence": 110
+        },
+        {
+          "id": "tempo-lap1-1",
+          "name": "Tempo",
+          "duration": 45,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "flyover-lap1",
+          "name": "Flyover",
+          "duration": 15,
+          "powerZone": "Z6"
+        },
+        {
+          "id": "tempo-lap1-2",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "off-bike-lap1",
+          "name": "Off the bike",
+          "duration": 15,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "active-lap1",
+          "name": "Active",
+          "duration": 60,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "tempo-lap1-3",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "stand-lap1",
+          "name": "Stand",
+          "duration": 30,
+          "powerZone": "Z5",
+          "cadence": 75
+        },
+        {
+          "id": "tempo-lap1-4",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "recover-lap1-1",
+          "name": "Recover",
+          "duration": 30,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "sand-lap1",
+          "name": "Sand",
+          "duration": 30,
+          "powerZone": "Z4",
+          "cadence": 60
+        },
+        {
+          "id": "tempo-lap1-5",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "recover-lap1-2",
+          "name": "Recover",
+          "duration": 30,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "climb-lap1",
+          "name": "Seated climb",
+          "duration": 30,
+          "powerZone": "Z5",
+          "cadence": 70
+        },
+        {
+          "id": "tempo-lap1-6",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "active-lap1-2",
+          "name": "Active",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 95
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "lap-2",
+      "name": "Lap 2",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "tempo-lap2-1",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "flyover-lap2",
+          "name": "Flyover",
+          "duration": 15,
+          "powerZone": "Z6"
+        },
+        {
+          "id": "tempo-lap2-2",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "off-bike-lap2",
+          "name": "Off the bike",
+          "duration": 15,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "active-lap2",
+          "name": "Active",
+          "duration": 60,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "tempo-lap2-3",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "stand-lap2",
+          "name": "Stand",
+          "duration": 30,
+          "powerZone": "Z5",
+          "cadence": 75
+        },
+        {
+          "id": "tempo-lap2-4",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "recover-lap2-1",
+          "name": "Recover",
+          "duration": 30,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "sand-lap2",
+          "name": "Sand",
+          "duration": 30,
+          "powerZone": "Z4",
+          "cadence": 60
+        },
+        {
+          "id": "tempo-lap2-5",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "recover-lap2-2",
+          "name": "Recover",
+          "duration": 30,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "climb-lap2",
+          "name": "Seated climb",
+          "duration": 30,
+          "powerZone": "Z5",
+          "cadence": 70
+        },
+        {
+          "id": "tempo-lap2-6",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "active-lap2-2",
+          "name": "Active",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 95
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "lap-3",
+      "name": "Lap 3",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "tempo-lap3-1",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "flyover-lap3",
+          "name": "Flyover",
+          "duration": 15,
+          "powerZone": "Z6"
+        },
+        {
+          "id": "tempo-lap3-2",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "off-bike-lap3",
+          "name": "Off the bike",
+          "duration": 15,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "active-lap3",
+          "name": "Active",
+          "duration": 60,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "tempo-lap3-3",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "stand-lap3",
+          "name": "Stand",
+          "duration": 30,
+          "powerZone": "Z5",
+          "cadence": 75
+        },
+        {
+          "id": "tempo-lap3-4",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "recover-lap3-1",
+          "name": "Recover",
+          "duration": 30,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "sand-lap3",
+          "name": "Sand",
+          "duration": 30,
+          "powerZone": "Z4",
+          "cadence": 60
+        },
+        {
+          "id": "tempo-lap3-5",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 80
+        },
+        {
+          "id": "recover-lap3-2",
+          "name": "Recover",
+          "duration": 30,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "climb-lap3",
+          "name": "Seated climb",
+          "duration": 30,
+          "powerZone": "Z5",
+          "cadence": 70
+        },
+        {
+          "id": "tempo-lap3-6",
+          "name": "Tempo",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "threshold-finish",
+          "name": "Threshold",
+          "duration": 30,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "over-finish",
+          "name": "Over",
+          "duration": 15,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "max-finish",
+          "name": "Max",
+          "duration": 15,
+          "powerZone": "Z6"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-final",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "spindown-z2plus",
+      "name": "Spindown",
+      "duration": 240,
+      "powerZone": "Z2+",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "spindown-z1-low",
+      "name": "Spindown",
+      "duration": 30,
+      "powerZone": "Z1",
+      "cadence": 50
+    },
+    {
+      "type": "interval",
+      "id": "spindown-z2",
+      "name": "Spindown",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "spindown-z1-low-2",
+      "name": "Spindown",
+      "duration": 30,
+      "powerZone": "Z1",
+      "cadence": 50
+    },
+    {
+      "type": "interval",
+      "id": "cooldown",
+      "name": "Cooldown",
+      "duration": 120,
+      "powerZone": "Z1"
+    }
+  ]
+}
