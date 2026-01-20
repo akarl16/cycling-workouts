@@ -1,0 +1,194 @@
+{
+  "id": "crescendos-60-2026-01-20",
+  "name": "Crescendos",
+  "description": "60-minute workout with three crescendo blocks (low, medium, and high intensity) building through tempo and threshold zones",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup-1",
+      "name": "Easy",
+      "duration": 240,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "warmup-2",
+      "name": "Active",
+      "duration": 180,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "warmup-3",
+      "name": "Tempo",
+      "duration": 120,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "warmup-4",
+      "name": "Threshold",
+      "duration": 60,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "recovery-1",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "low-crescendo-block",
+      "name": "Low Crescendo",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "low-crescendo-1",
+          "name": "Tempo",
+          "duration": 180,
+          "powerZone": 3
+        },
+        {
+          "id": "low-crescendo-2",
+          "name": "Low Threshold",
+          "duration": 120,
+          "powerZone": "Z4-"
+        },
+        {
+          "id": "low-crescendo-3",
+          "name": "Active Breather",
+          "duration": 120,
+          "powerZone": 2,
+          "cadence": 95
+        },
+        {
+          "id": "low-crescendo-4",
+          "name": "Low Threshold",
+          "duration": 120,
+          "powerZone": "Z4-"
+        },
+        {
+          "id": "low-crescendo-5",
+          "name": "Tempo",
+          "duration": 180,
+          "powerZone": 3
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recovery-2",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "medium-crescendo-block",
+      "name": "Medium Crescendo",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "medium-crescendo-1",
+          "name": "Tempo",
+          "duration": 180,
+          "powerZone": 3
+        },
+        {
+          "id": "medium-crescendo-2",
+          "name": "High Threshold",
+          "duration": 120,
+          "powerZone": "Z4+"
+        },
+        {
+          "id": "medium-crescendo-3",
+          "name": "Active Breather",
+          "duration": 120,
+          "powerZone": 2,
+          "cadence": 95
+        },
+        {
+          "id": "medium-crescendo-4",
+          "name": "High Threshold",
+          "duration": 120,
+          "powerZone": "Z4+"
+        },
+        {
+          "id": "medium-crescendo-5",
+          "name": "Tempo",
+          "duration": 180,
+          "powerZone": 3
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recovery-3",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "high-crescendo-block",
+      "name": "High Crescendo",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "high-crescendo-1",
+          "name": "Low Threshold",
+          "duration": 180,
+          "powerZone": "Z4-"
+        },
+        {
+          "id": "high-crescendo-2",
+          "name": "Over (Z5)",
+          "duration": 120,
+          "powerZone": 5
+        },
+        {
+          "id": "high-crescendo-3",
+          "name": "Active Breather",
+          "duration": 120,
+          "powerZone": 1,
+          "cadence": 95
+        },
+        {
+          "id": "high-crescendo-4",
+          "name": "Over (Z5)",
+          "duration": 120,
+          "powerZone": 5
+        },
+        {
+          "id": "high-crescendo-5",
+          "name": "Low Threshold",
+          "duration": 180,
+          "powerZone": "Z4-"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recovery-4",
+      "name": "Recover",
+      "duration": 30,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "time-trial",
+      "name": "Chill Time Trial",
+      "duration": 180,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "cooldown",
+      "name": "Spindown",
+      "duration": 270,
+      "powerZone": 1
+    }
+  ]
+}
