@@ -1,0 +1,356 @@
+{
+  "id": "2026-01-24-spicy-sandwich-90",
+  "name": "Spicy Sandwich",
+  "description": "90-minute workout with tempo, cadence work, and threshold intervals sandwiched in the middle",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup",
+      "name": "Easy",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "cadence-ladder",
+      "name": "Cadence Ladder",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ladder-80",
+          "name": "80 RPM",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 80
+        },
+        {
+          "id": "ladder-85",
+          "name": "85 RPM",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 85
+        },
+        {
+          "id": "ladder-90",
+          "name": "90 RPM",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 90
+        },
+        {
+          "id": "ladder-95",
+          "name": "95 RPM",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 95
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "steady-z2",
+      "name": "Steady",
+      "duration": 180,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "block",
+      "id": "sit-stand",
+      "name": "Sit/Stand",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "sit",
+          "name": "Sit",
+          "duration": 45,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "stand",
+          "name": "Stand",
+          "duration": 45,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "tempo-preview",
+      "name": "Tempo preview",
+      "duration": 180,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "quick-break",
+      "name": "Quick break",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "seated-tempo",
+      "name": "Seated tempo",
+      "duration": 300,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "standing-climb",
+      "name": "Standing climb",
+      "duration": 240,
+      "powerZone": "Z3",
+      "cadence": 65
+    },
+    {
+      "type": "block",
+      "id": "cadence-builds",
+      "name": "Cadence builds",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "build-85",
+          "name": "85 RPM",
+          "duration": 20,
+          "powerZone": "Z3",
+          "cadence": 85
+        },
+        {
+          "id": "build-90",
+          "name": "90 RPM",
+          "duration": 20,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "build-95",
+          "name": "95 RPM",
+          "duration": 20,
+          "powerZone": "Z3",
+          "cadence": 95
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "surges",
+      "name": "Surges",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "surge-low",
+          "name": "Z3-",
+          "duration": 30,
+          "powerZone": "Z3-"
+        },
+        {
+          "id": "surge-high",
+          "name": "Z3+",
+          "duration": 30,
+          "powerZone": "Z3+"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "steady-z3",
+      "name": "Steady",
+      "duration": 300,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "reset-z1",
+      "name": "Reset",
+      "duration": 90,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "reset-z2",
+      "name": "Reset",
+      "duration": 90,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "spicy-1-work",
+      "name": "Spicy middle - Threshold",
+      "duration": 180,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "spicy-1-rec-z1",
+      "name": "Recovery",
+      "duration": 90,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "spicy-1-rec-z2",
+      "name": "Recovery",
+      "duration": 90,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "spicy-2-work",
+      "name": "Spicy middle - Threshold+",
+      "duration": 180,
+      "powerZone": "Z4+"
+    },
+    {
+      "type": "interval",
+      "id": "spicy-2-rec-z1",
+      "name": "Recovery",
+      "duration": 90,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "spicy-2-rec-z2",
+      "name": "Recovery",
+      "duration": 90,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "spicy-3-work",
+      "name": "Spicy middle - Threshold",
+      "duration": 180,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "spicy-3-rec-z1",
+      "name": "Recovery",
+      "duration": 90,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "spicy-3-rec-z2",
+      "name": "Recovery",
+      "duration": 90,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "block",
+      "id": "position-work",
+      "name": "Bottom Slice - Position Work",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "tops",
+          "name": "Tops",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "drops",
+          "name": "Drops",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "puppy-paws",
+          "name": "Puppy Paws",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "aero",
+          "name": "Aero",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "up-out",
+          "name": "Up and out",
+          "duration": 60,
+          "powerZone": "Z3"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "single-leg-focus",
+      "name": "Single-leg Focus",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "left-focus",
+          "name": "Left focus",
+          "duration": 30,
+          "powerZone": "Z3-"
+        },
+        {
+          "id": "right-focus",
+          "name": "Right focus",
+          "duration": 30,
+          "powerZone": "Z3-"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "standing-tempo",
+      "name": "Standing tempo",
+      "duration": 240,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "block",
+      "id": "resistance-builds",
+      "name": "Resistance builds",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "resist-85",
+          "name": "85 RPM",
+          "duration": 20,
+          "powerZone": "Z3",
+          "cadence": 85
+        },
+        {
+          "id": "resist-75",
+          "name": "75 RPM",
+          "duration": 20,
+          "powerZone": "Z3",
+          "cadence": 75
+        },
+        {
+          "id": "resist-65",
+          "name": "65 RPM",
+          "duration": 20,
+          "powerZone": "Z3",
+          "cadence": 65
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "smooth-tempo",
+      "name": "Smooth tempo",
+      "duration": 240,
+      "powerZone": "Z3-"
+    },
+    {
+      "type": "interval",
+      "id": "spindown-z2",
+      "name": "Spindown",
+      "duration": 180,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "spindown-z1",
+      "name": "Spindown",
+      "duration": 120,
+      "powerZone": "Z1"
+    }
+  ],
+  "isSample": false
+}
