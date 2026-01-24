@@ -295,13 +295,6 @@
       ]
     },
     {
-      "type": "interval",
-      "id": "standing-tempo",
-      "name": "Standing tempo",
-      "duration": 240,
-      "powerZone": "Z3"
-    },
-    {
       "type": "block",
       "id": "resistance-builds",
       "name": "Resistance builds",
@@ -336,6 +329,13 @@
       "name": "Smooth tempo",
       "duration": 240,
       "powerZone": "Z3-"
+    },
+    {
+      "type": "interval",
+      "id": "standing-tempo",
+      "name": "Standing tempo",
+      "duration": 240,
+      "powerZone": "Z3"
     },
     {
       "type": "interval",
