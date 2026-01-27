@@ -2,6 +2,56 @@
   "id": "individual-pursuit-60",
   "name": "Individual Pursuit",
   "description": "60-minute pursuit workout with aero builds, single-leg focus drills, and sustained pursuit blocks",
+  "videos": [
+    {
+      "id": "warmup-video",
+      "name": "Warmup and Build",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ILOtUoHG8Pg",
+      "startTime": 0,
+      "triggerIntervalId": "easy-spin",
+      "endIntervalId": "recover-1"
+    },
+    {
+      "id": "pursuit-1-video",
+      "name": "Pursuit Block 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xGpHtaAbv5A",
+      "startTime": 72,
+      "triggerIntervalId": "pursuit-1-z4minus",
+      "endIntervalId": "pursuit-1-z4"
+    },
+    {
+      "id": "pursuit-2-video",
+      "name": "Pursuit Block 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dIM0jHDMqc0",
+      "startTime": 37,
+      "triggerIntervalId": "pursuit-2-z4minus",
+      "endIntervalId": "pursuit-2-z4"
+    },
+    {
+      "id": "pursuit-3-video",
+      "name": "Pursuit Block 3",
+      "youtubeUrl": "https://www.youtube.com/watch?v=w3pHLHJv20k",
+      "startTime": 30,
+      "triggerIntervalId": "pursuit-3-z4",
+      "endIntervalId": "pursuit-3-z4plus"
+    },
+    {
+      "id": "pursuit-4-video",
+      "name": "Pursuit Block 4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CwOZKVgLvTU",
+      "startTime": 40,
+      "triggerIntervalId": "pursuit-4-z4",
+      "endIntervalId": "pursuit-4-z4plus"
+    },
+    {
+      "id": "pursuit-5-video",
+      "name": "Pursuit Block 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=272Kckt2rQE",
+      "startTime": 36,
+      "triggerIntervalId": "pursuit-5-z4minus",
+      "endIntervalId": "pursuit-5-z5"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
