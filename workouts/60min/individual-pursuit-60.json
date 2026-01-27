@@ -1,0 +1,383 @@
+{
+  "id": "individual-pursuit-60",
+  "name": "Individual Pursuit",
+  "description": "60-minute pursuit workout with aero builds, single-leg focus drills, and sustained pursuit blocks",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "easy-spin",
+      "name": "Easy Spin",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "build-block",
+      "name": "Build",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "build-z2",
+          "name": "Build",
+          "duration": 120,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "build-z3",
+          "name": "Build",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "build-z4-short",
+          "name": "Build",
+          "duration": 30,
+          "powerZone": "Z4-",
+          "cadence": 80
+        },
+        {
+          "id": "build-z2-recover",
+          "name": "Build",
+          "duration": 60,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "build-z4-medium",
+          "name": "Build",
+          "duration": 60,
+          "powerZone": "Z4-",
+          "cadence": 80
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "single-leg-focus",
+      "name": "Single Leg Focus",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "left-focus",
+          "name": "Left focus",
+          "duration": 30,
+          "powerZone": "Z3-"
+        },
+        {
+          "id": "right-focus",
+          "name": "Right focus",
+          "duration": 30,
+          "powerZone": "Z3-"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "aero-builds-z4",
+      "name": "Aero builds - Z4",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "aero-z4-80",
+          "name": "Aero builds",
+          "duration": 15,
+          "powerZone": "Z4",
+          "cadence": 80
+        },
+        {
+          "id": "aero-z2-1",
+          "name": "Recover",
+          "duration": 45,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "aero-z4-85",
+          "name": "Aero builds",
+          "duration": 15,
+          "powerZone": "Z4",
+          "cadence": 85
+        },
+        {
+          "id": "aero-z2-2",
+          "name": "Recover",
+          "duration": 45,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "aero-z4-90",
+          "name": "Aero builds",
+          "duration": 15,
+          "powerZone": "Z4",
+          "cadence": 90
+        },
+        {
+          "id": "aero-z2-3",
+          "name": "Recover",
+          "duration": 45,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-3",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "aero-builds-z5",
+      "name": "Aero builds - Z5",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "aero-z5-80",
+          "name": "Aero builds",
+          "duration": 15,
+          "powerZone": "Z5",
+          "cadence": 80
+        },
+        {
+          "id": "aero-z2-4",
+          "name": "Recover",
+          "duration": 45,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "aero-z5-85",
+          "name": "Aero builds",
+          "duration": 15,
+          "powerZone": "Z5",
+          "cadence": 85
+        },
+        {
+          "id": "aero-z2-5",
+          "name": "Recover",
+          "duration": 45,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "aero-z5-90",
+          "name": "Aero builds",
+          "duration": 15,
+          "powerZone": "Z5",
+          "cadence": 90
+        },
+        {
+          "id": "aero-z2-6",
+          "name": "Recover",
+          "duration": 45,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "aero-z5-95",
+          "name": "Aero builds",
+          "duration": 15,
+          "powerZone": "Z5",
+          "cadence": 95
+        },
+        {
+          "id": "aero-z2-7",
+          "name": "Recover",
+          "duration": 45,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "aero-z5-100",
+          "name": "Aero builds",
+          "duration": 15,
+          "powerZone": "Z5",
+          "cadence": 100
+        },
+        {
+          "id": "aero-z2-8",
+          "name": "Recover",
+          "duration": 45,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-4",
+      "name": "Recover",
+      "duration": 90,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "pursuit-block-1",
+      "name": "Pursuit Block 1",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "pursuit-1-z4minus",
+          "name": "Pursuit Block",
+          "duration": 210,
+          "powerZone": "Z4-"
+        },
+        {
+          "id": "pursuit-1-z4",
+          "name": "Pursuit Block",
+          "duration": 30,
+          "powerZone": "Z4"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-5",
+      "name": "Recover",
+      "duration": 150,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "pursuit-block-2",
+      "name": "Pursuit Block 2",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "pursuit-2-z4minus",
+          "name": "Pursuit Block",
+          "duration": 210,
+          "powerZone": "Z4-"
+        },
+        {
+          "id": "pursuit-2-z4",
+          "name": "Pursuit Block",
+          "duration": 30,
+          "powerZone": "Z4"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-6",
+      "name": "Recover",
+      "duration": 150,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "pursuit-block-3",
+      "name": "Pursuit Block 3",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "pursuit-3-z4",
+          "name": "Pursuit Block",
+          "duration": 210,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "pursuit-3-z4plus",
+          "name": "Pursuit Block",
+          "duration": 30,
+          "powerZone": "Z4+"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-7",
+      "name": "Recover",
+      "duration": 150,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "pursuit-block-4",
+      "name": "Pursuit Block 4",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "pursuit-4-z4",
+          "name": "Pursuit Block",
+          "duration": 210,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "pursuit-4-z4plus",
+          "name": "Pursuit Block",
+          "duration": 30,
+          "powerZone": "Z4+"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-8",
+      "name": "Recover",
+      "duration": 150,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "pursuit-block-5",
+      "name": "Pursuit Block 5",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "pursuit-5-z4minus",
+          "name": "Pursuit Block",
+          "duration": 60,
+          "powerZone": "Z4-"
+        },
+        {
+          "id": "pursuit-5-z4",
+          "name": "Pursuit Block",
+          "duration": 120,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "pursuit-5-z5",
+          "name": "Pursuit Block",
+          "duration": 60,
+          "powerZone": "Z5"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-9",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "spin-down-block",
+      "name": "Spin down",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "spindown-z2",
+          "name": "Spin down",
+          "duration": 120,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "spindown-z1",
+          "name": "Spin down",
+          "duration": 120,
+          "powerZone": "Z1"
+        }
+      ]
+    }
+  ]
+}
