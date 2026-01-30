@@ -1,6 +1,6 @@
 # Workout Import Quick Reference
 
-## Converting CSV to Sequence Format JSON
+## Converting CSV to Workout JSON Format
 
 When importing workouts from CSV (like TrainerRoad exports), follow this process:
 
@@ -212,15 +212,20 @@ Power zones can include modifiers:
 
 ### 7. Validation
 
-After creating the JSON:
+After creating the JSON, validate using:
 
-1. Check all required fields are present
-2. Ensure `type` field on all sequence items
-3. Ensure NO `type` field on intervals inside blocks
-4. Verify `powerZone` not `zone`
+```bash
+python3 utils/validate_workout.py workouts/<duration>/<filename>.json
+```
+
+The validator checks:
+1. All required fields are present
+2. `type` field on all sequence items
+3. NO `type` field on intervals inside blocks
+4. `powerZone` not `zone`
 5. All IDs are unique
-6. Total duration matches sum of intervals
-7. Import in cyclesync-coach to verify
+6. Power zones valid (1-7 or Z1-Z7 with +/-)
+7. Total duration matches sum of intervals
 
 ### 8. Example Complete Workout
 

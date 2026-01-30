@@ -7,15 +7,13 @@ A repository for storing and managing cycling workout data using standardized JS
 This repository provides:
 - **JSON schemas** for structured cycling workout data
 - **Interval workout format** for power-based training with zones, cadence, and repeating blocks
-- **Ride tracking format** for recording completed rides with metrics
-- **Utility scripts** to convert and validate workout data
-- **Example files** demonstrating both formats
+- **Utility scripts** to validate workout data
+- **Example files** demonstrating the workout format
 
 ## Documentation
 
 - **[Interval Workouts](INTERVAL_WORKOUTS.md)** - Complete guide to the interval workout schema
 - **[Import Guide](IMPORT_GUIDE.md)** - Quick reference for converting CSV to JSON
-- **Ride Tracking** - See below for the original ride tracking format
 
 ## Directory Structure
 
@@ -29,15 +27,12 @@ cycling-workouts/
 │   ├── tabata-power.json
 │   └── ...
 ├── utils/                       # Utility scripts
-│   ├── csv_to_json.py          # Convert CSV to JSON (ride tracking)
-│   └── validate_json.py        # Validate JSON against schema
-├── examples/                    # Example files
-│   └── sample-workouts.csv     # Sample ride tracking data
+│   └── validate_workout.py     # Validate workout JSON
 ├── INTERVAL_WORKOUTS.md        # Interval workout documentation
 └── IMPORT_GUIDE.md             # CSV to JSON import guide
 ```
 
-## Quick Start - Interval Workouts
+## Quick Start
 
 ### Creating a New Interval Workout
 
@@ -51,6 +46,29 @@ cycling-workouts/
 4. **Validate** by importing into cyclesync-coach
 
 See [INTERVAL_WORKOUTS.md](INTERVAL_WORKOUTS.md) for complete format documentation.
+
+### Validating Interval Workouts
+
+Use the interval workout validator to check your workout files:
+
+```bash
+# Validate a single workout
+python3 utils/validate_workout.py workouts/60min/my-workout.json
+
+# Validate all workouts in a directory
+python3 utils/validate_workout.py workouts/90min/*.json
+
+# Validate all workouts
+python3 utils/validate_workout.py workouts/**/*.json
+```
+
+The validator checks:
+- Required fields (id, name, sequence)
+- Power zone formats (1-7 or Z1-Z7 with optional +/-)
+- Duration values are positive integers
+- Cadence values are between 40-150
+- Block repetitions are positive integers
+- Proper interval/block structure
 
 ### Sequence Format Example
 
@@ -94,103 +112,15 @@ See [INTERVAL_WORKOUTS.md](INTERVAL_WORKOUTS.md) for complete format documentati
 
 ---
 
-## Ride Tracking Format (Original)
-
-The original ride tracking schema is still supported for recording completed rides.
-
 ## JSON Schema
 
-The workout schema (`schema/workout-schema.json`) defines the structure for cycling workout data with the following fields:
+The workout schema (`schema/workout-schema.json`) defines the structure for interval workout data. See [INTERVAL_WORKOUTS.md](INTERVAL_WORKOUTS.md) for complete documentation on:
 
-**Required fields:**
-- `id` (string): Unique identifier for the workout
-- `date` (string): Date and time in ISO 8601 format (e.g., "2024-01-15T08:30:00Z")
-- `duration` (number): Duration in minutes
-- `distance` (number): Distance in kilometers
-
-**Optional fields:**
-- `avgSpeed` (number): Average speed in km/h
-- `maxSpeed` (number): Maximum speed in km/h
-- `avgHeartRate` (integer): Average heart rate in bpm
-- `maxHeartRate` (integer): Maximum heart rate in bpm
-- `avgCadence` (integer): Average cadence in rpm
-- `maxCadence` (integer): Maximum cadence in rpm
-- `avgPower` (integer): Average power in watts
-- `maxPower` (integer): Maximum power in watts
-- `calories` (integer): Calories burned
-- `elevationGain` (number): Total elevation gain in meters
-- `workoutType` (string): Type of workout (recovery, endurance, tempo, threshold, interval, race, other)
-- `notes` (string): Additional notes about the workout
-
-## CSV to JSON Converter
-
-The `csv_to_json.py` utility converts cycling workout data from CSV format to JSON format according to the schema.
-
-### Usage
-
-**Basic usage (creates individual JSON files for each workout):**
-```bash
-python utils/csv_to_json.py examples/sample-workouts.csv
-```
-
-**Save all workouts to a single JSON file:**
-```bash
-python utils/csv_to_json.py examples/sample-workouts.csv --single-file
-```
-
-**Specify output directory:**
-```bash
-python utils/csv_to_json.py examples/sample-workouts.csv --output-dir ./my-workouts
-```
-
-**View help:**
-```bash
-python utils/csv_to_json.py --help
-```
-
-### CSV Format
-
-The CSV file should have a header row with field names matching the JSON schema. Example:
-
-```csv
-id,date,duration,distance,avgSpeed,maxSpeed,avgHeartRate,maxHeartRate,workoutType,notes
-workout-001,2024-01-15T08:30:00Z,60,25.5,25.5,42.3,145,168,endurance,Morning ride
-workout-002,2024-01-17T17:00:00Z,45,18.2,24.3,38.5,152,175,tempo,Evening session
-```
-
-See `examples/sample-workouts.csv` for a complete example.
-
-## JSON Validator
-
-The `validate_json.py` utility validates workout JSON files against the schema to ensure data integrity.
-
-### Usage
-
-**Validate a single workout file:**
-```bash
-python utils/validate_json.py workouts/workout-001.json
-```
-
-**Validate multiple workout files:**
-```bash
-python utils/validate_json.py workouts/workout-*.json
-```
-
-**Validate a file containing an array of workouts:**
-```bash
-python utils/validate_json.py all-workouts.json
-```
-
-**View help:**
-```bash
-python utils/validate_json.py --help
-```
-
-The validator checks:
-- All required fields are present (id, date, duration, distance)
-- Field types match the schema (strings, numbers, integers)
-- Numeric values are non-negative
-- workoutType is one of the valid enum values
+- Required fields (id, name, sequence)
+- Interval structure with power zones and durations
+- Repeating blocks for patterns
+- Power zone formats (1-7 or Z1-Z7 with +/-)
+- Optional fields (cadence, theme, description)
 
 ## Getting Started
 
