@@ -1,0 +1,121 @@
+{
+  "id": "2025-02-22-wind-up-90",
+  "name": "Wind Up",
+  "description": "90 minute progressive workout with ramps, steady efforts, over-unders, and team time trial",
+  "totalDuration": 5400,
+  "sequence": [
+    { "type": "interval", "id": "i001", "name": "Warmup", "duration": 180, "powerZone": "Z1" },
+    { "type": "interval", "id": "i002", "name": "Warmup", "duration": 60, "powerZone": "Z2" },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Ramps",
+      "repetitions": 6,
+      "intervals": [
+        { "id": "z2", "name": "Z2", "duration": 30, "powerZone": "Z2" },
+        { "id": "z3", "name": "Z3", "duration": 30, "powerZone": "Z3" },
+        { "id": "z4", "name": "Z4", "duration": 30, "powerZone": "Z4" }
+      ]
+    },
+    { "type": "interval", "id": "i003", "name": "Recovery", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "i004", "name": "Steady TT", "duration": 240, "powerZone": "Z3+" },
+    { "type": "interval", "id": "i005", "name": "Recovery", "duration": 60, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Steady to Threshold",
+      "repetitions": 4,
+      "intervals": [
+        { "id": "z2", "name": "Z2", "duration": 60, "powerZone": "Z2", "cadence": 100 },
+        { "id": "z3", "name": "Z3", "duration": 180, "powerZone": "Z3" },
+        { "id": "z4", "name": "Z4", "duration": 60, "powerZone": "Z4" }
+      ]
+    },
+    { "type": "interval", "id": "i006", "name": "Recovery", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "i007", "name": "Steady TT", "duration": 240, "powerZone": "Z3+" },
+    { "type": "interval", "id": "i008", "name": "Recovery", "duration": 60, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Over-unders",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "over", "name": "Over", "duration": 30, "powerZone": "Z5" },
+        { "id": "under", "name": "Under", "duration": 120, "powerZone": "Z3" },
+        { "id": "recover", "name": "Recover", "duration": 60, "powerZone": "Z1" }
+      ]
+    },
+    { "type": "interval", "id": "i009", "name": "Over-unders", "duration": 60, "powerZone": "Z5" },
+    { "type": "interval", "id": "i010", "name": "Over-unders", "duration": 120, "powerZone": "Z3" },
+    { "type": "interval", "id": "i011", "name": "Over-unders", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "i012", "name": "Recovery", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "i013", "name": "Steady TT", "duration": 180, "powerZone": "Z4-" },
+    { "type": "interval", "id": "i014", "name": "Recovery", "duration": 120, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "Team Time Trial",
+      "repetitions": 4,
+      "intervals": [
+        { 
+          "id": "row1", 
+          "name": "Row 1", 
+          "duration": 60, 
+          "powerZone": "Z5",
+          "alternating": {
+            "powerZoneA": "Z5",
+            "powerZoneB": "Z3"
+          }
+        },
+        { 
+          "id": "row2", 
+          "name": "Row 2", 
+          "duration": 60, 
+          "powerZone": "Z5",
+          "alternating": {
+            "powerZoneA": "Z5",
+            "powerZoneB": "Z3"
+          }
+        },
+        { 
+          "id": "row3", 
+          "name": "Row 3", 
+          "duration": 60, 
+          "powerZone": "Z5",
+          "alternating": {
+            "powerZoneA": "Z5",
+            "powerZoneB": "Z3"
+          }
+        },
+        { 
+          "id": "row4", 
+          "name": "Row 4", 
+          "duration": 60, 
+          "powerZone": "Z5",
+          "alternating": {
+            "powerZoneA": "Z5",
+            "powerZoneB": "Z3"
+          }
+        }
+      ]
+    },
+    { "type": "interval", "id": "i015", "name": "Recovery", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "i016", "name": "Finish", "duration": 30, "powerZone": "Z2" },
+    { "type": "interval", "id": "i017", "name": "Finish", "duration": 30, "powerZone": "Z3" },
+    { "type": "interval", "id": "i018", "name": "Finish", "duration": 30, "powerZone": "Z4" },
+    { "type": "interval", "id": "i019", "name": "Finish", "duration": 30, "powerZone": "Z5" },
+    { "type": "interval", "id": "i020", "name": "Finish", "duration": 30, "powerZone": "Z6" },
+    { "type": "interval", "id": "i021", "name": "Cooldown", "duration": 180, "powerZone": "Z1" }
+  ],
+  "videos": [
+    {
+      "id": "v001",
+      "name": "Wind Up Video",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OGjFrp4-3pU",
+      "startTime": 8914,
+      "triggerIntervalId": "i008",
+      "endIntervalId": "i020"
+    }
+  ],
+  "isSample": false
+}
