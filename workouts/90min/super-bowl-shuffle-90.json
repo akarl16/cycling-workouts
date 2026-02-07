@@ -1,0 +1,116 @@
+{
+  "id": "2026-02-07-super-bowl-shuffle-90",
+  "name": "Super Bowl Shuffle",
+  "description": "90 minute football-themed workout with commercial breaks, touchdowns, and a two-minute drill",
+  "totalDuration": 5420,
+  "sequence": [
+    { "type": "interval", "id": "i001", "name": "Tailgate", "duration": 300, "powerZone": "Z1" },
+    { "type": "interval", "id": "i002", "name": "Tailgate", "duration": 180, "powerZone": "Z2" },
+    { "type": "interval", "id": "i003", "name": "Tailgate", "duration": 120, "powerZone": "Z3" },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Kickoff",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "ramp", "name": "Kickoff", "duration": 30, "powerZoneRange": { "start": "Z3", "end": "Z5" } },
+        { "id": "off", "name": "Kickoff", "duration": 30, "powerZone": "Z1" }
+      ]
+    },
+    { "type": "interval", "id": "i004", "name": "1st and 10", "duration": 600, "powerZone": "Z3" },
+    { "type": "interval", "id": "i005", "name": "Commercial break", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "i006", "name": "Touchdown", "duration": 360, "powerZone": "Z3+", "cadence": 95 },
+    { "type": "interval", "id": "i007", "name": "Touchdown", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "i008", "name": "Quarter 1", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "i009", "name": "Touchdown", "duration": 360, "powerZone": "Z3+", "cadence": 55 },
+    { "type": "interval", "id": "i010", "name": "Touchdown", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "i011", "name": "Timeout", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "i012", "name": "Touchdown", "duration": 360, "powerZone": "Z3+" },
+    { "type": "interval", "id": "i013", "name": "Touchdown", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "i014", "name": "Halftime Show", "duration": 180, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Pick 6",
+      "repetitions": 6,
+      "intervals": [
+        { "id": "pick6-work", "name": "Pick 6", "duration": 50, "powerZone": "Z3+" },
+        { "id": "pick6-sprint", "name": "Pick 6", "duration": 10, "powerZone": "Z5" }
+      ]
+    },
+    { "type": "interval", "id": "i015", "name": "TV Timeout", "duration": 120, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Field goals",
+      "repetitions": 4,
+      "intervals": [
+        { "id": "z1", "name": "Field goals", "duration": 60, "powerZone": "Z1" },
+        { "id": "z2", "name": "Field goals", "duration": 60, "powerZone": "Z2" },
+        { "id": "z3", "name": "Field goals", "duration": 60, "powerZone": "Z3" }
+      ]
+    },
+    { "type": "interval", "id": "i016", "name": "Quarter 3", "duration": 60, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "Fourth and One",
+      "repetitions": 4,
+      "intervals": [
+        { "id": "effort", "name": "Fourth and One", "duration": 60, "powerZone": "Z4+" },
+        { "id": "recover", "name": "Fourth and One", "duration": 60, "powerZone": "Z1" }
+      ]
+    },
+    { "type": "interval", "id": "i017", "name": "Official Review", "duration": 120, "powerZone": "Z1" },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Two minute drill",
+      "duration": 140,
+      "powerZone": "Z1",
+      "alternating": {
+        "powerZoneA": "Z1",
+        "powerZoneB": "Z6"
+      }
+    },
+    { "type": "interval", "id": "i019", "name": "Confetti", "duration": 240, "powerZone": "Z1" }
+  ],
+  "videos": [
+    {
+      "id": "v001",
+      "name": "Commercial break",
+      "youtubeUrl": "https://www.youtube.com/watch?v=f83AYIJiQUw&list=PLQn122p5FtqKWAKseY3k3zdU7Bo6hQjy1&shuffle=1",
+      "startTime": 0,
+      "triggerIntervalId": "i005"
+    },
+    {
+      "id": "v002",
+      "name": "Quarter 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=f83AYIJiQUw&list=PLQn122p5FtqKWAKseY3k3zdU7Bo6hQjy1&shuffle=1",
+      "startTime": 0,
+      "triggerIntervalId": "i008"
+    },
+    {
+      "id": "v003",
+      "name": "Timeout",
+      "youtubeUrl": "https://www.youtube.com/watch?v=f83AYIJiQUw&list=PLQn122p5FtqKWAKseY3k3zdU7Bo6hQjy1&shuffle=1",
+      "startTime": 0,
+      "triggerIntervalId": "i011"
+    },
+    {
+      "id": "v004",
+      "name": "Halftime Show",
+      "vimeoUrl": "https://vimeo.com/1099717874",
+      "startTime": 10,
+      "triggerIntervalId": "i014"
+    },
+    {
+      "id": "v005",
+      "name": "TV Timeout",
+      "youtubeUrl": "https://www.youtube.com/watch?v=f83AYIJiQUw&list=PLQn122p5FtqKWAKseY3k3zdU7Bo6hQjy1&shuffle=1",
+      "startTime": 0,
+      "triggerIntervalId": "i015"
+    }
+  ],
+  "isSample": false
+}

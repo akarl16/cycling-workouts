@@ -480,7 +480,7 @@
     },
     "VideoConfig": {
       "type": "object",
-      "description": "Configuration for playing a YouTube video during specific intervals",
+      "description": "Configuration for playing a video during specific intervals",
       "properties": {
         "id": {
           "type": "string",
@@ -493,6 +493,10 @@
         "youtubeUrl": {
           "type": "string",
           "description": "Full YouTube URL (video ID will be extracted)"
+        },
+        "vimeoUrl": {
+          "type": "string",
+          "description": "Full Vimeo URL (e.g. https://vimeo.com/123456789)"
         },
         "videoId": {
           "type": "string",
