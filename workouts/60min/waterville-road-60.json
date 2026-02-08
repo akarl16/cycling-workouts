@@ -1,0 +1,96 @@
+{
+  "id": "waterville-road-60",
+  "name": "Waterville Road",
+  "description": "60 minute road-inspired workout tracing a route through Steeple Point, Flat to Sunset, Col du Waterville, and back with progressive efforts and cadence drills",
+  "totalDuration": 3600,
+  "sequence": [
+    { "type": "interval", "id": "i001", "name": "Easy start", "duration": 180, "powerZone": "Z1" },
+    { "type": "interval", "id": "i002", "name": "Easy start", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "i003", "name": "Steeple Point", "duration": 30, "powerZone": "Z2", "cadence": 80 },
+    { "type": "interval", "id": "i004", "name": "Steeple Point", "duration": 30, "powerZone": "Z2", "cadence": 95 },
+    { "type": "interval", "id": "i005", "name": "Steeple Point (out of saddle)", "duration": 30, "powerZone": "Z3", "cadence": 80 },
+    { "type": "interval", "id": "i006", "name": "Steeple Point", "duration": 30, "powerZone": "Z3", "cadence": 95 },
+    { "type": "interval", "id": "i007", "name": "Steeple Point", "duration": 30, "powerZone": "Z2" },
+    { "type": "interval", "id": "i008", "name": "Steeple Point", "duration": 30, "powerZone": "Z4", "cadence": 80 },
+    { "type": "interval", "id": "i009", "name": "Steeple Point (out of saddle)", "duration": 30, "powerZone": "Z4", "cadence": 95 },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Flat to Sunset",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "build", "name": "Flat to Sunset", "duration": 60, "powerZone": "Z2" },
+        { "id": "push", "name": "Flat to Sunset", "duration": 60, "powerZone": "Z3" },
+        { "id": "crest", "name": "Flat to Sunset", "duration": 60, "powerZone": "Z3+" }
+      ]
+    },
+    { "type": "interval", "id": "i010", "name": "Parry to C climb", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "i011", "name": "Parry to C climb", "duration": 60, "powerZone": "Z4-" },
+    { "type": "interval", "id": "i012", "name": "Parry to C climb (out of saddle)", "duration": 30, "powerZone": "Z3" },
+    { "type": "interval", "id": "i013", "name": "Parry to C climb", "duration": 120, "powerZone": "Z4-" },
+    { "type": "interval", "id": "i014", "name": "Parry to C climb", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "i015", "name": "Col du Waterville", "duration": 60, "powerZone": "Z3+" },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Col du Waterville",
+      "duration": 120,
+      "powerZone": "Z4",
+      "alternating": {
+        "powerZoneA": "Z4",
+        "powerZoneB": "Z5"
+      }
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Down to ZZ",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "spin", "name": "Down to ZZ", "duration": 30, "powerZone": "Z2", "cadence": 100 },
+        { "id": "roll", "name": "Down to ZZ", "duration": 30, "powerZone": "Z2" }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Pines to 67",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "push", "name": "Pines to 67", "duration": 30, "powerZone": "Z3", "cadence": 100 },
+        { "id": "ease", "name": "Pines to 67", "duration": 30, "powerZone": "Z2" }
+      ]
+    },
+    { "type": "interval", "id": "i017", "name": "Shoulder work", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "i018", "name": "Back up C", "duration": 120, "powerZone": "Z3" },
+    { "type": "interval", "id": "i019", "name": "Back up C", "duration": 120, "powerZone": "Z4" },
+    { "type": "interval", "id": "i020", "name": "Back up C", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "i021", "name": "Back up C", "duration": 60, "powerZone": "Z3" },
+    { "type": "interval", "id": "i022", "name": "Back up C", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "i023", "name": "Back up C", "duration": 60, "powerZone": "Z2" },
+    {
+      "type": "interval",
+      "id": "i024",
+      "name": "WV to Parry in reverse",
+      "duration": 120,
+      "powerZoneRange": { "start": "Z3", "end": "Z5" }
+    },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "Back to Delafield",
+      "repetitions": 2,
+      "intervals": [
+        { "id": "tempo", "name": "Back to Delafield", "duration": 60, "powerZone": "Z2", "cadence": 95 },
+        { "id": "push", "name": "Back to Delafield", "duration": 60, "powerZone": "Z3", "cadence": 95 }
+      ]
+    },
+    { "type": "interval", "id": "i025", "name": "Steeple Point part deux", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "i026", "name": "Steeple Point part deux", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "i027", "name": "Steeple Point part deux", "duration": 120, "powerZone": "Z3" },
+    { "type": "interval", "id": "i028", "name": "Steeple Point part deux", "duration": 30, "powerZone": "Z5" },
+    { "type": "interval", "id": "i029", "name": "Steeple Point part deux (out of saddle)", "duration": 30, "powerZone": "Z6" },
+    { "type": "interval", "id": "i030", "name": "Trail spindown", "duration": 180, "powerZone": "Z2" },
+    { "type": "interval", "id": "i031", "name": "Trail spindown", "duration": 120, "powerZone": "Z1" }
+  ]
+}
