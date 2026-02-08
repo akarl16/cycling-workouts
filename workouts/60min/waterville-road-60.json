@@ -3,6 +3,24 @@
   "name": "Waterville Road",
   "description": "60 minute road-inspired workout tracing a route through Steeple Point, Flat to Sunset, Col du Waterville, and back with progressive efforts and cadence drills",
   "totalDuration": 3600,
+  "images": [
+    {
+      "id": "elevation",
+      "name": "Elevation Profile",
+      "url": "/images/waterville-road/elevation.png",
+      "position": "bottom",
+      "style": { "bottom": "6rem", "height": "15vh" },
+      "opacity": 0.6
+    },
+    {
+      "id": "map",
+      "name": "Route Map",
+      "url": "/images/waterville-road/map.png",
+      "position": "upper-left",
+      "style": { "top": "1rem", "left": "20rem", "width": "12rem" },
+      "opacity": 0.5
+    }
+  ],
   "sequence": [
     { "type": "interval", "id": "i001", "name": "Easy start", "duration": 180, "powerZone": "Z1" },
     { "type": "interval", "id": "i002", "name": "Easy start", "duration": 120, "powerZone": "Z2" },
