@@ -1,0 +1,40 @@
+{
+  "id": "book-ends-60",
+  "name": "Book Ends",
+  "description": "60 minute workout featuring a progressive warm-up, repeated 'book end' efforts with Z5 front and back loads bracketing Z3 recovery, followed by Z6 big pushes with low-cadence strength work",
+  "totalDuration": 3600,
+  "sequence": [
+    { "type": "interval", "id": "i001", "name": "Easy", "duration": 240, "powerZone": "Z1" },
+    { "type": "interval", "id": "i002", "name": "Simple steps", "duration": 180, "powerZone": "Z2" },
+    { "type": "interval", "id": "i003", "name": "Simple steps", "duration": 180, "powerZone": "Z3" },
+    { "type": "interval", "id": "i004", "name": "Simple steps", "duration": 120, "powerZone": "Z3+" },
+    { "type": "interval", "id": "i005", "name": "Simple steps", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "i006", "name": "Recover", "duration": 180, "powerZoneRange": { "start": "Z1", "end": "Z2" } },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Book Ends",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "front", "name": "Front Load", "duration": 60, "powerZone": "Z5" },
+        { "id": "ease", "name": "Ease off", "duration": 180, "powerZone": "Z3" },
+        { "id": "back", "name": "Back End", "duration": 60, "powerZone": "Z5" },
+        { "id": "recover", "name": "Recover", "duration": 180, "powerZoneRange": { "start": "Z1", "end": "Z2" } }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Big Push",
+      "repetitions": 4,
+      "intervals": [
+        { "id": "push", "name": "Big Push", "duration": 30, "powerZone": "Z6" },
+        { "id": "low", "name": "Low strength", "duration": 180, "powerZone": "Z2", "cadence": 60 }
+      ]
+    },
+    { "type": "interval", "id": "i007", "name": "Finishing build", "duration": 30, "powerZone": "Z3" },
+    { "type": "interval", "id": "i008", "name": "Finishing build", "duration": 60, "powerZone": "Z5" },
+    { "type": "interval", "id": "i009", "name": "Spindown", "duration": 180, "powerZone": "Z2" },
+    { "type": "interval", "id": "i010", "name": "Spindown", "duration": 90, "powerZone": "Z1" }
+  ]
+}
