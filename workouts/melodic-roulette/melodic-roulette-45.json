@@ -36,15 +36,15 @@
     {
       "name": "Shorty Sprinty",
       "alternating": {
-        "powerZoneA": "Z6",
-        "powerZoneB": "Z1"
+        "powerZoneA": "Z1",
+        "powerZoneB": "Z6"
       }
     },
     {
       "name": "Cadence Burst",
       "alternating": {
-        "powerZoneA": "Z5",
-        "powerZoneB": "Z1"
+        "powerZoneA": "Z2",
+        "powerZoneB": "Z5"
       }
     }
   ],
