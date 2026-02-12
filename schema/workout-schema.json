@@ -1,95 +1,400 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Cycling Workout",
-  "description": "A cycling workout with intervals and optional repeating blocks",
-  "type": "object",
-  "properties": {
-    "id": {
-      "type": "string",
-      "description": "Unique identifier for the workout"
-    },
-    "name": {
-      "type": "string",
-      "description": "Display name of the workout",
-      "minLength": 1
-    },
-    "description": {
-      "type": "string",
-      "description": "Optional description of the workout"
-    },
-    "theme": {
-      "type": "string",
-      "description": "Optional theme to apply for this workout",
-      "enum": [
-        "default",
-        "halloween",
-        "christmas",
-        "wintry",
-        "valentines",
-        "holyhill",
-        "criterium",
-        "custom"
-      ]
-    },
-    "totalDuration": {
-      "type": "integer",
-      "description": "Total duration of the workout in seconds"
-    },
-    "intervals": {
-      "type": "array",
-      "description": "Array of workout intervals (legacy format - use sequence instead)",
-      "items": {
-        "$ref": "#/definitions/WorkoutInterval"
-      }
-    },
-    "blocks": {
-      "type": "array",
-      "description": "Optional array of repeating interval blocks (legacy format - use sequence instead)",
-      "items": {
-        "$ref": "#/definitions/WorkoutBlock"
-      }
-    },
-    "sequence": {
-      "type": "array",
-      "description": "New format: Mixed array of intervals and blocks in execution order",
-      "items": {
-        "oneOf": [
-          {
-            "$ref": "#/definitions/SequenceInterval"
-          },
-          {
-            "$ref": "#/definitions/SequenceBlock"
-          }
-        ]
-      }
-    },
-    "isSample": {
-      "type": "boolean",
-      "description": "Whether this is a sample workout"
-    },
-    "videos": {
-      "type": "array",
-      "description": "Optional array of video configurations to play during specific intervals",
-      "items": {
-        "$ref": "#/definitions/VideoConfig"
-      }
-    }
-  },
-  "required": [
-    "id",
-    "name"
-  ],
+  "description": "A cycling workout with intervals and optional repeating blocks, or a Melodic Roulette workout",
   "oneOf": [
-    {
-      "required": ["intervals"],
-      "description": "Legacy format with intervals array"
-    },
-    {
-      "required": ["sequence"],
-      "description": "New format with sequence array"
-    }
+    { "$ref": "#/definitions/StandardWorkout" },
+    { "$ref": "#/definitions/MelodicRouletteWorkout" }
   ],
-  "additionalProperties": false,
+  "definitions": {
+    "StandardWorkout": {
+      "type": "object",
+      "description": "Standard interval-based cycling workout",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the workout"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display name of the workout",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "description": "Optional description of the workout"
+        },
+        "theme": {
+          "type": "string",
+          "description": "Optional theme to apply for this workout",
+          "enum": [
+            "default",
+            "halloween",
+            "christmas",
+            "wintry",
+            "valentines",
+            "holyhill",
+            "criterium",
+            "custom"
+          ]
+        },
+        "totalDuration": {
+          "type": "integer",
+          "description": "Total duration of the workout in seconds"
+        },
+        "intervals": {
+          "type": "array",
+          "description": "Array of workout intervals (legacy format - use sequence instead)",
+          "items": {
+            "$ref": "#/definitions/WorkoutInterval"
+          }
+        },
+        "blocks": {
+          "type": "array",
+          "description": "Optional array of repeating interval blocks (legacy format - use sequence instead)",
+          "items": {
+            "$ref": "#/definitions/WorkoutBlock"
+          }
+        },
+        "sequence": {
+          "type": "array",
+          "description": "New format: Mixed array of intervals and blocks in execution order",
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/SequenceInterval"
+              },
+              {
+                "$ref": "#/definitions/SequenceBlock"
+              }
+            ]
+          }
+        },
+        "isSample": {
+          "type": "boolean",
+          "description": "Whether this is a sample workout"
+        },
+        "videos": {
+          "type": "array",
+          "description": "Optional array of video configurations to play during specific intervals",
+          "items": {
+            "$ref": "#/definitions/VideoConfig"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "oneOf": [
+        {
+          "required": ["intervals"],
+          "description": "Legacy format with intervals array"
+        },
+        {
+          "required": ["sequence"],
+          "description": "New format with sequence array"
+        }
+      ],
+      "additionalProperties": false
+    },
+    "MelodicRouletteWorkout": {
+      "type": "object",
+      "description": "Melodic Roulette workout - intervals are resolved at play time by randomly selecting songs from Spotify playlists and work block definitions",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the workout"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display name of the workout",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "description": "Optional description of the workout"
+        },
+        "mode": {
+          "type": "string",
+          "const": "melodic-roulette",
+          "description": "Discriminator field indicating this is a Melodic Roulette workout"
+        },
+        "theme": {
+          "type": "string",
+          "description": "Optional theme to apply for this workout",
+          "enum": [
+            "default",
+            "halloween",
+            "christmas",
+            "wintry",
+            "valentines",
+            "holyhill",
+            "criterium",
+            "custom"
+          ]
+        },
+        "workBlockDefinitions": {
+          "type": "array",
+          "description": "Pool of work block definitions from which to randomly assign during work intervals",
+          "items": {
+            "$ref": "#/definitions/WorkBlockDefinition"
+          },
+          "minItems": 1
+        },
+        "slots": {
+          "type": "array",
+          "description": "Sequence of interval slots to be resolved at play time with random songs and work assignments",
+          "items": {
+            "$ref": "#/definitions/RouletteSlot"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "mode",
+        "workBlockDefinitions",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "WorkBlockDefinition": {
+      "type": "object",
+      "description": "A work block definition specifying power zone and optional cadence for work intervals",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Display name for this work block (e.g., 'Tempo - high cadence')",
+          "minLength": 1
+        },
+        "powerZone": {
+          "oneOf": [
+            {
+              "type": "integer",
+              "description": "Power zone as number (1-7)",
+              "minimum": 1,
+              "maximum": 7
+            },
+            {
+              "type": "string",
+              "description": "Power zone with optional modifier (e.g., 'Z3', 'Z4+')",
+              "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+            }
+          ]
+        },
+        "cadence": {
+          "type": "integer",
+          "description": "Target cadence in RPM",
+          "minimum": 40,
+          "maximum": 150
+        },
+        "powerZoneRange": {
+          "type": "object",
+          "description": "Optional power zone range for gradual progression through zones",
+          "properties": {
+            "start": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "description": "Starting power zone as number (1-7)",
+                  "minimum": 1,
+                  "maximum": 7
+                },
+                {
+                  "type": "string",
+                  "description": "Starting power zone with optional modifier",
+                  "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+                }
+              ]
+            },
+            "end": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "description": "Ending power zone as number (1-7)",
+                  "minimum": 1,
+                  "maximum": 7
+                },
+                {
+                  "type": "string",
+                  "description": "Ending power zone with optional modifier",
+                  "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+                }
+              ]
+            }
+          },
+          "required": ["start", "end"],
+          "additionalProperties": false
+        },
+        "alternating": {
+          "type": "object",
+          "description": "Optional alternating configuration - allows switching between two power zones during the interval",
+          "properties": {
+            "powerZoneA": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "description": "First power zone as number (1-7)",
+                  "minimum": 1,
+                  "maximum": 7
+                },
+                {
+                  "type": "string",
+                  "description": "First power zone with optional modifier (e.g., 'Z2+', '3-', 'Zone 4+')",
+                  "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+                }
+              ]
+            },
+            "powerZoneB": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "description": "Second power zone as number (1-7)",
+                  "minimum": 1,
+                  "maximum": 7
+                },
+                {
+                  "type": "string",
+                  "description": "Second power zone with optional modifier (e.g., 'Z2+', '3-', 'Zone 4+')",
+                  "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+                }
+              ]
+            },
+            "cadenceA": {
+              "type": "integer",
+              "description": "Target cadence for power zone A in RPM",
+              "minimum": 40,
+              "maximum": 150
+            },
+            "cadenceB": {
+              "type": "integer",
+              "description": "Target cadence for power zone B in RPM",
+              "minimum": 40,
+              "maximum": 150
+            },
+            "startWithZone": {
+              "type": "string",
+              "description": "Which zone to start with",
+              "enum": [
+                "A",
+                "B"
+              ],
+              "default": "A"
+            }
+          },
+          "required": [
+            "powerZoneA",
+            "powerZoneB"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": ["name"],
+      "oneOf": [
+        {
+          "required": ["powerZone"]
+        },
+        {
+          "required": ["powerZoneRange"]
+        },
+        {
+          "required": ["alternating"]
+        }
+      ],
+      "additionalProperties": false
+    },
+    "RouletteSlot": {
+      "type": "object",
+      "description": "A slot in a Melodic Roulette workout that will be resolved to a concrete interval at play time",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for this slot"
+        },
+        "name": {
+          "type": "string",
+          "description": "Optional display name for this interval slot (e.g., 'Warmup', 'Recover', 'Spindown')"
+        },
+        "intervalType": {
+          "type": "string",
+          "description": "Type of interval: 'work' assigns a random work block definition, 'recovery' defaults to Z1-Z2 unless powerZone/powerZoneRange specified",
+          "enum": ["work", "recovery"]
+        },
+        "playlistId": {
+          "type": "string",
+          "description": "Spotify playlist ID from which to randomly select a song. The song's duration becomes the interval duration."
+        },
+        "durationRange": {
+          "type": "string",
+          "description": "Optional filter for song duration. Short: 1-2min, Medium: 2-4min, Long: 3-5min. If omitted, duration is unrestricted.",
+          "enum": ["short", "medium", "long"]
+        },
+        "powerZone": {
+          "oneOf": [
+            {
+              "type": "integer",
+              "description": "Power zone as number (1-7)",
+              "minimum": 1,
+              "maximum": 7
+            },
+            {
+              "type": "string",
+              "description": "Power zone with optional modifier (e.g., 'Z3', 'Z4+')",
+              "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+            }
+          ],
+          "description": "Optional specific power zone for this slot (recovery intervals only). If omitted, recovery defaults to Z1-Z2."
+        },
+        "powerZoneRange": {
+          "type": "object",
+          "description": "Optional power zone range for gradual progression (recovery intervals only)",
+          "properties": {
+            "start": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "description": "Starting power zone as number (1-7)",
+                  "minimum": 1,
+                  "maximum": 7
+                },
+                {
+                  "type": "string",
+                  "description": "Starting power zone with optional modifier",
+                  "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+                }
+              ]
+            },
+            "end": {
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "description": "Ending power zone as number (1-7)",
+                  "minimum": 1,
+                  "maximum": 7
+                },
+                {
+                  "type": "string",
+                  "description": "Ending power zone with optional modifier",
+                  "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$"
+                }
+              ]
+            }
+          },
+          "required": ["start", "end"],
+          "additionalProperties": false
+        },
+        "cadence": {
+          "type": "integer",
+          "description": "Optional target cadence in RPM (recovery intervals only)",
+          "minimum": 40,
+          "maximum": 150
+        }
+      },
+      "required": ["id", "intervalType", "playlistId"],
+      "additionalProperties": false
+    },
   "definitions": {
     "WorkoutInterval": {
       "type": "object",

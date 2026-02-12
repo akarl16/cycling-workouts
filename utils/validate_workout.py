@@ -161,9 +161,214 @@ def validate_sequence_item(item: Dict[str, Any], idx: int) -> List[str]:
     return errors
 
 
+def validate_work_block_definition(definition: Dict[str, Any], path: str = "") -> List[str]:
+    """Validate a work block definition for Melodic Roulette."""
+    errors = []
+    
+    if not isinstance(definition, dict):
+        errors.append(f"{path}: Work block definition must be an object")
+        return errors
+    
+    if "name" not in definition:
+        errors.append(f"{path}: Missing required field 'name'")
+    elif not isinstance(definition["name"], str) or len(definition["name"]) == 0:
+        errors.append(f"{path}: name must be a non-empty string")
+    
+    # Must have either powerZone, powerZoneRange, or alternating
+    has_power_zone = "powerZone" in definition
+    has_power_zone_range = "powerZoneRange" in definition
+    has_alternating = "alternating" in definition
+    
+    exclusive_count = sum([has_power_zone, has_power_zone_range, has_alternating])
+    
+    if exclusive_count == 0:
+        errors.append(f"{path}: Must have either 'powerZone', 'powerZoneRange', or 'alternating'")
+    elif exclusive_count > 1:
+        errors.append(f"{path}: Cannot have more than one of 'powerZone', 'powerZoneRange', or 'alternating'")
+    
+    # Validate powerZone if present
+    if has_power_zone:
+        valid, msg = validate_power_zone(definition["powerZone"])
+        if not valid:
+            errors.append(f"{path}.powerZone: {msg}")
+    
+    # Validate powerZoneRange if present
+    if has_power_zone_range:
+        pzr = definition["powerZoneRange"]
+        if not isinstance(pzr, dict):
+            errors.append(f"{path}: powerZoneRange must be an object")
+        else:
+            if "start" not in pzr:
+                errors.append(f"{path}: powerZoneRange missing 'start'")
+            else:
+                valid, msg = validate_power_zone(pzr["start"])
+                if not valid:
+                    errors.append(f"{path}.powerZoneRange.start: {msg}")
+            
+            if "end" not in pzr:
+                errors.append(f"{path}: powerZoneRange missing 'end'")
+            else:
+                valid, msg = validate_power_zone(pzr["end"])
+                if not valid:
+                    errors.append(f"{path}.powerZoneRange.end: {msg}")
+    
+    # Validate alternating if present
+    if has_alternating:
+        alt = definition["alternating"]
+        if not isinstance(alt, dict):
+            errors.append(f"{path}: alternating must be an object")
+        else:
+            if "powerZoneA" not in alt:
+                errors.append(f"{path}.alternating: missing 'powerZoneA'")
+            else:
+                valid, msg = validate_power_zone(alt["powerZoneA"])
+                if not valid:
+                    errors.append(f"{path}.alternating.powerZoneA: {msg}")
+            
+            if "powerZoneB" not in alt:
+                errors.append(f"{path}.alternating: missing 'powerZoneB'")
+            else:
+                valid, msg = validate_power_zone(alt["powerZoneB"])
+                if not valid:
+                    errors.append(f"{path}.alternating.powerZoneB: {msg}")
+            
+            # Validate optional cadences
+            if "cadenceA" in alt:
+                cadence = alt["cadenceA"]
+                if not isinstance(cadence, int) or not (40 <= cadence <= 150):
+                    errors.append(f"{path}.alternating.cadenceA: must be an integer between 40 and 150")
+            
+            if "cadenceB" in alt:
+                cadence = alt["cadenceB"]
+                if not isinstance(cadence, int) or not (40 <= cadence <= 150):
+                    errors.append(f"{path}.alternating.cadenceB: must be an integer between 40 and 150")
+    
+    if "cadence" in definition:
+        cadence = definition["cadence"]
+        if not isinstance(cadence, int) or not (40 <= cadence <= 150):
+            errors.append(f"{path}: cadence must be an integer between 40 and 150")
+    
+    return errors
+
+
+def validate_roulette_slot(slot: Dict[str, Any], path: str = "") -> List[str]:
+    """Validate a Melodic Roulette slot."""
+    errors = []
+    
+    if not isinstance(slot, dict):
+        errors.append(f"{path}: Slot must be an object")
+        return errors
+    
+    if "id" not in slot:
+        errors.append(f"{path}: Missing required field 'id'")
+    
+    if "intervalType" not in slot:
+        errors.append(f"{path}: Missing required field 'intervalType'")
+    elif slot["intervalType"] not in ("work", "recovery"):
+        errors.append(f"{path}: intervalType must be 'work' or 'recovery', got '{slot['intervalType']}'")
+    
+    if "playlistId" not in slot:
+        errors.append(f"{path}: Missing required field 'playlistId'")
+    elif not isinstance(slot["playlistId"], str) or len(slot["playlistId"]) == 0:
+        errors.append(f"{path}: playlistId must be a non-empty string")
+    
+    if "durationRange" in slot:
+        valid_ranges = ["short", "medium", "long"]
+        if slot["durationRange"] not in valid_ranges:
+            errors.append(f"{path}: durationRange must be one of {valid_ranges}, got '{slot['durationRange']}'")
+    
+    # Validate optional powerZone and powerZoneRange (for recovery intervals)
+    has_power_zone = "powerZone" in slot
+    has_power_zone_range = "powerZoneRange" in slot
+    
+    if has_power_zone and has_power_zone_range:
+        errors.append(f"{path}: Cannot have both 'powerZone' and 'powerZoneRange'")
+    
+    if has_power_zone:
+        # Only allowed for recovery intervals
+        if slot.get("intervalType") == "work":
+            errors.append(f"{path}: powerZone not allowed for work intervals (use workBlockDefinitions instead)")
+        valid, msg = validate_power_zone(slot["powerZone"])
+        if not valid:
+            errors.append(f"{path}.powerZone: {msg}")
+    
+    if has_power_zone_range:
+        # Only allowed for recovery intervals
+        if slot.get("intervalType") == "work":
+            errors.append(f"{path}: powerZoneRange not allowed for work intervals (use workBlockDefinitions instead)")
+        pzr = slot["powerZoneRange"]
+        if not isinstance(pzr, dict):
+            errors.append(f"{path}: powerZoneRange must be an object")
+        else:
+            if "start" not in pzr:
+                errors.append(f"{path}: powerZoneRange missing 'start'")
+            else:
+                valid, msg = validate_power_zone(pzr["start"])
+                if not valid:
+                    errors.append(f"{path}.powerZoneRange.start: {msg}")
+            
+            if "end" not in pzr:
+                errors.append(f"{path}: powerZoneRange missing 'end'")
+            else:
+                valid, msg = validate_power_zone(pzr["end"])
+                if not valid:
+                    errors.append(f"{path}.powerZoneRange.end: {msg}")
+    
+    # Validate optional cadence
+    if "cadence" in slot:
+        if slot.get("intervalType") == "work":
+            errors.append(f"{path}: cadence not allowed for work intervals (use workBlockDefinitions instead)")
+        cadence = slot["cadence"]
+        if not isinstance(cadence, int) or not (40 <= cadence <= 150):
+            errors.append(f"{path}: cadence must be an integer between 40 and 150")
+    
+    return errors
+
+
+def validate_melodic_roulette(workout: Dict[str, Any]) -> List[str]:
+    """Validate a Melodic Roulette workout."""
+    errors = []
+    
+    if workout.get("mode") != "melodic-roulette":
+        errors.append("mode must be 'melodic-roulette'")
+    
+    # Validate workBlockDefinitions
+    if "workBlockDefinitions" not in workout:
+        errors.append("Missing required field: 'workBlockDefinitions'")
+    elif not isinstance(workout["workBlockDefinitions"], list):
+        errors.append("'workBlockDefinitions' must be an array")
+    elif len(workout["workBlockDefinitions"]) == 0:
+        errors.append("'workBlockDefinitions' must have at least one definition")
+    else:
+        for idx, definition in enumerate(workout["workBlockDefinitions"]):
+            errors.extend(validate_work_block_definition(
+                definition, f"workBlockDefinitions[{idx}]"
+            ))
+    
+    # Validate slots
+    if "slots" not in workout:
+        errors.append("Missing required field: 'slots'")
+    elif not isinstance(workout["slots"], list):
+        errors.append("'slots' must be an array")
+    elif len(workout["slots"]) == 0:
+        errors.append("'slots' must have at least one slot")
+    else:
+        for idx, slot in enumerate(workout["slots"]):
+            errors.extend(validate_roulette_slot(slot, f"slots[{idx}]"))
+    
+    # Validate theme if present
+    if "theme" in workout:
+        valid_themes = ["default", "halloween", "christmas", "wintry", "valentines", 
+                       "holyhill", "criterium", "custom"]
+        if workout["theme"] not in valid_themes:
+            errors.append(f"theme must be one of {valid_themes}, got '{workout['theme']}'")
+    
+    return errors
+
+
 def validate_workout(workout: Dict[str, Any]) -> Tuple[bool, List[str]]:
     """
-    Validate a workout JSON structure.
+    Validate a workout JSON structure (standard or Melodic Roulette).
     
     Returns:
         Tuple of (is_valid, list_of_errors)
@@ -175,6 +380,11 @@ def validate_workout(workout: Dict[str, Any]) -> Tuple[bool, List[str]]:
     for field in required_fields:
         if field not in workout:
             errors.append(f"Missing required field: '{field}'")
+    
+    # Check if this is a Melodic Roulette workout
+    if workout.get("mode") == "melodic-roulette":
+        errors.extend(validate_melodic_roulette(workout))
+        return len(errors) == 0, errors
     
     # Must have either 'intervals' (legacy) or 'sequence' (new format)
     has_intervals = "intervals" in workout
@@ -241,8 +451,13 @@ def validate_workout_file(json_file: Path) -> bool:
         if is_valid:
             workout_name = workout.get("name", "Unknown")
             workout_id = workout.get("id", "unknown")
-            sequence_count = len(workout.get("sequence", workout.get("intervals", [])))
-            print(f"✓ '{workout_name}' ({workout_id}) is valid - {sequence_count} items")
+            if workout.get("mode") == "melodic-roulette":
+                slot_count = len(workout.get("slots", []))
+                block_count = len(workout.get("workBlockDefinitions", []))
+                print(f"✓ '{workout_name}' ({workout_id}) is valid - Melodic Roulette: {slot_count} slots, {block_count} work blocks")
+            else:
+                sequence_count = len(workout.get("sequence", workout.get("intervals", [])))
+                print(f"✓ '{workout_name}' ({workout_id}) is valid - {sequence_count} items")
             return True
         else:
             print(f"❌ Validation errors:")

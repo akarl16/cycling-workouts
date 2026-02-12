@@ -1,0 +1,177 @@
+{
+  "id": "melodic-roulette-45",
+  "name": "🎲 Melodic Roulette",
+  "description": "A 45-minute Melodic Roulette workout where songs are randomly selected from curated Spotify playlists and work efforts are randomized from the work block pool. Each ride is a unique experience!",
+  "mode": "melodic-roulette",
+  "workBlockDefinitions": [
+    {
+      "name": "Fast Tempo",
+      "powerZone": "Z3",
+      "cadence": 100
+    },
+    {
+      "name": "Torque-y",
+      "powerZone": "Z3",
+      "cadence": 50
+    },
+    {
+      "name": "Steady Threshold",
+      "powerZone": "Z4"
+    },
+    {
+      "name": "VO2 Book-ends",
+      "alternating": {
+        "powerZoneA": "Z5",
+        "powerZoneB": "Z2"
+      }
+    },
+    {
+      "name": "Standing Grind",
+      "powerZoneRange": {
+        "start": "Z3",
+        "end": "Z4"
+      },
+      "cadence": 65
+    },
+    {
+      "name": "Shorty Sprinty",
+      "alternating": {
+        "powerZoneA": "Z6",
+        "powerZoneB": "Z1"
+      }
+    },
+    {
+      "name": "Cadence Burst",
+      "alternating": {
+        "powerZoneA": "Z5",
+        "powerZoneB": "Z1"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "id": "s01",
+      "name": "Warmup",
+      "intervalType": "recovery",
+      "playlistId": "1FQSPDzBjPw158EBeTwIGu",
+      "durationRange": "medium",
+      "powerZone": "Z1"
+    },
+    {
+      "id": "s02",
+      "name": "Warmup",
+      "intervalType": "recovery",
+      "playlistId": "1FQSPDzBjPw158EBeTwIGu",
+      "durationRange": "medium",
+      "powerZoneRange": {
+        "start": "Z2",
+        "end": "Z3"
+      }
+    },
+    {
+      "id": "s03",
+      "name": "Warmup",
+      "intervalType": "recovery",
+      "playlistId": "2fLPEVqDt8HAoZqAfWA9eG",
+      "durationRange": "medium",
+      "powerZone": "Z3"
+    },
+    {
+      "id": "s04",
+      "name": "Recover",
+      "intervalType": "recovery",
+      "playlistId": "03QTxM9pvNGcUxGw0jgov4",
+      "durationRange": "short"
+    },
+    {
+      "id": "s05",
+      "intervalType": "work",
+      "playlistId": "2fLPEVqDt8HAoZqAfWA9eG",
+      "durationRange": "medium"
+    },
+    {
+      "id": "s06",
+      "name": "Recover",
+      "intervalType": "recovery",
+      "playlistId": "2fLPEVqDt8HAoZqAfWA9eG",
+      "durationRange": "short"
+    },
+    {
+      "id": "s07",
+      "intervalType": "work",
+      "playlistId": "4L3QkT6DAGxsPRthMCaKUK",
+      "durationRange": "long"
+    },
+    {
+      "id": "s08",
+      "name": "Recover",
+      "intervalType": "recovery",
+      "playlistId": "03QTxM9pvNGcUxGw0jgov4",
+      "durationRange": "short"
+    },
+    {
+      "id": "s09",
+      "intervalType": "work",
+      "playlistId": "0bd3Yiq5cqIlBzMa0olWYn",
+      "durationRange": "short"
+    },
+    {
+      "id": "s10",
+      "name": "Recover",
+      "intervalType": "recovery",
+      "playlistId": "03QTxM9pvNGcUxGw0jgov4",
+      "durationRange": "short"
+    },
+    {
+      "id": "s11",
+      "intervalType": "work",
+      "playlistId": "2fLPEVqDt8HAoZqAfWA9eG",
+      "durationRange": "medium"
+    },
+    {
+      "id": "s12",
+      "intervalType": "work",
+      "playlistId": "0bd3Yiq5cqIlBzMa0olWYn",
+      "durationRange": "medium"
+    },
+    {
+      "id": "s13",
+      "name": "Recover",
+      "intervalType": "recovery",
+      "playlistId": "03QTxM9pvNGcUxGw0jgov4",
+      "durationRange": "short"
+    },
+    {
+      "id": "s14",
+      "intervalType": "work",
+      "playlistId": "14JMuk34adeF1uya2b9Iwa",
+      "durationRange": "long"
+    },
+    {
+      "id": "s15",
+      "name": "Recover",
+      "intervalType": "recovery",
+      "playlistId": "2fLPEVqDt8HAoZqAfWA9eG",
+      "durationRange": "short"
+    },
+    {
+      "id": "s16",
+      "intervalType": "work",
+      "playlistId": "2fLPEVqDt8HAoZqAfWA9eG",
+      "durationRange": "medium"
+    },
+    {
+      "id": "s17",
+      "intervalType": "work",
+      "playlistId": "14JMuk34adeF1uya2b9Iwa",
+      "durationRange": "long"
+    },
+    {
+      "id": "s18",
+      "name": "Spindown",
+      "intervalType": "recovery",
+      "playlistId": "3seihBOPkmFKxsCGjTqGuL",
+      "durationRange": "short"
+    }
+  ]
+}
