@@ -542,6 +542,10 @@
             "powerZoneB"
           ],
           "additionalProperties": false
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional notes or coaching cues for this interval"
         }
       },
       "required": [
@@ -724,6 +728,10 @@
           },
           "required": ["powerZoneA", "powerZoneB"],
           "additionalProperties": false
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional notes or coaching cues for this interval"
         }
       },
       "required": [

@@ -106,6 +106,11 @@ def validate_interval(interval: Dict[str, Any], path: str = "") -> List[str]:
                 if not valid:
                     errors.append(f"{path}.alternating.powerZoneB: {msg}")
     
+    # Validate notes if present (optional string)
+    if "notes" in interval:
+        if not isinstance(interval["notes"], str):
+            errors.append(f"{path}: notes must be a string")
+    
     return errors
 
 
