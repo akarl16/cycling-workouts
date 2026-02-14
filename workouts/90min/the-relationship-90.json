@@ -1,0 +1,401 @@
+{
+  "id": "the-relationship-90",
+  "name": "The Relationship",
+  "description": "A 90-minute Valentine's Day ride that takes you through the stages of a relationship - from first impressions to commitment. Each section builds on the last with motivational coaching cues woven throughout.",
+  "theme": "valentines",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "First Impressions",
+      "duration": 180,
+      "powerZone": "Z1",
+      "notes": "Like any good relationship, we start with getting to know each other"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "First Impressions",
+      "duration": 120,
+      "powerZone": "Z2",
+      "notes": "Sometimes the best things start simple - just showing up is enough"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Getting to Know You",
+      "duration": 120,
+      "powerZone": "Z2+",
+      "notes": "Building connection, discovering what works together"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Getting to Know You",
+      "duration": 120,
+      "powerZone": "Z3",
+      "notes": "Every conversation reveals something new - stay curious, stay open"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Getting to Know You",
+      "duration": 120,
+      "powerZone": "Z2+",
+      "notes": "Finding your rhythm together takes time, but it's worth it"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Getting to Know You",
+      "duration": 120,
+      "powerZone": "Z3",
+      "notes": "This is where you learn what makes each other smile"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Butterflies",
+      "duration": 60,
+      "powerZone": "Z2",
+      "notes": "That exciting feeling when things start to click"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Butterflies",
+      "duration": 120,
+      "powerZone": "Z4",
+      "notes": "Your heart races a little faster when something special is beginning"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Butterflies",
+      "duration": 60,
+      "powerZone": "Z2",
+      "notes": "These moments of anticipation - they're what make it all feel electric"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Butterflies",
+      "duration": 120,
+      "powerZone": "Z4",
+      "notes": "Embrace the nervousness - it means you care"
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "The Pause",
+      "duration": 120,
+      "powerZone": "Z1",
+      "notes": "Take a breath - not every moment needs to be intense to be meaningful"
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "The Foundation",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 95,
+      "notes": "Every strong relationship needs a solid base"
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "The Foundation",
+      "duration": 180,
+      "powerZone": "Z3",
+      "notes": "This is where trust builds - steady, reliable, consistent"
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "The Foundation",
+      "duration": 180,
+      "powerZone": "Z3",
+      "cadence": 95,
+      "notes": "Real love isn't just the fireworks - it's showing up on ordinary days"
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "The Foundation",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 60,
+      "notes": "OOS - You're building something that can weather any storm"
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "The Doubt",
+      "duration": 120,
+      "powerZone": "Z2",
+      "notes": "Even strong foundations get tested - but you don't give up, you recover and come back stronger"
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Growing Together",
+      "duration": 300,
+      "powerZone": "Z4-",
+      "notes": "Relationships evolve through challenges"
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Growing Together",
+      "duration": 120,
+      "powerZone": "Z2",
+      "notes": "The work that makes you stronger as a pair"
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Growing Together",
+      "duration": 300,
+      "powerZone": "Z4-",
+      "notes": "Growth isn't always comfortable, but that's how you become better together"
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "The Setback",
+      "duration": 120,
+      "powerZone": "Z1",
+      "notes": "Sometimes you take a step back to move forward - that's not failure, that's wisdom"
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z2",
+      "notes": "The highs that make it all worthwhile"
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i023",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z5",
+      "notes": "When you push each other to be your best"
+    },
+    {
+      "type": "interval",
+      "id": "i024",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i025",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z2",
+      "notes": "This is the fire that keeps everything alive"
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i027",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z5",
+      "notes": "Love isn't always easy, but it's always worth fighting for"
+    },
+    {
+      "type": "interval",
+      "id": "i028",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i029",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z2",
+      "notes": "These are the moments you'll remember - when you gave everything"
+    },
+    {
+      "type": "interval",
+      "id": "i030",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i031",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z5",
+      "notes": "Feel your heart pounding - that's what being fully alive feels like"
+    },
+    {
+      "type": "interval",
+      "id": "i032",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i033",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z2",
+      "notes": "You're capable of more than you think, especially when you're not alone"
+    },
+    {
+      "type": "interval",
+      "id": "i034",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i035",
+      "name": "The Passionate Peaks",
+      "duration": 60,
+      "powerZone": "Z5",
+      "notes": "Match that effort - show yourself what you're made of"
+    },
+    {
+      "type": "interval",
+      "id": "i036",
+      "name": "The Comedown",
+      "duration": 90,
+      "powerZone": "Z1",
+      "notes": "You can't stay at the peak forever - learning to rest together is just as important as climbing together"
+    },
+    {
+      "type": "interval",
+      "id": "i037",
+      "name": "The Comedown",
+      "duration": 90,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i038",
+      "name": "Better Together",
+      "duration": 180,
+      "powerZone": "Z4",
+      "notes": "The power of partnership - paired intervals"
+    },
+    {
+      "type": "interval",
+      "id": "i039",
+      "name": "Better Together",
+      "duration": 120,
+      "powerZone": "Z2",
+      "notes": "Two hearts beating as one - we rise and fall together"
+    },
+    {
+      "type": "interval",
+      "id": "i040",
+      "name": "Better Together",
+      "duration": 180,
+      "powerZone": "Z4",
+      "notes": "You're stronger because you're not doing this alone - feel the energy of everyone here"
+    },
+    {
+      "type": "interval",
+      "id": "i041",
+      "name": "Better Together",
+      "duration": 120,
+      "powerZone": "Z2",
+      "notes": "There's power in partnership - lean into it"
+    },
+    {
+      "type": "interval",
+      "id": "i042",
+      "name": "Commitment",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 90,
+      "notes": "The long haul - endurance and dedication"
+    },
+    {
+      "type": "interval",
+      "id": "i043",
+      "name": "Commitment",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 85,
+      "notes": "Love is a choice you make over and over again - choose to keep going"
+    },
+    {
+      "type": "interval",
+      "id": "i044",
+      "name": "Commitment",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 80,
+      "notes": "The long road is where you prove what matters most"
+    },
+    {
+      "type": "interval",
+      "id": "i045",
+      "name": "Commitment",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 75,
+      "notes": "Showing up, day after day, that's what makes it real"
+    },
+    {
+      "type": "interval",
+      "id": "i046",
+      "name": "Commitment",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 70,
+      "notes": "This is where forever is built - one pedal stroke at a time"
+    },
+    {
+      "type": "interval",
+      "id": "i047",
+      "name": "Commitment",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 65,
+      "notes": "Commitment means staying when it gets hard - and you're still here"
+    },
+    {
+      "type": "interval",
+      "id": "i048",
+      "name": "Gratitude",
+      "duration": 60,
+      "powerZone": "Z2",
+      "notes": "Appreciate what your body just did, and everyone who rode alongside you today"
+    },
+    {
+      "type": "interval",
+      "id": "i049",
+      "name": "Gratitude",
+      "duration": 120,
+      "powerZone": "Z1"
+    }
+  ]
+}
