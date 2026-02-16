@@ -1,0 +1,324 @@
+{
+  "id": "mixa-mixa-mixa-60",
+  "name": "Mixa Mixa Mixa",
+  "description": "60-minute mixed cadence workout with progressive warm-up, sprints, cadence alternations, and finish surges",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "EasyA",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "EasyA",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "EasyA",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "WarmA",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "WarmA",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "WarmA",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "HotA",
+      "duration": 60,
+      "powerZone": "Z4-",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "HotA",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "HotA",
+      "duration": 60,
+      "powerZone": "Z4",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "RecoverA",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "ActiveA",
+      "duration": 60,
+      "powerZone": "Z2+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "QuickA",
+      "duration": 300,
+      "powerZone": "Z3",
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "RecoverA",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "ActiveA",
+      "duration": 60,
+      "powerZone": "Z2+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "SlowA",
+      "duration": 300,
+      "powerZone": "Z4-",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "RecoverA",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "ActiveA",
+      "duration": 60,
+      "powerZone": "Z2+",
+      "cadence": 100
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "SprintA",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "i018",
+          "name": "SprintA",
+          "duration": 30,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "i019",
+          "name": "SprintA",
+          "duration": 30,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "RecoverA",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "ActiveA",
+      "duration": 60,
+      "powerZone": "Z2+",
+      "cadence": 100
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "AlternatA",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "alt-low",
+          "name": "AlternatA",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 65
+        },
+        {
+          "id": "alt-high",
+          "name": "AlternatA",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 105
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "AlternatA",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "i027",
+      "name": "RecoverA",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i028",
+      "name": "SteadyA",
+      "duration": 60,
+      "powerZone": "Z2+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i029",
+      "name": "SteadyA",
+      "duration": 300,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i030",
+      "name": "RecoverA",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i031",
+      "name": "ActiveA",
+      "duration": 60,
+      "powerZone": "Z2+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i032",
+      "name": "FinishA",
+      "duration": 15,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i033",
+      "name": "FinishA",
+      "duration": 15,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i034",
+      "name": "FinishA",
+      "duration": 30,
+      "powerZone": "Z5",
+      "notes": "OOS"
+    },
+    {
+      "type": "interval",
+      "id": "i035",
+      "name": "FinishA",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i036",
+      "name": "FinishA",
+      "duration": 45,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i037",
+      "name": "FinishA",
+      "duration": 45,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i038",
+      "name": "FinishA",
+      "duration": 30,
+      "powerZone": "Z5",
+      "notes": "OOS"
+    },
+    {
+      "type": "interval",
+      "id": "i039",
+      "name": "FinishA",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i040",
+      "name": "FinishA",
+      "duration": 15,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i041",
+      "name": "FinishA",
+      "duration": 15,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i042",
+      "name": "FinishA",
+      "duration": 30,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i043",
+      "name": "CoolA",
+      "duration": 180,
+      "powerZone": "Z1"
+    }
+  ]
+}
