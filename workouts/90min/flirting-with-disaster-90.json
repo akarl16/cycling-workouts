@@ -1,0 +1,314 @@
+{
+  "id": "flirting-with-disaster-90",
+  "name": "Flirting with Disaster",
+  "description": "90-minute under-over-at-under focused workout with progressive build, multiple UOAU blocks, and overgear/fast cadence finisher",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Long build",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "build-z2",
+          "name": "Long build",
+          "duration": 180,
+          "powerZone": "Z2",
+          "cadence": 85
+        },
+        {
+          "id": "build-z3-",
+          "name": "Long build",
+          "duration": 180,
+          "powerZone": "Z3-",
+          "cadence": 90
+        },
+        {
+          "id": "build-z3+",
+          "name": "Long build",
+          "duration": 180,
+          "powerZone": "Z3+",
+          "cadence": 95
+        },
+        {
+          "id": "build-z4-",
+          "name": "Long build",
+          "duration": 180,
+          "powerZone": "Z4-",
+          "cadence": 100
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "UOAU Set 1",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "uoau1-under",
+          "name": "UOAU",
+          "duration": 90,
+          "powerZone": "Z3",
+          "cadence": 65,
+          "notes": "Under | Out of the saddle"
+        },
+        {
+          "id": "uoau1-over",
+          "name": "UOAU",
+          "duration": 60,
+          "powerZone": "Z5",
+          "notes": "Over"
+        },
+        {
+          "id": "uoau1-at",
+          "name": "UOAU",
+          "duration": 120,
+          "powerZone": "Z4",
+          "notes": "At"
+        },
+        {
+          "id": "uoau1-under2",
+          "name": "UOAU",
+          "duration": 120,
+          "powerZone": "Z3",
+          "notes": "Under"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1",
+      "cadence": 100
+    },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "UOAU Set 2",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "uoau2-under",
+          "name": "UOAU",
+          "duration": 90,
+          "powerZone": "Z3",
+          "cadence": 65,
+          "notes": "Under | Out of the saddle"
+        },
+        {
+          "id": "uoau2-over",
+          "name": "UOAU",
+          "duration": 90,
+          "powerZone": "Z5",
+          "notes": "Over"
+        },
+        {
+          "id": "uoau2-at",
+          "name": "UOAU",
+          "duration": 135,
+          "powerZone": "Z4",
+          "notes": "At"
+        },
+        {
+          "id": "uoau2-under2",
+          "name": "UOAU",
+          "duration": 120,
+          "powerZone": "Z3",
+          "notes": "Under"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1",
+      "cadence": 100
+    },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "UOAU Set 3",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "uoau3-under",
+          "name": "UOAU",
+          "duration": 90,
+          "powerZone": "Z3",
+          "cadence": 65,
+          "notes": "Under | Out of the saddle"
+        },
+        {
+          "id": "uoau3-over",
+          "name": "UOAU",
+          "duration": 120,
+          "powerZone": "Z5",
+          "notes": "Over"
+        },
+        {
+          "id": "uoau3-at",
+          "name": "UOAU",
+          "duration": 150,
+          "powerZone": "Z4",
+          "notes": "At"
+        },
+        {
+          "id": "uoau3-under2",
+          "name": "UOAU",
+          "duration": 300,
+          "powerZone": "Z3",
+          "notes": "Under"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1",
+      "cadence": 100
+    },
+    {
+      "type": "block",
+      "id": "b005",
+      "name": "UOAU Set 4",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "uoau4-under",
+          "name": "UOAU",
+          "duration": 180,
+          "powerZone": "Z3",
+          "cadence": 65,
+          "notes": "Under | Out of the saddle"
+        },
+        {
+          "id": "uoau4-over",
+          "name": "UOAU",
+          "duration": 90,
+          "powerZone": "Z5",
+          "notes": "Over"
+        },
+        {
+          "id": "uoau4-at",
+          "name": "UOAU",
+          "duration": 240,
+          "powerZone": "Z4",
+          "notes": "At"
+        },
+        {
+          "id": "uoau4-under2",
+          "name": "UOAU",
+          "duration": 300,
+          "powerZone": "Z3",
+          "notes": "Under"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1",
+      "cadence": 100
+    },
+    {
+      "type": "block",
+      "id": "b006",
+      "name": "UOAU Set 5",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "uoau5-under",
+          "name": "UOAU",
+          "duration": 300,
+          "powerZone": "Z3",
+          "cadence": 65,
+          "notes": "Under | Out of the saddle"
+        },
+        {
+          "id": "uoau5-over",
+          "name": "UOAU",
+          "duration": 90,
+          "powerZone": "Z5",
+          "notes": "Over"
+        },
+        {
+          "id": "uoau5-at",
+          "name": "UOAU",
+          "duration": 240,
+          "powerZone": "Z4",
+          "notes": "At"
+        },
+        {
+          "id": "uoau5-under2",
+          "name": "UOAU",
+          "duration": 360,
+          "powerZone": "Z3",
+          "notes": "Under"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1",
+      "cadence": 100
+    },
+    {
+      "type": "block",
+      "id": "b007",
+      "name": "OG/FC",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "og",
+          "name": "OG/FC",
+          "duration": 45,
+          "powerZone": "Z2",
+          "cadence": 50,
+          "notes": "Overgear"
+        },
+        {
+          "id": "fc",
+          "name": "OG/FC",
+          "duration": 45,
+          "powerZone": "Z2",
+          "cadence": 105,
+          "notes": "Fast Cadence"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Done",
+      "duration": 105,
+      "powerZone": "Z1"
+    }
+  ]
+}
