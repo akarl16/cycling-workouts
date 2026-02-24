@@ -1,0 +1,370 @@
+{
+  "id": "the-high-low-training-60",
+  "name": "The High Low train(ing)",
+  "description": "60-minute high-low cadence workout with warmup builds, tempo endurance, over-unders, and sprint repeats",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Warmup",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "warmup-z1",
+          "name": "Warmup",
+          "duration": 180,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "warmup-z1-high",
+          "name": "Warmup",
+          "duration": 60,
+          "powerZone": "Z1",
+          "cadence": 100,
+          "notes": "High"
+        },
+        {
+          "id": "warmup-z1-low",
+          "name": "Warmup",
+          "duration": 60,
+          "powerZone": "Z1",
+          "cadence": 65,
+          "notes": "Low"
+        },
+        {
+          "id": "warmup-z2",
+          "name": "Warmup",
+          "duration": 120,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "warmup-z3",
+          "name": "Warmup",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "warmup-z3-high",
+          "name": "Warmup",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 100,
+          "notes": "High"
+        },
+        {
+          "id": "warmup-z4-low",
+          "name": "Warmup",
+          "duration": 60,
+          "powerZone": "Z4",
+          "cadence": 65,
+          "notes": "Low"
+        },
+        {
+          "id": "warmup-z4",
+          "name": "Warmup",
+          "duration": 60,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "warmup-z2-mid",
+          "name": "Warmup",
+          "duration": 60,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "warmup-z5",
+          "name": "Warmup",
+          "duration": 60,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "warmup-z2-high",
+          "name": "Warmup",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 100,
+          "notes": "High"
+        },
+        {
+          "id": "warmup-z5-low",
+          "name": "Warmup",
+          "duration": 60,
+          "powerZone": "Z5",
+          "cadence": 65,
+          "notes": "Low"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Tempo Endurance Set 1",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "tempo1-z3-high",
+          "name": "Tempo Endurance",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 100,
+          "notes": "High"
+        },
+        {
+          "id": "tempo1-z3-low",
+          "name": "Tempo Endurance",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 65,
+          "notes": "Low"
+        },
+        {
+          "id": "tempo1-z3",
+          "name": "Tempo Endurance",
+          "duration": 180,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "tempo1-z3-high2",
+          "name": "Tempo Endurance",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 100,
+          "notes": "High"
+        },
+        {
+          "id": "tempo1-z3-low2",
+          "name": "Tempo Endurance",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 65,
+          "notes": "Low"
+        },
+        {
+          "id": "tempo1-z3-2",
+          "name": "Tempo Endurance",
+          "duration": 180,
+          "powerZone": "Z3"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Recover",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "recover1-z1-high",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": "Z1",
+          "cadence": 100,
+          "notes": "High"
+        },
+        {
+          "id": "recover1-z1-low",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": "Z1",
+          "cadence": 65,
+          "notes": "Low"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "Over-unders",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ou1-z4+-high",
+          "name": "Over-unders",
+          "duration": 30,
+          "powerZone": "Z4+",
+          "cadence": 100,
+          "notes": "High"
+        },
+        {
+          "id": "ou1-z2",
+          "name": "Over-unders",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ou1-z4+-low",
+          "name": "Over-unders",
+          "duration": 30,
+          "powerZone": "Z4+",
+          "cadence": 65,
+          "notes": "Low"
+        },
+        {
+          "id": "ou1-z2-2",
+          "name": "Over-unders",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ou1-z4+",
+          "name": "Over-unders",
+          "duration": 30,
+          "powerZone": "Z4+"
+        },
+        {
+          "id": "ou1-z2-3",
+          "name": "Over-unders",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ou1-z4+-high2",
+          "name": "Over-unders",
+          "duration": 30,
+          "powerZone": "Z4+",
+          "cadence": 100,
+          "notes": "High"
+        },
+        {
+          "id": "ou1-z2-high",
+          "name": "Over-unders",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 100,
+          "notes": "High"
+        },
+        {
+          "id": "ou1-z4+-low2",
+          "name": "Over-unders",
+          "duration": 30,
+          "powerZone": "Z4+",
+          "cadence": 65,
+          "notes": "Low"
+        },
+        {
+          "id": "ou1-z2-low",
+          "name": "Over-unders",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 65,
+          "notes": "Low"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b005",
+      "name": "Tempo Endurance Set 2",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "tempo2-z3",
+          "name": "Tempo Endurance",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "tempo2-z3-high",
+          "name": "Tempo Endurance",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 100,
+          "notes": "High"
+        },
+        {
+          "id": "tempo2-z3-low",
+          "name": "Tempo Endurance",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 65,
+          "notes": "Low"
+        },
+        {
+          "id": "tempo2-z3-2",
+          "name": "Tempo Endurance",
+          "duration": 180,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "tempo2-z3-high2",
+          "name": "Tempo Endurance",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 100,
+          "notes": "High"
+        },
+        {
+          "id": "tempo2-z3-low2",
+          "name": "Tempo Endurance",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 65,
+          "notes": "Low"
+        },
+        {
+          "id": "tempo2-z3-3",
+          "name": "Tempo Endurance",
+          "duration": 120,
+          "powerZone": "Z3"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b006",
+      "name": "Sprints",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "sprint-z3",
+          "name": "Sprints",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "sprint-z6",
+          "name": "Sprints",
+          "duration": 15,
+          "powerZone": "Z6",
+          "cadence": 110,
+          "notes": "High-High"
+        },
+        {
+          "id": "sprint-z2",
+          "name": "Sprints",
+          "duration": 45,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Spindown",
+      "duration": 180,
+      "powerZone": "Z1"
+    }
+  ]
+}
