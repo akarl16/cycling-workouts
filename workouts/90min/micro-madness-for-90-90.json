@@ -1,0 +1,478 @@
+{
+  "id": "micro-madness-for-90-90",
+  "name": "Micro Madness for 90",
+  "description": "90-minute micro-interval focused workout with ramps, single-leg skills, higher-shorter blocks, and micro 4s/5s repeats",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy Spin",
+      "duration": 240,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Micro ramps",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ramp-z2-high",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "ramp-z2-low",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 50
+        },
+        {
+          "id": "ramp-z2-high2",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "ramp-z2-low2",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 50
+        },
+        {
+          "id": "ramp-z3-hi",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "ramp-z3-lo",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ramp-z3-hi2",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "ramp-z3-lo2",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ramp-z4-hi",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "ramp-z4-lo",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ramp-z4-hi2",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "ramp-z4-lo2",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ramp-z5-hi",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "ramp-z5-lo",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "ramp-z5-hi2",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "ramp-z5-lo2",
+          "name": "Micro ramps",
+          "duration": 30,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Single leg skills",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "sls-left",
+          "name": "Left leg only",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 100,
+          "notes": "Left leg only"
+        },
+        {
+          "id": "sls-both-1",
+          "name": "Both",
+          "duration": 30,
+          "powerZone": "Z2",
+          "notes": "Both"
+        },
+        {
+          "id": "sls-right",
+          "name": "Right leg only",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 100,
+          "notes": "Right leg only"
+        },
+        {
+          "id": "sls-both-2",
+          "name": "Both",
+          "duration": 30,
+          "powerZone": "Z2",
+          "notes": "Both"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i002_1",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Higher-shorter Set 1",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "hs1-z3",
+          "name": "Higher-shorter",
+          "duration": 180,
+          "powerZone": "Z3",
+          "cadence": 95
+        },
+        {
+          "id": "hs1-z1-1",
+          "name": "Higher-shorter",
+          "duration": 60,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "hs1-z3-hi",
+          "name": "Higher-shorter",
+          "duration": 120,
+          "powerZone": "Z3",
+          "cadence": 100
+        },
+        {
+          "id": "hs1-z1-2",
+          "name": "Higher-shorter",
+          "duration": 60,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "hs1-z4",
+          "name": "Higher-shorter",
+          "duration": 60,
+          "powerZone": "Z4",
+          "cadence": 105
+        },
+        {
+          "id": "hs1-z1-3",
+          "name": "Higher-shorter",
+          "duration": 30,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "hs1-z5",
+          "name": "Higher-shorter",
+          "duration": 30,
+          "powerZone": "Z5",
+          "cadence": 110
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "Higher-shorter Set 2",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "hs2-z3",
+          "name": "Higher-shorter",
+          "duration": 180,
+          "powerZone": "Z3",
+          "cadence": 95
+        },
+        {
+          "id": "hs2-z1-1",
+          "name": "Higher-shorter",
+          "duration": 60,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "hs2-z3-hi",
+          "name": "Higher-shorter",
+          "duration": 120,
+          "powerZone": "Z3",
+          "cadence": 100
+        },
+        {
+          "id": "hs2-z1-2",
+          "name": "Higher-shorter",
+          "duration": 60,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "hs2-z4",
+          "name": "Higher-shorter",
+          "duration": 60,
+          "powerZone": "Z4",
+          "cadence": 105
+        },
+        {
+          "id": "hs2-z1-3",
+          "name": "Higher-shorter",
+          "duration": 30,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "hs2-z5",
+          "name": "Higher-shorter",
+          "duration": 30,
+          "powerZone": "Z5",
+          "cadence": 110
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "TT",
+      "duration": 210,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b005",
+      "name": "Micro 4s",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "m4s-1-work",
+          "name": "Micro 4s",
+          "duration": 20,
+          "powerZone": "Z4",
+          "cadence": 100
+        },
+        {
+          "id": "m4s-1-rest",
+          "name": "Micro 4s",
+          "duration": 40,
+          "powerZone": "Z3-"
+        },
+        {
+          "id": "m4s-2-work",
+          "name": "Micro 4s",
+          "duration": 20,
+          "powerZone": "Z4",
+          "cadence": 100
+        },
+        {
+          "id": "m4s-2-rest",
+          "name": "Micro 4s",
+          "duration": 40,
+          "powerZone": "Z3-"
+        },
+        {
+          "id": "m4s-3-work",
+          "name": "Micro 4s",
+          "duration": 20,
+          "powerZone": "Z4",
+          "cadence": 100
+        },
+        {
+          "id": "m4s-3-rest",
+          "name": "Micro 4s",
+          "duration": 40,
+          "powerZone": "Z3-"
+        },
+        {
+          "id": "m4s-4-work",
+          "name": "Micro 4s",
+          "duration": 20,
+          "powerZone": "Z4",
+          "cadence": 100
+        },
+        {
+          "id": "m4s-4-rest",
+          "name": "Micro 4s",
+          "duration": 40,
+          "powerZone": "Z3-"
+        },
+        {
+          "id": "m4s-recover",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "TT",
+      "duration": 210,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b006",
+      "name": "Micro 5s",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "m5s-1-work",
+          "name": "Micro 5s",
+          "duration": 20,
+          "powerZone": "Z5",
+          "cadence": 110
+        },
+        {
+          "id": "m5s-1-rest",
+          "name": "Micro 5s",
+          "duration": 40,
+          "powerZone": "Z2+"
+        },
+        {
+          "id": "m5s-2-work",
+          "name": "Micro 5s",
+          "duration": 20,
+          "powerZone": "Z5",
+          "cadence": 110
+        },
+        {
+          "id": "m5s-2-rest",
+          "name": "Micro 5s",
+          "duration": 40,
+          "powerZone": "Z2+"
+        },
+        {
+          "id": "m5s-3-work",
+          "name": "Micro 5s",
+          "duration": 20,
+          "powerZone": "Z5",
+          "cadence": 110
+        },
+        {
+          "id": "m5s-3-rest",
+          "name": "Micro 5s",
+          "duration": 40,
+          "powerZone": "Z2+"
+        },
+        {
+          "id": "m5s-4-work",
+          "name": "Micro 5s",
+          "duration": 20,
+          "powerZone": "Z5",
+          "cadence": 110
+        },
+        {
+          "id": "m5s-4-rest",
+          "name": "Micro 5s",
+          "duration": 40,
+          "powerZone": "Z2+"
+        },
+        {
+          "id": "m5s-recover",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "TT",
+      "duration": 210,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Spindown",
+      "duration": 210,
+      "powerZone": "Z1"
+    }
+  ]
+}
