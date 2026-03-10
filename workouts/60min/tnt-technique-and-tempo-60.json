@@ -1,0 +1,232 @@
+{
+  "id": "tnt-technique-and-tempo-60",
+  "name": "TnT, Technique and Tempo",
+  "description": "60-minute technique and tempo ride: escalating primers, skill drills (20s on/10s off), seated/standing transitions, high-cadence tempo intervals, and cadence builds from 90 to 120 RPM.",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Warm Up",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Warm Up",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Warm Up",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Primers",
+      "duration": 40,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Primers",
+      "duration": 20,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Primers",
+      "duration": 40,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Primers",
+      "duration": 20,
+      "powerZone": "Z4+"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Primers",
+      "duration": 40,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Primers",
+      "duration": 20,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Primers",
+      "duration": 40,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Primers",
+      "duration": 20,
+      "powerZone": "Z5+"
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b000",
+      "name": "Skill Drill",
+      "repetitions": 10,
+      "intervals": [
+        {
+          "id": "sd1",
+          "name": "Skill Drill",
+          "duration": 20,
+          "powerZone": "Z3",
+          "cadence": 110
+        },
+        {
+          "id": "sd2",
+          "name": "Skill Drill",
+          "duration": 10,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b001a",
+      "name": "Transitions",
+      "repetitions": 10,
+      "intervals": [
+        {
+          "id": "tr1",
+          "name": "Seated",
+          "duration": 30,
+          "powerZone": "Z3",
+          "notes": "Vary cadence (60 - 90 RPM) each round"
+        },
+        {
+          "id": "tr2",
+          "name": "Out of the saddle - same cadence",
+          "duration": 30,
+          "powerZone": "Z3"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Tempo w/Cadence",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "tc1",
+          "name": "Tempo",
+          "duration": 120,
+          "powerZone": "Z3",
+          "cadence": 105
+        },
+        {
+          "id": "tc2",
+          "name": "Rest",
+          "duration": 30,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Cadence Builds",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "cb1",
+          "name": "Cadence Build",
+          "duration": 30,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "cb2",
+          "name": "Cadence Build",
+          "duration": 10,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "cb3",
+          "name": "Cadence Build",
+          "duration": 10,
+          "powerZone": "Z4",
+          "cadence": 100
+        },
+        {
+          "id": "cb4",
+          "name": "Cadence Build",
+          "duration": 10,
+          "powerZone": "Z5",
+          "cadence": 115
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Tempo Hold",
+      "duration": 270,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "Spindown",
+      "duration": 120,
+      "powerZone": "Z1"
+    }
+  ]
+}
