@@ -1,0 +1,244 @@
+{
+  "id": "spring-classics-90",
+  "name": "Spring Classics",
+  "description": "A 90-minute tour through the Spring Classics monuments: Omloop Het Nieuwsblad, Strade Bianche, E3 Saxo Classic, Milan-San Remo, Tour of Flanders, Paris-Roubaix, Liège-Bastogne-Liège, and Il Lombardia. Progressive intensity with race-specific efforts.",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Omloop Het Nieuwsblad",
+      "repetitions": 2,
+      "intervals": [
+        { "id": "b001i001", "name": "Omloop Het Nieuwsblad", "duration": 180, "powerZone": "Z2", "cadence": 95, "notes": "The opening gun of the Belgian spring. Spin sharp, hold your position." },
+        { "id": "b001i002", "name": "Omloop Het Nieuwsblad", "duration": 120, "powerZone": "Z3", "notes": "Up the Wijnpers and Molenberg. Hold steady on the climbs." },
+        { "id": "b001i003", "name": "Omloop Het Nieuwsblad", "duration": 30, "powerZone": "Z4", "notes": "Punch over the top. Don't ease up." }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Strade Bianche",
+      "repetitions": 2,
+      "intervals": [
+        { "id": "b002i001", "name": "Strade Bianche", "duration": 60, "powerZone": "Z2", "notes": "Gravel sectors demand steady power — don't spike, find your rhythm." },
+        { "id": "b002i002", "name": "Strade Bianche", "duration": 60, "powerZone": "Z3", "notes": "Into the gravel. White roads, white dust — hold your line." },
+        { "id": "b002i003", "name": "Strade Bianche", "duration": 60, "powerZone": "Z2", "notes": "Brief reprieve on asphalt. Reset and breathe." },
+        { "id": "b002i004", "name": "Strade Bianche", "duration": 60, "powerZone": "Z4-", "notes": "Final gravel sector — dig in." }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "E3 Saxo Classic",
+      "repetitions": 2,
+      "intervals": [
+        { "id": "b003i001", "name": "E3 Saxo Classic", "duration": 120, "powerZone": "Z4", "notes": "Punch up the Flemish bergs. Big gear, high cadence — recover fast, do it again." },
+        { "id": "b003i002", "name": "E3 Saxo Classic", "duration": 60, "powerZone": "Z2", "cadence": 100, "notes": "Spin out the legs. Keep the cadence high, recover fast." }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "Milan-San Remo",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "b004i001", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z2", "notes": "La Classicissima — 295 km to the Poggio. Patience. The race starts in the final 10 minutes." },
+        { "id": "b004i002", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z3", "notes": "Over the Cipressa. The climb that strings the bunch." },
+        { "id": "b004i003", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z2", "notes": "Brief descent before the Poggio. Save something." },
+        { "id": "b004i004", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z4-", "notes": "The Poggio. 3.7 km. This is where it's won." }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b005",
+      "name": "Tour of Flanders",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "b005i001", "name": "Tour of Flanders", "duration": 120, "powerZone": "Z3", "notes": "Over the Paterberg. Attack the top. Every rep is a new berg." },
+        { "id": "b005i002", "name": "Tour of Flanders", "duration": 60, "powerZone": "Z4", "notes": "The steepest cobbles. Force it." },
+        { "id": "b005i003", "name": "Tour of Flanders", "duration": 30, "powerZone": "Z5", "notes": "Over the summit. Everything." },
+        { "id": "b005i004", "name": "Recover", "duration": 120, "powerZone": "Z1", "notes": "Regroup. Another berg is coming." }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b006",
+      "name": "Paris-Roubaix",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "b006i001", "name": "Paris-Roubaix", "duration": 60, "powerZone": "Z3", "notes": "You're on the pavé. Brace, drive, survive. The forest of Arenberg doesn't give back." },
+        { "id": "b006i002", "name": "Paris-Roubaix", "duration": 30, "powerZone": "Z4", "notes": "The cobbles bite back. Drive through." }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Liège-Bastogne-Liège",
+      "duration": 120,
+      "powerZone": "Z3",
+      "notes": "La Doyenne since 1892. The Ardennes don't flatten. Dig."
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Liège-Bastogne-Liège",
+      "duration": 60,
+      "powerZone": "Z4",
+      "notes": "La Redoute. Steep and long. Find your rhythm and hold."
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Liège-Bastogne-Liège",
+      "duration": 30,
+      "powerZone": "Z5",
+      "notes": "The summit. Empty the tank."
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Liège-Bastogne-Liège",
+      "duration": 120,
+      "powerZone": "Z3",
+      "notes": "La Doyenne demands more. Up the Côte de Saint-Nicolas."
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Liège-Bastogne-Liège",
+      "duration": 60,
+      "powerZone": "Z4",
+      "notes": "Steeper now. The legs are tired. Push."
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Liège-Bastogne-Liège",
+      "duration": 30,
+      "powerZone": "Z5",
+      "notes": "The crest. Give it everything."
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Liège-Bastogne-Liège",
+      "duration": 120,
+      "powerZone": "Z3",
+      "notes": "Final Ardennes climb. The Roche-aux-Faucons."
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Liège-Bastogne-Liège",
+      "duration": 60,
+      "powerZone": "Z4",
+      "notes": "The gradient bites. This is what you trained for."
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Liège-Bastogne-Liège",
+      "duration": 30,
+      "powerZone": "Z5",
+      "notes": "Last summit of La Doyenne. Leave nothing behind."
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Il Lombardia",
+      "duration": 90,
+      "powerZone": "Z2",
+      "notes": "Race of the Falling Leaves. This is your last climb of the season. Leave nothing."
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Il Lombardia",
+      "duration": 20,
+      "powerZone": "Z3",
+      "notes": "The gradient tilts. Here comes the Via Civesio."
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Il Lombardia",
+      "duration": 10,
+      "powerZone": "Z5",
+      "notes": "Full gas. Sprint for the monument."
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "Il Lombardia",
+      "duration": 10,
+      "powerZone": "Z6",
+      "notes": "Everything left."
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "Il Lombardia",
+      "duration": 5,
+      "powerZone": "Z7",
+      "notes": "Empty. The line."
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "Victory Lap",
+      "duration": 255,
+      "powerZone": "Z1",
+      "notes": "You've made it to the Roubaix velodrome. Raise your arms. Roll around the track. This is what the cobbles were for."
+    }
+  ]
+}
