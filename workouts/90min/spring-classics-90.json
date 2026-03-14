@@ -3,6 +3,128 @@
   "name": "Spring Classics",
   "description": "A 90-minute tour through the Spring Classics monuments: Omloop Het Nieuwsblad, Strade Bianche, E3 Saxo Classic, Milan-San Remo, Tour of Flanders, Paris-Roubaix, Liège-Bastogne-Liège, and Il Lombardia. Progressive intensity with race-specific efforts.",
   "totalDuration": 5400,
+  "videos": [
+    {
+      "id": "v001",
+      "name": "Omloop Het Nieuwsblad 2026 - Women's Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=p7JA6btpcyA",
+      "startTime": 2,
+      "triggerIntervalId": "b001r1i1",
+      "endIntervalId": "b001r1i3"
+    },
+    {
+      "id": "v002",
+      "name": "Omloop Het Nieuwsblad 2026 - Men's Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JG_s61-TvRQ",
+      "startTime": 0,
+      "triggerIntervalId": "b001r2i1",
+      "endIntervalId": "b001r2i3"
+    },
+    {
+      "id": "v003",
+      "name": "Strade Bianche 2026 - Women's Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0BWAkJjKPTE",
+      "startTime": 0,
+      "triggerIntervalId": "b002r1i1",
+      "endIntervalId": "b002r1i4"
+    },
+    {
+      "id": "v004",
+      "name": "Strade Bianche 2026 - Men's Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wmIX94rKVwA",
+      "startTime": 0,
+      "triggerIntervalId": "b002r2i1",
+      "endIntervalId": "b002r2i4"
+    },
+    {
+      "id": "v005",
+      "name": "E3 Saxo Classic 2026 - Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EtXMKT7KK4s",
+      "startTime": 0,
+      "triggerIntervalId": "b003r1i1",
+      "endIntervalId": "b003r2i2"
+    },
+    {
+      "id": "v006",
+      "name": "Milan-San Remo 2026 - Women's Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LuQuzCTZiP0",
+      "startTime": 1,
+      "triggerIntervalId": "b004r1i1",
+      "endIntervalId": "b004r2i2"
+    },
+    {
+      "id": "v007",
+      "name": "Milan-San Remo 2026 - Men's Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JZ4pNeZWKoM",
+      "startTime": 0,
+      "triggerIntervalId": "b004r2i3",
+      "endIntervalId": "b004r3i4"
+    },
+    {
+      "id": "v008",
+      "name": "Tour of Flanders 2025 - Men's Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rY8sQhlfiIY",
+      "startTime": 43,
+      "triggerIntervalId": "b005r1i1",
+      "endIntervalId": "b005r2i1"
+    },
+    {
+      "id": "v009",
+      "name": "Tour of Flanders 2025 - Women's Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WfjQV0n8Mrg",
+      "startTime": 9540,
+      "triggerIntervalId": "b005r2i2",
+      "endIntervalId": "b005r3i3"
+    },
+    {
+      "id": "v010",
+      "name": "Paris-Roubaix 2025 - Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jF9gqGa-Y5A",
+      "startTime": 32,
+      "triggerIntervalId": "b006r1i1",
+      "endIntervalId": "b006r3i2"
+    },
+    {
+      "id": "v011",
+      "name": "Liège-Bastogne-Liège 2024 - La Doyenne",
+      "youtubeUrl": "https://www.youtube.com/watch?v=evrZFWcdFKU",
+      "startTime": 180,
+      "triggerIntervalId": "i006",
+      "endIntervalId": "i008"
+    },
+    {
+      "id": "v012",
+      "name": "Liège-Bastogne-Liège 2025 Women - Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8Gec9B5q7ck",
+      "startTime": 93,
+      "triggerIntervalId": "i010",
+      "endIntervalId": "i012"
+    },
+    {
+      "id": "v013",
+      "name": "Liège-Bastogne-Liège 2025 Men - Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=E3oUgrhFv8k",
+      "startTime": 60,
+      "triggerIntervalId": "i014",
+      "endIntervalId": "i016"
+    },
+    {
+      "id": "v014",
+      "name": "Il Lombardia 2025 - Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1WaIa5tLaQo",
+      "startTime": 104,
+      "triggerIntervalId": "i017",
+      "endIntervalId": "i021"
+    },
+    {
+      "id": "v015",
+      "name": "Paris-Roubaix Velodrome Victory Lap",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JtScP6nTTNE",
+      "startTime": 0,
+      "triggerIntervalId": "i022a",
+      "endIntervalId": "i022a"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
@@ -11,17 +133,12 @@
       "duration": 180,
       "powerZone": "Z1"
     },
-    {
-      "type": "block",
-      "id": "b001",
-      "name": "Omloop Het Nieuwsblad",
-      "repetitions": 2,
-      "intervals": [
-        { "id": "b001i001", "name": "Omloop Het Nieuwsblad", "duration": 180, "powerZone": "Z2", "cadence": 95, "notes": "The opening gun of the Belgian spring. Spin sharp, hold your position." },
-        { "id": "b001i002", "name": "Omloop Het Nieuwsblad", "duration": 120, "powerZone": "Z3", "notes": "Up the Wijnpers and Molenberg. Hold steady on the climbs." },
-        { "id": "b001i003", "name": "Omloop Het Nieuwsblad", "duration": 30, "powerZone": "Z4", "notes": "Punch over the top. Don't ease up." }
-      ]
-    },
+    { "type": "interval", "id": "b001r1i1", "name": "Omloop Het Nieuwsblad", "duration": 180, "powerZone": "Z2", "cadence": 95, "notes": "The opening gun of the Belgian spring. Spin sharp, hold your position." },
+    { "type": "interval", "id": "b001r1i2", "name": "Omloop Het Nieuwsblad", "duration": 120, "powerZone": "Z3", "notes": "Up the Wijnpers and Molenberg. Hold steady on the climbs." },
+    { "type": "interval", "id": "b001r1i3", "name": "Omloop Het Nieuwsblad", "duration": 30, "powerZone": "Z4", "notes": "Punch over the top. Don't ease up." },
+    { "type": "interval", "id": "b001r2i1", "name": "Omloop Het Nieuwsblad", "duration": 180, "powerZone": "Z2", "cadence": 95, "notes": "The opening gun of the Belgian spring. Spin sharp, hold your position." },
+    { "type": "interval", "id": "b001r2i2", "name": "Omloop Het Nieuwsblad", "duration": 120, "powerZone": "Z3", "notes": "Up the Wijnpers and Molenberg. Hold steady on the climbs." },
+    { "type": "interval", "id": "b001r2i3", "name": "Omloop Het Nieuwsblad", "duration": 30, "powerZone": "Z4", "notes": "Punch over the top. Don't ease up." },
     {
       "type": "interval",
       "id": "i002",
@@ -29,18 +146,14 @@
       "duration": 120,
       "powerZone": "Z1"
     },
-    {
-      "type": "block",
-      "id": "b002",
-      "name": "Strade Bianche",
-      "repetitions": 2,
-      "intervals": [
-        { "id": "b002i001", "name": "Strade Bianche", "duration": 60, "powerZone": "Z2", "notes": "Gravel sectors demand steady power — don't spike, find your rhythm." },
-        { "id": "b002i002", "name": "Strade Bianche", "duration": 60, "powerZone": "Z3", "notes": "Into the gravel. White roads, white dust — hold your line." },
-        { "id": "b002i003", "name": "Strade Bianche", "duration": 60, "powerZone": "Z2", "notes": "Brief reprieve on asphalt. Reset and breathe." },
-        { "id": "b002i004", "name": "Strade Bianche", "duration": 60, "powerZone": "Z4-", "notes": "Final gravel sector — dig in." }
-      ]
-    },
+    { "type": "interval", "id": "b002r1i1", "name": "Strade Bianche", "duration": 60, "powerZone": "Z2", "notes": "Gravel sectors demand steady power — don't spike, find your rhythm." },
+    { "type": "interval", "id": "b002r1i2", "name": "Strade Bianche", "duration": 60, "powerZone": "Z3", "notes": "Into the gravel. White roads, white dust — hold your line." },
+    { "type": "interval", "id": "b002r1i3", "name": "Strade Bianche", "duration": 60, "powerZone": "Z2", "notes": "Brief reprieve on asphalt. Reset and breathe." },
+    { "type": "interval", "id": "b002r1i4", "name": "Strade Bianche", "duration": 60, "powerZone": "Z4-", "notes": "Final gravel sector — dig in." },
+    { "type": "interval", "id": "b002r2i1", "name": "Strade Bianche", "duration": 60, "powerZone": "Z2", "notes": "Gravel sectors demand steady power — don't spike, find your rhythm." },
+    { "type": "interval", "id": "b002r2i2", "name": "Strade Bianche", "duration": 60, "powerZone": "Z3", "notes": "Into the gravel. White roads, white dust — hold your line." },
+    { "type": "interval", "id": "b002r2i3", "name": "Strade Bianche", "duration": 60, "powerZone": "Z2", "notes": "Brief reprieve on asphalt. Reset and breathe." },
+    { "type": "interval", "id": "b002r2i4", "name": "Strade Bianche", "duration": 60, "powerZone": "Z4-", "notes": "Final gravel sector — dig in." },
     {
       "type": "interval",
       "id": "i003",
@@ -48,28 +161,22 @@
       "duration": 120,
       "powerZone": "Z1"
     },
-    {
-      "type": "block",
-      "id": "b003",
-      "name": "E3 Saxo Classic",
-      "repetitions": 2,
-      "intervals": [
-        { "id": "b003i001", "name": "E3 Saxo Classic", "duration": 120, "powerZone": "Z4", "notes": "Punch up the Flemish bergs. Big gear, high cadence — recover fast, do it again." },
-        { "id": "b003i002", "name": "E3 Saxo Classic", "duration": 60, "powerZone": "Z2", "cadence": 100, "notes": "Spin out the legs. Keep the cadence high, recover fast." }
-      ]
-    },
-    {
-      "type": "block",
-      "id": "b004",
-      "name": "Milan-San Remo",
-      "repetitions": 3,
-      "intervals": [
-        { "id": "b004i001", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z2", "notes": "La Classicissima — 295 km to the Poggio. Patience. The race starts in the final 10 minutes." },
-        { "id": "b004i002", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z3", "notes": "Over the Cipressa. The climb that strings the bunch." },
-        { "id": "b004i003", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z2", "notes": "Brief descent before the Poggio. Save something." },
-        { "id": "b004i004", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z4-", "notes": "The Poggio. 3.7 km. This is where it's won." }
-      ]
-    },
+    { "type": "interval", "id": "b003r1i1", "name": "E3 Saxo Classic", "duration": 120, "powerZone": "Z4", "notes": "Punch up the Flemish bergs. Big gear, high cadence — recover fast, do it again." },
+    { "type": "interval", "id": "b003r1i2", "name": "E3 Saxo Classic", "duration": 60, "powerZone": "Z2", "cadence": 100, "notes": "Spin out the legs. Keep the cadence high, recover fast." },
+    { "type": "interval", "id": "b003r2i1", "name": "E3 Saxo Classic", "duration": 120, "powerZone": "Z4", "notes": "Punch up the Flemish bergs. Big gear, high cadence — recover fast, do it again." },
+    { "type": "interval", "id": "b003r2i2", "name": "E3 Saxo Classic", "duration": 60, "powerZone": "Z2", "cadence": 100, "notes": "Spin out the legs. Keep the cadence high, recover fast." },
+    { "type": "interval", "id": "b004r1i1", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z2", "notes": "La Classicissima — 295 km to the Poggio. Patience. The race starts in the final 10 minutes." },
+    { "type": "interval", "id": "b004r1i2", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z3", "notes": "Over the Cipressa. The climb that strings the bunch." },
+    { "type": "interval", "id": "b004r1i3", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z2", "notes": "Brief descent before the Poggio. Save something." },
+    { "type": "interval", "id": "b004r1i4", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z4-", "notes": "The Poggio. 3.7 km. This is where it's won." },
+    { "type": "interval", "id": "b004r2i1", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z2", "notes": "La Classicissima — 295 km to the Poggio. Patience. The race starts in the final 10 minutes." },
+    { "type": "interval", "id": "b004r2i2", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z3", "notes": "Over the Cipressa. The climb that strings the bunch." },
+    { "type": "interval", "id": "b004r2i3", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z2", "notes": "Brief descent before the Poggio. Save something." },
+    { "type": "interval", "id": "b004r2i4", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z4-", "notes": "The Poggio. 3.7 km. This is where it's won." },
+    { "type": "interval", "id": "b004r3i1", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z2", "notes": "La Classicissima — 295 km to the Poggio. Patience. The race starts in the final 10 minutes." },
+    { "type": "interval", "id": "b004r3i2", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z3", "notes": "Over the Cipressa. The climb that strings the bunch." },
+    { "type": "interval", "id": "b004r3i3", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z2", "notes": "Brief descent before the Poggio. Save something." },
+    { "type": "interval", "id": "b004r3i4", "name": "Milan-San Remo", "duration": 60, "powerZone": "Z4-", "notes": "The Poggio. 3.7 km. This is where it's won." },
     {
       "type": "interval",
       "id": "i004",
@@ -77,28 +184,24 @@
       "duration": 120,
       "powerZone": "Z1"
     },
-    {
-      "type": "block",
-      "id": "b005",
-      "name": "Tour of Flanders",
-      "repetitions": 3,
-      "intervals": [
-        { "id": "b005i001", "name": "Tour of Flanders", "duration": 120, "powerZone": "Z3", "notes": "Over the Paterberg. Attack the top. Every rep is a new berg." },
-        { "id": "b005i002", "name": "Tour of Flanders", "duration": 60, "powerZone": "Z4", "notes": "The steepest cobbles. Force it." },
-        { "id": "b005i003", "name": "Tour of Flanders", "duration": 30, "powerZone": "Z5", "notes": "Over the summit. Everything." },
-        { "id": "b005i004", "name": "Recover", "duration": 120, "powerZone": "Z1", "notes": "Regroup. Another berg is coming." }
-      ]
-    },
-    {
-      "type": "block",
-      "id": "b006",
-      "name": "Paris-Roubaix",
-      "repetitions": 3,
-      "intervals": [
-        { "id": "b006i001", "name": "Paris-Roubaix", "duration": 60, "powerZone": "Z3", "notes": "You're on the pavé. Brace, drive, survive. The forest of Arenberg doesn't give back." },
-        { "id": "b006i002", "name": "Paris-Roubaix", "duration": 30, "powerZone": "Z4", "notes": "The cobbles bite back. Drive through." }
-      ]
-    },
+    { "type": "interval", "id": "b005r1i1", "name": "Tour of Flanders", "duration": 120, "powerZone": "Z3", "notes": "Over the Paterberg. Attack the top. Every rep is a new berg." },
+    { "type": "interval", "id": "b005r1i2", "name": "Tour of Flanders", "duration": 60, "powerZone": "Z4", "notes": "The steepest cobbles. Force it." },
+    { "type": "interval", "id": "b005r1i3", "name": "Tour of Flanders", "duration": 30, "powerZone": "Z5", "notes": "Over the summit. Everything." },
+    { "type": "interval", "id": "b005r1i4", "name": "Recover", "duration": 120, "powerZone": "Z1", "notes": "Regroup. Another berg is coming." },
+    { "type": "interval", "id": "b005r2i1", "name": "Tour of Flanders", "duration": 120, "powerZone": "Z3", "notes": "Over the Paterberg. Attack the top. Every rep is a new berg." },
+    { "type": "interval", "id": "b005r2i2", "name": "Tour of Flanders", "duration": 60, "powerZone": "Z4", "notes": "The steepest cobbles. Force it." },
+    { "type": "interval", "id": "b005r2i3", "name": "Tour of Flanders", "duration": 30, "powerZone": "Z5", "notes": "Over the summit. Everything." },
+    { "type": "interval", "id": "b005r2i4", "name": "Recover", "duration": 120, "powerZone": "Z1", "notes": "Regroup. Another berg is coming." },
+    { "type": "interval", "id": "b005r3i1", "name": "Tour of Flanders", "duration": 120, "powerZone": "Z3", "notes": "Over the Paterberg. Attack the top. Every rep is a new berg." },
+    { "type": "interval", "id": "b005r3i2", "name": "Tour of Flanders", "duration": 60, "powerZone": "Z4", "notes": "The steepest cobbles. Force it." },
+    { "type": "interval", "id": "b005r3i3", "name": "Tour of Flanders", "duration": 30, "powerZone": "Z5", "notes": "Over the summit. Everything." },
+    { "type": "interval", "id": "b005r3i4", "name": "Recover", "duration": 120, "powerZone": "Z1", "notes": "Regroup. Another berg is coming." },
+    { "type": "interval", "id": "b006r1i1", "name": "Paris-Roubaix", "duration": 60, "powerZone": "Z3", "notes": "You're on the pavé. Brace, drive, survive. The forest of Arenberg doesn't give back." },
+    { "type": "interval", "id": "b006r1i2", "name": "Paris-Roubaix", "duration": 30, "powerZone": "Z4", "notes": "The cobbles bite back. Drive through." },
+    { "type": "interval", "id": "b006r2i1", "name": "Paris-Roubaix", "duration": 60, "powerZone": "Z3", "notes": "You're on the pavé. Brace, drive, survive. The forest of Arenberg doesn't give back." },
+    { "type": "interval", "id": "b006r2i2", "name": "Paris-Roubaix", "duration": 30, "powerZone": "Z4", "notes": "The cobbles bite back. Drive through." },
+    { "type": "interval", "id": "b006r3i1", "name": "Paris-Roubaix", "duration": 60, "powerZone": "Z3", "notes": "You're on the pavé. Brace, drive, survive. The forest of Arenberg doesn't give back." },
+    { "type": "interval", "id": "b006r3i2", "name": "Paris-Roubaix", "duration": 30, "powerZone": "Z4", "notes": "The cobbles bite back. Drive through." },
     {
       "type": "interval",
       "id": "i005",
@@ -226,11 +329,18 @@
     },
     {
       "type": "interval",
-      "id": "i022",
+      "id": "i022a",
       "name": "Victory Lap",
-      "duration": 230,
+      "duration": 193,
       "powerZone": "Z1",
       "notes": "The Roubaix velodrome. Raise your arms. This is what the cobbles were for."
+    },
+    {
+      "type": "interval",
+      "id": "i022b",
+      "name": "Victory Lap",
+      "duration": 37,
+      "powerZone": "Z1"
     }
   ]
 }
