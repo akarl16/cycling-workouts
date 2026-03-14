@@ -196,7 +196,7 @@
       "type": "interval",
       "id": "i017",
       "name": "Il Lombardia",
-      "duration": 90,
+      "duration": 120,
       "powerZone": "Z2",
       "notes": "Race of the Falling Leaves. This is your last climb of the season. Leave nothing."
     },
@@ -204,25 +204,17 @@
       "type": "interval",
       "id": "i018",
       "name": "Il Lombardia",
-      "duration": 20,
-      "powerZone": "Z3",
+      "duration": 30,
+      "powerZone": "Z4",
       "notes": "The gradient tilts. Here comes the Via Civesio."
     },
     {
       "type": "interval",
       "id": "i019",
       "name": "Il Lombardia",
-      "duration": 10,
-      "powerZone": "Z5",
-      "notes": "Full gas. Sprint for the monument."
-    },
-    {
-      "type": "interval",
-      "id": "i020",
-      "name": "Il Lombardia",
-      "duration": 10,
+      "duration": 5,
       "powerZone": "Z6",
-      "notes": "Everything left."
+      "notes": "Full gas. Sprint for the monument."
     },
     {
       "type": "interval",
@@ -230,15 +222,15 @@
       "name": "Il Lombardia",
       "duration": 5,
       "powerZone": "Z7",
-      "notes": "Empty. The line."
+      "notes": "Empty. The. Tank."
     },
     {
       "type": "interval",
       "id": "i022",
       "name": "Victory Lap",
-      "duration": 255,
+      "duration": 230,
       "powerZone": "Z1",
-      "notes": "You've made it to the Roubaix velodrome. Raise your arms. Roll around the track. This is what the cobbles were for."
+      "notes": "The Roubaix velodrome. Raise your arms. This is what the cobbles were for."
     }
   ]
 }
