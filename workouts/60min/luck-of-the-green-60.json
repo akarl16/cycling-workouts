@@ -2,6 +2,7 @@
   "id": "luck-of-the-green-60",
   "name": "Luck of the Green",
   "description": "St. Patrick's Day 60-minute ride. Warmup builds into a seated/standing Z3 loop, three dice-roll sprint efforts (Luck of the Draw), a climbing block with summit pushes, three more dice-roll sprints (Shamrock Shake), rising-cadence tempo intervals, and a spin-down cooldown.",
+  "theme": "stpatricks",
   "totalDuration": 3600,
   "sequence": [
     {
