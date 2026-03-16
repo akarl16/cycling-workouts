@@ -40,14 +40,16 @@ def validate_interval(interval: Dict[str, Any], path: str = "") -> List[str]:
         if field not in interval:
             errors.append(f"{path}: Missing required field '{field}'")
     
-    # Must have either powerZone or powerZoneRange
+    # Must have exactly one of: powerZone, powerZoneRange, or randomPowerZone
     has_power_zone = "powerZone" in interval
     has_power_zone_range = "powerZoneRange" in interval
+    has_random_power_zone = "randomPowerZone" in interval
     
-    if not has_power_zone and not has_power_zone_range:
-        errors.append(f"{path}: Must have either 'powerZone' or 'powerZoneRange'")
-    elif has_power_zone and has_power_zone_range:
-        errors.append(f"{path}: Cannot have both 'powerZone' and 'powerZoneRange'")
+    power_count = sum([has_power_zone, has_power_zone_range, has_random_power_zone])
+    if power_count == 0:
+        errors.append(f"{path}: Must have one of 'powerZone', 'powerZoneRange', or 'randomPowerZone'")
+    elif power_count > 1:
+        errors.append(f"{path}: Cannot combine 'powerZone', 'powerZoneRange', and 'randomPowerZone'")
     
     # Validate powerZone if present
     if has_power_zone:
@@ -74,6 +76,26 @@ def validate_interval(interval: Dict[str, Any], path: str = "") -> List[str]:
                 valid, msg = validate_power_zone(pzr["end"])
                 if not valid:
                     errors.append(f"{path}.powerZoneRange.end: {msg}")
+    
+    # Validate randomPowerZone if present
+    if has_random_power_zone:
+        rpz = interval["randomPowerZone"]
+        if not isinstance(rpz, dict):
+            errors.append(f"{path}: randomPowerZone must be an object")
+        else:
+            if "min" not in rpz:
+                errors.append(f"{path}: randomPowerZone missing 'min'")
+            else:
+                valid, msg = validate_power_zone(rpz["min"])
+                if not valid:
+                    errors.append(f"{path}.randomPowerZone.min: {msg}")
+            
+            if "max" not in rpz:
+                errors.append(f"{path}: randomPowerZone missing 'max'")
+            else:
+                valid, msg = validate_power_zone(rpz["max"])
+                if not valid:
+                    errors.append(f"{path}.randomPowerZone.max: {msg}")
     
     # Validate duration
     if "duration" in interval:

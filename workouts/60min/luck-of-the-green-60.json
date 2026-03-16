@@ -123,7 +123,7 @@
       "id": "i013",
       "name": "Luck of the draw 1",
       "duration": 30,
-      "powerZoneRange": { "start": "Z4", "end": "Z6" },
+      "randomPowerZone": { "min": "Z3", "max": "Z6" },
       "cadence": 85,
       "notes": "Roll the dice"
     },
@@ -140,7 +140,7 @@
       "id": "i015",
       "name": "Luck of the draw 2",
       "duration": 30,
-      "powerZoneRange": { "start": "Z4", "end": "Z6" },
+      "randomPowerZone": { "min": "Z3", "max": "Z6" },
       "cadence": 85,
       "notes": "Roll again"
     },
@@ -157,7 +157,7 @@
       "id": "i017",
       "name": "Luck of the draw 3",
       "duration": 30,
-      "powerZoneRange": { "start": "Z4", "end": "Z6" },
+      "randomPowerZone": { "min": "Z3", "max": "Z6" },
       "cadence": 85,
       "notes": "Last roll — feeling lucky?"
     },
@@ -232,7 +232,7 @@
       "id": "i026",
       "name": "Shamrock shake 1",
       "duration": 30,
-      "powerZoneRange": { "start": "Z4", "end": "Z6" },
+      "randomPowerZone": { "min": "Z3", "max": "Z6" },
       "cadence": 85,
       "notes": "Roll the dice"
     },
@@ -249,7 +249,7 @@
       "id": "i028",
       "name": "Shamrock shake 2",
       "duration": 30,
-      "powerZoneRange": { "start": "Z4", "end": "Z6" },
+      "randomPowerZone": { "min": "Z3", "max": "Z6" },
       "cadence": 85,
       "notes": "Roll again"
     },
@@ -266,7 +266,7 @@
       "id": "i030",
       "name": "Shamrock shake 3",
       "duration": 30,
-      "powerZoneRange": { "start": "Z4", "end": "Z6" },
+      "randomPowerZone": { "min": "Z3", "max": "Z6" },
       "cadence": 85,
       "notes": "Last roll — leave it all there"
     },

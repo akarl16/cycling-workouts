@@ -473,6 +473,26 @@
           "minimum": 40,
           "maximum": 150
         },
+        "randomPowerZone": {
+          "type": "object",
+          "description": "Randomly pick a power zone at workout-start from the inclusive range [min, max]. Resolved once per session.",
+          "properties": {
+            "min": {
+              "oneOf": [
+                { "type": "integer", "minimum": 1, "maximum": 7 },
+                { "type": "string", "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$" }
+              ]
+            },
+            "max": {
+              "oneOf": [
+                { "type": "integer", "minimum": 1, "maximum": 7 },
+                { "type": "string", "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$" }
+              ]
+            }
+          },
+          "required": ["min", "max"],
+          "additionalProperties": false
+        },
         "alternating": {
           "type": "object",
           "description": "Optional alternating interval configuration - allows switching between two power zones",
@@ -559,6 +579,9 @@
         },
         {
           "required": ["powerZoneRange"]
+        },
+        {
+          "required": ["randomPowerZone"]
         }
       ],
       "additionalProperties": false
@@ -680,6 +703,26 @@
           "minimum": 40,
           "maximum": 150
         },
+        "randomPowerZone": {
+          "type": "object",
+          "description": "Randomly pick a power zone at workout-start from the inclusive range [min, max]. Resolved once per session.",
+          "properties": {
+            "min": {
+              "oneOf": [
+                { "type": "integer", "minimum": 1, "maximum": 7 },
+                { "type": "string", "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$" }
+              ]
+            },
+            "max": {
+              "oneOf": [
+                { "type": "integer", "minimum": 1, "maximum": 7 },
+                { "type": "string", "pattern": "^(?:[Zz](?:one)?\\s*)?[1-7][+-]?$" }
+              ]
+            }
+          },
+          "required": ["min", "max"],
+          "additionalProperties": false
+        },
         "alternating": {
           "type": "object",
           "description": "Optional alternating interval configuration",
@@ -746,6 +789,9 @@
         },
         {
           "required": ["powerZoneRange"]
+        },
+        {
+          "required": ["randomPowerZone"]
         }
       ],
       "additionalProperties": false
