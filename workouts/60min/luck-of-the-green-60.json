@@ -1,0 +1,348 @@
+{
+  "id": "luck-of-the-green-60",
+  "name": "Luck of the Green",
+  "description": "St. Patrick's Day 60-minute ride. Warmup builds into a seated/standing Z3 loop, three dice-roll sprint efforts (Luck of the Draw), a climbing block with summit pushes, three more dice-roll sprints (Shamrock Shake), rising-cadence tempo intervals, and a spin-down cooldown.",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy spin",
+      "duration": 240,
+      "powerZone": "Z1",
+      "cadence": 95,
+      "notes": "Start easy, build cadence gradually"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Standing activation 1",
+      "duration": 20,
+      "powerZone": "Z2",
+      "cadence": 75,
+      "notes": "Low resistance, wake the legs up"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Easy spin",
+      "duration": 100,
+      "powerZone": "Z2",
+      "cadence": 95,
+      "notes": "Cadence high"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Standing activation 2",
+      "duration": 20,
+      "powerZone": "Z2+",
+      "cadence": 75,
+      "notes": "Same as first, a little more intent"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Ramp to green",
+      "duration": 100,
+      "powerZone": "Z3-",
+      "notes": "Settle back in, arrive in Z3 by end"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Rising cadence",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 90,
+      "notes": "Rising cadence throughout — settle in at 90rpm"
+    },
+    {
+      "type": "interval",
+      "id": "i006b",
+      "name": "Rising cadence",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 100,
+      "notes": "Build to 100rpm — high and smooth"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Seated Zone 3",
+      "duration": 120,
+      "powerZone": "Z3",
+      "notes": "Preferred cadence"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Standing Zone 3",
+      "duration": 120,
+      "powerZone": "Z3+",
+      "cadence": 75,
+      "notes": "Add resistance to compensate, hips over pedals"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Seated Zone 3",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 85,
+      "notes": "Mid-range cadence"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Standing Zone 3",
+      "duration": 120,
+      "powerZone": "Z3+",
+      "cadence": 75,
+      "notes": "Back up"
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Seated Zone 3",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 80,
+      "notes": "Final 2 min of loop 1, slower"
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1",
+      "notes": "Easy flush"
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Luck of the draw 1",
+      "duration": 30,
+      "powerZoneRange": { "start": "Z4", "end": "Z6" },
+      "cadence": 85,
+      "notes": "Roll the dice"
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Catch your breath",
+      "duration": 30,
+      "powerZone": "Z1",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Luck of the draw 2",
+      "duration": 30,
+      "powerZoneRange": { "start": "Z4", "end": "Z6" },
+      "cadence": 85,
+      "notes": "Roll again"
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Catch your breath",
+      "duration": 30,
+      "powerZone": "Z1",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Luck of the draw 3",
+      "duration": 30,
+      "powerZoneRange": { "start": "Z4", "end": "Z6" },
+      "cadence": 85,
+      "notes": "Last roll — feeling lucky?"
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Kiss the Blarney Stone",
+      "duration": 120,
+      "powerZone": "Z1",
+      "notes": "Flush it out, you earned it"
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Zone 3 torque — seated",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 80,
+      "notes": "Begin the ascent, build resistance"
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "Zone 3 torque — standing",
+      "duration": 120,
+      "powerZone": "Z3",
+      "notes": "Feel the hill, torso tall"
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "Zone 3 torque — seated",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 80,
+      "notes": "Hold position, don't back off"
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "Summit push — standing",
+      "duration": 120,
+      "powerZone": "Z4",
+      "notes": "Hard standing effort"
+    },
+    {
+      "type": "interval",
+      "id": "i023",
+      "name": "Active recovery seat",
+      "duration": 30,
+      "powerZone": "Z2",
+      "notes": "Back off slightly, stay loose"
+    },
+    {
+      "type": "interval",
+      "id": "i024",
+      "name": "Summit push — standing",
+      "duration": 120,
+      "powerZone": "Z4",
+      "notes": "Match effort from push 1"
+    },
+    {
+      "type": "interval",
+      "id": "i025",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1",
+      "notes": "Easy flush"
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "Shamrock shake 1",
+      "duration": 30,
+      "powerZoneRange": { "start": "Z4", "end": "Z6" },
+      "cadence": 85,
+      "notes": "Roll the dice"
+    },
+    {
+      "type": "interval",
+      "id": "i027",
+      "name": "Catch your breath",
+      "duration": 30,
+      "powerZone": "Z1",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i028",
+      "name": "Shamrock shake 2",
+      "duration": 30,
+      "powerZoneRange": { "start": "Z4", "end": "Z6" },
+      "cadence": 85,
+      "notes": "Roll again"
+    },
+    {
+      "type": "interval",
+      "id": "i029",
+      "name": "Catch your breath",
+      "duration": 30,
+      "powerZone": "Z1",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i030",
+      "name": "Shamrock shake 3",
+      "duration": 30,
+      "powerZoneRange": { "start": "Z4", "end": "Z6" },
+      "cadence": 85,
+      "notes": "Last roll — leave it all there"
+    },
+    {
+      "type": "interval",
+      "id": "i031",
+      "name": "Kiss the Blarney Stone",
+      "duration": 120,
+      "powerZone": "Z1",
+      "notes": "Flush it out, you earned it"
+    },
+    {
+      "type": "interval",
+      "id": "i032",
+      "name": "Tempo interval 1",
+      "duration": 180,
+      "powerZone": "Z3",
+      "cadence": 80,
+      "notes": "Controlled and deliberate"
+    },
+    {
+      "type": "interval",
+      "id": "i033",
+      "name": "Easy spin",
+      "duration": 60,
+      "powerZone": "Z1",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i034",
+      "name": "Tempo interval 2",
+      "duration": 180,
+      "powerZone": "Z3",
+      "cadence": 85,
+      "notes": "Cadence up from interval 1"
+    },
+    {
+      "type": "interval",
+      "id": "i035",
+      "name": "Easy spin",
+      "duration": 60,
+      "powerZone": "Z1",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i036",
+      "name": "Tempo interval 3",
+      "duration": 180,
+      "powerZone": "Z3",
+      "cadence": 90,
+      "notes": "Highest cadence, most efficient"
+    },
+    {
+      "type": "interval",
+      "id": "i037",
+      "name": "Up we go",
+      "duration": 120,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i038",
+      "name": "Final kicker",
+      "duration": 30,
+      "powerZone": "Z5",
+      "notes": "Burn the ships"
+    },
+    {
+      "type": "interval",
+      "id": "i039",
+      "name": "Spin down",
+      "duration": 180,
+      "powerZone": "Z1",
+      "cadence": 95
+    }
+  ]
+}
