@@ -50,33 +50,65 @@ This repository contains structured interval workout templates for cycling train
 Use `python3 utils/validate_workout.py workouts/**/*.json` to validate workouts.
 
 ## CSV Import Guidelines
-When importing a workout CSV with power zones and intervals:
 
-1. **Analyze the structure**:
-   - Look for columns: Name, Power zone, Cadence, Duration, Notes
-   - Identify section headers (like "Ramps", "Steady TT", "Over-unders")
-   - Check for power zone ranges (e.g., "Z2 -> 3 -> 5")
+### CSV Format
 
-2. **Create JSON directly**:
-   - Don't use scripts - manually create the JSON for clarity
-   - Parse duration (HH:MM:SS or MM:SS to seconds)
-   - Parse power zones (handle ranges with "->" separator)
-   - Use section names for interval names when available
-   - Group repeated patterns into blocks when appropriate
+The standard workout CSV has these columns (only the first 5 are used):
 
-3. **Power Zone Parsing**:
-   - Simple: "Z1", "Z2+", "Z3-" → Use as is
-   - Ranges: "Z2 -> 3 -> 5" → `{"powerZoneRange": {"start": "Z2", "end": "Z5"}}`
-   - Extract final zone from ranges (the "end" value)
+```
+Name, Power zone, Cadence, Duration, Notes, Cumulative, (ignored columns...)
+```
 
-4. **Validate**:
-   - Run `python3 utils/validate_workout.py workouts/<duration>/<name>.json`
-   - Check total duration matches (sum all interval durations)
+- **Name**: Section name — only appears on the **first row** of a section; subsequent rows in the same section have an empty Name cell
+- **Power zone**: e.g. `Z1`, `Z3+`, `Z4-`, `Z5`
+- **Cadence**: Optional RPM integer
+- **Duration**: `H:MM:SS` format (e.g. `0:00:20`, `0:03:00`, `1:00:00`)
+- **Notes**: Optional coaching cue (e.g. "Out of the saddle", "Cadence up") — map to the `notes` field on the interval
 
-5. **File naming**:
-   - Save to: `workouts/<duration>min/<workout-name>.json`
-   - Use kebab-case for filename
-   - Include duration in filename (e.g., `wind-up-90.json`)
+**Blank rows** (all five key columns empty) are separators — skip them entirely.
+
+### Step-by-Step Import Process
+
+#### 1. Parse sections
+Scan the CSV top to bottom. Carry the last non-empty Name forward as the current section label. When you hit a blank row, the section ends. Build an ordered list of sections, each containing its rows:
+
+```
+Warmup         → [Z1/180s, Z2/180s, Z3/120s, Z2@95/60s]
+Tabata warm-up → [Z3+@95/20s, Z1/10s, Z3+@95/20s, Z1/10s, ...]
+Recover        → [Z1/120s]
+Breakaway      → [Z6/15s, Z5/30s, Z4-/135s, Z2/60s]
+Breakaway      → [Z6/15s, Z5/30s, Z4-/135s, Z2/60s]
+...
+```
+
+#### 2. Detect repeating blocks
+After parsing, scan for **consecutive sections with the same name AND identical interval structure** (same sequence of powerZone + duration + cadence). These become a single `block` with `repetitions` = count. Non-consecutive repetitions or sections with different internal intervals are kept as separate entries.
+
+Example: Two back-to-back `Breakaway` sections with the same 4 intervals → one block with `"repetitions": 2`.
+
+#### 3. Parse duration to seconds
+- `H:MM:SS` → `hours*3600 + minutes*60 + seconds`
+- `0:00:20` → 20, `0:03:00` → 180, `0:02:15` → 135
+
+#### 4. Parse power zones
+- Use as-is: `"Z1"`, `"Z3+"`, `"Z4-"`, `"Z5"`
+- Ramp ranges (e.g. `"Z2 -> Z5"`): use `"powerZoneRange": {"start": "Z2", "end": "Z5"}`
+
+#### 5. Build interval names
+- Single-interval section: use the section name directly (e.g. `"Recover"`)
+- Multi-interval section: prefix with section name and append the zone
+  - e.g. `"Tabata warm-up Z3+"`, `"Tabata warm-up Z1"`, `"Breakaway Z6"`
+- If the Notes cell is non-empty, add it as a separate `"notes"` field on the interval — do **not** append it to the name
+  - e.g. `{ "name": "Tabata Break Z4", "notes": "Out of the saddle", ... }`
+
+#### 6. Assign IDs
+- Top-level `sequence` items: `i001`, `i002`... for standalone intervals; `b001`, `b002`... for blocks
+- Intervals inside blocks: use block-name prefix + index, e.g. `breakaway-1`, `breakaway-2`
+
+#### 7. Validate and save
+- Run `python3 utils/validate_workout.py workouts/<duration>min/<name>.json`
+- Confirm `totalDuration` equals the sum of all interval durations (accounting for block repetitions)
+- Save to `workouts/<duration>min/<kebab-case-name>.json` (include duration in filename)
 
 ## Common Patterns
 

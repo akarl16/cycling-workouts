@@ -1,0 +1,196 @@
+{
+  "id": "thems-the-breaks-60",
+  "name": "Thems the Breaks",
+  "description": "A 60-minute breakaway and tabata workout. Three rounds of paired breakaway sprints (Z6→Z5→Z4-→Z2) are each separated by a tabata-style effort that escalates in zone — from Z3+ cadence-up, to Z4 out-of-the-saddle. A progressive tabata finisher climbing from Z3 to Z5 closes the workout.",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Warmup",
+      "repetitions": 1,
+      "intervals": [
+        { "id": "warmup-1", "name": "Warmup Z1", "powerZone": "Z1", "duration": 180 },
+        { "id": "warmup-2", "name": "Warmup Z2", "powerZone": "Z2", "duration": 180 },
+        { "id": "warmup-3", "name": "Warmup Z3", "powerZone": "Z3", "duration": 120 },
+        { "id": "warmup-4", "name": "Warmup Z2", "powerZone": "Z2", "cadence": 95, "duration": 60 }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Tabata warm-up",
+      "repetitions": 1,
+      "intervals": [
+        { "id": "tabata-warmup-1",  "name": "Tabata warm-up Z3+", "powerZone": "Z3+", "cadence": 95, "duration": 20 },
+        { "id": "tabata-warmup-2",  "name": "Tabata warm-up Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-warmup-3",  "name": "Tabata warm-up Z3+", "powerZone": "Z3+", "cadence": 95, "duration": 20 },
+        { "id": "tabata-warmup-4",  "name": "Tabata warm-up Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-warmup-5",  "name": "Tabata warm-up Z4-", "powerZone": "Z4-", "cadence": 95, "duration": 20 },
+        { "id": "tabata-warmup-6",  "name": "Tabata warm-up Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-warmup-7",  "name": "Tabata warm-up Z4-", "powerZone": "Z4-", "cadence": 95, "duration": 20 },
+        { "id": "tabata-warmup-8",  "name": "Tabata warm-up Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-warmup-9",  "name": "Tabata warm-up Z3", "powerZone": "Z3", "cadence": 50, "duration": 20, "notes": "Out of the saddle" },
+        { "id": "tabata-warmup-10", "name": "Tabata warm-up Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-warmup-11", "name": "Tabata warm-up Z3", "powerZone": "Z3", "cadence": 50, "duration": 20, "notes": "Out of the saddle" },
+        { "id": "tabata-warmup-12", "name": "Tabata warm-up Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-warmup-13", "name": "Tabata warm-up Z5", "powerZone": "Z5", "cadence": 95, "duration": 20 },
+        { "id": "tabata-warmup-14", "name": "Tabata warm-up Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-warmup-15", "name": "Tabata warm-up Z5", "powerZone": "Z5", "cadence": 95, "duration": 20 },
+        { "id": "tabata-warmup-16", "name": "Tabata warm-up Z1",  "powerZone": "Z1",  "duration": 10 }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 120
+    },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Breakaway",
+      "repetitions": 2,
+      "intervals": [
+        { "id": "breakaway-a-1", "name": "Breakaway Z6",  "powerZone": "Z6",  "duration": 15 },
+        { "id": "breakaway-a-2", "name": "Breakaway Z5",  "powerZone": "Z5",  "duration": 30 },
+        { "id": "breakaway-a-3", "name": "Breakaway Z4-", "powerZone": "Z4-", "duration": 75 },
+        { "id": "breakaway-a-4", "name": "Breakaway Z3",  "powerZone": "Z3",  "duration": 60 },
+        { "id": "breakaway-a-5", "name": "Breakaway Z2",  "powerZone": "Z2",  "duration": 60 }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "Tabata Break",
+      "repetitions": 1,
+      "intervals": [
+        { "id": "tabata-break-1-1",  "name": "Tabata Break Z3+", "powerZone": "Z3+", "cadence": 100, "duration": 20, "notes": "Cadence up" },
+        { "id": "tabata-break-1-2",  "name": "Tabata Break Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-break-1-3",  "name": "Tabata Break Z3+", "powerZone": "Z3+", "cadence": 100, "duration": 20, "notes": "Cadence up" },
+        { "id": "tabata-break-1-4",  "name": "Tabata Break Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-break-1-5",  "name": "Tabata Break Z3+", "powerZone": "Z3+", "cadence": 100, "duration": 20, "notes": "Cadence up" },
+        { "id": "tabata-break-1-6",  "name": "Tabata Break Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-break-1-7",  "name": "Tabata Break Z3+", "powerZone": "Z3+", "cadence": 100, "duration": 20, "notes": "Cadence up" },
+        { "id": "tabata-break-1-8",  "name": "Tabata Break Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-break-1-9",  "name": "Tabata Break Z3+", "powerZone": "Z3+", "cadence": 100, "duration": 20, "notes": "Cadence up" },
+        { "id": "tabata-break-1-10", "name": "Tabata Break Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-break-1-11", "name": "Tabata Break Z3+", "powerZone": "Z3+", "cadence": 100, "duration": 20, "notes": "Cadence up" },
+        { "id": "tabata-break-1-12", "name": "Tabata Break Z1",  "powerZone": "Z1",  "duration": 10 }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 120
+    },
+    {
+      "type": "block",
+      "id": "b005",
+      "name": "Breakaway",
+      "repetitions": 2,
+      "intervals": [
+        { "id": "breakaway-b-1", "name": "Breakaway Z6",  "powerZone": "Z6",  "duration": 15 },
+        { "id": "breakaway-b-2", "name": "Breakaway Z5",  "powerZone": "Z5",  "duration": 30 },
+        { "id": "breakaway-b-3", "name": "Breakaway Z4-", "powerZone": "Z4-", "duration": 75 },
+        { "id": "breakaway-b-4", "name": "Breakaway Z3",  "powerZone": "Z3",  "duration": 60 },
+        { "id": "breakaway-b-5", "name": "Breakaway Z2",  "powerZone": "Z2",  "duration": 60 }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "block",
+      "id": "b006",
+      "name": "Tabata Break",
+      "repetitions": 1,
+      "intervals": [
+        { "id": "tabata-break-2-1",  "name": "Tabata Break Z4", "powerZone": "Z4", "duration": 20, "notes": "Out of the saddle" },
+        { "id": "tabata-break-2-2",  "name": "Tabata Break Z1", "powerZone": "Z1", "duration": 10 },
+        { "id": "tabata-break-2-3",  "name": "Tabata Break Z4", "powerZone": "Z4", "duration": 20, "notes": "Out of the saddle" },
+        { "id": "tabata-break-2-4",  "name": "Tabata Break Z1", "powerZone": "Z1", "duration": 10 },
+        { "id": "tabata-break-2-5",  "name": "Tabata Break Z4", "powerZone": "Z4", "duration": 20, "notes": "Out of the saddle" },
+        { "id": "tabata-break-2-6",  "name": "Tabata Break Z1", "powerZone": "Z1", "duration": 10 },
+        { "id": "tabata-break-2-7",  "name": "Tabata Break Z4", "powerZone": "Z4", "duration": 20, "notes": "Out of the saddle" },
+        { "id": "tabata-break-2-8",  "name": "Tabata Break Z1", "powerZone": "Z1", "duration": 10 },
+        { "id": "tabata-break-2-9",  "name": "Tabata Break Z4", "powerZone": "Z4", "duration": 20, "notes": "Out of the saddle" },
+        { "id": "tabata-break-2-10", "name": "Tabata Break Z1", "powerZone": "Z1", "duration": 10 },
+        { "id": "tabata-break-2-11", "name": "Tabata Break Z4", "powerZone": "Z4", "duration": 20, "notes": "Out of the saddle" },
+        { "id": "tabata-break-2-12", "name": "Tabata Break Z1", "powerZone": "Z1", "duration": 10 }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 120
+    },
+    {
+      "type": "block",
+      "id": "b007",
+      "name": "Breakaway",
+      "repetitions": 2,
+      "intervals": [
+        { "id": "breakaway-c-1", "name": "Breakaway Z6",  "powerZone": "Z6",  "duration": 15 },
+        { "id": "breakaway-c-2", "name": "Breakaway Z5",  "powerZone": "Z5",  "duration": 30 },
+        { "id": "breakaway-c-3", "name": "Breakaway Z4-", "powerZone": "Z4-", "duration": 75 },
+        { "id": "breakaway-c-4", "name": "Breakaway Z3",  "powerZone": "Z3",  "duration": 60 },
+        { "id": "breakaway-c-5", "name": "Breakaway Z2",  "powerZone": "Z2",  "duration": 60 }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "block",
+      "id": "b008",
+      "name": "Tabata Finisher",
+      "repetitions": 1,
+      "intervals": [
+        { "id": "tabata-finisher-1",  "name": "Tabata Finisher Z3",  "powerZone": "Z3",  "cadence": 50,  "duration": 20, "notes": "Cadence down" },
+        { "id": "tabata-finisher-2",  "name": "Tabata Finisher Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-finisher-3",  "name": "Tabata Finisher Z3",  "powerZone": "Z3",  "cadence": 100, "duration": 20, "notes": "Cadence up" },
+        { "id": "tabata-finisher-4",  "name": "Tabata Finisher Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-finisher-5",  "name": "Tabata Finisher Z3+", "powerZone": "Z3+", "cadence": 50,  "duration": 20, "notes": "Cadence down" },
+        { "id": "tabata-finisher-6",  "name": "Tabata Finisher Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-finisher-7",  "name": "Tabata Finisher Z3+", "powerZone": "Z3+", "cadence": 100, "duration": 20, "notes": "Cadence up" },
+        { "id": "tabata-finisher-8",  "name": "Tabata Finisher Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-finisher-9",  "name": "Tabata Finisher Z4",  "powerZone": "Z4",  "cadence": 50,  "duration": 20, "notes": "Cadence down" },
+        { "id": "tabata-finisher-10", "name": "Tabata Finisher Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-finisher-11", "name": "Tabata Finisher Z4",  "powerZone": "Z4",  "cadence": 100, "duration": 20, "notes": "Cadence up" },
+        { "id": "tabata-finisher-12", "name": "Tabata Finisher Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-finisher-13", "name": "Tabata Finisher Z5",  "powerZone": "Z5",  "cadence": 50,  "duration": 20, "notes": "Cadence down" },
+        { "id": "tabata-finisher-14", "name": "Tabata Finisher Z1",  "powerZone": "Z1",  "duration": 10 },
+        { "id": "tabata-finisher-15", "name": "Tabata Finisher Z5",  "powerZone": "Z5",  "cadence": 100, "duration": 20, "notes": "Cadence up" },
+        { "id": "tabata-finisher-16", "name": "Tabata Finisher Z1",  "powerZone": "Z1",  "duration": 10 }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Spindown",
+      "powerZone": "Z1",
+      "duration": 240
+    }
+  ]
+}
