@@ -1,0 +1,239 @@
+{
+  "id": "the-overly-long-pyramid-90",
+  "name": "The Overly Long Pyramid",
+  "description": "A 90-minute pyramid workout building through the zones and back down, with progressive intensity blocks and over-the-top Z5 efforts at the peak.",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Simple build Z2",
+      "duration": 180,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Simple build Z3",
+      "duration": 180,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Simple build Z3+",
+      "duration": 120,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Simple build Z4",
+      "duration": 120,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Active",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Long and low",
+      "duration": 480,
+      "powerZone": "Z3-"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Active",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "A touch more",
+      "duration": 360,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Active",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Getting up there Z4-",
+      "duration": 300,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Getting up there Z1",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Active",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "On the limit",
+      "duration": 180,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Over the top",
+      "duration": 120,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "Over the top",
+      "duration": 120,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i023",
+      "name": "On the way down",
+      "duration": 180,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i024",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i025",
+      "name": "Sustainable-ish Z4-",
+      "duration": 300,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "Sustainable-ish Z1",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i027",
+      "name": "Active",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i028",
+      "name": "Tempo is nice",
+      "duration": 360,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i029",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i030",
+      "name": "Active",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i031",
+      "name": "Almost there - for a while",
+      "duration": 480,
+      "powerZone": "Z3-"
+    },
+    {
+      "type": "interval",
+      "id": "i032",
+      "name": "Spindown Z2",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i033",
+      "name": "Spindown Z1",
+      "duration": 120,
+      "powerZone": "Z1"
+    }
+  ]
+}
