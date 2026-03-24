@@ -1,0 +1,152 @@
+{
+  "id": "fast-follower-60",
+  "name": "Fast Follower",
+  "description": "60-minute workout featuring a step-up warmup through Z4-, three rounds of under-over-at threshold efforts paired with cadence recovery, and a neuromuscular finisher.",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Gradual build Z2",
+      "duration": 180,
+      "powerZone": "Z2",
+      "notes": "Small add per minute"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Gradual build Z3",
+      "duration": 180,
+      "powerZone": "Z3",
+      "notes": "Small add per minute"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Gradual build Z3+",
+      "duration": 180,
+      "powerZone": "Z3+",
+      "notes": "Small add per minute"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Gradual build Z4-",
+      "duration": 180,
+      "powerZone": "Z4-",
+      "notes": "Small add per minute"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Main Set",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "main-set-1",
+          "name": "Under Z3",
+          "duration": 90,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "main-set-2",
+          "name": "Under Z3+",
+          "duration": 90,
+          "powerZone": "Z3+"
+        },
+        {
+          "id": "main-set-3",
+          "name": "Over",
+          "duration": 90,
+          "powerZone": "Z4+"
+        },
+        {
+          "id": "main-set-4",
+          "name": "At",
+          "duration": 90,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "main-set-5",
+          "name": "Under Z4-",
+          "duration": 90,
+          "powerZone": "Z4-"
+        },
+        {
+          "id": "main-set-6",
+          "name": "Cadence recovery Z1",
+          "duration": 60,
+          "powerZone": "Z1",
+          "cadence": 85,
+          "notes": "Quicker every minute"
+        },
+        {
+          "id": "main-set-7",
+          "name": "Cadence recovery Z1",
+          "duration": 60,
+          "powerZone": "Z1",
+          "cadence": 90,
+          "notes": "Quicker every minute"
+        },
+        {
+          "id": "main-set-8",
+          "name": "Cadence recovery Z2",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 95,
+          "notes": "Quicker every minute"
+        },
+        {
+          "id": "main-set-9",
+          "name": "Cadence recovery Z2",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 100
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Cadence Drill",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "cadence-drill-1",
+          "name": "Overgear",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 60
+        },
+        {
+          "id": "cadence-drill-2",
+          "name": "Fast Cadence",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 100
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Spindown",
+      "duration": 90,
+      "powerZone": "Z1"
+    }
+  ]
+}
