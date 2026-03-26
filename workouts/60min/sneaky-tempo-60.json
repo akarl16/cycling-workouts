@@ -1,0 +1,175 @@
+{
+  "id": "sneaky-tempo-60",
+  "name": "Sneaky Tempo",
+  "description": "60-minute workout with a progressive warmup through Z1–Z3, then four escalating launches (Z4 → Z4+ → Z5 → Z5) each followed by a 7-minute tempo settle-in that rises from Z3- up to Z3+.",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Active-Quick",
+      "duration": 180,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Tempo",
+      "duration": 180,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Active-Quick",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "On the limit",
+      "duration": 60,
+      "powerZone": "Z4",
+      "notes": "Launch"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Settle in",
+      "duration": 420,
+      "powerZone": "Z3-",
+      "notes": "How far can you go?"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Active-Quick",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Over the limit",
+      "duration": 60,
+      "powerZone": "Z4+",
+      "notes": "Launch"
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Settle in",
+      "duration": 420,
+      "powerZone": "Z3",
+      "notes": "How far can you go?"
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Active-Quick",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Over the limit",
+      "duration": 60,
+      "powerZone": "Z5",
+      "notes": "Launch"
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Settle in",
+      "duration": 420,
+      "powerZone": "Z3+",
+      "notes": "How far can you go?"
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Active-Quick",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Over the limit",
+      "duration": 60,
+      "powerZone": "Z5",
+      "notes": "Launch"
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Settle in",
+      "duration": 420,
+      "powerZone": "Z3+",
+      "notes": "How far can you go?"
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "Spindown Z1",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "Spindown Z2",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "Spindown Z1",
+      "duration": 120,
+      "powerZone": "Z1"
+    }
+  ]
+}
