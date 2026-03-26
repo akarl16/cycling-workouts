@@ -1,0 +1,101 @@
+{
+  "id": "sneaky-tempo-45",
+  "name": "Sneaky Tempo",
+  "description": "46-minute workout with a progressive warmup through Z1–Z4 and three over-the-limit Z5 launches followed by 5-minute Z3 tempo holds.",
+  "totalDuration": 2760,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy Pedal",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Active-quick",
+      "duration": 180,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Tempo",
+      "duration": 180,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Active-quick",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Low threshold",
+      "duration": 120,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Active-quick",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Threshold",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Tempo-Distance Challenges",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "distance-1",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "distance-2",
+          "name": "Active-quick",
+          "duration": 120,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "distance-3",
+          "name": "Over the limit",
+          "duration": 60,
+          "powerZone": "Z5",
+          "notes": "Launch"
+        },
+        {
+          "id": "distance-4",
+          "name": "Settle in",
+          "duration": 300,
+          "powerZone": "Z3+",
+          "notes": "How far can you go?"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Spindown",
+      "duration": 180,
+      "powerZone": "Z1"
+    }
+  ]
+}
