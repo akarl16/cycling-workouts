@@ -1,0 +1,272 @@
+{
+  "id": "progressing-over-and-under-90",
+  "name": "Progressing Over and Under",
+  "description": "90-minute progressive over-under workout. After a primer of escalating 40/20s and single-leg drills, the main set builds through 1-minute, 2-minute, and 3-minute over-under pairs, then mirrors back down — a palindrome of interval lengths.",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Warm up Z1",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Warm up Z2",
+      "duration": 180,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Warm up Z3",
+      "duration": 180,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "40/20 Z4",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "40-20-z4-1",
+          "name": "40/20 Z2",
+          "duration": 40,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "40-20-z4-2",
+          "name": "40/20 Z4",
+          "duration": 20,
+          "powerZone": "Z4"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "40/20 Z4+",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "40-20-z4p-1",
+          "name": "40/20 Z2",
+          "duration": 40,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "40-20-z4p-2",
+          "name": "40/20 Z4+",
+          "duration": 20,
+          "powerZone": "Z4+"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "40/20 Z5",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "40-20-z5-1",
+          "name": "40/20 Z2",
+          "duration": 40,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "40-20-z5-2",
+          "name": "40/20 Z5",
+          "duration": 20,
+          "powerZone": "Z5"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "Single leg drills",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "sld-1",
+          "name": "Single leg drills Z2",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95,
+          "notes": "Single leg - left"
+        },
+        {
+          "id": "sld-2",
+          "name": "Single leg drills Z2",
+          "duration": 30,
+          "powerZone": "Z2",
+          "notes": "Both"
+        },
+        {
+          "id": "sld-3",
+          "name": "Single leg drills Z2",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95,
+          "notes": "Single leg - right"
+        },
+        {
+          "id": "sld-4",
+          "name": "Single leg drills Z2",
+          "duration": 30,
+          "powerZone": "Z2",
+          "notes": "Both"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b005",
+      "name": "Minute-up",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "minute-1",
+          "name": "Minute-up",
+          "duration": 60,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "minute-2",
+          "name": "Minute-down",
+          "duration": 60,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b006",
+      "name": "Two-up",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "two-1",
+          "name": "Two-up Z3",
+          "duration": 120,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "two-2",
+          "name": "Two-down",
+          "duration": 120,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "two-3",
+          "name": "Two-up Z4-",
+          "duration": 120,
+          "powerZone": "Z4-"
+        },
+        {
+          "id": "two-4",
+          "name": "Two-down",
+          "duration": 120,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b007",
+      "name": "Three-up",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "three-1",
+          "name": "Three-up",
+          "duration": 180,
+          "powerZone": "Z3+"
+        },
+        {
+          "id": "three-2",
+          "name": "Three-down",
+          "duration": 180,
+          "powerZone": "Z2+"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b008",
+      "name": "Two-up",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "two2-1",
+          "name": "Two-up Z3",
+          "duration": 120,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "two2-2",
+          "name": "Two-down",
+          "duration": 120,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "two2-3",
+          "name": "Two-up Z4-",
+          "duration": 120,
+          "powerZone": "Z4-"
+        },
+        {
+          "id": "two2-4",
+          "name": "Two-down",
+          "duration": 120,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b009",
+      "name": "Minute-up",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "minute2-1",
+          "name": "Minute-up",
+          "duration": 60,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "minute2-2",
+          "name": "Minute-down",
+          "duration": 60,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Spindown",
+      "duration": 120,
+      "powerZone": "Z1"
+    }
+  ]
+}
