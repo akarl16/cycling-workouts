@@ -9,7 +9,8 @@
       "name": "Hi Hill, Hi Hill",
       "youtubeUrl": "https://www.youtube.com/watch?v=Bw5NRpCTSd4",
       "startTime": 620,
-      "triggerIntervalId": "i001"
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i033"
     }
   ],
   "sequence": [
