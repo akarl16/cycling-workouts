@@ -1,0 +1,515 @@
+{
+  "id": "super-fast-cadence-sfc-plus-90",
+  "name": "Super Fast Cadence (SFC) Plus",
+  "description": "90-minute ride featuring a progressive power warmup, two sets of cadence pyramid escalators (Z2-Z4-Z2), bonus low-cadence torque work, a cadence escalation ramp up to 130 RPM, and two rounds of Super Fast Cadence blocks (6x: 1 min Z3 @ 120 RPM + 30s recovery) flanked by settle-steady threshold efforts.",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy",
+      "duration": 240,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Active",
+      "duration": 90,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Quick-Active",
+      "duration": 30,
+      "powerZone": "Z2",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Tempo",
+      "duration": 90,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Quick-Active",
+      "duration": 30,
+      "powerZone": "Z2",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Tempo+",
+      "duration": 90,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Quick-Active",
+      "duration": 30,
+      "powerZone": "Z2",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Low Threshold",
+      "duration": 90,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Cadence escalators",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ce1-1",
+          "name": "Cadence escalators Z2",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 80
+        },
+        {
+          "id": "ce1-2",
+          "name": "Cadence escalators Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "ce1-3",
+          "name": "Cadence escalators Z4",
+          "duration": 60,
+          "powerZone": "Z4",
+          "cadence": 100
+        },
+        {
+          "id": "ce1-4",
+          "name": "Cadence escalators Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "ce1-5",
+          "name": "Cadence escalators Z2",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 80
+        },
+        {
+          "id": "ce1-6",
+          "name": "Cadence escalators Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "ce1-7",
+          "name": "Cadence escalators Z4",
+          "duration": 60,
+          "powerZone": "Z4",
+          "cadence": 100
+        },
+        {
+          "id": "ce1-8",
+          "name": "Cadence escalators Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "ce1-9",
+          "name": "Cadence escalators Z2",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 80
+        },
+        {
+          "id": "ce1-10",
+          "name": "Cadence escalators Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "ce1-11",
+          "name": "Cadence escalators Z4",
+          "duration": 60,
+          "powerZone": "Z4",
+          "cadence": 100
+        },
+        {
+          "id": "ce1-12",
+          "name": "Cadence escalators Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "ce1-13",
+          "name": "Cadence escalators Z2",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 80
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Bonus torque",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "bt-1",
+          "name": "Bonus torque Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 70
+        },
+        {
+          "id": "bt-2",
+          "name": "Bonus torque Z2",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 60
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Higher and higher",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "hah-1",
+          "name": "Higher and higher Z2",
+          "duration": 40,
+          "powerZone": "Z2",
+          "cadence": 90
+        },
+        {
+          "id": "hah-2",
+          "name": "Higher and higher Z2",
+          "duration": 20,
+          "powerZone": "Z2",
+          "cadence": 100
+        },
+        {
+          "id": "hah-3",
+          "name": "Higher and higher Z2",
+          "duration": 40,
+          "powerZone": "Z2",
+          "cadence": 90
+        },
+        {
+          "id": "hah-4",
+          "name": "Higher and higher Z3",
+          "duration": 20,
+          "powerZone": "Z3",
+          "cadence": 105
+        },
+        {
+          "id": "hah-5",
+          "name": "Higher and higher Z2",
+          "duration": 40,
+          "powerZone": "Z2",
+          "cadence": 90
+        },
+        {
+          "id": "hah-6",
+          "name": "Higher and higher Z3+",
+          "duration": 20,
+          "powerZone": "Z3+",
+          "cadence": 110
+        },
+        {
+          "id": "hah-7",
+          "name": "Higher and higher Z2",
+          "duration": 40,
+          "powerZone": "Z2",
+          "cadence": 90
+        },
+        {
+          "id": "hah-8",
+          "name": "Higher and higher Z4-",
+          "duration": 20,
+          "powerZone": "Z4-",
+          "cadence": 115
+        },
+        {
+          "id": "hah-9",
+          "name": "Higher and higher Z2",
+          "duration": 40,
+          "powerZone": "Z2",
+          "cadence": 90
+        },
+        {
+          "id": "hah-10",
+          "name": "Higher and higher Z4",
+          "duration": 20,
+          "powerZone": "Z4",
+          "cadence": 120
+        },
+        {
+          "id": "hah-11",
+          "name": "Higher and higher Z2",
+          "duration": 40,
+          "powerZone": "Z2",
+          "cadence": 90
+        },
+        {
+          "id": "hah-12",
+          "name": "Higher and higher Z5",
+          "duration": 20,
+          "powerZone": "Z5",
+          "cadence": 130
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "SFC",
+      "repetitions": 6,
+      "intervals": [
+        {
+          "id": "sfc1-1",
+          "name": "SFC Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 120
+        },
+        {
+          "id": "sfc1-2",
+          "name": "SFC Z1",
+          "duration": 30,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "sfc1-3",
+          "name": "SFC Z2",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 90
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Settle steady",
+      "duration": 240,
+      "powerZoneRange": { "start": "Z3", "end": "Z4" }
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b005",
+      "name": "Cadence escalators",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "ce2-1",
+          "name": "Cadence escalators Z2",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 80
+        },
+        {
+          "id": "ce2-2",
+          "name": "Cadence escalators Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "ce2-3",
+          "name": "Cadence escalators Z4",
+          "duration": 60,
+          "powerZone": "Z4",
+          "cadence": 100
+        },
+        {
+          "id": "ce2-4",
+          "name": "Cadence escalators Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "ce2-5",
+          "name": "Cadence escalators Z2",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 80
+        },
+        {
+          "id": "ce2-6",
+          "name": "Cadence escalators Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "ce2-7",
+          "name": "Cadence escalators Z4",
+          "duration": 60,
+          "powerZone": "Z4",
+          "cadence": 100
+        },
+        {
+          "id": "ce2-8",
+          "name": "Cadence escalators Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "ce2-9",
+          "name": "Cadence escalators Z2",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 80
+        },
+        {
+          "id": "ce2-10",
+          "name": "Cadence escalators Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "ce2-11",
+          "name": "Cadence escalators Z4",
+          "duration": 60,
+          "powerZone": "Z4",
+          "cadence": 100
+        },
+        {
+          "id": "ce2-12",
+          "name": "Cadence escalators Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "ce2-13",
+          "name": "Cadence escalators Z2",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 80
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b006",
+      "name": "SFC",
+      "repetitions": 6,
+      "intervals": [
+        {
+          "id": "sfc2-1",
+          "name": "SFC Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 120
+        },
+        {
+          "id": "sfc2-2",
+          "name": "SFC Z1",
+          "duration": 30,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "sfc2-3",
+          "name": "SFC Z2",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 90
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Settle steady",
+      "duration": 240,
+      "powerZoneRange": { "start": "Z3", "end": "Z4" }
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Down",
+      "duration": 90,
+      "powerZone": "Z1"
+    }
+  ],
+  "videos": [
+    {
+      "id": "v001",
+      "name": "Video 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YHu0dOmBBq0",
+      "startTime": 17545,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i018"
+    }
+  ]
+}
