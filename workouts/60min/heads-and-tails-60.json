@@ -1,0 +1,73 @@
+{
+  "id": "heads-and-tails-60",
+  "name": "Heads and Tails",
+  "description": "60-minute over-under workout with a progressive warmup, stepping ladder, threshold climbs, and 3 rounds of alternating just-over/just-under threshold pairs",
+  "totalDuration": 3600,
+  "videos": [
+    {
+      "id": "background-video",
+      "name": "Heads and Tails Background",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nKbiq_xsWDs",
+      "startTime": 0,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i025"
+    }
+  ],
+  "sequence": [
+    { "type": "interval", "id": "i001", "name": "Easy Z1", "duration": 300, "powerZone": "Z1" },
+    { "type": "interval", "id": "i002", "name": "Easy Z2", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "i003", "name": "Easy Z3", "duration": 120, "powerZone": "Z3" },
+    { "type": "interval", "id": "i004", "name": "Steps Z2", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "i005", "name": "Steps Z4", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "i006", "name": "Steps Z2", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "i007", "name": "Steps Z4", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "i008", "name": "Steps Z2", "duration": 30, "powerZone": "Z2" },
+    { "type": "interval", "id": "i009", "name": "Steps Z5", "duration": 30, "powerZone": "Z5" },
+    { "type": "interval", "id": "i010", "name": "Steps Z2", "duration": 30, "powerZone": "Z2" },
+    { "type": "interval", "id": "i011", "name": "Steps Z5", "duration": 30, "powerZone": "Z5" },
+    { "type": "interval", "id": "i012", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "i013", "name": "On the cusp", "duration": 300, "powerZone": "Z3+" },
+    { "type": "interval", "id": "i014", "name": "Recover",    "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "i015", "name": "Active",     "duration": 60, "powerZone": "Z2" },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Heads and Tails",
+      "repetitions": 6,
+      "intervals": [
+        { "id": "ht1-over",  "name": "Just over",  "duration": 30, "powerZone": "Z4+" },
+        { "id": "ht1-under", "name": "Just under", "duration": 30, "powerZone": "Z3" }
+      ]
+    },
+    { "type": "interval", "id": "i016", "name": "Recover", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "i017", "name": "Active",  "duration": 60, "powerZone": "Z2" },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Heads and Tails",
+      "repetitions": 6,
+      "intervals": [
+        { "id": "ht2-over",  "name": "Just over",  "duration": 30, "powerZone": "Z4+" },
+        { "id": "ht2-under", "name": "Just under", "duration": 30, "powerZone": "Z3" }
+      ]
+    },
+    { "type": "interval", "id": "i018", "name": "Recover", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "i019", "name": "Active",  "duration": 60, "powerZone": "Z2" },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Heads and Tails",
+      "repetitions": 6,
+      "intervals": [
+        { "id": "ht3-over",  "name": "Just over",  "duration": 30, "powerZone": "Z4+" },
+        { "id": "ht3-under", "name": "Just under", "duration": 30, "powerZone": "Z3" }
+      ]
+    },
+    { "type": "interval", "id": "i020", "name": "Recover",    "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "i021", "name": "Active",     "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "i022", "name": "On the cusp", "duration": 300, "powerZone": "Z3+" },
+    { "type": "interval", "id": "i023", "name": "Spindown - Easier each minute Z3", "duration": 120, "powerZone": "Z3" },
+    { "type": "interval", "id": "i024", "name": "Spindown - Easier each minute Z2", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "i025", "name": "Spindown - Easier each minute Z1", "duration": 180, "powerZone": "Z1" }
+  ]
+}
