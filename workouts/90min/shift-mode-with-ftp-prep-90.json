@@ -1,0 +1,120 @@
+{
+  "id": "shift-mode-with-ftp-prep-90",
+  "name": "Shift Mode w/FTP Prep",
+  "description": "90-minute ride featuring progressive builds into 6 shift mode blocks alternating fast cadence and overgear, followed by a cadence reset and two FTP prep efforts.",
+  "totalDuration": 5400,
+  "videos": [
+    {
+      "id": "video-warmup",
+      "name": "Warmup & Shift Blocks 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZE-s56OP3rs",
+      "startTime": 0,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "shift-mode-1-2-block-b001-rep-3"
+    },
+    {
+      "id": "video-shift-blocks-2",
+      "name": "Shift Blocks 2–6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yCUOxL4P3Cg",
+      "startTime": 0,
+      "triggerIntervalId": "i012",
+      "endIntervalId": "i016"
+    },
+    {
+      "id": "video-ftp-prep",
+      "name": "FTP Prep",
+      "youtubeUrl": "https://www.youtube.com/watch?v=b6XqXXQjTJk",
+      "startTime": 22676,
+      "triggerIntervalId": "shift-mode-6-1",
+      "endIntervalId": "i026"
+    }
+  ],
+  "sequence": [
+    { "type": "interval", "id": "i001", "name": "Easy Z1", "duration": 300, "powerZone": "Z1" },
+    { "type": "interval", "id": "i002", "name": "Easy Z2", "duration": 180, "powerZone": "Z2" },
+    { "type": "interval", "id": "i003", "name": "Easy Z3", "duration": 120, "powerZone": "Z3" },
+    { "type": "interval", "id": "i004", "name": "Build 1 Z2", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "i005", "name": "Build 1 Z3", "duration": 60, "powerZone": "Z3" },
+    { "type": "interval", "id": "i006", "name": "Build 1 Z3+", "duration": 60, "powerZone": "Z3+" },
+    { "type": "interval", "id": "i007", "name": "Build 2 Z2", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "i008", "name": "Build 2 Z3", "duration": 60, "powerZone": "Z3" },
+    { "type": "interval", "id": "i009", "name": "Build 2 Z3+", "duration": 60, "powerZone": "Z3+" },
+    { "type": "interval", "id": "i010", "name": "Build 2 Z4", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "i011", "name": "Recover", "duration": 180, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Shift mode 1",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "shift-mode-1-1", "name": "Shift mode 1 Z3+", "duration": 60, "powerZone": "Z3+", "cadence": 95, "notes": "Fast cadence" },
+        { "id": "shift-mode-1-2", "name": "Shift mode 1 Z3", "duration": 60, "powerZone": "Z3", "cadence": 60, "notes": "Overgear" }
+      ]
+    },
+    { "type": "interval", "id": "i012", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Shift mode 2",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "shift-mode-2-1", "name": "Shift mode 2 Z4-", "duration": 60, "powerZone": "Z4-", "cadence": 95, "notes": "Fast cadence" },
+        { "id": "shift-mode-2-2", "name": "Shift mode 2 Z3", "duration": 60, "powerZone": "Z3", "cadence": 60, "notes": "Overgear" }
+      ]
+    },
+    { "type": "interval", "id": "i013", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Shift mode 3",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "shift-mode-3-1", "name": "Shift mode 3 Z3+", "duration": 90, "powerZone": "Z3+", "cadence": 95 },
+        { "id": "shift-mode-3-2", "name": "Shift mode 3 Z3", "duration": 30, "powerZone": "Z3", "cadence": 60, "notes": "OOS" }
+      ]
+    },
+    { "type": "interval", "id": "i014", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "Shift mode 4",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "shift-mode-4-1", "name": "Shift mode 4 Z4-", "duration": 90, "powerZone": "Z4-", "cadence": 95 },
+        { "id": "shift-mode-4-2", "name": "Shift mode 4 Z3", "duration": 30, "powerZone": "Z3", "cadence": 60, "notes": "OOS" }
+      ]
+    },
+    { "type": "interval", "id": "i015", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b005",
+      "name": "Shift mode 5",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "shift-mode-5-1", "name": "Shift mode 5 Z3", "duration": 90, "powerZone": "Z3" },
+        { "id": "shift-mode-5-2", "name": "Shift mode 5 Z5", "duration": 30, "powerZone": "Z5" }
+      ]
+    },
+    { "type": "interval", "id": "i016", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+    {
+      "type": "block",
+      "id": "b006",
+      "name": "Shift mode 6",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "shift-mode-6-1", "name": "Shift mode 6 Z3", "duration": 90, "powerZone": "Z3" },
+        { "id": "shift-mode-6-2", "name": "Shift mode 6 Z5", "duration": 30, "powerZone": "Z5" }
+      ]
+    },
+    { "type": "interval", "id": "i017", "name": "Recover", "duration": 180, "powerZone": "Z1" },
+    { "type": "interval", "id": "i018", "name": "Cadence reset", "duration": 75, "powerZone": "Z2", "cadence": 100 },
+    { "type": "interval", "id": "i019", "name": "Easy prep", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "i020", "name": "FTP Prep 1 Z4-", "duration": 240, "powerZone": "Z4-" },
+    { "type": "interval", "id": "i021", "name": "FTP Prep 1 Z4", "duration": 120, "powerZone": "Z4" },
+    { "type": "interval", "id": "i022", "name": "Sim pop", "duration": 60, "powerZone": "Z3", "notes": "Recover without losing it all" },
+    { "type": "interval", "id": "i023", "name": "FTP Prep 2 Z4", "duration": 240, "powerZone": "Z4-" },
+    { "type": "interval", "id": "i024", "name": "FTP Prep 2 Z4+", "duration": 120, "powerZone": "Z4+" },
+    { "type": "interval", "id": "i025", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "i026", "name": "Spindown", "duration": 225, "powerZone": "Z1" }
+  ]
+}
