@@ -155,7 +155,42 @@ Filename: `<workout-name>.json` (kebab-case)
 
 Valid themes: `default`, `halloween`, `christmas`, `wintry`, `valentines`, `holyhill`, `criterium`, `custom`
 
-### 9. Validate
+### 9. Optional: Add Videos
+
+Workouts can include an optional `videos` array for interval-synced playback. Only YouTube and Vimeo are supported (not DRM-protected services like Peacock).
+
+```json
+"videos": [
+  {
+    "id": "video-warmup",
+    "name": "Warmup",
+    "youtubeUrl": "https://www.youtube.com/watch?v=XXXXX",
+    "startTime": 0,
+    "triggerIntervalId": "i001",
+    "endIntervalId": "i010"
+  }
+]
+```
+
+**Block expansion rules** — block IDs (e.g. `b001`) are never in the expanded interval list and cannot be used as `triggerIntervalId` or `endIntervalId`. Blocks expand to:
+```
+{intervalId}-block-{blockId}-rep-{repNumber}
+```
+Example: interval `foo-2` in block `b001` rep 3 → `foo-2-block-b001-rep-3`
+
+**Matching shorthand** — a bare interval ID like `"foo-1"` prefix-matches all expanded IDs starting with `"foo-1-block-"`, so it triggers at rep 1 without needing the full expanded form. Use full expanded IDs for `endIntervalId` to avoid overlap with adjacent videos:
+```json
+"endIntervalId": "shift-mode-1-2-block-b001-rep-3"
+```
+
+**Timing calculation** — to align a video timestamp with a specific workout moment:
+1. `videoTimestamp` = target video time in seconds (e.g. `6:44:11` → `24251`)
+2. `elapsedFromTrigger` = sum of interval durations from trigger interval to target moment
+3. `startTime = videoTimestamp - elapsedFromTrigger`
+
+See [VIDEOS.md](../../VIDEOS.md) for full reference.
+
+### 10. Validate
 
 ```bash
 python3 utils/validate_workout.py workouts/<duration>/<filename>.json

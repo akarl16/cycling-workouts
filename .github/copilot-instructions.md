@@ -149,6 +149,77 @@ Use powerZoneRange for smooth progressions:
 5. **Consistency**: Follow existing patterns in the workouts/ directory
 6. **Documentation**: Update workout description with key features
 
+## Video Configuration
+
+Workouts can have an optional `videos` array at the top level for interval-synced video playback.
+
+### VideoConfig Fields:
+- `id`: Unique identifier (kebab-case)
+- `name`: Display name
+- `youtubeUrl`: Full YouTube URL (also accepts Vimeo URLs via `vimeoUrl`)
+- `startTime`: Seconds into the video to seek to when triggered (default 0)
+- `triggerIntervalId`: Interval ID that starts the video
+- `endIntervalId`: Interval ID at which the video stops (inclusive)
+
+### Block Expansion
+The app expands blocks into individual intervals before matching video IDs. A block with `id: "b001"` containing intervals `["foo-1", "foo-2"]` and 3 repetitions expands to:
+
+```
+foo-1-block-b001-rep-1
+foo-2-block-b001-rep-1
+foo-1-block-b001-rep-2
+foo-2-block-b001-rep-2
+foo-1-block-b001-rep-3
+foo-2-block-b001-rep-3
+```
+
+**Block IDs cannot be used** as `triggerIntervalId` or `endIntervalId` — they never appear in the expanded list.
+
+### Matching Rules
+The app uses a prefix match: a target ID of `"foo-1"` matches any expanded ID that starts with `"foo-1-block-"`. This means:
+- `"triggerIntervalId": "foo-1"` → triggers at rep 1 of the first matching interval
+- `"endIntervalId": "foo-2-block-b001-rep-3"` → ends at the last rep specifically (no overlap bleed)
+
+For clean video handoffs at block boundaries, always use the **fully expanded ID** for `endIntervalId`:
+```
+"endIntervalId": "{intervalId}-block-{blockId}-rep-{repNumber}"
+```
+
+Example: last rep of block b001 → `"shift-mode-1-2-block-b001-rep-3"`
+
+### Timing Calculation
+To align a video timestamp with a specific workout moment:
+
+1. Calculate the **workout elapsed time** at the target moment (sum of all interval durations up to and including that point)
+2. Calculate the **video timestamp** in seconds (e.g. `6:44:11` = `6*3600 + 44*60 + 11` = `24251`)
+3. Calculate elapsed time from the **trigger interval** to the target moment
+4. `startTime = videoTimestamp - elapsedFromTriggerToTarget`
+
+Example: video should hit 24251s at end of i025; trigger is at `shift-mode-6-1` (1575s before end of i025):
+`startTime = 24251 - 1575 = 22676`
+
+### Example:
+```json
+"videos": [
+  {
+    "id": "video-warmup",
+    "name": "Warmup",
+    "youtubeUrl": "https://www.youtube.com/watch?v=XXXXX",
+    "startTime": 0,
+    "triggerIntervalId": "i001",
+    "endIntervalId": "shift-mode-1-2-block-b001-rep-3"
+  },
+  {
+    "id": "video-main",
+    "name": "Main Set",
+    "youtubeUrl": "https://www.youtube.com/watch?v=YYYYY",
+    "startTime": 22676,
+    "triggerIntervalId": "shift-mode-6-1",
+    "endIntervalId": "i026"
+  }
+]
+```
+
 ## Error Prevention
 
 - Don't mix `powerZone` and `powerZoneRange` in same interval

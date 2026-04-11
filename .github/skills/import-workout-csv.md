@@ -122,3 +122,7 @@ After successful import:
 1. JSON file created in correct directory
 2. Validation passed
 3. Summary: "✓ Imported '<name>' with X intervals, Y minutes total"
+
+## Optional: Add Videos After Import
+
+Once imported, videos can be added to sync YouTube/Vimeo playback with specific intervals. See the `create-interval-workout` skill (step 9) and [VIDEOS.md](../../VIDEOS.md) for the full process, including block expansion rules and timing calculation.
