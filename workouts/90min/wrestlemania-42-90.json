@@ -1,0 +1,939 @@
+{
+  "id": "wrestlemania-42-90",
+  "name": "Wrestlemania 42",
+  "description": "90-minute cycling workout themed around WrestleMania 42, with intervals named after WWE superstars. Features steady-state efforts, torque work, cadence drills, and sprint bursts.",
+  "totalDuration": 5400,
+  "videos": [
+    {
+      "id": "video-drew-mcintyre",
+      "name": "Drew McIntyre",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZDnuhwD9OnY",
+      "startTime": 0,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i002"
+    },
+    {
+      "id": "video-la-knight",
+      "name": "LA Knight",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HjR13KpBemE",
+      "startTime": 128,
+      "triggerIntervalId": "i003",
+      "endIntervalId": "i004"
+    },
+    {
+      "id": "video-logan-paul",
+      "name": "Logan Paul",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_rzAByDY_uA",
+      "startTime": 0,
+      "triggerIntervalId": "i005",
+      "endIntervalId": "i005"
+    },
+    {
+      "id": "video-jacob-fatu",
+      "name": "Jacob Fatu",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EWz-_LsMmaE",
+      "startTime": 0,
+      "triggerIntervalId": "i006",
+      "endIntervalId": "i007"
+    },
+    {
+      "id": "video-seth-rollins",
+      "name": "Seth \"Freakin\" Rollins",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bRf9o5mAT_M",
+      "startTime": 90,
+      "triggerIntervalId": "i008",
+      "endIntervalId": "i009"
+    },
+    {
+      "id": "video-gunther",
+      "name": "Gunther",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8QxJVPTF-M8",
+      "startTime": 0,
+      "triggerIntervalId": "i010",
+      "endIntervalId": "i011"
+    },
+    {
+      "id": "video-bella-twins",
+      "name": "Bella Twins",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kU_Vnl2x3y0",
+      "startTime": 0,
+      "triggerIntervalId": "i012",
+      "endIntervalId": "i018"
+    },
+    {
+      "id": "video-charlotte-flair",
+      "name": "Charlotte Flair",
+      "youtubeUrl": "https://www.youtube.com/watch?v=x2uV0styBJs",
+      "startTime": 20,
+      "triggerIntervalId": "i019",
+      "endIntervalId": "i021"
+    },
+    {
+      "id": "video-alexa-bliss",
+      "name": "Alexa Bliss",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XXQdgi1kIhA",
+      "startTime": 0,
+      "triggerIntervalId": "i022",
+      "endIntervalId": "i024"
+    },
+    {
+      "id": "video-lyra-valkyria",
+      "name": "Lyra Valkyria",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6XS8dm-WdMg",
+      "startTime": 0,
+      "triggerIntervalId": "i025",
+      "endIntervalId": "i026"
+    },
+    {
+      "id": "video-aj-lee",
+      "name": "AJ Lee",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WZMi5RQ68qM",
+      "startTime": 0,
+      "triggerIntervalId": "i027",
+      "endIntervalId": "i028"
+    },
+    {
+      "id": "video-becky-lynch",
+      "name": "Becky Lynch",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HjFGKwriRto",
+      "startTime": 0,
+      "triggerIntervalId": "i029",
+      "endIntervalId": "i029"
+    },
+    {
+      "id": "video-liv-morgan",
+      "name": "Liv Morgan",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KeiIV77VREM",
+      "startTime": 0,
+      "triggerIntervalId": "i030",
+      "endIntervalId": "i030"
+    },
+    {
+      "id": "video-stephanie-vaquer",
+      "name": "Stephanie Vaquer",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-QnLStjkcls",
+      "startTime": 0,
+      "triggerIntervalId": "i031",
+      "endIntervalId": "i031"
+    },
+    {
+      "id": "video-randy-orton",
+      "name": "Randy Orton",
+      "youtubeUrl": "https://www.youtube.com/watch?v=A8Zb3Dou9QA",
+      "startTime": 0,
+      "triggerIntervalId": "i032",
+      "endIntervalId": "i038"
+    },
+    {
+      "id": "video-cody-rhodes",
+      "name": "Cody Rhodes",
+      "youtubeUrl": "https://www.youtube.com/watch?v=A8Zb3Dou9QA",
+      "startTime": 284,
+      "triggerIntervalId": "i039",
+      "endIntervalId": "i042"
+    },
+    {
+      "id": "video-jevon-evans-1",
+      "name": "Je'von Evans Z1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3RZXTES1wYA",
+      "startTime": 0,
+      "triggerIntervalId": "i043",
+      "endIntervalId": "i043"
+    },
+    {
+      "id": "video-jevon-evans-2",
+      "name": "Je'von Evans Z2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vfc9fc05_wM",
+      "startTime": 254,
+      "triggerIntervalId": "i044",
+      "endIntervalId": "i044"
+    },
+    {
+      "id": "video-dragon-lee",
+      "name": "Dragon Lee",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SKw8VEVTi_w",
+      "startTime": 0,
+      "triggerIntervalId": "i045",
+      "endIntervalId": "i049"
+    },
+    {
+      "id": "video-rey-mysterio",
+      "name": "Rey Mysterio",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hip6IROesVA",
+      "startTime": 271,
+      "triggerIntervalId": "i050",
+      "endIntervalId": "i053"
+    },
+    {
+      "id": "video-penta",
+      "name": "Penta",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sZMwmJ4G_9s",
+      "startTime": 0,
+      "triggerIntervalId": "i054",
+      "endIntervalId": "i054"
+    },
+    {
+      "id": "video-sami-zayn",
+      "name": "Sami Zayn",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fzQWryR7qZo",
+      "startTime": 0,
+      "triggerIntervalId": "i055",
+      "endIntervalId": "i056"
+    },
+    {
+      "id": "video-finn-balor",
+      "name": "Finn Balor",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Mr7eqjzGa9s",
+      "startTime": 0,
+      "triggerIntervalId": "i057",
+      "endIntervalId": "i057"
+    },
+    {
+      "id": "video-trick-williams",
+      "name": "Trick Williams",
+      "youtubeUrl": "https://www.youtube.com/watch?v=veH47-Hilp8",
+      "startTime": 49,
+      "triggerIntervalId": "i058",
+      "endIntervalId": "i065"
+    },
+    {
+      "id": "video-rhea-ripley",
+      "name": "Rhea Ripley",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qEv7-DECBAw",
+      "startTime": 0,
+      "triggerIntervalId": "i066",
+      "endIntervalId": "i067"
+    },
+    {
+      "id": "video-jade-cargill",
+      "name": "Jade Cargill",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bWwcCjobbXo",
+      "startTime": 172,
+      "triggerIntervalId": "i068",
+      "endIntervalId": "i069"
+    },
+    {
+      "id": "video-brock-lesnar",
+      "name": "Brock Lesnar",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XcjNRTzJ9kk",
+      "startTime": 0,
+      "triggerIntervalId": "i070",
+      "endIntervalId": "i075"
+    },
+    {
+      "id": "video-oba-femi",
+      "name": "Oba Femi",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Phlrl6PHdsM",
+      "startTime": 0,
+      "triggerIntervalId": "i076",
+      "endIntervalId": "i076"
+    },
+    {
+      "id": "video-cm-punk",
+      "name": "CM Punk",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bRf9o5mAT_M",
+      "startTime": 695,
+      "triggerIntervalId": "i077",
+      "endIntervalId": "i081"
+    },
+    {
+      "id": "video-roman-reigns",
+      "name": "Roman Reigns",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bRf9o5mAT_M",
+      "startTime": 254,
+      "triggerIntervalId": "i082",
+      "endIntervalId": "i085"
+    },
+    {
+      "id": "video-danhausen",
+      "name": "Danhausen",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ev-4__sadYY",
+      "startTime": 60,
+      "triggerIntervalId": "i086",
+      "endIntervalId": "i086"
+    },
+    {
+      "id": "video-aj-styles",
+      "name": "AJ Styles",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xlR83YtlOQU",
+      "startTime": 0,
+      "triggerIntervalId": "i087",
+      "endIntervalId": "i087"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Drew McIntyre Z1",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Drew McIntyre Z2",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "LA Knight Z3",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "LA Knight Z2",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 95,
+      "notes": "Active-quick"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Logan Paul",
+      "duration": 120,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Jacob Fatu Z2",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 95,
+      "notes": "Active-quick"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Jacob Fatu Z4",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Seth \"Freakin\" Rollins Z2",
+      "duration": 90,
+      "powerZone": "Z2",
+      "cadence": 95,
+      "notes": "Active-quick"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Seth \"Freakin\" Rollins Z5",
+      "duration": 60,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Gunther Z1",
+      "duration": 90,
+      "powerZone": "Z1",
+      "notes": "Recover"
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Gunther Z2",
+      "duration": 90,
+      "powerZone": "Z2",
+      "cadence": 95,
+      "notes": "Active-quick"
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Bella Twins Z3",
+      "duration": 45,
+      "powerZone": "Z3",
+      "notes": "OOS"
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Bella Twins Z3",
+      "duration": 45,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Bella Twins Z3",
+      "duration": 45,
+      "powerZone": "Z3",
+      "notes": "OOS"
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Bella Twins Z3",
+      "duration": 45,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Bella Twins Z2",
+      "duration": 30,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Irresistable Forces Z3",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 50,
+      "notes": "Torque"
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Irresistable Forces Z2",
+      "duration": 30,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Charlotte Flair Z3+",
+      "duration": 60,
+      "powerZone": "Z3+",
+      "cadence": 100,
+      "notes": "Quick"
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "Charlotte Flair Z3-",
+      "duration": 45,
+      "powerZone": "Z3-"
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "Charlotte Flair Z3+",
+      "duration": 60,
+      "powerZone": "Z3+",
+      "cadence": 100,
+      "notes": "Quick"
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "Alexa Bliss Z3-",
+      "duration": 45,
+      "powerZone": "Z3-"
+    },
+    {
+      "type": "interval",
+      "id": "i023",
+      "name": "Alexa Bliss Z3+",
+      "duration": 60,
+      "powerZone": "Z3+",
+      "cadence": 100,
+      "notes": "Quick"
+    },
+    {
+      "type": "interval",
+      "id": "i024",
+      "name": "Alexa Bliss Z3-",
+      "duration": 45,
+      "powerZone": "Z3-"
+    },
+    {
+      "type": "interval",
+      "id": "i025",
+      "name": "Lyra Valkyria Z2",
+      "duration": 30,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "Lyra Valkyria Z3",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 50,
+      "notes": "Torque"
+    },
+    {
+      "type": "interval",
+      "id": "i027",
+      "name": "AJ Lee Z1",
+      "duration": 90,
+      "powerZone": "Z1",
+      "notes": "Recover"
+    },
+    {
+      "type": "interval",
+      "id": "i028",
+      "name": "AJ Lee Z2",
+      "duration": 90,
+      "powerZone": "Z2",
+      "cadence": 95,
+      "notes": "Active-quick"
+    },
+    {
+      "type": "interval",
+      "id": "i029",
+      "name": "Becky Lynch",
+      "duration": 120,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i030",
+      "name": "Liv Morgan",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 95,
+      "notes": "Active-quick"
+    },
+    {
+      "type": "interval",
+      "id": "i031",
+      "name": "Stephanie Vaquer",
+      "duration": 150,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i032",
+      "name": "Randy Orton Z1",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i033",
+      "name": "Randy Orton Z2",
+      "duration": 30,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i034",
+      "name": "Randy Orton Z4",
+      "duration": 30,
+      "powerZone": "Z4",
+      "notes": "OOS"
+    },
+    {
+      "type": "interval",
+      "id": "i035",
+      "name": "Randy Orton Z3",
+      "duration": 30,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i036",
+      "name": "Randy Orton Z4",
+      "duration": 30,
+      "powerZone": "Z4",
+      "notes": "OOS"
+    },
+    {
+      "type": "interval",
+      "id": "i037",
+      "name": "Randy Orton Z3",
+      "duration": 30,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i038",
+      "name": "Randy Orton Z4",
+      "duration": 30,
+      "powerZone": "Z4",
+      "notes": "OOS"
+    },
+    {
+      "type": "interval",
+      "id": "i039",
+      "name": "Cody Rhodes Z3",
+      "duration": 50,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i040",
+      "name": "Cody Rhodes Z5",
+      "duration": 50,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i041",
+      "name": "Cody Rhodes Z3",
+      "duration": 50,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i042",
+      "name": "Cody Rhodes Z5",
+      "duration": 50,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i043",
+      "name": "Je'von Evans Z1",
+      "duration": 90,
+      "powerZone": "Z1",
+      "notes": "Recover"
+    },
+    {
+      "type": "interval",
+      "id": "i044",
+      "name": "Je'von Evans Z2",
+      "duration": 90,
+      "powerZone": "Z2",
+      "cadence": 95,
+      "notes": "Active-quick"
+    },
+    {
+      "type": "interval",
+      "id": "i045",
+      "name": "Dragon Lee Z3",
+      "duration": 30,
+      "powerZone": "Z3",
+      "cadence": 50,
+      "notes": "Torque"
+    },
+    {
+      "type": "interval",
+      "id": "i046",
+      "name": "Dragon Lee Z3",
+      "duration": 30,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i047",
+      "name": "Dragon Lee Z3",
+      "duration": 30,
+      "powerZone": "Z3",
+      "cadence": 50,
+      "notes": "Torque"
+    },
+    {
+      "type": "interval",
+      "id": "i048",
+      "name": "Dragon Lee Z3",
+      "duration": 30,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i049",
+      "name": "Dragon Lee Z3",
+      "duration": 30,
+      "powerZone": "Z3",
+      "cadence": 50,
+      "notes": "Torque"
+    },
+    {
+      "type": "interval",
+      "id": "i050",
+      "name": "Rey Mysterio Z3",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i051",
+      "name": "Rey Mysterio Z3+",
+      "duration": 30,
+      "powerZone": "Z3+",
+      "cadence": 60,
+      "notes": "Torque"
+    },
+    {
+      "type": "interval",
+      "id": "i052",
+      "name": "Rey Mysterio Z3",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i053",
+      "name": "Rey Mysterio Z3+",
+      "duration": 30,
+      "powerZone": "Z3+",
+      "cadence": 60,
+      "notes": "Torque"
+    },
+    {
+      "type": "interval",
+      "id": "i054",
+      "name": "Penta",
+      "duration": 90,
+      "powerZone": "Z4-",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i055",
+      "name": "Sami Zayn Z1",
+      "duration": 90,
+      "powerZone": "Z1",
+      "notes": "Recover"
+    },
+    {
+      "type": "interval",
+      "id": "i056",
+      "name": "Sami Zayn Z2",
+      "duration": 90,
+      "powerZone": "Z2",
+      "cadence": 95,
+      "notes": "Active-quick"
+    },
+    {
+      "type": "interval",
+      "id": "i057",
+      "name": "Finn Balor",
+      "duration": 265,
+      "powerZoneRange": { "start": "Z3", "end": "Z4" }
+    },
+    {
+      "type": "interval",
+      "id": "i058",
+      "name": "Trick Williams Z3",
+      "duration": 20,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i059",
+      "name": "Trick Williams Z3+",
+      "duration": 20,
+      "powerZone": "Z3+",
+      "notes": "OOS"
+    },
+    {
+      "type": "interval",
+      "id": "i060",
+      "name": "Trick Williams Z3",
+      "duration": 20,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i061",
+      "name": "Trick Williams Z3+",
+      "duration": 20,
+      "powerZone": "Z3+",
+      "notes": "OOS"
+    },
+    {
+      "type": "interval",
+      "id": "i062",
+      "name": "Trick Williams Z3",
+      "duration": 20,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i063",
+      "name": "Trick Williams Z3+",
+      "duration": 20,
+      "powerZone": "Z3+",
+      "notes": "OOS"
+    },
+    {
+      "type": "interval",
+      "id": "i064",
+      "name": "Trick Williams Z3",
+      "duration": 20,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i065",
+      "name": "Trick Williams Z3+",
+      "duration": 20,
+      "powerZone": "Z3+",
+      "notes": "OOS"
+    },
+    {
+      "type": "interval",
+      "id": "i066",
+      "name": "Rhea Ripley Z1",
+      "duration": 15,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i067",
+      "name": "Rhea Ripley Z4",
+      "duration": 120,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i068",
+      "name": "Jade Cargill Z1",
+      "duration": 90,
+      "powerZone": "Z1",
+      "notes": "Recover"
+    },
+    {
+      "type": "interval",
+      "id": "i069",
+      "name": "Jade Cargill Z2",
+      "duration": 90,
+      "powerZone": "Z2",
+      "cadence": 95,
+      "notes": "Active-quick"
+    },
+    {
+      "type": "interval",
+      "id": "i070",
+      "name": "Brock Lesnar Z4",
+      "duration": 30,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i071",
+      "name": "Brock Lesnar Z3",
+      "duration": 30,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i072",
+      "name": "Brock Lesnar Z4",
+      "duration": 30,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i073",
+      "name": "Brock Lesnar Z3",
+      "duration": 30,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i074",
+      "name": "Brock Lesnar Z4",
+      "duration": 30,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i075",
+      "name": "Brock Lesnar Z3",
+      "duration": 30,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i076",
+      "name": "Oba Femi",
+      "duration": 150,
+      "powerZone": "Z2",
+      "cadence": 95,
+      "notes": "Active-quick"
+    },
+    {
+      "type": "interval",
+      "id": "i077",
+      "name": "CM Punk Z3",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i078",
+      "name": "CM Punk Z4",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i079",
+      "name": "CM Punk Z3",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i080",
+      "name": "CM Punk Z4",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i081",
+      "name": "CM Punk Z3",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i082",
+      "name": "Roman Reigns Z2",
+      "duration": 30,
+      "powerZone": "Z2",
+      "cadence": 95,
+      "notes": "Active-quick"
+    },
+    {
+      "type": "interval",
+      "id": "i083",
+      "name": "Roman Reigns Z6",
+      "duration": 30,
+      "powerZone": "Z6",
+      "notes": "OOS"
+    },
+    {
+      "type": "interval",
+      "id": "i084",
+      "name": "Roman Reigns Z3",
+      "duration": 30,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i085",
+      "name": "Roman Reigns Z5",
+      "duration": 30,
+      "powerZone": "Z5",
+      "notes": "OOS"
+    },
+    {
+      "type": "interval",
+      "id": "i086",
+      "name": "Danhausen",
+      "duration": 180,
+      "powerZone": "Z1",
+      "notes": "Spindown"
+    },
+    {
+      "type": "interval",
+      "id": "i087",
+      "name": "AJ Styles",
+      "duration": 95,
+      "powerZone": "Z1",
+      "notes": "Spindown"
+    }
+  ]
+}
