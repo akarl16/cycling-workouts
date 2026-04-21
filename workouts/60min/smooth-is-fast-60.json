@@ -1,0 +1,317 @@
+{
+  "id": "smooth-is-fast-60",
+  "name": "Smooth is Fast (60min)",
+  "description": "A 60-minute workout built around smooth execution: smooth cadence alternations, smooth power progressions, and a smooth endurance pyramid. Everything flows.",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "WARM Z1",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "WARM Z2",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "WARM Z3",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "WARM Z2",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "WARM Z3",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "WARM Z4-",
+      "duration": 60,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Smooth cadence Z2",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Smooth cadence Z3",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Smooth cadence Z2",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Smooth cadence Z3",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Smooth cadence Z2+",
+      "duration": 60,
+      "powerZone": "Z2+",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Smooth cadence Z3+",
+      "duration": 60,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Smooth cadence Z2+",
+      "duration": 60,
+      "powerZone": "Z2+",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Smooth cadence Z3+",
+      "duration": 60,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Smooth power Z2",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Smooth power Z3",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Smooth power Z3+",
+      "duration": 120,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "Smooth power Z3",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "Smooth power Z2",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i023",
+      "name": "Smooth endurance Z3-",
+      "duration": 60,
+      "powerZone": "Z3-"
+    },
+    {
+      "type": "interval",
+      "id": "i024",
+      "name": "Smooth endurance Z3",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i025",
+      "name": "Smooth endurance Z3+",
+      "duration": 60,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "Smooth endurance Z4-",
+      "duration": 60,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i027",
+      "name": "Smooth endurance Z4",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i028",
+      "name": "Smooth endurance Z4-",
+      "duration": 60,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i029",
+      "name": "Smooth endurance Z3+",
+      "duration": 60,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i030",
+      "name": "Smooth endurance Z3",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i031",
+      "name": "Smooth endurance Z3-",
+      "duration": 60,
+      "powerZone": "Z3-"
+    },
+    {
+      "type": "interval",
+      "id": "i032",
+      "name": "Smooth endurance Z3",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i033",
+      "name": "Smooth endurance Z3+",
+      "duration": 60,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i034",
+      "name": "Smooth endurance Z4-",
+      "duration": 60,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i035",
+      "name": "Smooth endurance Z4",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i036",
+      "name": "Smooth endurance Z4-",
+      "duration": 60,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i037",
+      "name": "Smooth endurance Z3+",
+      "duration": 60,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i038",
+      "name": "Smooth endurance Z3",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i039",
+      "name": "Smooth endurance Z3+",
+      "duration": 60,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i040",
+      "name": "Smooth endurance Z4-",
+      "duration": 60,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i041",
+      "name": "Smooth endurance Z4",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i042",
+      "name": "Smooth endurance Z4+",
+      "duration": 60,
+      "powerZone": "Z4+"
+    },
+    {
+      "type": "interval",
+      "id": "i043",
+      "name": "Smooth spindown",
+      "duration": 240,
+      "powerZone": "Z1"
+    }
+  ]
+}
