@@ -1,0 +1,197 @@
+{
+  "id": "so-much-surge-90",
+  "name": "So Much Surge",
+  "description": "90-minute surge workout featuring four sets of increasing intensity. Each set has four 3-minute surge/recovery pairs (Z4, Z5, Z4/Z3+, then Z6) followed by a 1-minute rest and 6-minute high-cadence recovery spin.",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Warmup Z1",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Warmup Z2",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Warmup Z2+",
+      "duration": 120,
+      "powerZone": "Z2+"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Warmup Z3",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Warmup Z4-",
+      "duration": 60,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Warmup Z1",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Moderate Surge",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "moderate-surge-1",
+          "name": "Moderate Surge Z4",
+          "duration": 30,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "moderate-surge-2",
+          "name": "Moderate Surge Z3",
+          "duration": 150,
+          "powerZone": "Z3"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Recovery",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "High Spin",
+      "duration": 360,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Hard Surge",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "hard-surge-1",
+          "name": "Hard Surge Z5",
+          "duration": 15,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "hard-surge-2",
+          "name": "Hard Surge Z3",
+          "duration": 165,
+          "powerZone": "Z3"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Recovery",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "High Spin",
+      "duration": 360,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Elevated Surge",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "elevated-surge-1",
+          "name": "Elevated Surge Z4",
+          "duration": 30,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "elevated-surge-2",
+          "name": "Elevated Surge Z3+",
+          "duration": 150,
+          "powerZone": "Z3+"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Recovery",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "High Spin",
+      "duration": 360,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "Max Surge",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "max-surge-1",
+          "name": "Max Surge Z6",
+          "duration": 15,
+          "powerZone": "Z6"
+        },
+        {
+          "id": "max-surge-2",
+          "name": "Max Surge Z3",
+          "duration": 165,
+          "powerZone": "Z3"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Recovery",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "High Spin",
+      "duration": 360,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Cooldown",
+      "duration": 120,
+      "powerZone": "Z1"
+    }
+  ]
+}
