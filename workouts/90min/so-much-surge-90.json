@@ -193,5 +193,15 @@
       "duration": 120,
       "powerZone": "Z1"
     }
+  ],
+  "videos": [
+    {
+      "id": "video-main",
+      "name": "So Much Surge",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4jD4jhMBynM",
+      "startTime": 480,
+      "triggerIntervalId": "i009",
+      "endIntervalId": "i015"
+    }
   ]
 }
