@@ -1,0 +1,156 @@
+{
+  "id": "punchy-mix-tape-60",
+  "name": "Punchy Mix Tape",
+  "description": "60-minute punchy ride with a build warmup, 6 rounds of Off/On sprints, three rounds of escalating Punchy Tempo (Z3→Z5), a mid-workout time trial, three more rounds of Punchy Tempo with Z6 punches, and a second time trial before spindown.",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Build",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Build",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Off/On",
+      "repetitions": 6,
+      "intervals": [
+        {
+          "id": "off-1",
+          "name": "Off",
+          "duration": 20,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "on-1",
+          "name": "On",
+          "duration": 40,
+          "powerZoneRange": { "start": "Z4", "end": "Z5" }
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Punchy Tempo",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "punchy-tempo-a-1",
+          "name": "Punchy Tempo Z3",
+          "duration": 120,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "punchy-tempo-a-2",
+          "name": "Punchy Tempo Z4",
+          "duration": 60,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "punchy-tempo-a-3",
+          "name": "Punchy Tempo Z5",
+          "duration": 30,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "punchy-tempo-a-4",
+          "name": "Punchy Tempo Z2",
+          "duration": 30,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Time Trial",
+      "duration": 240,
+      "powerZoneRange": { "start": "Z3", "end": "Z4" }
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Punchy Tempo",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "punchy-tempo-b-1",
+          "name": "Punchy Tempo Z3",
+          "duration": 180,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "punchy-tempo-b-2",
+          "name": "Punchy Tempo Z6",
+          "duration": 20,
+          "powerZone": "Z6"
+        },
+        {
+          "id": "punchy-tempo-b-3",
+          "name": "Punchy Tempo Z2",
+          "duration": 40,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Time Trial",
+      "duration": 240,
+      "powerZoneRange": { "start": "Z3", "end": "Z4" }
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Spindown",
+      "duration": 240,
+      "powerZone": "Z2"
+    }
+  ]
+}
