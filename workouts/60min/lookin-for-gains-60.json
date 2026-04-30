@@ -1,0 +1,166 @@
+{
+  "id": "lookin-for-gains-60",
+  "name": "Lookin for Gains",
+  "description": "Progressive warmup build through power zones, short over-unders, VO2 max intervals, and threshold work.",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Build",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Build",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Active",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Build",
+      "duration": 60,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Active",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Build",
+      "duration": 60,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Active",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Build",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Short overs",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "short-overs-1",
+          "name": "Short overs Z2",
+          "duration": 40,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "short-overs-2",
+          "name": "Short overs Z4+",
+          "duration": 20,
+          "powerZone": "Z4+"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "bit'o VO2",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "bito-vo2-1",
+          "name": "bit'o VO2 Z2+",
+          "duration": 240,
+          "powerZone": "Z2+"
+        },
+        {
+          "id": "bito-vo2-2",
+          "name": "bit'o VO2 Z5",
+          "duration": 60,
+          "powerZone": "Z5"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Threshold feels easy",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "threshold-1",
+          "name": "Threshold feels easy Z4",
+          "duration": 120,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "threshold-2",
+          "name": "Threshold feels easy Z3",
+          "duration": 60,
+          "powerZone": "Z3"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Spindown Z2",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Spindown Z1",
+      "duration": 120,
+      "powerZone": "Z1"
+    }
+  ]
+}
