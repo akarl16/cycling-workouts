@@ -3,6 +3,16 @@
   "name": "Endurance in Flux",
   "description": "90-minute endurance ride with single-leg drills, cadence progressions, and Rollercoaster intervals. Features steady-state Z3 blocks with cadence climbs/descents, and 30-on/30-off work across Z3–Z5.",
   "totalDuration": 5400,
+  "videos": [
+    {
+      "id": "video-main",
+      "name": "Endurance in Flux",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TjiHAA1z_ZA",
+      "startTime": 872,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i050"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
