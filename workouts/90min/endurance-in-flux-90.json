@@ -1,0 +1,482 @@
+{
+  "id": "endurance-in-flux-90",
+  "name": "Endurance in Flux",
+  "description": "90-minute endurance ride with single-leg drills, cadence progressions, and Rollercoaster intervals. Features steady-state Z3 blocks with cadence climbs/descents, and 30-on/30-off work across Z3–Z5.",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy",
+      "duration": 240,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Active",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "30 Off 30 On Z3",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "30on30off-z3-on",
+          "name": "On",
+          "duration": 30,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "30on30off-z3-off",
+          "name": "Off",
+          "duration": 30,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "30 Off 30 On Z4",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "30on30off-z4-on",
+          "name": "On",
+          "duration": 30,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "30on30off-z4-off",
+          "name": "Off",
+          "duration": 30,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "30 Off 30 On Z5",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "30on30off-z5-on",
+          "name": "On",
+          "duration": 30,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "30on30off-z5-off",
+          "name": "Off",
+          "duration": 30,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Quick Recovery",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "Single Leg",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "single-leg-left",
+          "name": "Single Leg Left",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95,
+          "notes": "Left leg only"
+        },
+        {
+          "id": "single-leg-both-1",
+          "name": "Both",
+          "duration": 30,
+          "powerZone": "Z2",
+          "notes": "Both legs"
+        },
+        {
+          "id": "single-leg-right",
+          "name": "Single Leg Right",
+          "duration": 30,
+          "powerZone": "Z2",
+          "cadence": 95,
+          "notes": "Right leg only"
+        },
+        {
+          "id": "single-leg-both-2",
+          "name": "Both",
+          "duration": 30,
+          "powerZone": "Z2",
+          "notes": "Both legs"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Quick Recovery",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Cadence Climb",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 80,
+      "notes": "Cadence climb"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Cadence Climb",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 85,
+      "notes": "Cadence climb"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Cadence Climb",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 90,
+      "notes": "Cadence climb"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Cadence Climb",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 95,
+      "notes": "Cadence climb"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Cadence Climb",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 100,
+      "notes": "Cadence climb"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Cadence Descent",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 100,
+      "notes": "Cadence descent"
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Cadence Descent",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 95,
+      "notes": "Cadence descent"
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Cadence Descent",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 90,
+      "notes": "Cadence descent"
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Cadence Descent",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 85,
+      "notes": "Cadence descent"
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Cadence Descent",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 80,
+      "notes": "Cadence descent"
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b005",
+      "name": "Cadence",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "cadence-on",
+          "name": "Cadence Z3",
+          "duration": 30,
+          "powerZone": "Z3",
+          "cadence": 110,
+          "notes": "100-120 RPM"
+        },
+        {
+          "id": "cadence-off",
+          "name": "Cadence Z1",
+          "duration": 30,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b006",
+      "name": "Resistance",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "resistance-on",
+          "name": "Resistance Z4",
+          "duration": 30,
+          "powerZone": "Z4",
+          "cadence": 65,
+          "notes": "60-70 RPM"
+        },
+        {
+          "id": "resistance-off",
+          "name": "Resistance Z1",
+          "duration": 30,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b007",
+      "name": "Power",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "power-on",
+          "name": "Power Z5",
+          "duration": 30,
+          "powerZone": "Z5",
+          "cadence": 95,
+          "notes": "90-100 RPM"
+        },
+        {
+          "id": "power-off",
+          "name": "Power Z1",
+          "duration": 30,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Cadence Descent",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 100,
+      "notes": "Cadence descent"
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "Cadence Descent",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 95,
+      "notes": "Cadence descent"
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "Cadence Descent",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 90,
+      "notes": "Cadence descent"
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "Cadence Descent",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 85,
+      "notes": "Cadence descent"
+    },
+    {
+      "type": "interval",
+      "id": "i023",
+      "name": "Cadence Descent",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 80,
+      "notes": "Cadence descent"
+    },
+    {
+      "type": "interval",
+      "id": "i024",
+      "name": "Cadence Climb",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 80,
+      "notes": "Cadence climb"
+    },
+    {
+      "type": "interval",
+      "id": "i025",
+      "name": "Cadence Climb",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 85,
+      "notes": "Cadence climb"
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "Cadence Climb",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 90,
+      "notes": "Cadence climb"
+    },
+    {
+      "type": "interval",
+      "id": "i027",
+      "name": "Cadence Climb",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 95,
+      "notes": "Cadence climb"
+    },
+    {
+      "type": "interval",
+      "id": "i028",
+      "name": "Cadence Climb",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 100,
+      "notes": "Cadence climb"
+    },
+    {
+      "type": "interval",
+      "id": "i029",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b008",
+      "name": "Rollercoasters",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "rc-z5",
+          "name": "Rollercoasters Z5",
+          "duration": 30,
+          "powerZone": "Z5",
+          "cadence": 65
+        },
+        {
+          "id": "rc-z4",
+          "name": "Rollercoasters Z4",
+          "duration": 30,
+          "powerZone": "Z4",
+          "cadence": 90
+        },
+        {
+          "id": "rc-z3-1",
+          "name": "Rollercoasters Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 110,
+          "notes": "Cadence drop / min"
+        },
+        {
+          "id": "rc-z3-2",
+          "name": "Rollercoasters Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 100,
+          "notes": "Cadence drop / min"
+        },
+        {
+          "id": "rc-z3-3",
+          "name": "Rollercoasters Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 90,
+          "notes": "Cadence drop / min"
+        },
+        {
+          "id": "rc-z3-4",
+          "name": "Rollercoasters Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 80,
+          "notes": "Cadence drop / min"
+        },
+        {
+          "id": "rc-recovery",
+          "name": "Rollercoasters Recovery",
+          "duration": 120,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i050",
+      "name": "Spindown",
+      "duration": 120,
+      "powerZone": "Z1"
+    }
+  ]
+}
