@@ -1,0 +1,156 @@
+{
+  "id": "tempo-mania-90",
+  "name": "Tempo Mania",
+  "description": "90-minute tempo workout featuring a progressive warmup, three rounds of tempo efforts building from Z3- to Z3+, a long descending finalizer stepping down from Z3+ to Z2, and spindown",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy up Z1",
+      "duration": 240,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Easy up Z2",
+      "duration": 180,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Easy up Z2+",
+      "duration": 180,
+      "powerZone": "Z2+"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Round",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "round-1",
+          "name": "Round Z3-",
+          "duration": 300,
+          "powerZone": "Z3-",
+          "cadence": 60
+        },
+        {
+          "id": "round-2",
+          "name": "Round Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "notes": "Ramp up"
+        },
+        {
+          "id": "round-3",
+          "name": "Round Z3+",
+          "duration": 240,
+          "powerZone": "Z3+",
+          "cadence": 95
+        },
+        {
+          "id": "round-4",
+          "name": "Round Z3",
+          "duration": 60,
+          "powerZone": "Z3",
+          "notes": "Ramp down"
+        },
+        {
+          "id": "round-5",
+          "name": "Round Z3-",
+          "duration": 120,
+          "powerZone": "Z3-"
+        },
+        {
+          "id": "round-6",
+          "name": "Round Z2",
+          "duration": 180,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "Finalizer Z3+",
+      "duration": 300,
+      "powerZone": "Z3+",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i023",
+      "name": "Finalizer Z3",
+      "duration": 60,
+      "powerZone": "Z3",
+      "notes": "Ramp down"
+    },
+    {
+      "type": "interval",
+      "id": "i024",
+      "name": "Finalizer Z3",
+      "duration": 300,
+      "powerZone": "Z3",
+      "cadence": 85
+    },
+    {
+      "type": "interval",
+      "id": "i025",
+      "name": "Finalizer Z3-",
+      "duration": 60,
+      "powerZone": "Z3-",
+      "notes": "Ramp down"
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "Finalizer Z3-",
+      "duration": 300,
+      "powerZone": "Z3-",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "i027",
+      "name": "Finalizer Z2+",
+      "duration": 60,
+      "powerZone": "Z2+",
+      "notes": "Ramp down"
+    },
+    {
+      "type": "interval",
+      "id": "i028",
+      "name": "Finalizer Z2+",
+      "duration": 300,
+      "powerZone": "Z2+",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "i029",
+      "name": "Finalizer Z2",
+      "duration": 60,
+      "powerZone": "Z2",
+      "notes": "Ramp down"
+    },
+    {
+      "type": "interval",
+      "id": "i030",
+      "name": "Finalizer Z2",
+      "duration": 300,
+      "powerZone": "Z2",
+      "cadence": 55
+    },
+    {
+      "type": "interval",
+      "id": "i031",
+      "name": "Spindown",
+      "duration": 180,
+      "powerZone": "Z1"
+    }
+  ]
+}
