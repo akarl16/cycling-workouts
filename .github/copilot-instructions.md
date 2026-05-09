@@ -157,9 +157,15 @@ Workouts can have an optional `videos` array at the top level for interval-synce
 - `id`: Unique identifier (kebab-case)
 - `name`: Display name
 - `youtubeUrl`: Full YouTube URL (also accepts Vimeo URLs via `vimeoUrl`)
-- `startTime`: Seconds into the video to seek to when triggered (default 0)
+- `startTime`: Seconds into the video to seek to when triggered (default 0) — **ignored for playlist URLs**
 - `triggerIntervalId`: Interval ID that starts the video
 - `endIntervalId`: Interval ID at which the video stops (inclusive)
+
+### YouTube Playlist URLs
+If `youtubeUrl` contains `&list=`, the app treats it as a playlist and **does not seek** — YouTube manages track progression naturally. This means:
+- `startTime` has no effect and should be omitted or set to 0
+- Scrubbing forward/backward in the workout will not reposition the playlist
+- A single video entry spanning the full workout (`triggerIntervalId: "i001"`, `endIntervalId: last interval`) works correctly
 
 ### Block Expansion
 The app expands blocks into individual intervals before matching video IDs. A block with `id: "b001"` containing intervals `["foo-1", "foo-2"]` and 3 repetitions expands to:

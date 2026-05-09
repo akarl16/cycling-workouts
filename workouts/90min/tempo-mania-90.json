@@ -3,6 +3,16 @@
   "name": "Tempo Mania",
   "description": "90-minute tempo workout featuring a progressive warmup, three rounds of tempo efforts building from Z3- to Z3+, a long descending finalizer stepping down from Z3+ to Z2, and spindown",
   "totalDuration": 5400,
+  "videos": [
+    {
+      "id": "v001",
+      "name": "Tempo Mania Playlist",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2-C_vZBYvDA&list=PL4JTQ-uIUBefTvpyiSuYME6Euxt_vNApp",
+      "startTime": 0,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i031"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",

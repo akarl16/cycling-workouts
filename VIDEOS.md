@@ -23,9 +23,11 @@ Workouts support an optional `videos` array for interval-synced video playback i
 | `name` | No | Display name |
 | `youtubeUrl` | No* | Full YouTube URL |
 | `vimeoUrl` | No* | Full Vimeo URL |
-| `startTime` | No | Seconds into the video to seek to on trigger (default: 0) |
+| `startTime` | No | Seconds into the video to seek to on trigger (default: 0) — **ignored for playlist URLs** |
 | `triggerIntervalId` | Yes | Interval ID that starts the video |
 | `endIntervalId` | No | Interval ID where video stops (inclusive) |
+
+> **Playlist URLs**: If `youtubeUrl` contains `&list=`, the app does not seek — YouTube manages track progression. `startTime` has no effect. A single entry spanning the whole workout works correctly; scrubbing does not reposition the playlist.
 
 *One of `youtubeUrl` or `vimeoUrl` must be provided.
 
