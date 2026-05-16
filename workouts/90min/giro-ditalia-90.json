@@ -1,0 +1,380 @@
+{
+  "id": "giro-ditalia-90",
+  "name": "Giro d'Italia",
+  "description": "A 90-minute journey through the 2026 Giro d'Italia. Sprint stages, hilly classics, a time trial, and legendary mountain climbs — Mortirolo, Stelvio, and Zoncolan — before the final sprint in Roma.",
+  "totalDuration": 5400,
+  "videos": [
+    {
+      "id": "v001",
+      "name": "Giro d'Italia Playlist",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wDN8MYIoro4&list=PLtBLVlJSuuLKsoHWmufOV0qngG0MYEVx6",
+      "startTime": 0,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i043"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Grande Partenza - Roll out",
+      "duration": 240,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Grande Partenza - Build",
+      "duration": 300,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Opening accelerations",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "opening-accelerations-1",
+          "name": "Opening accelerations Z3",
+          "duration": 75,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "opening-accelerations-2",
+          "name": "Opening accelerations Z5",
+          "duration": 15,
+          "powerZone": "Z5"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "WEEK 1 - Stage 3: Sprint stage finale",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Sprint train builds",
+      "duration": 90,
+      "powerZone": "Z3",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Sprint #1",
+      "duration": 30,
+      "powerZoneRange": { "start": "Z5", "end": "Z6" }
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Recover",
+      "duration": 90,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Sprint train builds",
+      "duration": 90,
+      "powerZone": "Z3",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Sprint #2",
+      "duration": 30,
+      "powerZoneRange": { "start": "Z5", "end": "Z6" }
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "WEEK 1 - Stage 6: Hilly classics finish",
+      "duration": 180,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Punch over the top",
+      "duration": 45,
+      "powerZone": "Z4",
+      "cadence": 75,
+      "notes": "Standing"
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Recover descending",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Punch over the top",
+      "duration": 45,
+      "powerZone": "Z4",
+      "cadence": 75,
+      "notes": "Standing"
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Intermediate sprint surprise!",
+      "duration": 45,
+      "powerZone": "Z5",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Settle",
+      "duration": 105,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "WEEK 2 - Stage 9: Individual Time Trial",
+      "duration": 300,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "TT Recovery",
+      "duration": 90,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "WEEK 2 - Stage 14: Passo del Mortirolo",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Mortirolo - lower slopes",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 80
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Mortirolo - middle",
+      "duration": 120,
+      "powerZone": "Z3+",
+      "cadence": 70
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "Mortirolo - steepest pitches",
+      "duration": 180,
+      "powerZone": "Z4-",
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "Attack from distance",
+      "duration": 45,
+      "powerZoneRange": { "start": "Z4-", "end": "Z5" },
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "Hold the gap",
+      "duration": 75,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i023",
+      "name": "Descent and transfer",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i024",
+      "name": "RECOVERY - Rest day spin Z2",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i025",
+      "name": "RECOVERY - Rest day spin Z1",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "RECOVERY - Rest day spin Z2",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i027",
+      "name": "RECOVERY - Rest day spin Z1",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i028",
+      "name": "RECOVERY - Rest day spin Z2",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i029",
+      "name": "WEEK 3 - Stage 19: Passo dello Stelvio",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i030",
+      "name": "Stelvio - settle in",
+      "duration": 180,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i031",
+      "name": "Stelvio - tempo grind",
+      "duration": 300,
+      "powerZone": "Z3",
+      "cadence": 80
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Stelvio - switchback game",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "stelvio-switchback-1",
+          "name": "Stelvio - switchback game Z4-",
+          "duration": 30,
+          "powerZone": "Z4-",
+          "cadence": 70
+        },
+        {
+          "id": "stelvio-switchback-2",
+          "name": "Stelvio - switchback game Z3",
+          "duration": 30,
+          "powerZone": "Z3",
+          "cadence": 90
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i032",
+      "name": "Stelvio - final kilometers",
+      "duration": 180,
+      "powerZone": "Z4",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "i033",
+      "name": "Descent transition",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i034",
+      "name": "WEEK 3 - Stage 20: Monte Zoncolan",
+      "duration": 90,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i035",
+      "name": "Zoncolan - the wall",
+      "duration": 120,
+      "powerZone": "Z4",
+      "cadence": 65,
+      "notes": "Standing"
+    },
+    {
+      "type": "interval",
+      "id": "i036",
+      "name": "Zoncolan - seated recovery",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 70
+    },
+    {
+      "type": "interval",
+      "id": "i037",
+      "name": "Zoncolan - final ramps",
+      "duration": 120,
+      "powerZone": "Z5",
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "i038",
+      "name": "Summit",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i039",
+      "name": "ROMA - Final stage roll-in",
+      "duration": 270,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i040",
+      "name": "Roma circuits build",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i041",
+      "name": "Lead-out",
+      "duration": 60,
+      "powerZone": "Z4",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i042",
+      "name": "Sprint finish",
+      "duration": 20,
+      "powerZone": "Z6"
+    },
+    {
+      "type": "interval",
+      "id": "i043",
+      "name": "Cool down",
+      "duration": 220,
+      "powerZone": "Z1"
+    }
+  ]
+}
