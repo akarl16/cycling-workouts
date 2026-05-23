@@ -1,0 +1,654 @@
+{
+  "id": "ride-with-walt-90",
+  "name": "Ride with Walt (90)",
+  "description": "A Disney-themed 90-minute ride touring iconic Walt Disney World attractions across Animal Kingdom, Hollywood Studios, EPCOT, and Magic Kingdom",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Tree of Life sunrise",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Kilimanjaro Safari Z2",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 80
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Kilimanjaro Safari Z2",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Kilimanjaro Safari Z2",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Pandora day",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 80
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Pandora day-to-dusk",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Pandora at dusk",
+      "duration": 60,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Tree of Life Awakenings Z4-",
+      "duration": 30,
+      "powerZone": "Z4-",
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Tree of Life Awakenings Z2",
+      "duration": 30,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Tree of Life Awakenings Z4",
+      "duration": 90,
+      "powerZone": "Z4",
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Magical Express to Hollywood",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Muppet Coaster Z3",
+      "duration": 90,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Muppet Coaster Z4",
+      "duration": 45,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Muppet Coaster Z4+",
+      "duration": 30,
+      "powerZone": "Z4+"
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Midway Mania",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Slinky Dog Dash",
+      "duration": 120,
+      "powerZone": "Z2+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Rise of the Resistance Z3",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Rise of the Resistance Z4",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Rise of the Resistance Z4+",
+      "duration": 60,
+      "powerZone": "Z4+"
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "Fantasmic pre-show Z1",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "Fantasmic pre-show Z3",
+      "duration": 20,
+      "powerZone": "Z3",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "Fantasmic pre-show Z2",
+      "duration": 20,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i023",
+      "name": "Fantasmic pre-show Z3",
+      "duration": 20,
+      "powerZone": "Z3",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i024",
+      "name": "Fantasmic pre-show Z2",
+      "duration": 20,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i025",
+      "name": "Fantasmic pre-show Z3",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "Fantasmic Z1",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i027",
+      "name": "Fantasmic Z2",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i028",
+      "name": "Fantasmic Z3",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i029",
+      "name": "Fantasmic Z4",
+      "duration": 30,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i030",
+      "name": "Fantasmic Z5",
+      "duration": 20,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i031",
+      "name": "Skyliner to Epcot",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i032",
+      "name": "World Showcase Z2",
+      "duration": 75,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i033",
+      "name": "World Showcase Z3+",
+      "duration": 90,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i034",
+      "name": "World Showcase Z2",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i035",
+      "name": "World Showcase Z3+",
+      "duration": 25,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i036",
+      "name": "World Showcase Z2",
+      "duration": 35,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i037",
+      "name": "World Showcase Z3+",
+      "duration": 30,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i038",
+      "name": "World Showcase Z2",
+      "duration": 75,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i039",
+      "name": "World Showcase Z3+",
+      "duration": 30,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i040",
+      "name": "World Showcase Z2",
+      "duration": 80,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i041",
+      "name": "World Showcase Z3+",
+      "duration": 35,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i042",
+      "name": "World Showcase Z2",
+      "duration": 90,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i043",
+      "name": "World Showcase Z3+",
+      "duration": 55,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i044",
+      "name": "World Showcase Z2",
+      "duration": 70,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i045",
+      "name": "World Showcase Z3+",
+      "duration": 55,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i046",
+      "name": "World Showcase Z2",
+      "duration": 25,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i047",
+      "name": "World Showcase Z3+",
+      "duration": 120,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i048",
+      "name": "World Showcase Z2",
+      "duration": 115,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i049",
+      "name": "World Showcase Z4",
+      "duration": 65,
+      "powerZone": "Z4",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i050",
+      "name": "Cosmic Rewind Z2",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i051",
+      "name": "Cosmic Rewind Z3+",
+      "duration": 90,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i052",
+      "name": "Luminous: The Symphony of Us Z2",
+      "duration": 40,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i053",
+      "name": "Luminous: The Symphony of Us Z3",
+      "duration": 50,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i054",
+      "name": "Luminous: The Symphony of Us Z4",
+      "duration": 53,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i055",
+      "name": "Luminous: The Symphony of Us Z5",
+      "duration": 20,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i056",
+      "name": "Monorail to Magic Kingdom",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i057",
+      "name": "Main Street USA",
+      "duration": 90,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i058",
+      "name": "Pirates",
+      "duration": 180,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i059",
+      "name": "Jungle Cruise Z1",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i060",
+      "name": "Jungle Cruise Z2",
+      "duration": 45,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i061",
+      "name": "Jungle Cruise Z4",
+      "duration": 100,
+      "powerZone": "Z4",
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "i062",
+      "name": "Tron Lightcycle Run Z2",
+      "duration": 45,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i063",
+      "name": "Tron Lightcycle Run Z5",
+      "duration": 45,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i064",
+      "name": "Tron Lightcycle Run Z1",
+      "duration": 45,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i065",
+      "name": "Happily Ever After Z1",
+      "duration": 75,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i066",
+      "name": "Happily Ever After Z2",
+      "duration": 30,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i067",
+      "name": "Happily Ever After Z3",
+      "duration": 30,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i068",
+      "name": "Happily Ever After Z2",
+      "duration": 80,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i069",
+      "name": "Happily Ever After Z3",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i070",
+      "name": "Happily Ever After Z3+",
+      "duration": 45,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i071",
+      "name": "Happily Ever After Z3",
+      "duration": 30,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i072",
+      "name": "Happily Ever After Z4-",
+      "duration": 25,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i073",
+      "name": "Happily Ever After Z4+",
+      "duration": 25,
+      "powerZone": "Z4+"
+    },
+    {
+      "type": "interval",
+      "id": "i074",
+      "name": "Happily Ever After Z2+",
+      "duration": 130,
+      "powerZone": "Z2+"
+    },
+    {
+      "type": "interval",
+      "id": "i075",
+      "name": "Happily Ever After Z3",
+      "duration": 25,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i076",
+      "name": "Happily Ever After Z4",
+      "duration": 15,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i077",
+      "name": "Happily Ever After Z2",
+      "duration": 100,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i078",
+      "name": "Happily Ever After Z3",
+      "duration": 50,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i079",
+      "name": "Happily Ever After Z2+",
+      "duration": 25,
+      "powerZone": "Z2+"
+    },
+    {
+      "type": "interval",
+      "id": "i080",
+      "name": "Happily Ever After Z4",
+      "duration": 105,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i081",
+      "name": "Happily Ever After Z2",
+      "duration": 70,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i082",
+      "name": "Happily Ever After Z3",
+      "duration": 35,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i083",
+      "name": "Happily Ever After Z4+",
+      "duration": 35,
+      "powerZone": "Z4+"
+    },
+    {
+      "type": "interval",
+      "id": "i084",
+      "name": "Happily Ever After Z2",
+      "duration": 55,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i085",
+      "name": "Happily Ever After Z4",
+      "duration": 40,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i086",
+      "name": "Happily Ever After Z5",
+      "duration": 20,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i087",
+      "name": "Happily Ever After Z1",
+      "duration": 25,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i088",
+      "name": "Final Boat Ride to the TTC Z2",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i089",
+      "name": "Final Boat Ride to the TTC Z1",
+      "duration": 32,
+      "powerZone": "Z1"
+    }
+  ]
+}
