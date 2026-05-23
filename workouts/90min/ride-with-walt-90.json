@@ -3,6 +3,12 @@
   "name": "Ride with Walt (90)",
   "description": "A Disney-themed 90-minute ride touring iconic Walt Disney World attractions across Animal Kingdom, Hollywood Studios, EPCOT, and Magic Kingdom",
   "totalDuration": 5400,
+  "introVideo": {
+    "name": "Walt Disney World pre-ride",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Z9nq1ym9h38",
+    "startTime": 0,
+    "audioSource": "video"
+  },
   "videos": [
     {
       "id": "video-tree-of-life-sunrise",
