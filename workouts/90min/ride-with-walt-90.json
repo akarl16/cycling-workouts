@@ -98,7 +98,8 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
       "startTime": 225,
       "triggerIntervalId": "i032",
-      "endIntervalId": "i049"
+      "endIntervalId": "i049",
+      "audioSource": "video"
     },
     {
       "id": "video-cosmic-rewind",
@@ -114,7 +115,8 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=s42ahfHnNT8",
       "startTime": 952,
       "triggerIntervalId": "i052",
-      "endIntervalId": "i055"
+      "endIntervalId": "i055",
+      "audioSource": "video"
     },
     {
       "id": "video-monorail",
@@ -122,7 +124,8 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=mAxChTfQDJA",
       "startTime": 284,
       "triggerIntervalId": "i056",
-      "endIntervalId": "i056"
+      "endIntervalId": "i056",
+      "audioSource": "video"
     },
     {
       "id": "video-main-street",
@@ -162,7 +165,8 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=Qzvg9KuvRiw",
       "startTime": 115,
       "triggerIntervalId": "i065",
-      "endIntervalId": "i087"
+      "endIntervalId": "i087",
+      "audioSource": "video"
     },
     {
       "id": "video-final-boat-ride",
