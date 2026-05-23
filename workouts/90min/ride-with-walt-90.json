@@ -3,6 +3,176 @@
   "name": "Ride with Walt (90)",
   "description": "A Disney-themed 90-minute ride touring iconic Walt Disney World attractions across Animal Kingdom, Hollywood Studios, EPCOT, and Magic Kingdom",
   "totalDuration": 5400,
+  "videos": [
+    {
+      "id": "video-tree-of-life-sunrise",
+      "name": "Tree of Life sunrise",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WX9-j4mRRmk",
+      "startTime": 111,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i001"
+    },
+    {
+      "id": "video-kilimanjaro-safari",
+      "name": "Kilimanjaro Safari",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oF01JC9efcs",
+      "startTime": 175,
+      "triggerIntervalId": "i002",
+      "endIntervalId": "i004"
+    },
+    {
+      "id": "video-pandora-day",
+      "name": "Pandora day",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bXmB-btlxDU",
+      "startTime": 85,
+      "triggerIntervalId": "i005",
+      "endIntervalId": "i005"
+    },
+    {
+      "id": "video-pandora-night",
+      "name": "Pandora at night",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-ihGFibA0ZE",
+      "startTime": 22,
+      "triggerIntervalId": "i006",
+      "endIntervalId": "i007"
+    },
+    {
+      "id": "video-tree-of-life-awakenings",
+      "name": "Tree of Life Awakenings",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WJoCcTE_ByY",
+      "startTime": 6,
+      "triggerIntervalId": "i008",
+      "endIntervalId": "i010"
+    },
+    {
+      "id": "video-magical-express",
+      "name": "Magical Express to Hollywood",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XXJfHo-DgMc",
+      "startTime": 65,
+      "triggerIntervalId": "i011",
+      "endIntervalId": "i011"
+    },
+    {
+      "id": "video-muppet-coaster",
+      "name": "Muppet Coaster",
+      "youtubeUrl": "https://www.youtube.com/watch?v=F6t6c6WhrGg",
+      "startTime": 241,
+      "triggerIntervalId": "i012",
+      "endIntervalId": "i014"
+    },
+    {
+      "id": "video-slinky-dog-dash",
+      "name": "Slinky Dog Dash",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Fu19dZHAT3c",
+      "startTime": 235,
+      "triggerIntervalId": "i016",
+      "endIntervalId": "i016"
+    },
+    {
+      "id": "video-rise-of-the-resistance",
+      "name": "Rise of the Resistance",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YxCErBfzcNY",
+      "startTime": 662,
+      "triggerIntervalId": "i017",
+      "endIntervalId": "i019"
+    },
+    {
+      "id": "video-fantasmic",
+      "name": "Fantasmic!",
+      "youtubeUrl": "https://www.youtube.com/watch?v=87RC1EUfD6o",
+      "startTime": 627,
+      "triggerIntervalId": "i026",
+      "endIntervalId": "i030"
+    },
+    {
+      "id": "video-skyliner",
+      "name": "Skyliner to Epcot",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cMovBhSDzu4",
+      "startTime": 88,
+      "triggerIntervalId": "i031",
+      "endIntervalId": "i031"
+    },
+    {
+      "id": "video-world-showcase",
+      "name": "World Showcase - Harmonious",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 225,
+      "triggerIntervalId": "i032",
+      "endIntervalId": "i049"
+    },
+    {
+      "id": "video-cosmic-rewind",
+      "name": "Cosmic Rewind",
+      "youtubeUrl": "https://www.youtube.com/watch?v=w5JmLk1F6jQ",
+      "startTime": 0,
+      "triggerIntervalId": "i050",
+      "endIntervalId": "i051"
+    },
+    {
+      "id": "video-luminous",
+      "name": "Luminous: The Symphony of Us",
+      "youtubeUrl": "https://www.youtube.com/watch?v=s42ahfHnNT8",
+      "startTime": 952,
+      "triggerIntervalId": "i052",
+      "endIntervalId": "i055"
+    },
+    {
+      "id": "video-monorail",
+      "name": "Monorail to Magic Kingdom",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mAxChTfQDJA",
+      "startTime": 284,
+      "triggerIntervalId": "i056",
+      "endIntervalId": "i056"
+    },
+    {
+      "id": "video-main-street",
+      "name": "Main Street USA",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2oBsnEGYDR0",
+      "startTime": 85,
+      "triggerIntervalId": "i057",
+      "endIntervalId": "i057"
+    },
+    {
+      "id": "video-pirates",
+      "name": "Pirates of the Caribbean",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uaUOBejbXCs",
+      "startTime": 260,
+      "triggerIntervalId": "i058",
+      "endIntervalId": "i058"
+    },
+    {
+      "id": "video-jungle-cruise",
+      "name": "Jungle Cruise",
+      "youtubeUrl": "https://www.youtube.com/watch?v=I8QxfH5X1X4",
+      "startTime": 470,
+      "triggerIntervalId": "i059",
+      "endIntervalId": "i061"
+    },
+    {
+      "id": "video-tron",
+      "name": "TRON Lightcycle / Run",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VmqMoKVau2Y",
+      "startTime": 0,
+      "triggerIntervalId": "i062",
+      "endIntervalId": "i064"
+    },
+    {
+      "id": "video-happily-ever-after",
+      "name": "Happily Ever After",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Qzvg9KuvRiw",
+      "startTime": 115,
+      "triggerIntervalId": "i065",
+      "endIntervalId": "i087"
+    },
+    {
+      "id": "video-final-boat-ride",
+      "name": "Final Boat Ride to the TTC",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GfFuLZ7WD0M",
+      "startTime": 538,
+      "triggerIntervalId": "i088",
+      "endIntervalId": "i089"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
@@ -92,23 +262,26 @@
     {
       "type": "interval",
       "id": "i012",
-      "name": "Muppet Coaster Z3",
+      "name": "Rock'N'Rollercoaster Z3",
       "duration": 90,
-      "powerZone": "Z3"
+      "powerZone": "Z3",
+      "notes": "Starring THE MUPPETS"
     },
     {
       "type": "interval",
       "id": "i013",
-      "name": "Muppet Coaster Z4",
+      "name": "Rock'N'Rollercoaster Z4",
       "duration": 45,
-      "powerZone": "Z4"
+      "powerZone": "Z4",
+      "notes": "Starring THE MUPPETS"
     },
     {
       "type": "interval",
       "id": "i014",
-      "name": "Muppet Coaster Z4+",
+      "name": "Rock'N'Rollercoaster Z4+",
       "duration": 30,
-      "powerZone": "Z4+"
+      "powerZone": "Z4+",
+      "notes": "Starring THE MUPPETS"
     },
     {
       "type": "interval",
