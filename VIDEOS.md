@@ -26,6 +26,7 @@ Workouts support an optional `videos` array for interval-synced video playback i
 | `startTime` | No | Seconds into the video to seek to on trigger (default: 0) — **ignored for playlist URLs** |
 | `triggerIntervalId` | Yes | Interval ID that starts the video |
 | `endIntervalId` | No | Interval ID where video stops (inclusive) |
+| `audioSource` | No | `"spotify"` (default) keeps the video muted and lets Spotify play. `"video"` unmutes the video and pauses Spotify for the duration of this segment; Spotify resumes when the next non-`"video"` segment begins. YouTube only. |
 
 > **Playlist URLs**: If `youtubeUrl` contains `&list=`, the app does not seek — YouTube manages track progression. `startTime` has no effect. A single entry spanning the whole workout works correctly; scrubbing does not reposition the playlist.
 
@@ -133,8 +134,56 @@ Goal: video timestamp `6:44:11` (= 24,251s) should align with the **end of i025*
 ]
 ```
 
+## Audio Source
+
+By default a workout video plays muted as a visual backdrop and Spotify carries the music. Set `"audioSource": "video"` on a `videos[]` entry to flip control during that segment: the video plays unmuted, and the app pauses Spotify until the next segment with `audioSource` of `"spotify"` (or no entry at all) takes over. Only Spotify pauses caused by this feature are auto-resumed — a manual user pause is respected.
+
+```json
+{
+  "id": "video-luminous",
+  "youtubeUrl": "https://www.youtube.com/watch?v=...",
+  "startTime": 952,
+  "triggerIntervalId": "i052",
+  "endIntervalId": "i055",
+  "audioSource": "video"
+}
+```
+
+## Pre-class Intro Video
+
+A separate top-level `introVideo` field plays an ambient video behind the workout-summary screen before the rider hits Start. It loops automatically and stops cleanly when the workout begins.
+
+```json
+{
+  "id": "ride-with-walt-90",
+  "name": "Ride with Walt (90)",
+  "introVideo": {
+    "name": "Walt Disney World pre-ride",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Z9nq1ym9h38",
+    "startTime": 0,
+    "audioSource": "video"
+  },
+  "videos": [ ... ],
+  "sequence": [ ... ]
+}
+```
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `name` | No | Display name |
+| `youtubeUrl` | No* | Full YouTube URL |
+| `vimeoUrl` | No* | Full Vimeo URL |
+| `videoId` | No* | YouTube video ID (alternative to `youtubeUrl`) |
+| `startTime` | No | Seconds into the video to start at (default: 0) |
+| `audioSource` | No | `"spotify"` (default) plays the intro muted. `"video"` unmutes the intro and pauses Spotify until the rider hits Start. |
+
+*One of `youtubeUrl`, `vimeoUrl`, or `videoId` must be provided.
+
+The intro only renders on the true pre-class screen — workout loaded, never started. Pausing mid-workout does not re-show it.
+
 ## Limitations
 
 - **PeacockTV / streaming services**: Cannot be embedded — DRM and `X-Frame-Options` headers block iframes. Only YouTube and Vimeo are supported.
 - **`endIntervalId` is inclusive**: The video plays through the full duration of the named interval.
 - **No seek on Vimeo**: Vimeo uses a hash fragment (`#t=Xs`) which may not work on all Vimeo embed configurations.
+- **Restricted YouTube embeds**: Videos from production-style channels (with "playback on other websites" disabled, or with strict monetization/rights claims) may refuse to play. Test before relying on a video — the deployed HTTPS app accepts more videos than `http://localhost` does.
