@@ -1,0 +1,163 @@
+{
+  "id": "step-it-up-60",
+  "name": "Step It Up",
+  "description": "Three progressive step-up sets (Z2+ to Z4) with cadence-building reset intervals, bookended by a ramping primer and a final overgear/fast-cadence combo.",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy",
+      "duration": 240,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Step up primers Z2",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 80
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Step up primers Z2+",
+      "duration": 120,
+      "powerZone": "Z2+",
+      "cadence": 85
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Step up primers Z3",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Step up primers Z3+",
+      "duration": 120,
+      "powerZone": "Z3+",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Step up primers Z4-",
+      "duration": 60,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Step up primers Z1",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Step Up Set",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "step-up-1",
+          "name": "Step Up Z2+",
+          "duration": 90,
+          "powerZone": "Z2+"
+        },
+        {
+          "id": "step-up-2",
+          "name": "Up Z3",
+          "duration": 90,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "step-up-3",
+          "name": "Up Z3+",
+          "duration": 90,
+          "powerZone": "Z3+"
+        },
+        {
+          "id": "step-up-4",
+          "name": "Up Z4-",
+          "duration": 90,
+          "powerZone": "Z4-"
+        },
+        {
+          "id": "step-up-5",
+          "name": "Up Z4",
+          "duration": 90,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "reset-1",
+          "name": "Reset Z1",
+          "duration": 60,
+          "powerZone": "Z1",
+          "cadence": 90
+        },
+        {
+          "id": "reset-2",
+          "name": "Reset Z1",
+          "duration": 60,
+          "powerZone": "Z1",
+          "cadence": 95
+        },
+        {
+          "id": "reset-3",
+          "name": "Reset Z2",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 100
+        },
+        {
+          "id": "reset-4",
+          "name": "Reset Z2",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 105
+        },
+        {
+          "id": "reset-5",
+          "name": "Reset Z2",
+          "duration": 60,
+          "powerZone": "Z2",
+          "cadence": 110
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Overgear Fast Cadence",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "ofc-1",
+          "name": "Overgear",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 60
+        },
+        {
+          "id": "ofc-2",
+          "name": "Fast Cadence",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 100
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Spindown",
+      "duration": 210,
+      "powerZone": "Z1"
+    }
+  ]
+}
