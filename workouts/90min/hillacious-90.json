@@ -1,0 +1,294 @@
+{
+  "id": "hillacious-90",
+  "name": "HILLacious",
+  "description": "90-minute hill-focused workout: progressive zone builds, punchy 10-on/10-off bursts, three steady climbs (6/7/8 min), rolling hills, and sharp 1-minute Z5 hill repeats",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "easy",
+      "name": "Easy",
+      "duration": 300,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "prog-intro-z2",
+      "name": "Progressions",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "prog-intro-z3a",
+      "name": "Progressions",
+      "duration": 30,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "prog-intro-z3b",
+      "name": "Progressions",
+      "duration": 30,
+      "powerZone": "3+"
+    },
+    {
+      "type": "block",
+      "id": "progressions-1234",
+      "name": "Progressions (Z1→Z4)",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "prog-z1",
+          "name": "Progression Z1",
+          "duration": 30,
+          "powerZone": 1
+        },
+        {
+          "id": "prog-z2",
+          "name": "Progression Z2",
+          "duration": 30,
+          "powerZone": 2
+        },
+        {
+          "id": "prog-z3",
+          "name": "Progression Z3",
+          "duration": 30,
+          "powerZone": 3
+        },
+        {
+          "id": "prog-z4",
+          "name": "Progression Z4",
+          "duration": 30,
+          "powerZone": 4
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "progressions-1345",
+      "name": "Progressions (Z1→Z5)",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "prog-z1-b",
+          "name": "Progression Z1",
+          "duration": 30,
+          "powerZone": 1
+        },
+        {
+          "id": "prog-z3-b",
+          "name": "Progression Z3",
+          "duration": 30,
+          "powerZone": 3
+        },
+        {
+          "id": "prog-z4-b",
+          "name": "Progression Z4",
+          "duration": 30,
+          "powerZone": 4
+        },
+        {
+          "id": "prog-z5",
+          "name": "Progression Z5",
+          "duration": 30,
+          "powerZone": 5
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "prog-final-z1",
+      "name": "Progressions",
+      "duration": 30,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "punchy-punch-1",
+      "name": "Punchy Punch",
+      "repetitions": 9,
+      "intervals": [
+        {
+          "id": "punch-on-1",
+          "name": "Punch (10s on)",
+          "duration": 10,
+          "powerZone": 5,
+          "cadence": 100
+        },
+        {
+          "id": "punch-off-1",
+          "name": "Off (10s)",
+          "duration": 10,
+          "powerZone": 2,
+          "cadence": 100
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "punch-recover-1a",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "punch-recover-1b",
+      "name": "Active",
+      "duration": 60,
+      "powerZone": 2
+    },
+    {
+      "type": "block",
+      "id": "punchy-punch-2",
+      "name": "Punchy Punch",
+      "repetitions": 9,
+      "intervals": [
+        {
+          "id": "punch-on-2",
+          "name": "Punch (10s on)",
+          "duration": 10,
+          "powerZone": 5,
+          "cadence": 100
+        },
+        {
+          "id": "punch-off-2",
+          "name": "Off (10s)",
+          "duration": 10,
+          "powerZone": 2,
+          "cadence": 100
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "punch-recover-2a",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "punch-recover-2b",
+      "name": "Active",
+      "duration": 60,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "steady-climb-1",
+      "name": "Steady Climb",
+      "duration": 360,
+      "powerZoneRange": { "start": 3, "end": 4 },
+      "cadence": 80,
+      "notes": "Steady climb"
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "rolling-hills",
+      "name": "Rolling Hills",
+      "repetitions": 6,
+      "intervals": [
+        {
+          "id": "rolling-valley",
+          "name": "Valley",
+          "duration": 60,
+          "powerZone": 2
+        },
+        {
+          "id": "rolling-hill",
+          "name": "Hill",
+          "duration": 120,
+          "powerZoneRange": { "start": 3, "end": 4 }
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-3",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "steady-climb-2",
+      "name": "Steady Climb",
+      "duration": 420,
+      "powerZoneRange": { "start": 3, "end": 4 },
+      "cadence": 80,
+      "notes": "Steady climb"
+    },
+    {
+      "type": "interval",
+      "id": "recover-4",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "sharp-hills",
+      "name": "Sharp Hills",
+      "repetitions": 6,
+      "intervals": [
+        {
+          "id": "sharp-recover",
+          "name": "Approach",
+          "duration": 60,
+          "powerZoneRange": { "start": 1, "end": 2 }
+        },
+        {
+          "id": "sharp-attack",
+          "name": "Sharp Hill",
+          "duration": 60,
+          "powerZone": 5
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-5",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "steady-climb-3",
+      "name": "Steady Climb",
+      "duration": 480,
+      "powerZoneRange": { "start": 3, "end": 4 },
+      "notes": "Steady climb"
+    },
+    {
+      "type": "interval",
+      "id": "recover-6",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown",
+      "duration": 120,
+      "powerZoneRange": { "start": 1, "end": 2 }
+    }
+  ]
+}
