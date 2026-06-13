@@ -13,7 +13,9 @@ Convert a structured cycling workout (power zones, cadence, durations, optional 
 |--------|----------------|
 | Pasted CSV / table | Use the text directly |
 | Local `.csv` file | `Read` the file |
-| **Google Sheets / Drive URL** | Extract the file ID from the URL and call the Drive MCP `read_file_content` (or `download_file_content` with `exportMimeType: "text/csv"` for raw CSV). The natural-language `read_file_content` output renders durations as `<span type="duration" hours=.. minutes=.. seconds=..>H:MM:SS</span>` — parse the `H:MM:SS` text inside the span. |
+| **Google Sheets / Drive URL** | **Prefer `download_file_content` with `exportMimeType: "text/csv"`** (it returns base64 — decode it) over `read_file_content`. The natural-language `read_file_content` view **silently drops rows** (e.g. an opening warm-up) and merges cells — do not trust it for the workout table. If you only have the NL view, durations appear as `<span type="duration" hours=.. minutes=.. seconds=..>H:MM:SS</span>` — parse the `H:MM:SS` text inside the span. |
+
+**Cross-check against the Cumulative column.** Most of these sheets carry a `Cumulative` column whose last data row is the true total (e.g. `1:00:00`). After parsing, confirm your summed `totalDuration` equals that final cumulative value. If it's short, you dropped a row — re-read from the CSV export.
 
 **Google Sheets URL → file ID:** `https://docs.google.com/spreadsheets/d/<FILE_ID>/edit?...` — the `<FILE_ID>` is the long token after `/d/`. Also grab the sheet `title` via `get_file_metadata` for naming.
 
@@ -66,7 +68,7 @@ If the same interval pattern repeats with **identical** durations/zones (often f
 ### 7. Assemble the workout
 ```json
 {
-  "id": "YYYY-MM-DD-workout-name-duration",
+  "id": "workout-name-duration",
   "name": "Workout Name",
   "description": "Brief description of the workout focus",
   "totalDuration": <sum of all interval-seconds, expanding blocks ×repetitions>,
@@ -74,7 +76,11 @@ If the same interval pattern repeats with **identical** durations/zones (often f
   "isSample": false
 }
 ```
-`totalDuration` must equal the real sum, **counting each block's intervals × its repetitions**.
+`totalDuration` must equal the real sum, **counting each block's intervals × its repetitions**. It must also match the sheet's final `Cumulative` value (see the cross-check above).
+
+**Naming convention (repo standard):**
+- **`name` omits the duration** — `"Strong Style"`, not `"Strong Style (60)"`. Source sheets often title themselves `"... (60)"`; strip the `(NN)` suffix from the display name.
+- **`id`** is kebab-case `<workout-name>-<duration-minutes>` (e.g. `strong-style-60`). A leading `YYYY-MM-DD-` date prefix is optional (some newer files use it); the trailing `-<minutes>` is always present.
 
 ### 8. Choose file location
 Round total minutes to the nearest category — 30, 45, 50, 60, 90 — and save kebab-case:
