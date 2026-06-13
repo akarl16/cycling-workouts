@@ -81,21 +81,24 @@
       "name": "Commercial break",
       "youtubeUrl": "https://www.youtube.com/watch?v=f83AYIJiQUw&list=PLQn122p5FtqKWAKseY3k3zdU7Bo6hQjy1&shuffle=1",
       "startTime": 0,
-      "triggerIntervalId": "i005"
+      "triggerIntervalId": "i005",
+      "order": "shuffle"
     },
     {
       "id": "v002",
       "name": "Quarter 1",
       "youtubeUrl": "https://www.youtube.com/watch?v=f83AYIJiQUw&list=PLQn122p5FtqKWAKseY3k3zdU7Bo6hQjy1&shuffle=1",
       "startTime": 0,
-      "triggerIntervalId": "i008"
+      "triggerIntervalId": "i008",
+      "order": "shuffle"
     },
     {
       "id": "v003",
       "name": "Timeout",
       "youtubeUrl": "https://www.youtube.com/watch?v=f83AYIJiQUw&list=PLQn122p5FtqKWAKseY3k3zdU7Bo6hQjy1&shuffle=1",
       "startTime": 0,
-      "triggerIntervalId": "i011"
+      "triggerIntervalId": "i011",
+      "order": "shuffle"
     },
     {
       "id": "v004",
@@ -109,7 +112,8 @@
       "name": "TV Timeout",
       "youtubeUrl": "https://www.youtube.com/watch?v=f83AYIJiQUw&list=PLQn122p5FtqKWAKseY3k3zdU7Bo6hQjy1&shuffle=1",
       "startTime": 0,
-      "triggerIntervalId": "i015"
+      "triggerIntervalId": "i015",
+      "order": "shuffle"
     }
   ],
   "isSample": false

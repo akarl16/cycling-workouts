@@ -10,7 +10,8 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=wDN8MYIoro4&list=PLtBLVlJSuuLKsoHWmufOV0qngG0MYEVx6",
       "startTime": 0,
       "triggerIntervalId": "i001",
-      "endIntervalId": "i043"
+      "endIntervalId": "i043",
+      "order": "shuffle"
     }
   ],
   "sequence": [
