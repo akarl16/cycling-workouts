@@ -1,0 +1,70 @@
+{
+  "id": "attack-ready-60",
+  "name": "Attack Ready",
+  "description": "Easy warm-up, a Z2→Z4 build ladder, then attack sets: 3× tempo+Z6 sprint and 3× tempo+Z7 sprint over active-quick recoveries, finishing with 2× quick-tempo/threshold and 2× quick-active/tempo-hold, then a Z1 spindown.",
+  "totalDuration": 3600,
+  "sequence": [
+    { "type": "interval", "id": "easy", "name": "Easy", "duration": 300, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "build-z2", "name": "Build", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "build-z3", "name": "Build", "duration": 120, "powerZone": "Z3" },
+    { "type": "interval", "id": "build-z3-plus", "name": "Build", "duration": 120, "powerZone": "Z3+" },
+    { "type": "interval", "id": "build-z4", "name": "Build", "duration": 120, "powerZone": "Z4" },
+
+    { "type": "interval", "id": "recover-1", "name": "Recover", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "active-quick-1", "name": "Active-Quick", "duration": 120, "powerZone": "Z2", "cadence": 95 },
+
+    {
+      "type": "block",
+      "id": "tempo-sprint-z6",
+      "name": "Tempo / Sprint",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "tempo-z6", "name": "Tempo", "duration": 180, "powerZone": "Z3" },
+        { "id": "sprint-z6", "name": "Sprint", "duration": 15, "powerZone": "Z6" }
+      ]
+    },
+
+    { "type": "interval", "id": "recover-2", "name": "Recover", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "active-quick-2", "name": "Active-Quick", "duration": 120, "powerZone": "Z2", "cadence": 95 },
+
+    {
+      "type": "block",
+      "id": "tempo-sprint-z7",
+      "name": "Tempo / Sprint",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "tempo-z7", "name": "Tempo", "duration": 180, "powerZone": "Z3" },
+        { "id": "sprint-z7", "name": "Sprint", "duration": 15, "powerZone": "Z7" }
+      ]
+    },
+
+    { "type": "interval", "id": "recover-3", "name": "Recover", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "active-quick-3", "name": "Active-Quick", "duration": 120, "powerZone": "Z2", "cadence": 95 },
+
+    {
+      "type": "block",
+      "id": "quick-tempo-threshold",
+      "name": "Quick Tempo / ThresHOLD",
+      "repetitions": 2,
+      "intervals": [
+        { "id": "quick-tempo", "name": "Quick Tempo", "duration": 60, "powerZone": "Z3", "cadence": 95 },
+        { "id": "threshold", "name": "ThresHOLD", "duration": 180, "powerZone": "Z4" }
+      ]
+    },
+
+    {
+      "type": "block",
+      "id": "quick-active-tempohold",
+      "name": "Quick Active / TempoHOLD",
+      "repetitions": 2,
+      "intervals": [
+        { "id": "quick-active", "name": "Quick Active", "duration": 60, "powerZone": "Z2", "cadence": 95 },
+        { "id": "tempohold", "name": "TempoHOLD", "duration": 180, "powerZone": "Z3" }
+      ]
+    },
+
+    { "type": "interval", "id": "spindown", "name": "Spindown", "duration": 150, "powerZone": "Z1" }
+  ],
+  "isSample": false
+}
