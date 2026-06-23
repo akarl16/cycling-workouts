@@ -3,6 +3,24 @@
   "name": "TOAD Laps",
   "description": "A 60-minute crit-race simulation: progressive warm-up and spin-ups, then 13 race laps of varied surges, settling efforts, and over-unders mimicking the dynamics of a Tour of America's Dairyland race.",
   "totalDuration": 3600,
+  "videos": [
+    {
+      "id": "video-warmup-race-prep",
+      "name": "Warmup through Race Prep",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kvOQoFLcdFs",
+      "startTime": 119,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i012"
+    },
+    {
+      "id": "video-race-laps",
+      "name": "Race Laps",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bNwVGR-4Gos",
+      "startTime": 2240,
+      "triggerIntervalId": "i013",
+      "endIntervalId": "i090"
+    }
+  ],
   "sequence": [
     { "type": "interval", "id": "i001", "name": "Easy", "duration": 300, "powerZone": "Z1" },
     { "type": "interval", "id": "i002", "name": "Easy", "duration": 120, "powerZone": "Z2" },
@@ -55,25 +73,25 @@
     { "type": "interval", "id": "i042", "name": "Recover", "duration": 20, "powerZone": "Z1" },
     { "type": "interval", "id": "i043", "name": "Lap 5 - Make a Break", "duration": 40, "powerZone": "Z5" },
 
-    { "type": "interval", "id": "i044", "name": "Lap 6 - Hold it", "duration": 60, "powerZone": "Z4-" },
+    { "type": "interval", "id": "i044", "name": "Lap 6 - Hold it", "duration": 60, "powerZone": "Z3+" },
     { "type": "interval", "id": "i045", "name": "Recover", "duration": 30, "powerZone": "Z2" },
-    { "type": "interval", "id": "i046", "name": "Lap 6 - Hold it", "duration": 30, "powerZone": "Z4" },
+    { "type": "interval", "id": "i046", "name": "Lap 6 - Hold it", "duration": 30, "powerZone": "Z4-" },
     { "type": "interval", "id": "i047", "name": "Recover", "duration": 20, "powerZone": "Z2" },
-    { "type": "interval", "id": "i048", "name": "Lap 6 - Hold it", "duration": 20, "powerZone": "Z4" },
+    { "type": "interval", "id": "i048", "name": "Lap 6 - Hold it", "duration": 20, "powerZone": "Z3+" },
     { "type": "interval", "id": "i049", "name": "Recover", "duration": 20, "powerZone": "Z2" },
 
-    { "type": "interval", "id": "i050", "name": "Lap 7 - Hold it", "duration": 60, "powerZone": "Z4-" },
+    { "type": "interval", "id": "i050", "name": "Lap 7 - Hold it", "duration": 60, "powerZone": "Z3+" },
     { "type": "interval", "id": "i051", "name": "Recover", "duration": 30, "powerZone": "Z2" },
-    { "type": "interval", "id": "i052", "name": "Lap 7 - Hold it", "duration": 30, "powerZone": "Z4" },
+    { "type": "interval", "id": "i052", "name": "Lap 7 - Hold it", "duration": 30, "powerZone": "Z4-" },
     { "type": "interval", "id": "i053", "name": "Recover", "duration": 20, "powerZone": "Z2" },
-    { "type": "interval", "id": "i054", "name": "Lap 7 - Hold it", "duration": 20, "powerZone": "Z4" },
+    { "type": "interval", "id": "i054", "name": "Lap 7 - Hold it", "duration": 20, "powerZone": "Z3+" },
     { "type": "interval", "id": "i055", "name": "Recover", "duration": 20, "powerZone": "Z2" },
 
-    { "type": "interval", "id": "i056", "name": "Lap 8 - Hold it", "duration": 60, "powerZone": "Z4-" },
+    { "type": "interval", "id": "i056", "name": "Lap 8 - Hold it", "duration": 60, "powerZone": "Z3+" },
     { "type": "interval", "id": "i057", "name": "Recover", "duration": 30, "powerZone": "Z2" },
-    { "type": "interval", "id": "i058", "name": "Lap 8 - Hold it", "duration": 30, "powerZone": "Z4" },
+    { "type": "interval", "id": "i058", "name": "Lap 8 - Hold it", "duration": 30, "powerZone": "Z4-" },
     { "type": "interval", "id": "i059", "name": "Recover", "duration": 20, "powerZone": "Z2" },
-    { "type": "interval", "id": "i060", "name": "Lap 8 - Hold it", "duration": 20, "powerZone": "Z4" },
+    { "type": "interval", "id": "i060", "name": "Lap 8 - Hold it", "duration": 20, "powerZone": "Z3+" },
     { "type": "interval", "id": "i061", "name": "Recover", "duration": 20, "powerZone": "Z2" },
 
     { "type": "interval", "id": "i062", "name": "Lap 9 - Settle In", "duration": 60, "powerZone": "Z3" },
