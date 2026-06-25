@@ -1,0 +1,49 @@
+{
+  "id": "slow-progress-50",
+  "name": "Slow progress",
+  "description": "A 50-minute progression: a mixed-zone warm-up, then climbing blocks (tempo, threshold, VO2) where each effort is held at descending cadences (steady, low, grind) with quick Z1 spins between, building intensity as the workout goes on.",
+  "totalDuration": 3000,
+  "sequence": [
+    { "type": "interval", "id": "i001", "name": "Easy", "duration": 240, "powerZone": "Z1" },
+    { "type": "interval", "id": "i002", "name": "Active", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "i003", "name": "Steady", "duration": 60, "powerZone": "Z3", "cadence": 85 },
+    { "type": "interval", "id": "i004", "name": "Active", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "i005", "name": "Lower", "duration": 60, "powerZone": "Z3", "cadence": 70 },
+    { "type": "interval", "id": "i006", "name": "Active", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "i007", "name": "Steady", "duration": 60, "powerZone": "Z4", "cadence": 85 },
+    { "type": "interval", "id": "i008", "name": "Active", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "i009", "name": "Lower", "duration": 60, "powerZone": "Z4", "cadence": 70 },
+    { "type": "interval", "id": "i010", "name": "Active", "duration": 30, "powerZone": "Z2" },
+    { "type": "interval", "id": "i011", "name": "Steady", "duration": 30, "powerZone": "Z5", "cadence": 85 },
+    { "type": "interval", "id": "i012", "name": "Easy", "duration": 30, "powerZone": "Z1" },
+    { "type": "interval", "id": "i013", "name": "Lower", "duration": 30, "powerZone": "Z5", "cadence": 70 },
+
+    { "type": "interval", "id": "i014", "name": "Reset", "duration": 120, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "i015", "name": "Tempo-Steady", "duration": 180, "powerZone": "Z3" },
+    { "type": "interval", "id": "i016", "name": "Quick-Easy", "duration": 60, "powerZone": "Z1", "cadence": 95 },
+    { "type": "interval", "id": "i017", "name": "Tempo-Low", "duration": 180, "powerZone": "Z3", "cadence": 75 },
+    { "type": "interval", "id": "i018", "name": "Quick-Easy", "duration": 60, "powerZone": "Z1", "cadence": 95 },
+    { "type": "interval", "id": "i019", "name": "Tempo-Grind", "duration": 180, "powerZone": "Z3", "cadence": 65 },
+    { "type": "interval", "id": "i020", "name": "Quick-Easy", "duration": 60, "powerZone": "Z1", "cadence": 95 },
+
+    { "type": "interval", "id": "i021", "name": "Threshold-Steady", "duration": 180, "powerZone": "Z4" },
+    { "type": "interval", "id": "i022", "name": "Quick-Easy", "duration": 60, "powerZone": "Z1", "cadence": 95 },
+    { "type": "interval", "id": "i023", "name": "Threshold-Low", "duration": 180, "powerZone": "Z4", "cadence": 75 },
+    { "type": "interval", "id": "i024", "name": "Quick-Easy", "duration": 60, "powerZone": "Z1", "cadence": 95 },
+    { "type": "interval", "id": "i025", "name": "Threshold-Grind", "duration": 180, "powerZone": "Z4", "cadence": 65 },
+    { "type": "interval", "id": "i026", "name": "Quick-Easy", "duration": 60, "powerZone": "Z1", "cadence": 95 },
+
+    { "type": "interval", "id": "i027", "name": "VO2-Steady", "duration": 60, "powerZone": "Z5", "notes": "Hang on!" },
+    { "type": "interval", "id": "i028", "name": "Quick-Easy", "duration": 60, "powerZone": "Z1", "cadence": 95 },
+    { "type": "interval", "id": "i029", "name": "VO2-Low", "duration": 60, "powerZone": "Z5", "cadence": 75, "notes": "Hang on!" },
+    { "type": "interval", "id": "i030", "name": "Quick-Easy", "duration": 60, "powerZone": "Z1", "cadence": 95 },
+    { "type": "interval", "id": "i031", "name": "VO2-Grind", "duration": 60, "powerZone": "Z5", "cadence": 65, "notes": "Hang on!" },
+    { "type": "interval", "id": "i032", "name": "Quick-Easy", "duration": 60, "powerZone": "Z1", "cadence": 95 },
+
+    { "type": "interval", "id": "i033", "name": "Cadence spin out", "duration": 60, "powerZone": "Z2", "cadence": 100 },
+    { "type": "interval", "id": "i034", "name": "Quick-Easy", "duration": 60, "powerZone": "Z1", "cadence": 95 },
+    { "type": "interval", "id": "i035", "name": "Cooldown", "duration": 120, "powerZone": "Z1" }
+  ],
+  "isSample": false
+}
