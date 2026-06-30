@@ -1,0 +1,277 @@
+{
+  "id": "the-hummingbird-60",
+  "name": "The Hummingbird",
+  "description": "A cadence-focused hour: a cadence playground, two ramp efforts, then SuperSpin holds at high RPM, finishing with cadence ramps and a spindown.",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Warm up",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Warm up",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Warm up",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Cadence playground",
+      "duration": 30,
+      "powerZone": "Z3",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Recover",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Cadence playground",
+      "duration": 30,
+      "powerZone": "Z3",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Recover",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Cadence playground",
+      "duration": 30,
+      "powerZone": "Z3",
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Recover",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Cadence playground",
+      "duration": 30,
+      "powerZone": "Z4",
+      "cadence": 110
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Recover",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Cadence playground",
+      "duration": 30,
+      "powerZone": "Z4",
+      "cadence": 110
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Recover",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "cadence-ramp-20s",
+      "name": "Cadence Ramp",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "cadence-ramp-90",
+          "name": "Ramp 90 rpm",
+          "duration": 20,
+          "powerZone": "Z3",
+          "cadence": 90
+        },
+        {
+          "id": "cadence-ramp-100",
+          "name": "Ramp 100 rpm",
+          "duration": 20,
+          "powerZone": "Z3",
+          "cadence": 100
+        },
+        {
+          "id": "cadence-ramp-110",
+          "name": "Ramp 110 rpm",
+          "duration": 20,
+          "powerZone": "Z3",
+          "cadence": 110
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "twenty-on-ten-off",
+      "name": "20 on, 10 off",
+      "repetitions": 10,
+      "intervals": [
+        {
+          "id": "on-off-on",
+          "name": "20 sec on",
+          "duration": 20,
+          "powerZone": "Z3",
+          "cadence": 115
+        },
+        {
+          "id": "on-off-off",
+          "name": "10 sec off",
+          "duration": 10,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "superspin-holds-short",
+      "name": "SuperSpin holds",
+      "repetitions": 10,
+      "intervals": [
+        {
+          "id": "superspin-short-z4",
+          "name": "SuperSpin hold",
+          "duration": 60,
+          "powerZone": "Z4",
+          "cadence": 105
+        },
+        {
+          "id": "superspin-short-z1",
+          "name": "Recover",
+          "duration": 30,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "superspin-holds-long",
+      "name": "SuperSpin holds",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "superspin-long-z3",
+          "name": "SuperSpin hold",
+          "duration": 180,
+          "powerZone": "Z3",
+          "cadence": 105
+        },
+        {
+          "id": "superspin-long-z1",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "Cadence Ramps",
+      "duration": 30,
+      "powerZone": "Z4",
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "Recover",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "Cadence Ramps",
+      "duration": 30,
+      "powerZone": "Z4",
+      "cadence": 115
+    },
+    {
+      "type": "interval",
+      "id": "i023",
+      "name": "Recover",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i024",
+      "name": "Cadence Ramps",
+      "duration": 30,
+      "powerZone": "Z4",
+      "cadence": 125
+    },
+    {
+      "type": "interval",
+      "id": "i025",
+      "name": "Recover",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "Spindown",
+      "duration": 120,
+      "powerZone": "Z1"
+    }
+  ],
+  "isSample": false
+}
