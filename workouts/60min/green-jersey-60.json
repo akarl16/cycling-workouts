@@ -1,0 +1,221 @@
+{
+  "id": "green-jersey-60",
+  "name": "Green Jersey",
+  "description": "A Tour sprint stage for the points classification: a neutral roll-out warm-up, high-cadence spin-ups to prime the legs, then three acts — controlled Z6 intermediate points sprints, a lead-out train that winds up Z4→Z5 before you launch to Z7, and a scripted Champs-Elysees finale with a full sprint and one last throw for the line before the spindown.",
+  "totalDuration": 3600,
+  "videos": [
+    {
+      "id": "onboard-rollout",
+      "name": "Tour de France 2026 — Onboard Camera (Roll-Out)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sEWvq6CmGa4",
+      "startTime": 0,
+      "triggerIntervalId": "i001"
+    },
+    {
+      "id": "stage-5",
+      "name": "Tour de France 2026 — Stage 5 Extended Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=coqpuBUmSVA",
+      "startTime": 220,
+      "triggerIntervalId": "i005",
+      "endIntervalId": "i006"
+    },
+    {
+      "id": "stage-7",
+      "name": "Tour de France 2026 — Stage 7 Extended Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=k5vhXyNZ1rw",
+      "startTime": 564,
+      "triggerIntervalId": "leadout-wheel",
+      "endIntervalId": "i007"
+    },
+    {
+      "id": "stage-8",
+      "name": "Tour de France 2026 — Stage 8 Extended Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=T350gRuL26o",
+      "startTime": 1027,
+      "triggerIntervalId": "i008",
+      "endIntervalId": "i015"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Neutral Roll-Out",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Roll",
+      "duration": 180,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Build",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Settle In",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "block",
+      "id": "spin-ups",
+      "name": "Spin-Ups",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "spin-up-float",
+          "name": "Float",
+          "duration": 45,
+          "powerZone": "Z2",
+          "cadence": 105
+        },
+        {
+          "id": "spin-up-pop",
+          "name": "Spin-Up",
+          "duration": 15,
+          "powerZone": "Z5",
+          "cadence": 110
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "points-sprint",
+      "name": "Points Sprint",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "points-bunch",
+          "name": "In the Bunch",
+          "duration": 180,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "points-jump",
+          "name": "Points Sprint",
+          "duration": 15,
+          "powerZone": "Z6"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "lead-out-train",
+      "name": "Lead-Out Train",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "leadout-wheel",
+          "name": "On the Wheel",
+          "duration": 120,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "leadout-windup",
+          "name": "Lead-Out",
+          "duration": 30,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "leadout-kick",
+          "name": "Kick",
+          "duration": 15,
+          "powerZone": "Z5"
+        },
+        {
+          "id": "leadout-launch",
+          "name": "Launch",
+          "duration": 15,
+          "powerZone": "Z7"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Last Lap",
+      "duration": 90,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Wind-Up",
+      "duration": 30,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Kick",
+      "duration": 20,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "The Sprint",
+      "duration": 20,
+      "powerZone": "Z7"
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Regroup",
+      "duration": 45,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Final Wind-Up",
+      "duration": 20,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "The Throw",
+      "duration": 15,
+      "powerZone": "Z7"
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Spindown",
+      "duration": 285,
+      "powerZone": "Z1"
+    }
+  ],
+  "isSample": false
+}
