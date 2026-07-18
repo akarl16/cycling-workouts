@@ -1,0 +1,431 @@
+{
+  "id": "la-tour-mountains-2026-90",
+  "name": "La Tour, Mountains 2026",
+  "description": "A 90-minute Tour de France mountains journey through the 2026 route \u2014 the Pyrenees, the Alps, and the legendary climbs (Tourmalet, Galibier, Alpe d'Huez, Croix de Fer) \u2014 closing with the Montmartre punch and the Champs-Elysees.",
+  "totalDuration": 5400,
+  "videos": [
+    {
+      "id": "video-warmup-tourmalet",
+      "name": "Warm-up through Stage 6 - Col du Tourmalet",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mXwr3qo7dyQ",
+      "startTime": 0,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i008"
+    },
+    {
+      "id": "video-puy-mary",
+      "name": "Stage 10 - Puy Mary",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1RCKK_G00GU",
+      "startTime": 0,
+      "triggerIntervalId": "i009",
+      "endIntervalId": "i012"
+    },
+    {
+      "id": "video-alsace-solaison",
+      "name": "Stages 13-15 through Plateau de Solaison",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lQ3QpqJlklc",
+      "startTime": 734,
+      "triggerIntervalId": "i013",
+      "endIntervalId": "i024"
+    },
+    {
+      "id": "video-stage19-alpe-dhuez",
+      "name": "Stage 19 - Alpe d'Huez",
+      "youtubeUrl": "https://www.youtube.com/watch?v=A3acvvSBkm0",
+      "startTime": 73,
+      "triggerIntervalId": "alpe19-1",
+      "endIntervalId": "i025"
+    },
+    {
+      "id": "video-stage20",
+      "name": "Stage 20 - Croix de Fer to Alpe d'Huez",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MwWLg3u-Jj8",
+      "startTime": 2256,
+      "triggerIntervalId": "croixdefer-1",
+      "endIntervalId": "alpe20-2-block-b005-rep-2"
+    },
+    {
+      "id": "video-stage21-paris",
+      "name": "Stage 21 - Paris to Champs-Elysees",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pSzFM_QConY",
+      "startTime": 0,
+      "triggerIntervalId": "i033",
+      "endIntervalId": "i034"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Barcelona Flat-ish",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Barcelona Flat-ish",
+      "duration": 120,
+      "powerZone": "Z1",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Barcelona Flat-ish",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Barcelona Flat-ish",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Barcelona Flat-ish",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Barcelona Flat-ish",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Not much rest",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Stage 6 - Col du Tourmalet",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "tourmalet-1",
+          "name": "Col du Tourmalet Z2+",
+          "duration": 60,
+          "powerZone": "Z2+"
+        },
+        {
+          "id": "tourmalet-2",
+          "name": "Col du Tourmalet Z3",
+          "duration": 60,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "tourmalet-3",
+          "name": "Col du Tourmalet Z4-",
+          "duration": 60,
+          "powerZone": "Z4-"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Transfer",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Stage 10 - Puy Mary",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Stage 10 - Puy Mary",
+      "duration": 30,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Stage 10 - Puy Mary",
+      "duration": 30,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Stage 10 - Puy Mary",
+      "duration": 120,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Transfer",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Stage 13 - Ballon d'Alsace",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Stage 13 - Ballon d'Alsace",
+      "duration": 30,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Stage 13 - Ballon d'Alsace",
+      "duration": 30,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Stage 13 - Ballon d'Alsace",
+      "duration": 120,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Transfer",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Stage 14 - Ballon d'Alsace",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "Stage 14 - Ballon d'Alsace",
+      "duration": 30,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "Stage 14 - Ballon d'Alsace",
+      "duration": 30,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "Stage 14 - Ballon d'Alsace",
+      "duration": 120,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i023",
+      "name": "Transfer",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Stage 15 - Plateau de Solaison",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "solaison-1",
+          "name": "Plateau de Solaison Z3",
+          "duration": 30,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "solaison-2",
+          "name": "Plateau de Solaison Z5",
+          "duration": 30,
+          "powerZone": "Z5"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i024",
+      "name": "Transfer",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Stage 19 - Alpe d'Huez",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "alpe19-1",
+          "name": "Alpe d'Huez Z3+",
+          "duration": 60,
+          "powerZone": "Z3+"
+        },
+        {
+          "id": "alpe19-2",
+          "name": "Alpe d'Huez Z4",
+          "duration": 60,
+          "powerZone": "Z4"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i025",
+      "name": "Transfer",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "Stage 20 - Col de la Croix de Fer",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "croixdefer-1",
+          "name": "Col de la Croix de Fer Z3",
+          "duration": 120,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "croixdefer-2",
+          "name": "Col de la Croix de Fer Z4-",
+          "duration": 60,
+          "powerZone": "Z4-"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "Transfer",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i027",
+      "name": "Stage 20 - Col du Telegraphe",
+      "duration": 210,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i028",
+      "name": "Stage 20 - Col du Telegraphe",
+      "duration": 60,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i029",
+      "name": "Stage 20 - Col du Telegraphe",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i030",
+      "name": "Stage 20 - Col du Galibier",
+      "duration": 210,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i031",
+      "name": "Stage 20 - Col du Galibier",
+      "duration": 60,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i032",
+      "name": "Transfer",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b005",
+      "name": "Stage 20 - Alpe d'Huez",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "alpe20-1",
+          "name": "Alpe d'Huez Z3+",
+          "duration": 60,
+          "powerZone": "Z3+"
+        },
+        {
+          "id": "alpe20-2",
+          "name": "Alpe d'Huez Z4",
+          "duration": 60,
+          "powerZone": "Z4"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i033",
+      "name": "Stage 21 - Paris",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b006",
+      "name": "Stage 21 - Montmartre",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "montmartre-1",
+          "name": "Montmartre Surge",
+          "duration": 30,
+          "powerZoneRange": {
+            "start": "Z2",
+            "end": "Z3"
+          },
+          "notes": "OOS"
+        },
+        {
+          "id": "montmartre-2",
+          "name": "Montmartre Spin",
+          "duration": 30,
+          "powerZone": "Z1",
+          "cadence": 100
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i034",
+      "name": "Stage 21 - Champs-Elysees",
+      "duration": 60,
+      "powerZone": "Z1"
+    }
+  ],
+  "isSample": false
+}
