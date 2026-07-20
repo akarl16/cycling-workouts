@@ -1,0 +1,70 @@
+{
+  "id": "la-tour-mountains-60",
+  "name": "La Tour, Mountains",
+  "description": "A Tour-stage mountain day: a cadence build ladder, rolling Flat efforts with front-of-group surges, a four-rep standing-attack Climb into a downhill, then a sharp Z5 climb before the spindown.",
+  "totalDuration": 3600,
+  "videos": [
+    {
+      "id": "la-tour-mountains-part-1",
+      "name": "Warm-up & Climb Approach",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Gl3VUZpwz3I",
+      "startTime": 570,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i009"
+    },
+    {
+      "id": "la-tour-mountains-part-2",
+      "name": "Flats, Climb & Downhill",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Xobhtb1yhUw",
+      "startTime": 33,
+      "triggerIntervalId": "i010",
+      "endIntervalId": "i023"
+    },
+    {
+      "id": "la-tour-mountains-part-3",
+      "name": "Final Flats & Sharp Climb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_4AcUzRgn04",
+      "startTime": 298,
+      "triggerIntervalId": "i024",
+      "endIntervalId": "i035"
+    }
+  ],
+  "sequence": [
+    { "type": "interval", "id": "i001", "name": "Build", "duration": 300, "powerZone": "Z1" },
+    { "type": "interval", "id": "i002", "name": "Build Z2 (95rpm)", "duration": 60, "powerZone": "Z2", "cadence": 95 },
+    { "type": "interval", "id": "i003", "name": "Build Z2 (75rpm)", "duration": 60, "powerZone": "Z2", "cadence": 75 },
+    { "type": "interval", "id": "i004", "name": "Build Z3 (95rpm)", "duration": 60, "powerZone": "Z3", "cadence": 95 },
+    { "type": "interval", "id": "i005", "name": "Build Z3 (75rpm)", "duration": 60, "powerZone": "Z3", "cadence": 75 },
+    { "type": "interval", "id": "i006", "name": "Build Z4 (95rpm)", "duration": 60, "powerZone": "Z4", "cadence": 95 },
+    { "type": "interval", "id": "i007", "name": "Build Z4 (75rpm)", "duration": 60, "powerZone": "Z4", "cadence": 75 },
+    { "type": "interval", "id": "i008", "name": "Build Z3 (100rpm)", "duration": 120, "powerZone": "Z3", "cadence": 100 },
+    { "type": "interval", "id": "i009", "name": "Transfer", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "i010", "name": "Flat Z2", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "i011", "name": "Flat Z3+ (On the front)", "duration": 120, "powerZone": "Z3+" },
+    { "type": "interval", "id": "i012", "name": "Flat Z2", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "i013", "name": "Flat Z3+ (On the front)", "duration": 120, "powerZone": "Z3+" },
+    { "type": "interval", "id": "i014", "name": "Transfer", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "i015", "name": "Climb", "duration": 120, "powerZoneRange": { "start": "Z2", "end": "Z3" } },
+    { "type": "interval", "id": "i016", "name": "Standing Attack", "duration": 60, "powerZoneRange": { "start": "Z4", "end": "Z5" } },
+    { "type": "interval", "id": "i017", "name": "Climb", "duration": 120, "powerZoneRange": { "start": "Z2", "end": "Z3" } },
+    { "type": "interval", "id": "i018", "name": "Standing Attack", "duration": 60, "powerZoneRange": { "start": "Z4", "end": "Z5" } },
+    { "type": "interval", "id": "i019", "name": "Climb", "duration": 120, "powerZoneRange": { "start": "Z2", "end": "Z3" } },
+    { "type": "interval", "id": "i020", "name": "Standing Attack", "duration": 60, "powerZoneRange": { "start": "Z4", "end": "Z5" } },
+    { "type": "interval", "id": "i021", "name": "Climb", "duration": 120, "powerZoneRange": { "start": "Z2", "end": "Z3" } },
+    { "type": "interval", "id": "i022", "name": "Standing Attack", "duration": 60, "powerZoneRange": { "start": "Z4", "end": "Z5" } },
+    { "type": "interval", "id": "i023", "name": "Downhill", "duration": 120, "powerZone": "Z2", "cadence": 100 },
+    { "type": "interval", "id": "i024", "name": "Transfer", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "i025", "name": "Flat Z2", "duration": 180, "powerZone": "Z2" },
+    { "type": "interval", "id": "i026", "name": "Flat Z3+ (On the front)", "duration": 60, "powerZone": "Z3+" },
+    { "type": "interval", "id": "i027", "name": "Flat Z2", "duration": 180, "powerZone": "Z2" },
+    { "type": "interval", "id": "i028", "name": "Flat Z3+ (On the front)", "duration": 60, "powerZone": "Z3+" },
+    { "type": "interval", "id": "i029", "name": "Transfer", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "i030", "name": "Sharp Climb (Standing Attack)", "duration": 60, "powerZone": "Z5" },
+    { "type": "interval", "id": "i031", "name": "Sharp Climb Recover", "duration": 60, "powerZone": "Z3" },
+    { "type": "interval", "id": "i032", "name": "Sharp Climb (Standing Attack)", "duration": 60, "powerZone": "Z5" },
+    { "type": "interval", "id": "i033", "name": "Sharp Climb Recover", "duration": 60, "powerZone": "Z3" },
+    { "type": "interval", "id": "i034", "name": "Sharp Climb (Standing Attack)", "duration": 60, "powerZone": "Z5" },
+    { "type": "interval", "id": "i035", "name": "Spindown", "duration": 240, "powerZoneRange": { "start": "Z1", "end": "Z2" } }
+  ],
+  "isSample": false
+}
