@@ -385,8 +385,8 @@ def validate_melodic_roulette(workout: Dict[str, Any]) -> List[str]:
     
     # Validate theme if present
     if "theme" in workout:
-        valid_themes = ["default", "halloween", "christmas", "wintry", "valentines", 
-                       "holyhill", "criterium", "custom"]
+        valid_themes = ["default", "halloween", "christmas", "wintry", "valentines",
+                       "holyhill", "criterium", "stpatricks", "summer", "custom"]
         if workout["theme"] not in valid_themes:
             errors.append(f"theme must be one of {valid_themes}, got '{workout['theme']}'")
     
@@ -454,8 +454,8 @@ def validate_workout(workout: Dict[str, Any]) -> Tuple[bool, List[str]]:
     
     # Validate theme if present
     if "theme" in workout:
-        valid_themes = ["default", "halloween", "christmas", "wintry", "valentines", 
-                       "holyhill", "criterium", "custom"]
+        valid_themes = ["default", "halloween", "christmas", "wintry", "valentines",
+                       "holyhill", "criterium", "stpatricks", "summer", "custom"]
         if workout["theme"] not in valid_themes:
             errors.append(f"theme must be one of {valid_themes}, got '{workout['theme']}'")
     

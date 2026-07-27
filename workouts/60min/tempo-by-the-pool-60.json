@@ -1,0 +1,211 @@
+{
+  "id": "tempo-by-the-pool-60",
+  "name": "Tempo by the Pool",
+  "description": "60-minute summer pool-party tempo workout with multiple Z3 holds and threshold efforts",
+  "totalDuration": 3630,
+  "theme": "summer",
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "cannonball-build-z1",
+      "name": "Cannonball Build - Z1",
+      "duration": 300,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "cannonball-build-z2",
+      "name": "Cannonball Build - Z2",
+      "duration": 120,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "cannonball-build-z3",
+      "name": "Cannonball Build - Z3",
+      "duration": 120,
+      "powerZone": 3
+    },
+    {
+      "type": "block",
+      "id": "belly-flop-primers",
+      "name": "Belly-flop Primers",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "primer-easy",
+          "name": "Belly-flop Primers",
+          "duration": 20,
+          "powerZone": 2
+        },
+        {
+          "id": "primer-hard",
+          "name": "Belly-flop Primers",
+          "duration": 40,
+          "powerZoneRange": {
+            "start": 4,
+            "end": 5
+          }
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "float-covery",
+      "name": "Float-covery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "splish-splash-tempo",
+      "name": "Splish-Splash Tempo - Z3",
+      "duration": 300,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "sunbathe-covery",
+      "name": "Sunbathe-covery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "sizzlin-threshold",
+      "name": "Sizzlin' Threshold",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "sizzlin-z4",
+          "name": "Sizzlin' Threshold - Z4",
+          "duration": 30,
+          "powerZone": 4
+        },
+        {
+          "id": "sizzlin-z2",
+          "name": "Sizzlin' Threshold - Z2",
+          "duration": 30,
+          "powerZone": 2
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "poolside-covery",
+      "name": "Poolside-covery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "flip-flop-tempo",
+      "name": "Flip-Flop Tempo - Z3",
+      "duration": 300,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "shade-covery",
+      "name": "Shade-covery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "block",
+      "id": "heatwave-threshold",
+      "name": "Heatwave Threshold",
+      "repetitions": 5,
+      "intervals": [
+        {
+          "id": "heatwave-z4",
+          "name": "Heatwave Threshold - Z4",
+          "duration": 30,
+          "powerZone": 4
+        },
+        {
+          "id": "heatwave-z2",
+          "name": "Heatwave Threshold - Z2",
+          "duration": 30,
+          "powerZone": 2
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "popsicle-covery",
+      "name": "Popsicle-covery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "beach-ball-tempo",
+      "name": "Beach-Ball Tempo - Z3",
+      "duration": 300,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "lemonade-covery",
+      "name": "Lemonade-covery - Z1",
+      "duration": 120,
+      "powerZone": 1
+    },
+    {
+      "type": "interval",
+      "id": "pool-party-finish-1",
+      "name": "Pool Party Finish - Z3 @ 60rpm",
+      "duration": 60,
+      "powerZone": 3,
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "pool-party-finish-2",
+      "name": "Pool Party Finish - Z3 @ 105rpm",
+      "duration": 60,
+      "powerZone": 3,
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "pool-party-finish-3",
+      "name": "Pool Party Finish - Z3 @ 60rpm",
+      "duration": 60,
+      "powerZone": 3,
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "pool-party-finish-4",
+      "name": "Pool Party Finish - Z3 @ 105rpm",
+      "duration": 60,
+      "powerZone": 3,
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "pool-party-finish-5",
+      "name": "Pool Party Finish - Z3 @ 60rpm",
+      "duration": 60,
+      "powerZone": 3,
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "pool-party-finish-6",
+      "name": "Pool Party Finish - Z4+ @ 105rpm",
+      "duration": 90,
+      "powerZone": "Z4+",
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "sunset-spindown",
+      "name": "Sunset Spindown - Z1",
+      "duration": 180,
+      "powerZone": 1
+    }
+  ]
+}
