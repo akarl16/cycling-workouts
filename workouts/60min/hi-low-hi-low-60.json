@@ -1,0 +1,289 @@
+{
+  "id": "hi-low-hi-low-60",
+  "name": "Hi low, Hi low",
+  "description": "60-minute alternating high-low workout: a Z2-to-Z4 pyramid build, then repeating sets that pair a Z3 push and a Z4 surge around Z2 tempo, closing with a Z3/Z4/Z3 finisher",
+  "totalDuration": 3600,
+  "videos": [
+    {
+      "id": "tdff-stage-1",
+      "name": "Tour de France Femmes 2026 — Stage 1 Extended Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=asDywOvL6A0",
+      "startTime": 0,
+      "triggerIntervalId": "warmup-z1-block-b001-rep-1",
+      "endIntervalId": "pyramid-z2-down-block-b002-rep-1"
+    },
+    {
+      "id": "tdff-stage-2a",
+      "name": "Tour de France Femmes 2026 — Stage 2 Extended Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eKlPREyzhOU",
+      "startTime": 0,
+      "triggerIntervalId": "surge-z2-in-block-b003-rep-1",
+      "endIntervalId": "set-z2-out-b-block-b004-rep-1"
+    },
+    {
+      "id": "tdff-stage-2b",
+      "name": "Tour de France Femmes 2026 — Stage 2 Extended Highlights (cont.)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eKlPREyzhOU",
+      "startTime": 1020,
+      "triggerIntervalId": "set-z2-in-a-block-b004-rep-2",
+      "endIntervalId": "set-z3-block-b004-rep-2"
+    },
+    {
+      "id": "tdff-stage-3a",
+      "name": "Tour de France Femmes 2026 — Stage 3 Extended Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BVZIH1e6kZo",
+      "startTime": 0,
+      "triggerIntervalId": "set-z2-out-a-block-b004-rep-2",
+      "endIntervalId": "set-z2-out-b-block-b004-rep-2"
+    },
+    {
+      "id": "tdff-stage-3b",
+      "name": "Tour de France Femmes 2026 — Stage 3 Extended Highlights (cont.)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BVZIH1e6kZo",
+      "startTime": 480,
+      "triggerIntervalId": "final-set-z2-in-block-b005-rep-1",
+      "endIntervalId": "i003"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Warmup",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "warmup-z1",
+          "name": "Warmup",
+          "duration": 120,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "warmup-z2",
+          "name": "Warmup",
+          "duration": 180,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "warmup-z3",
+          "name": "Warmup",
+          "duration": 120,
+          "powerZone": "Z3"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Pyramid Build",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "pyramid-z2-up",
+          "name": "Low",
+          "duration": 120,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "pyramid-z3-up",
+          "name": "Hi",
+          "duration": 120,
+          "powerZone": "Z3",
+          "cadence": 100
+        },
+        {
+          "id": "pyramid-z4",
+          "name": "Peak",
+          "duration": 60,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "pyramid-z3-down",
+          "name": "Hi",
+          "duration": 120,
+          "powerZone": "Z3",
+          "cadence": 100
+        },
+        {
+          "id": "pyramid-z2-down",
+          "name": "Low",
+          "duration": 120,
+          "powerZone": "Z2",
+          "cadence": 95
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Opening Surge",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "surge-z2-in",
+          "name": "Low",
+          "duration": 120,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "surge-z4",
+          "name": "Hi",
+          "duration": 60,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "surge-z2-out",
+          "name": "Low",
+          "duration": 120,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "b004",
+      "name": "Hi Low Sets",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "set-z2-in-a",
+          "name": "Low",
+          "duration": 120,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "set-z3",
+          "name": "Hi",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 100
+        },
+        {
+          "id": "set-z2-out-a",
+          "name": "Low",
+          "duration": 120,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "set-recover-a",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": "Z1"
+        },
+        {
+          "id": "set-z2-in-b",
+          "name": "Low",
+          "duration": 120,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "set-z4",
+          "name": "Hi",
+          "duration": 60,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "set-z2-out-b",
+          "name": "Low",
+          "duration": 120,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "set-recover-b",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b005",
+      "name": "Final Hi Low Set",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "final-set-z2-in",
+          "name": "Low",
+          "duration": 120,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "final-set-z3",
+          "name": "Hi",
+          "duration": 60,
+          "powerZone": "Z3",
+          "cadence": 100
+        },
+        {
+          "id": "final-set-z2-out",
+          "name": "Low",
+          "duration": 120,
+          "powerZone": "Z2",
+          "cadence": 95
+        },
+        {
+          "id": "final-set-recover",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "b006",
+      "name": "Finisher",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "finisher-z3-in",
+          "name": "Finisher",
+          "duration": 120,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "finisher-z4",
+          "name": "Finisher",
+          "duration": 60,
+          "powerZone": "Z4"
+        },
+        {
+          "id": "finisher-z3-out",
+          "name": "Finisher",
+          "duration": 120,
+          "powerZone": "Z3"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Spindown",
+      "duration": 60,
+      "powerZone": "Z1"
+    }
+  ]
+}
