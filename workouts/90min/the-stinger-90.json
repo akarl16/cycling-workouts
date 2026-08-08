@@ -3,6 +3,48 @@
   "name": "The Stinger",
   "description": "90-minute high-intensity workout featuring progressive ramps, single leg drills, cadence skills, a descending time trial ladder (5-4-3-2 min), four sets of killer minutes, and two sets of 20s sprints",
   "totalDuration": 5400,
+  "videos": [
+    {
+      "id": "tdff-stage-3",
+      "name": "Tour de France Femmes 2026 — Stage 3",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BVZIH1e6kZo",
+      "startTime": 903,
+      "triggerIntervalId": "easy-spin",
+      "endIntervalId": "easy-spin"
+    },
+    {
+      "id": "tdff-stage-4",
+      "name": "Tour de France Femmes 2026 — Stage 4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4aeYlctf8Ic",
+      "startTime": 42,
+      "triggerIntervalId": "ramp-1-z1-block-ramp-1-rep-1",
+      "endIntervalId": "recover-2"
+    },
+    {
+      "id": "tdff-stage-5",
+      "name": "Tour de France Femmes 2026 — Stage 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4PO95pZ1f0c",
+      "startTime": 75,
+      "triggerIntervalId": "tt-1",
+      "endIntervalId": "killer-2-off-block-killer-minutes-2-rep-1"
+    },
+    {
+      "id": "tdff-stage-6",
+      "name": "Tour de France Femmes 2026 — Stage 6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=S5U1jfXo4wk",
+      "startTime": 77,
+      "triggerIntervalId": "killer-2-on-block-killer-minutes-2-rep-2",
+      "endIntervalId": "tt-4"
+    },
+    {
+      "id": "tdff-stage-7",
+      "name": "Tour de France Femmes 2026 — Stage 7",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8GqeJ4vPETQ",
+      "startTime": 62,
+      "triggerIntervalId": "recover-9",
+      "endIntervalId": "spindown"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
