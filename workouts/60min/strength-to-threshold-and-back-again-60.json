@@ -1,0 +1,206 @@
+{
+  "id": "strength-to-threshold-and-back-again-60",
+  "name": "Strength to Threshold and Back Again",
+  "description": "60-minute workout bookending a threshold pyramid (2-3-4-3-2 min at Z4) with low-cadence strength work at 60 rpm, opening with progressive zone activations",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warm-up",
+      "name": "Warm up",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z2",
+      "name": "Warm up",
+      "duration": 120,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z3",
+      "name": "Warm up",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "opener-z2-1",
+      "name": "Settle",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "opener-z4",
+      "name": "Opener",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "opener-z2-2",
+      "name": "Settle",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "opener-z5",
+      "name": "Opener",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "strength-1",
+      "name": "Strength 1",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "strength-1-effort",
+          "name": "Low cadence strength",
+          "duration": 240,
+          "powerZone": "Z3",
+          "cadence": 60
+        },
+        {
+          "id": "strength-1-recover",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "threshold-1",
+      "name": "Threshold 1",
+      "duration": 120,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "recover-3",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "threshold-2",
+      "name": "Threshold 2",
+      "duration": 180,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "recover-4",
+      "name": "Recover",
+      "duration": 90,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "threshold-3",
+      "name": "Threshold 3",
+      "duration": 240,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "recover-5",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "threshold-4",
+      "name": "Threshold 4",
+      "duration": 180,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "recover-6",
+      "name": "Recover",
+      "duration": 90,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "threshold-5",
+      "name": "Threshold 5",
+      "duration": 120,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "recover-7",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "strength-2",
+      "name": "Strength 2",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "strength-2-effort",
+          "name": "Low cadence strength",
+          "duration": 240,
+          "powerZone": "Z3",
+          "cadence": 60
+        },
+        {
+          "id": "strength-2-recover",
+          "name": "Recover",
+          "duration": 60,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "finish-z3",
+      "name": "High cadence tempo",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "finish-z2",
+      "name": "Ease down",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "spindown",
+      "name": "Spindown",
+      "duration": 60,
+      "powerZone": "Z1"
+    }
+  ],
+  "isSample": false
+}
