@@ -3,6 +3,24 @@
   "name": "Strength to Threshold and Back Again",
   "description": "60-minute workout bookending a threshold pyramid (2-3-4-3-2 min at Z4) with low-cadence strength work at 60 rpm, opening with progressive zone activations",
   "totalDuration": 3600,
+  "videos": [
+    {
+      "id": "tdff-stage-8",
+      "name": "Tour de France Femmes 2026 — Stage 8",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DXl3FCK6KUw",
+      "startTime": 28,
+      "triggerIntervalId": "warmup-z3",
+      "endIntervalId": "threshold-2"
+    },
+    {
+      "id": "tdff-stage-9",
+      "name": "Tour de France Femmes 2026 — Stage 9",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u7bxCK_F4Xg",
+      "startTime": 0,
+      "triggerIntervalId": "recover-4",
+      "endIntervalId": "spindown"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
