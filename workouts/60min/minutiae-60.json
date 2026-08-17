@@ -1,0 +1,55 @@
+{
+  "id": "2026-08-18-minutiae-60",
+  "name": "Minutiae",
+  "description": "A workout built out of one-minute efforts. After a Z1→Z3 warm-up, a ladder of Z3+/Z4-/Z4 minutes alternating with Z2 floats, then five sets that each bookend three back-to-back one-minute efforts (the middle minute always the hardest) with steady Z2/Z3 riding. The sets climb from Z3 through Z4+ before a Z2 flush and Z1 cooldown.",
+  "totalDuration": 3600,
+  "sequence": [
+    { "type": "interval", "id": "easy-warmup", "name": "Easy", "duration": 240, "powerZone": "Z1" },
+    { "type": "interval", "id": "warmup-build", "name": "Warmup Build", "duration": 180, "powerZone": "Z2" },
+    { "type": "interval", "id": "warmup-tempo", "name": "Warmup Tempo", "duration": 120, "powerZone": "Z3" },
+
+    { "type": "interval", "id": "float-1", "name": "Float", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "minute-build-1", "name": "Minute Build", "duration": 60, "powerZone": "Z3+" },
+    { "type": "interval", "id": "float-2", "name": "Float", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "minute-build-2", "name": "Minute Build", "duration": 60, "powerZone": "Z4-" },
+    { "type": "interval", "id": "float-3", "name": "Float", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "minute-build-3", "name": "Minute Build", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "recover-1", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "steady-1", "name": "Steady", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "minute-1a", "name": "Minute", "duration": 60, "powerZone": "Z3" },
+    { "type": "interval", "id": "big-minute-1", "name": "Big Minute", "duration": 60, "powerZone": "Z3+" },
+    { "type": "interval", "id": "minute-1b", "name": "Minute", "duration": 60, "powerZone": "Z3" },
+    { "type": "interval", "id": "steady-2", "name": "Steady", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "recover-2", "name": "Recover", "duration": 60, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "steady-3", "name": "Steady", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "minute-2a", "name": "Minute", "duration": 60, "powerZone": "Z3" },
+    { "type": "interval", "id": "big-minute-2", "name": "Big Minute", "duration": 60, "powerZone": "Z4-" },
+    { "type": "interval", "id": "minute-2b", "name": "Minute", "duration": 60, "powerZone": "Z3" },
+    { "type": "interval", "id": "steady-4", "name": "Steady", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "recover-3", "name": "Recover", "duration": 60, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "steady-5", "name": "Steady", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "minute-3a", "name": "Minute", "duration": 60, "powerZone": "Z3+" },
+    { "type": "interval", "id": "big-minute-3", "name": "Big Minute", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "minute-3b", "name": "Minute", "duration": 60, "powerZone": "Z3+" },
+    { "type": "interval", "id": "steady-6", "name": "Steady", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "recover-4", "name": "Recover", "duration": 60, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "tempo-1", "name": "Tempo", "duration": 120, "powerZone": "Z3" },
+    { "type": "interval", "id": "minute-4a", "name": "Minute", "duration": 60, "powerZone": "Z4-" },
+    { "type": "interval", "id": "big-minute-4", "name": "Big Minute", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "minute-4b", "name": "Minute", "duration": 60, "powerZone": "Z4-" },
+    { "type": "interval", "id": "tempo-2", "name": "Tempo", "duration": 120, "powerZone": "Z3" },
+    { "type": "interval", "id": "recover-5", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "tempo-3", "name": "Tempo", "duration": 120, "powerZone": "Z3" },
+    { "type": "interval", "id": "minute-5a", "name": "Minute", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "big-minute-5", "name": "Big Minute", "duration": 60, "powerZone": "Z4+" },
+    { "type": "interval", "id": "minute-5b", "name": "Minute", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "steady-7", "name": "Steady", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "cooldown", "name": "Cooldown", "duration": 180, "powerZone": "Z1" }
+  ],
+  "isSample": false
+}
