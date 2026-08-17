@@ -1,0 +1,19 @@
+workouts/60min/minutiae-60.json
+  s_c2db673e74cb16::t_cbb7856f603851 1-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "9324f8c51833f44c5f2f1e07e40e5f5a747a580a",
+  "prompts": {},
+  "sessions": {
+    "s_c2db673e74cb16": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "358f6809-2d07-421f-bc6a-ab26286a4e1e",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
