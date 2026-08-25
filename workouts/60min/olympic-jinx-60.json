@@ -1,0 +1,64 @@
+{
+  "id": "2026-08-25-olympic-jinx-60",
+  "name": "Olympic Jinx",
+  "description": "Z1 easy spin into a Z2→Z3→Z4 ramp, six 1-minute primers alternating hard efforts (Z4 100%, Z4+ 105%, Z5 110%) with Z2 floats, then two 12-minute main sets sandwiching Z3 tempo around 2-minute efforts — Z4+ in set one, Z5 in set two — a sustainable 5-minute Z4 time trial, and a Z3→Z2→Z1 spin down.",
+  "totalDuration": 3600,
+  "videos": [
+    {
+      "id": "video-vuelta-stage-1",
+      "name": "Vuelta a Espana 2026 - Stage 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-swoUlDErRM",
+      "startTime": 239,
+      "triggerIntervalId": "easy-spin",
+      "endIntervalId": "recover-1"
+    },
+    {
+      "id": "video-vuelta-stage-2",
+      "name": "Vuelta a Espana 2026 - Stage 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Tsei4yavdrk",
+      "startTime": 0,
+      "triggerIntervalId": "primer-1",
+      "endIntervalId": "recover-3"
+    },
+    {
+      "id": "video-vuelta-stage-3",
+      "name": "Vuelta a Espana 2026 - Stage 3",
+      "youtubeUrl": "https://www.youtube.com/watch?v=k8H4KFkHwrc",
+      "startTime": 104,
+      "triggerIntervalId": "main-2-tempo-1",
+      "endIntervalId": "recover-5"
+    }
+  ],
+  "sequence": [
+    { "type": "interval", "id": "easy-spin", "name": "Easy Spin", "duration": 240, "powerZone": "Z1" },
+    { "type": "interval", "id": "ramp-1", "name": "Ramps", "duration": 180, "powerZone": "Z2" },
+    { "type": "interval", "id": "ramp-2", "name": "Ramps", "duration": 120, "powerZone": "Z3" },
+    { "type": "interval", "id": "ramp-3", "name": "Ramps", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "recover-1", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "primer-1", "name": "Primers", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "primer-float-1", "name": "Float", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "primer-2", "name": "Primers", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "primer-float-2", "name": "Float", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "primer-3", "name": "Primers", "duration": 60, "powerZone": "Z4+" },
+    { "type": "interval", "id": "primer-float-3", "name": "Float", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "recover-2", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "main-1-tempo-1", "name": "Main Set #1", "duration": 180, "powerZone": "Z3" },
+    { "type": "interval", "id": "main-1-effort-1", "name": "Main Set #1", "duration": 120, "powerZone": "Z4+" },
+    { "type": "interval", "id": "main-1-float", "name": "Main Set #1", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "main-1-effort-2", "name": "Main Set #1", "duration": 120, "powerZone": "Z4+" },
+    { "type": "interval", "id": "main-1-tempo-2", "name": "Main Set #1", "duration": 180, "powerZone": "Z3" },
+    { "type": "interval", "id": "recover-3", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "main-2-tempo-1", "name": "Main Set #2", "duration": 180, "powerZone": "Z3" },
+    { "type": "interval", "id": "main-2-effort-1", "name": "Main Set #2", "duration": 120, "powerZone": "Z5" },
+    { "type": "interval", "id": "main-2-float", "name": "Main Set #2", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "main-2-effort-2", "name": "Main Set #2", "duration": 120, "powerZone": "Z5" },
+    { "type": "interval", "id": "main-2-tempo-2", "name": "Main Set #2", "duration": 180, "powerZone": "Z3" },
+    { "type": "interval", "id": "recover-4", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "tt", "name": "TT", "duration": 300, "powerZone": "Z4" },
+    { "type": "interval", "id": "recover-5", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "spin-down-1", "name": "Spin Down", "duration": 120, "powerZone": "Z3" },
+    { "type": "interval", "id": "spin-down-2", "name": "Spin Down", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "spin-down-3", "name": "Spin Down", "duration": 120, "powerZone": "Z1" }
+  ],
+  "isSample": false
+}
