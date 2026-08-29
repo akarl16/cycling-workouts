@@ -1,0 +1,463 @@
+{
+  "id": "ride-with-walt-45",
+  "name": "Ride with Walt (45)",
+  "description": "A 45-minute Disney-themed ride: Animal Kingdom warms you up, then one attraction and one show each in Hollywood Studios, EPCOT and Magic Kingdom, closing on the full Happily Ever After. Every block keeps the length it has in the 90 so a Spotify playlist stays aligned.",
+  "totalDuration": 2678,
+  "introVideo": {
+    "name": "Walt Disney World pre-ride",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Z9nq1ym9h38",
+    "startTime": 0,
+    "audioSource": "video"
+  },
+  "videos": [
+    {
+      "id": "video-tree-of-life-sunrise",
+      "name": "Tree of Life sunrise",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WX9-j4mRRmk",
+      "startTime": 111,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i001"
+    },
+    {
+      "id": "video-pandora-day",
+      "name": "Pandora day",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bXmB-btlxDU",
+      "startTime": 85,
+      "triggerIntervalId": "i005",
+      "endIntervalId": "i005"
+    },
+    {
+      "id": "video-pandora-night",
+      "name": "Pandora at night",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-ihGFibA0ZE",
+      "startTime": 22,
+      "triggerIntervalId": "i006",
+      "endIntervalId": "i007"
+    },
+    {
+      "id": "video-slinky-dog-dash",
+      "name": "Slinky Dog Dash",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Fu19dZHAT3c",
+      "startTime": 235,
+      "triggerIntervalId": "i016",
+      "endIntervalId": "i016"
+    },
+    {
+      "id": "video-rise-of-the-resistance",
+      "name": "Rise of the Resistance",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YxCErBfzcNY",
+      "startTime": 662,
+      "triggerIntervalId": "i017",
+      "endIntervalId": "i019"
+    },
+    {
+      "id": "video-fantasmic",
+      "name": "Fantasmic!",
+      "youtubeUrl": "https://www.youtube.com/watch?v=87RC1EUfD6o",
+      "startTime": 1647,
+      "triggerIntervalId": "i026",
+      "endIntervalId": "i030b",
+      "audioSource": "video"
+    },
+    {
+      "id": "video-cosmic-rewind",
+      "name": "Cosmic Rewind",
+      "youtubeUrl": "https://www.youtube.com/watch?v=w5JmLk1F6jQ",
+      "startTime": 0,
+      "triggerIntervalId": "i050",
+      "endIntervalId": "i051"
+    },
+    {
+      "id": "video-luminous",
+      "name": "Luminous: The Symphony of Us",
+      "youtubeUrl": "https://www.youtube.com/watch?v=s42ahfHnNT8",
+      "startTime": 952,
+      "triggerIntervalId": "i052",
+      "endIntervalId": "i055",
+      "audioSource": "video"
+    },
+    {
+      "id": "video-monorail",
+      "name": "Monorail to Magic Kingdom",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mAxChTfQDJA",
+      "startTime": 284,
+      "triggerIntervalId": "i056",
+      "endIntervalId": "i056",
+      "audioSource": "video"
+    },
+    {
+      "id": "video-main-street",
+      "name": "Main Street USA",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2oBsnEGYDR0",
+      "startTime": 85,
+      "triggerIntervalId": "i057",
+      "endIntervalId": "i057"
+    },
+    {
+      "id": "video-tron",
+      "name": "TRON Lightcycle / Run",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VmqMoKVau2Y",
+      "startTime": 0,
+      "triggerIntervalId": "i062",
+      "endIntervalId": "i064"
+    },
+    {
+      "id": "video-happily-ever-after",
+      "name": "Happily Ever After",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Qzvg9KuvRiw",
+      "startTime": 115,
+      "triggerIntervalId": "i065",
+      "endIntervalId": "i087",
+      "audioSource": "video"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Tree of Life sunrise",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Pandora day",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 80
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Pandora day-to-dusk",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Pandora at dusk",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Slinky Dog Dash",
+      "duration": 120,
+      "powerZone": "Z2+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Rise of the Resistance Z3",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Rise of the Resistance Z4",
+      "duration": 60,
+      "powerZone": "Z4",
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Rise of the Resistance Z4+",
+      "duration": 60,
+      "powerZone": "Z4+",
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "Fantasmic Z1",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i027",
+      "name": "Fantasmic Z2",
+      "duration": 55,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i028",
+      "name": "Fantasmic Z3",
+      "duration": 55,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i029",
+      "name": "Fantasmic Z4",
+      "duration": 33,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i030",
+      "name": "Fantasmic Z5",
+      "duration": 14,
+      "powerZone": "Z5",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i030b",
+      "name": "Fantasmic Z2",
+      "duration": 13,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i050",
+      "name": "Cosmic Rewind Z2",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 80
+    },
+    {
+      "type": "interval",
+      "id": "i051",
+      "name": "Cosmic Rewind Z3+",
+      "duration": 120,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i052",
+      "name": "Luminous: The Symphony of Us Z2",
+      "duration": 40,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i053",
+      "name": "Luminous: The Symphony of Us Z3",
+      "duration": 50,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i054",
+      "name": "Luminous: The Symphony of Us Z4",
+      "duration": 53,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i055",
+      "name": "Luminous: The Symphony of Us Z5",
+      "duration": 20,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i056",
+      "name": "Monorail to Magic Kingdom",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i057",
+      "name": "Main Street USA",
+      "duration": 90,
+      "powerZone": "Z2",
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "i062",
+      "name": "Tron Lightcycle Run Z2",
+      "duration": 45,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i063",
+      "name": "Tron Lightcycle Run Z5",
+      "duration": 45,
+      "powerZone": "Z5",
+      "cadence": 110
+    },
+    {
+      "type": "interval",
+      "id": "i064",
+      "name": "Tron Lightcycle Run Z1",
+      "duration": 45,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i065",
+      "name": "Happily Ever After Z1",
+      "duration": 75,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i066",
+      "name": "Happily Ever After Z2",
+      "duration": 30,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i067",
+      "name": "Happily Ever After Z3",
+      "duration": 30,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i068",
+      "name": "Happily Ever After Z2",
+      "duration": 80,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i069",
+      "name": "Happily Ever After Z3",
+      "duration": 60,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i070",
+      "name": "Happily Ever After Z3+",
+      "duration": 45,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i071",
+      "name": "Happily Ever After Z3",
+      "duration": 30,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i072",
+      "name": "Happily Ever After Z4-",
+      "duration": 25,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i073",
+      "name": "Happily Ever After Z4+",
+      "duration": 25,
+      "powerZone": "Z4+"
+    },
+    {
+      "type": "interval",
+      "id": "i074",
+      "name": "Happily Ever After Z2+",
+      "duration": 130,
+      "powerZone": "Z2+"
+    },
+    {
+      "type": "interval",
+      "id": "i075",
+      "name": "Happily Ever After Z3",
+      "duration": 25,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i076",
+      "name": "Happily Ever After Z4",
+      "duration": 15,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i077",
+      "name": "Happily Ever After Z2",
+      "duration": 100,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i078",
+      "name": "Happily Ever After Z3",
+      "duration": 50,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i079",
+      "name": "Happily Ever After Z2+",
+      "duration": 25,
+      "powerZone": "Z2+"
+    },
+    {
+      "type": "interval",
+      "id": "i080",
+      "name": "Happily Ever After Z4",
+      "duration": 105,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i081",
+      "name": "Happily Ever After Z2",
+      "duration": 70,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i082",
+      "name": "Happily Ever After Z3",
+      "duration": 35,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i083",
+      "name": "Happily Ever After Z4+",
+      "duration": 35,
+      "powerZone": "Z4+"
+    },
+    {
+      "type": "interval",
+      "id": "i084",
+      "name": "Happily Ever After Z2",
+      "duration": 55,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i085",
+      "name": "Happily Ever After Z4",
+      "duration": 40,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i086",
+      "name": "Happily Ever After Z5",
+      "duration": 20,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i087",
+      "name": "Happily Ever After Z1",
+      "duration": 25,
+      "powerZone": "Z1"
+    }
+  ]
+}
