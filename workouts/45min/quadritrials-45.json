@@ -1,7 +1,7 @@
 {
   "id": "quadritrials-45",
   "name": "QuadriTrials",
-  "description": "45-minute workout with 4 progressive trials building from Z2/Z3 to Z4+",
+  "description": "45-minute workout with 4 progressive trials, each alternating a high-cadence 95rpm effort with a low-cadence 65rpm grind, building from Z2/Z3 up to Z5",
   "totalDuration": 2700,
   "sequence": [
     {
@@ -76,18 +76,35 @@
     },
     {
       "type": "interval",
-      "id": "trial1-base",
+      "id": "trial1-spin-1",
       "name": "Trial #1 - Z2 @ 95rpm",
-      "duration": 180,
+      "duration": 90,
       "powerZone": 2,
       "cadence": 95
     },
     {
       "type": "interval",
-      "id": "trial1-work",
-      "name": "Trial #1 - Z3",
-      "duration": 180,
-      "powerZone": 3
+      "id": "trial1-grind-1",
+      "name": "Trial #1 - Z2 @ 65rpm",
+      "duration": 90,
+      "powerZone": 2,
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "trial1-spin-2",
+      "name": "Trial #1 - Z3 @ 95rpm",
+      "duration": 90,
+      "powerZone": 3,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "trial1-grind-2",
+      "name": "Trial #1 - Z3 @ 65rpm",
+      "duration": 90,
+      "powerZone": 3,
+      "cadence": 65
     },
     {
       "type": "interval",
@@ -98,18 +115,35 @@
     },
     {
       "type": "interval",
-      "id": "trial2-base",
+      "id": "trial2-spin-1",
       "name": "Trial #2 - Z2 @ 95rpm",
-      "duration": 180,
+      "duration": 90,
       "powerZone": 2,
       "cadence": 95
     },
     {
       "type": "interval",
-      "id": "trial2-work",
-      "name": "Trial #2 - Z4-",
-      "duration": 180,
-      "powerZone": "4-"
+      "id": "trial2-grind-1",
+      "name": "Trial #2 - Z3 @ 65rpm",
+      "duration": 90,
+      "powerZone": 3,
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "trial2-spin-2",
+      "name": "Trial #2 - Z4- @ 95rpm",
+      "duration": 90,
+      "powerZone": "4-",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "trial2-grind-2",
+      "name": "Trial #2 - Z4- @ 65rpm",
+      "duration": 90,
+      "powerZone": "4-",
+      "cadence": 65
     },
     {
       "type": "interval",
@@ -120,18 +154,35 @@
     },
     {
       "type": "interval",
-      "id": "trial3-base",
+      "id": "trial3-spin-1",
       "name": "Trial #3 - Z2 @ 95rpm",
-      "duration": 180,
+      "duration": 90,
       "powerZone": 2,
       "cadence": 95
     },
     {
       "type": "interval",
-      "id": "trial3-work",
-      "name": "Trial #3 - Z4",
-      "duration": 180,
-      "powerZone": 4
+      "id": "trial3-grind-1",
+      "name": "Trial #3 - Z3 @ 65rpm",
+      "duration": 90,
+      "powerZone": 3,
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "trial3-spin-2",
+      "name": "Trial #3 - Z4 @ 95rpm",
+      "duration": 90,
+      "powerZone": 4,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "trial3-grind-2",
+      "name": "Trial #3 - Z4 @ 65rpm",
+      "duration": 90,
+      "powerZone": 4,
+      "cadence": 65
     },
     {
       "type": "interval",
@@ -142,18 +193,35 @@
     },
     {
       "type": "interval",
-      "id": "trial4-base",
+      "id": "trial4-spin-1",
       "name": "Trial #4 - Z2 @ 95rpm",
-      "duration": 180,
+      "duration": 90,
       "powerZone": 2,
       "cadence": 95
     },
     {
       "type": "interval",
-      "id": "trial4-work",
-      "name": "Trial #4 - Z4+",
-      "duration": 180,
-      "powerZone": "4+"
+      "id": "trial4-grind-1",
+      "name": "Trial #4 - Z3 @ 65rpm",
+      "duration": 90,
+      "powerZone": 3,
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "trial4-spin-2",
+      "name": "Trial #4 - Z4 @ 95rpm",
+      "duration": 90,
+      "powerZone": 4,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "trial4-grind-2",
+      "name": "Trial #4 - Z5 @ 65rpm",
+      "duration": 90,
+      "powerZone": 5,
+      "cadence": 65
     },
     {
       "type": "interval",
