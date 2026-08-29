@@ -86,9 +86,10 @@
       "id": "video-fantasmic",
       "name": "Fantasmic!",
       "youtubeUrl": "https://www.youtube.com/watch?v=87RC1EUfD6o",
-      "startTime": 627,
+      "startTime": 1647,
       "triggerIntervalId": "i026",
-      "endIntervalId": "i030"
+      "endIntervalId": "i030b",
+      "audioSource": "video"
     },
     {
       "id": "video-skyliner",
@@ -385,29 +386,37 @@
       "type": "interval",
       "id": "i027",
       "name": "Fantasmic Z2",
-      "duration": 60,
+      "duration": 55,
       "powerZone": "Z2"
     },
     {
       "type": "interval",
       "id": "i028",
       "name": "Fantasmic Z3",
-      "duration": 60,
+      "duration": 55,
       "powerZone": "Z3"
     },
     {
       "type": "interval",
       "id": "i029",
       "name": "Fantasmic Z4",
-      "duration": 30,
+      "duration": 33,
       "powerZone": "Z4"
     },
     {
       "type": "interval",
       "id": "i030",
       "name": "Fantasmic Z5",
-      "duration": 20,
-      "powerZone": "Z5"
+      "duration": 14,
+      "powerZone": "Z5",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i030b",
+      "name": "Fantasmic Z2",
+      "duration": 13,
+      "powerZone": "Z2"
     },
     {
       "type": "interval",
