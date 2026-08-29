@@ -1,0 +1,21 @@
+workouts/90min/ride-with-walt-90.json
+  s_17d12d8943b125::t_8cd87209d19b1b 89,92
+  s_17d12d8943b125::t_c99881152769db 91,389,396,403,410,413-419
+  s_17d12d8943b125::t_7d96ba4f756aaf 411-412
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "56e0cd99ab1e36d7fdc3643e9aa6bb64abf18a6d",
+  "prompts": {},
+  "sessions": {
+    "s_17d12d8943b125": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6b96c26f-af64-4adc-830f-dc23ea6ec2bf",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
