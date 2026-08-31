@@ -1,0 +1,102 @@
+{
+  "id": "2026-09-01-motor-pace-60",
+  "name": "Motor-pace",
+  "description": "Tempo-to-threshold motor-pace work: 30/30 ramps to open the legs, three 5-minute Z3+ efforts (two building cadence 85 to 105, one as 15/15 surges), a cadence ladder to Z4, high-cadence surge blocks, and a grind/spin contrast to finish.",
+  "totalDuration": 3600,
+  "sequence": [
+    { "type": "interval", "id": "easy-spin", "name": "Easy spin", "duration": 300, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "ramps-z2-on", "name": "Ramps", "duration": 30, "powerZone": "Z2", "cadence": 95 },
+    { "type": "interval", "id": "ramps-z2-off", "name": "Float", "duration": 30, "powerZone": "Z2" },
+    { "type": "interval", "id": "ramps-z3-on", "name": "Ramps", "duration": 30, "powerZone": "Z3", "cadence": 95 },
+    { "type": "interval", "id": "ramps-z3-off", "name": "Float", "duration": 30, "powerZone": "Z2" },
+    { "type": "interval", "id": "ramps-z4-on", "name": "Ramps", "duration": 30, "powerZone": "Z4", "cadence": 95 },
+    { "type": "interval", "id": "ramps-z4-off", "name": "Float", "duration": 30, "powerZone": "Z2" },
+    { "type": "interval", "id": "ramps-z5-on", "name": "Ramps", "duration": 30, "powerZone": "Z5", "cadence": 95 },
+    { "type": "interval", "id": "ramps-z5-off", "name": "Float", "duration": 30, "powerZone": "Z2" },
+    { "type": "interval", "id": "ramps-recover", "name": "Recover", "duration": 180, "powerZone": "Z2" },
+
+    { "type": "interval", "id": "mp1-85", "name": "Motor Pace", "duration": 60, "powerZone": "Z3+", "cadence": 85 },
+    { "type": "interval", "id": "mp1-90", "name": "Motor Pace", "duration": 60, "powerZone": "Z3+", "cadence": 90 },
+    { "type": "interval", "id": "mp1-95", "name": "Motor Pace", "duration": 60, "powerZone": "Z3+", "cadence": 95 },
+    { "type": "interval", "id": "mp1-100", "name": "Motor Pace", "duration": 60, "powerZone": "Z3+", "cadence": 100 },
+    { "type": "interval", "id": "mp1-105", "name": "Motor Pace", "duration": 60, "powerZone": "Z3+", "cadence": 105 },
+    { "type": "interval", "id": "mp1-recover", "name": "Recover", "duration": 120, "powerZone": "Z2" },
+
+    {
+      "type": "block",
+      "id": "mp2-fifteens",
+      "name": "Motor Pace 15/15",
+      "repetitions": 10,
+      "intervals": [
+        { "id": "mp2-on", "name": "Surge", "duration": 15, "powerZone": "Z3+", "cadence": 110 },
+        { "id": "mp2-off", "name": "Float", "duration": 15, "powerZone": "Z2" }
+      ]
+    },
+    { "type": "interval", "id": "mp2-recover", "name": "Recover", "duration": 120, "powerZone": "Z2" },
+
+    { "type": "interval", "id": "mp3-85", "name": "Motor Pace", "duration": 60, "powerZone": "Z3+", "cadence": 85 },
+    { "type": "interval", "id": "mp3-90", "name": "Motor Pace", "duration": 60, "powerZone": "Z3+", "cadence": 90 },
+    { "type": "interval", "id": "mp3-95", "name": "Motor Pace", "duration": 60, "powerZone": "Z3+", "cadence": 95 },
+    { "type": "interval", "id": "mp3-100", "name": "Motor Pace", "duration": 60, "powerZone": "Z3+", "cadence": 100 },
+    { "type": "interval", "id": "mp3-105", "name": "Motor Pace", "duration": 60, "powerZone": "Z3+", "cadence": 105 },
+    { "type": "interval", "id": "mp3-recover", "name": "Recover", "duration": 120, "powerZone": "Z2" },
+
+    {
+      "type": "block",
+      "id": "cadence-ladder",
+      "name": "Cadence Ladder",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "ladder-z3", "name": "Cadence Ladder", "duration": 60, "powerZone": "Z3", "cadence": 90 },
+        { "id": "ladder-z3-plus", "name": "Cadence Ladder", "duration": 60, "powerZone": "Z3+", "cadence": 100 },
+        { "id": "ladder-z4", "name": "Cadence Ladder", "duration": 60, "powerZone": "Z4", "cadence": 110 },
+        { "id": "ladder-recover", "name": "Recover", "duration": 60, "powerZone": "Z2" }
+      ]
+    },
+
+    { "type": "interval", "id": "ladder-flush", "name": "Recover", "duration": 120, "powerZone": "Z2" },
+
+    {
+      "type": "interval",
+      "id": "surges-1",
+      "name": "Random Surges",
+      "duration": 180,
+      "powerZone": "Z3",
+      "cadence": 90,
+      "notes": "Flip to 105+ rpm at random",
+      "alternating": {
+        "powerZoneA": "Z3",
+        "powerZoneB": "Z3",
+        "cadenceA": 90,
+        "cadenceB": 105,
+        "startWithZone": "A"
+      }
+    },
+    { "type": "interval", "id": "surges-recover", "name": "Recover", "duration": 120, "powerZone": "Z2" },
+    {
+      "type": "interval",
+      "id": "surges-2",
+      "name": "Random Surges",
+      "duration": 180,
+      "powerZone": "Z3",
+      "cadence": 90,
+      "notes": "Flip to 105+ rpm at random",
+      "alternating": {
+        "powerZoneA": "Z3",
+        "powerZoneB": "Z3",
+        "cadenceA": 90,
+        "cadenceB": 105,
+        "startWithZone": "A"
+      }
+    },
+
+    { "type": "interval", "id": "grind-z3", "name": "Grind", "duration": 60, "powerZone": "Z3", "cadence": 50 },
+    { "type": "interval", "id": "spin-z3", "name": "Spin", "duration": 60, "powerZone": "Z3", "cadence": 100 },
+    { "type": "interval", "id": "grind-z2", "name": "Grind", "duration": 60, "powerZone": "Z2", "cadence": 50 },
+    { "type": "interval", "id": "spin-z2", "name": "Spin", "duration": 60, "powerZone": "Z2", "cadence": 100 },
+
+    { "type": "interval", "id": "cool-down", "name": "Cool Down", "duration": 60, "powerZone": "Z1" }
+  ],
+  "isSample": false
+}
