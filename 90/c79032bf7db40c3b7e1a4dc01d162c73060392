@@ -1,0 +1,20 @@
+workouts/90min/centennial-park-90.json
+  s_8dad1e82edd44f::t_0230bd43619af6 49-50
+  s_8dad1e82edd44f::t_d9613f9c3d495c 1-48,51-76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "90c79032bf7db40c3b7e1a4dc01d162c73060392",
+  "prompts": {},
+  "sessions": {
+    "s_8dad1e82edd44f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f8bc358d-91e9-4507-a948-ef8a292c95b9",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
