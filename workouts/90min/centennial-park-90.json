@@ -1,0 +1,76 @@
+{
+  "id": "2026-09-04-centennial-park-90",
+  "name": "Centennial Park",
+  "description": "Group-ride simulation of the Centennial Park loop (33 mi, ~1500 ft). Climbs, paceline pulls, attacks, and a finish sprint, sequenced to loosely follow the ride video.",
+  "totalDuration": 5400,
+  "sequence": [
+    { "type": "interval", "id": "i001", "name": "Roll Out", "duration": 300, "powerZone": "Z1", "notes": "Ride 0:00-5:00. Easy spin while the group gathers." },
+    { "type": "interval", "id": "i002", "name": "Roll Out", "duration": 240, "powerZone": "Z2", "cadence": 90, "notes": "Neutral rollout, two by two." },
+    { "type": "interval", "id": "i003", "name": "Roll Out", "duration": 180, "powerZone": "Z3", "cadence": 95, "notes": "Pace comes up at the front." },
+    {
+      "type": "block",
+      "id": "b001",
+      "name": "Openers",
+      "repetitions": 2,
+      "intervals": [
+        { "id": "b001-i1", "name": "Opener Surge", "duration": 30, "powerZone": "Z5", "cadence": 100, "notes": "Wake the legs up." },
+        { "id": "b001-i2", "name": "Shake Out", "duration": 60, "powerZone": "Z2", "cadence": 90 }
+      ]
+    },
+    { "type": "interval", "id": "i004", "name": "Dorn", "duration": 120, "powerZone": "Z3", "cadence": 95, "notes": "Dorn road" },
+    { "type": "interval", "id": "i005", "name": "Dorn", "duration": 60, "powerZone": "Z5", "cadence": 95, "notes": "Dorn hill" },
+    { "type": "interval", "id": "i006", "name": "Dorn", "duration": 120, "powerZone": "Z2", "cadence": 85, "notes": "Descend and recover, tuck in." },
+    { "type": "interval", "id": "i007", "name": "Guardrail Climb", "duration": 90, "powerZone": "Z5", "cadence": 95, "notes": "Attack the base" },
+    { "type": "interval", "id": "i008", "name": "Guardrail Climb", "duration": 60, "powerZone": "Z4", "cadence": 100, "notes": "Over the top, keep pressure on the crest." },
+    { "type": "interval", "id": "i009", "name": "Guardrail Climb", "duration": 60, "powerZone": "Z1", "notes": "Fast descent" },
+    { "type": "interval", "id": "i010", "name": "Part Two", "duration": 120, "powerZone": "Z4", "cadence": 95, "notes": "Back-to-back climb, no rest between." },
+    { "type": "interval", "id": "i011", "name": "Part Two", "duration": 60, "powerZone": "Z3", "cadence": 90, "notes": "Lead pack wins" },
+    { "type": "interval", "id": "i012", "name": "Regroup", "duration": 120, "powerZone": "Z1", "notes": "Back together" },
+    {
+      "type": "block",
+      "id": "b002",
+      "name": "Paceline to Ashippun",
+      "repetitions": 5,
+      "intervals": [
+        { "id": "b002-i1", "name": "Take Your Pull", "duration": 60, "powerZone": "Z4", "cadence": 90, "notes": "On the front, into the wind." },
+        { "id": "b002-i2", "name": "Sit In", "duration": 60, "powerZone": "Z3", "cadence": 95, "notes": "Hide in the draft." }
+      ]
+    },
+    { "type": "interval", "id": "i013", "name": "Attack + Chase", "duration": 240, "powerZone": "Z2", "cadence": 90, "notes": "Soft pedal in the bunch." },
+    { "type": "interval", "id": "i014", "name": "Attack + Chase", "duration": 60, "powerZone": "Z6", "cadence": 95, "notes": "Attack over the hill" },
+    { "type": "interval", "id": "i015", "name": "Attack + Chase", "duration": 180, "powerZone": "Z4+", "cadence": 95, "notes": "Full gas chase, strung out single file at 25 mph." },
+    { "type": "interval", "id": "i016", "name": "Attack + Chase", "duration": 180, "powerZone": "Z1", "notes": "Big descent, then foot-down regroup." },
+    { "type": "interval", "id": "i017", "name": "Lumpy Lincoln Up", "duration": 180, "powerZone": "Z2", "cadence": 90, "notes": "Reset in the bunch" },
+    { "type": "interval", "id": "i018", "name": "Lumpy Lincoln Up", "duration": 120, "powerZone": "Z4+", "cadence": 90, "notes": "Heavy pace" },
+    { "type": "interval", "id": "i019", "name": "Lumpy Lincoln Up", "duration": 60, "powerZone": "Z5", "cadence": 95, "notes": "Group is kicking, stay on the wheel." },
+    { "type": "interval", "id": "i020", "name": "Lumpy Lincoln Up", "duration": 60, "powerZone": "Z1", "notes": "Regroup" },
+    { "type": "interval", "id": "i021", "name": "North Pine Climb", "duration": 120, "powerZone": "Z3", "cadence": 95, "notes": "Rolling tempo, group back on the gas." },
+    { "type": "interval", "id": "i022", "name": "North Pine Climb", "duration": 60, "powerZone": "Z4+", "cadence": 100, "notes": "Punch the roller with momentum." },
+    { "type": "interval", "id": "i023", "name": "North Pine Climb", "duration": 120, "powerZone": "Z2", "cadence": 85, "notes": "Breathe - the big one is coming." },
+    { "type": "interval", "id": "i024", "name": "North Pine Climb", "duration": 30, "powerZone": "Z6", "notes": "Get up!" },
+    { "type": "interval", "id": "i025", "name": "North Pine Climb", "duration": 90, "powerZone": "Z5", "cadence": 95, "notes": "Hold it over the top. Committed now." },
+    { "type": "interval", "id": "i026", "name": "North Pine Climb", "duration": 120, "powerZone": "Z2", "cadence": 90, "notes": "It comes back together." },
+    {
+      "type": "block",
+      "id": "b003",
+      "name": "Panther Play Time",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "b003-i1", "name": "Counter Attack!", "duration": 30, "powerZone": "Z6", "cadence": 100, "notes": "Jump hard at speed." },
+        { "id": "b003-i2", "name": "Keep It Rolling", "duration": 60, "powerZone": "Z3+", "cadence": 95, "notes": "The gap holds." },
+        { "id": "b003-i3", "name": "Sit In", "duration": 60, "powerZone": "Z2+", "cadence": 90, "notes": "Absorbed back into the bunch." }
+      ]
+    },
+    { "type": "interval", "id": "i027", "name": "Beaver Rollers", "duration": 120, "powerZone": "Z1", "notes": "Final regroup before the run home." },
+    { "type": "interval", "id": "i028", "name": "Beaver Rollers", "duration": 180, "powerZone": "Z3", "cadence": 90, "notes": "Homeward tempo, steady bunch pace." },
+    { "type": "interval", "id": "i029", "name": "Beaver Rollers", "duration": 60, "powerZone": "Z4+", "cadence": 100, "notes": "Big pull on the front" },
+    { "type": "interval", "id": "i030", "name": "Beaver Rollers", "duration": 120, "powerZone": "Z3", "cadence": 95, "notes": "Back in the line." },
+    { "type": "interval", "id": "i031", "name": "Beaver Rollers", "duration": 60, "powerZone": "Z4", "cadence": 90, "notes": "Last roller." },
+    { "type": "interval", "id": "i032", "name": "Beaver Rollers", "duration": 120, "powerZone": "Z2+", "cadence": 90, "notes": "Ease off, eye the finish." },
+    { "type": "interval", "id": "i033", "name": "Punch Dorn", "duration": 120, "powerZone": "Z3+", "cadence": 95, "notes": "Wind up - speed creeps, fight for position." },
+    { "type": "interval", "id": "i034", "name": "Punch Dorn", "duration": 30, "powerZone": "Z5", "cadence": 100, "notes": "Leadout" },
+    { "type": "interval", "id": "i035", "name": "Punch Dorn", "duration": 30, "powerZone": "Z7", "notes": "SPRINT!" },
+    { "type": "interval", "id": "i036", "name": "Cool Down", "duration": 180, "powerZone": "Z1", "notes": "Roll back to the cars. Fist bumps all around." }
+  ],
+  "isSample": false
+}
