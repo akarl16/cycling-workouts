@@ -1,0 +1,65 @@
+{
+  "id": "2026-09-08-on-the-attack-60",
+  "name": "On the Attack",
+  "description": "Race-simulation hour: a Z3/Z4 over-under ladder to open the legs, four Z5+ attacks each answered by a tempo chase back to the group, then a five-step Z2-to-Z4 climb to the line.",
+  "totalDuration": 3600,
+  "videos": [
+    {
+      "id": "video-vuelta-stage-14",
+      "name": "Vuelta a España 2026 Stage 14 — Extended Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bgtLUeT56e4",
+      "startTime": 0,
+      "triggerIntervalId": "warmup-z1",
+      "endIntervalId": "attack-settle-block-attacks-rep-3"
+    },
+    {
+      "id": "video-vuelta-stage-15",
+      "name": "Vuelta a España 2026 Stage 15 — Extended Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ldA2zyDGttw",
+      "startTime": 378,
+      "triggerIntervalId": "attack-final",
+      "endIntervalId": "cool-down-3"
+    }
+  ],
+  "sequence": [
+    { "type": "interval", "id": "warmup-z1", "name": "Warm Up", "duration": 300, "powerZone": "Z1" },
+    { "type": "interval", "id": "warmup-z2", "name": "Warm Up", "duration": 180, "powerZone": "Z2" },
+    { "type": "interval", "id": "warmup-z3", "name": "Build", "duration": 180, "powerZone": "Z3" },
+
+    { "type": "interval", "id": "ou-over-1", "name": "Over", "duration": 60, "powerZone": "Z4-" },
+    { "type": "interval", "id": "ou-under-1", "name": "Under", "duration": 60, "powerZone": "Z3" },
+    { "type": "interval", "id": "ou-over-2", "name": "Over", "duration": 60, "powerZone": "Z4" },
+    { "type": "interval", "id": "ou-under-2", "name": "Under", "duration": 60, "powerZone": "Z3" },
+    { "type": "interval", "id": "ou-over-3", "name": "Over", "duration": 60, "powerZone": "Z4+" },
+    { "type": "interval", "id": "ou-under-3", "name": "Under", "duration": 60, "powerZone": "Z3" },
+
+    { "type": "interval", "id": "ou-recover", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+
+    {
+      "type": "block",
+      "id": "attacks",
+      "name": "Attacks",
+      "repetitions": 3,
+      "intervals": [
+        { "id": "attack-on", "name": "Attack", "duration": 60, "powerZone": "Z5+" },
+        { "id": "attack-off", "name": "Recover", "duration": 60, "powerZone": "Z1" },
+        { "id": "attack-chase", "name": "Chase Back On", "duration": 180, "powerZone": "Z2" },
+        { "id": "attack-settle", "name": "Recover", "duration": 60, "powerZone": "Z1" }
+      ]
+    },
+
+    { "type": "interval", "id": "attack-final", "name": "Attack", "duration": 60, "powerZone": "Z5+" },
+    { "type": "interval", "id": "attack-final-recover", "name": "Recover", "duration": 180, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "climb-z2", "name": "To the Line", "duration": 180, "powerZone": "Z2" },
+    { "type": "interval", "id": "climb-z3-minus", "name": "To the Line", "duration": 180, "powerZone": "Z3-" },
+    { "type": "interval", "id": "climb-z3", "name": "To the Line", "duration": 180, "powerZone": "Z3" },
+    { "type": "interval", "id": "climb-z3-plus", "name": "To the Line", "duration": 180, "powerZone": "Z3+" },
+    { "type": "interval", "id": "climb-z4", "name": "To the Line", "duration": 180, "powerZone": "Z4" },
+
+    { "type": "interval", "id": "cool-down-1", "name": "Cool Down", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "cool-down-2", "name": "Cool Down", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "cool-down-3", "name": "Cool Down", "duration": 120, "powerZone": "Z1" }
+  ],
+  "isSample": false
+}
