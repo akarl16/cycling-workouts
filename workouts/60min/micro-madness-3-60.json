@@ -1,0 +1,63 @@
+{
+  "id": "2026-09-15-micro-madness-3-60",
+  "name": "Micro Madness 3",
+  "description": "Z1 warm-up into a four-step build ladder (Z2, Z3, Z3+, Z4 at 95 rpm) with Z2 valleys, then three sets of 30/30 micro-intervals stepping up in intensity — 5x Z4-, 5x Z4, and 10x Z5 at 100 rpm — each set bracketed by a Z3 tempo block and Z1 recovery, finishing with a Z1/Z2 spindown.",
+  "totalDuration": 3600,
+  "sequence": [
+    { "type": "interval", "id": "warmup", "name": "Warm Up", "duration": 300, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "ladder-float-1", "name": "Float", "duration": 90, "powerZone": "Z2" },
+    { "type": "interval", "id": "ladder-build-1", "name": "Build", "duration": 90, "powerZone": "Z2", "cadence": 95 },
+    { "type": "interval", "id": "ladder-float-2", "name": "Float", "duration": 90, "powerZone": "Z2" },
+    { "type": "interval", "id": "ladder-build-2", "name": "Build", "duration": 90, "powerZone": "Z3", "cadence": 95 },
+    { "type": "interval", "id": "ladder-float-3", "name": "Float", "duration": 90, "powerZone": "Z2" },
+    { "type": "interval", "id": "ladder-build-3", "name": "Build", "duration": 90, "powerZone": "Z3+", "cadence": 95 },
+    { "type": "interval", "id": "ladder-float-4", "name": "Float", "duration": 90, "powerZone": "Z2" },
+    { "type": "interval", "id": "ladder-build-4", "name": "Build", "duration": 90, "powerZone": "Z4", "cadence": 95 },
+
+    { "type": "interval", "id": "tempo-1", "name": "Tempo", "duration": 300, "powerZone": "Z3" },
+    { "type": "interval", "id": "recover-1", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+
+    {
+      "type": "block",
+      "id": "micros-1",
+      "name": "Micros (Z4-)",
+      "repetitions": 5,
+      "intervals": [
+        { "id": "micro-1-on", "name": "Micro", "duration": 30, "powerZone": "Z4-", "cadence": 95 },
+        { "id": "micro-1-off", "name": "Float", "duration": 30, "powerZone": "Z2" }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "micros-2",
+      "name": "Micros (Z4)",
+      "repetitions": 5,
+      "intervals": [
+        { "id": "micro-2-on", "name": "Micro", "duration": 30, "powerZone": "Z4", "cadence": 95 },
+        { "id": "micro-2-off", "name": "Float", "duration": 30, "powerZone": "Z2" }
+      ]
+    },
+
+    { "type": "interval", "id": "tempo-2", "name": "Tempo", "duration": 300, "powerZone": "Z3" },
+    { "type": "interval", "id": "recover-2", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+
+    {
+      "type": "block",
+      "id": "micros-3",
+      "name": "Micros (Z5)",
+      "repetitions": 10,
+      "intervals": [
+        { "id": "micro-3-on", "name": "Micro", "duration": 30, "powerZone": "Z5", "cadence": 100 },
+        { "id": "micro-3-off", "name": "Float", "duration": 30, "powerZone": "Z2" }
+      ]
+    },
+
+    { "type": "interval", "id": "tempo-3", "name": "Tempo", "duration": 300, "powerZone": "Z3" },
+
+    { "type": "interval", "id": "cooldown-1", "name": "Cool Down", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "cooldown-2", "name": "Spin", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "cooldown-3", "name": "Cool Down", "duration": 60, "powerZone": "Z1" }
+  ],
+  "isSample": false
+}
