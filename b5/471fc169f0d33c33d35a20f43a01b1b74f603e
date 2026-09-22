@@ -1,0 +1,22 @@
+workouts/60min/three-way-grind-60.json
+  s_9060989cf67889::t_70182b1feaa035 1-5,24-275,283,285-289,295-297,323-329
+  s_9060989cf67889::t_64396c2a0cf2e9 276-282,284,290,298
+  s_9060989cf67889::t_37c65d3be71bfe 6-23
+  s_9060989cf67889::t_a6786fd816daf3 291-294,299-322
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b5471fc169f0d33c33d35a20f43a01b1b74f603e",
+  "prompts": {},
+  "sessions": {
+    "s_9060989cf67889": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f0b93607-037d-4b7e-aa2a-70dd0b2615e6",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
