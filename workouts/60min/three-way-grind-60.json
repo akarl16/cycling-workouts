@@ -1,0 +1,329 @@
+{
+  "id": "2026-09-22-three-way-grind-60",
+  "name": "Three-way grind",
+  "description": "60-minute low-cadence strength ride built on three 9-minute muscle-tension grinds, each moving a different variable: cadence descends at fixed power, power ascends at fixed cadence, then both move together. Standing activations punctuate the recoveries. Ride in level/resistance mode, seated, quiet upper body.",
+  "totalDuration": 3600,
+  "videos": [
+    {
+      "id": "video-women-elite-tt",
+      "name": "2026 UCI Road Worlds - Women Elite Time Trial",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ERHTBYxAFYU",
+      "startTime": 4587,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i033"
+    },
+    {
+      "id": "video-men-elite-tt-highlights",
+      "name": "2026 UCI Road Worlds - Men Elite Time Trial Highlights",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CofXuADmZYE",
+      "startTime": 0,
+      "triggerIntervalId": "i034",
+      "endIntervalId": "i039"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Build",
+      "duration": 180,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Build",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Settle",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Big gear primer 1",
+      "duration": 60,
+      "powerZone": "Z3",
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Spin out",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Big gear primer 2",
+      "duration": 60,
+      "powerZone": "Z3+",
+      "cadence": 55
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Spin out",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Grind 1a",
+      "duration": 180,
+      "powerZone": "Z3+",
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Grind 1b",
+      "duration": 180,
+      "powerZone": "Z3+",
+      "cadence": 55
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Grind 1c",
+      "duration": 180,
+      "powerZone": "Z3+",
+      "cadence": 50
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Settle",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Spin out",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Standing activation 1",
+      "duration": 20,
+      "powerZone": "Z2",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Easy spin",
+      "duration": 40,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Standing activation 2",
+      "duration": 20,
+      "powerZone": "Z2+",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Easy spin",
+      "duration": 40,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Roll in",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "Grind 2a",
+      "duration": 180,
+      "powerZone": "Z3",
+      "cadence": 55
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "Grind 2b",
+      "duration": 180,
+      "powerZone": "Z3+",
+      "cadence": 55
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "Grind 2c",
+      "duration": 180,
+      "powerZone": "Z4-",
+      "cadence": 55
+    },
+    {
+      "type": "interval",
+      "id": "i023",
+      "name": "Settle",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i024",
+      "name": "Spin out",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i025",
+      "name": "Standing activation 3",
+      "duration": 20,
+      "powerZone": "Z2",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "Easy spin",
+      "duration": 40,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i027",
+      "name": "Standing activation 4",
+      "duration": 20,
+      "powerZone": "Z2+",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "i028",
+      "name": "Easy spin",
+      "duration": 40,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i029",
+      "name": "Roll in",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i030",
+      "name": "Grind 3a",
+      "duration": 180,
+      "powerZone": "Z3",
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "i031",
+      "name": "Grind 3b",
+      "duration": 180,
+      "powerZone": "Z3+",
+      "cadence": 55
+    },
+    {
+      "type": "interval",
+      "id": "i032",
+      "name": "Grind 3c",
+      "duration": 180,
+      "powerZone": "Z4-",
+      "cadence": 50
+    },
+    {
+      "type": "interval",
+      "id": "i033",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i034",
+      "name": "Spindown",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i035",
+      "name": "Standing activation 5",
+      "duration": 20,
+      "powerZone": "Z2",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "i036",
+      "name": "Easy spin",
+      "duration": 40,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i037",
+      "name": "Standing activation 6",
+      "duration": 20,
+      "powerZone": "Z2",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "i038",
+      "name": "Easy spin",
+      "duration": 40,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i039",
+      "name": "Spindown",
+      "duration": 60,
+      "powerZone": "Z1"
+    }
+  ],
+  "isSample": false
+}
