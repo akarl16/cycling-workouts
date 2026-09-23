@@ -1,0 +1,74 @@
+{
+  "id": "2026-09-24-mixa-mixa-mixa-50",
+  "name": "Mixa Mixa Mixa",
+  "description": "A 50-minute mixed-bag workout. After a stepped warmup it rotates through five different flavors of effort: a tempo cadence ramp climbing to 110 rpm, a sub-threshold cadence descent down to 60 rpm, 30/30 sprints, cadence alternations at tempo, and a VO2 pyramid.",
+  "totalDuration": 3000,
+  "sequence": [
+    { "type": "interval", "id": "warmup-1", "name": "Warmup", "duration": 120, "powerZone": "Z1" },
+    { "type": "interval", "id": "warmup-2", "name": "Warmup Z2", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "warmup-3", "name": "Warmup Z2@95", "duration": 60, "powerZone": "Z2", "cadence": 95 },
+    { "type": "interval", "id": "warmup-4", "name": "Warmup Z3", "duration": 60, "powerZone": "Z3" },
+    { "type": "interval", "id": "warmup-5", "name": "Warmup Z3@95", "duration": 60, "powerZone": "Z3", "cadence": 95 },
+    { "type": "interval", "id": "warmup-6", "name": "Warmup Z2", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "warmup-7", "name": "Warmup Z4-@95", "duration": 60, "powerZone": "Z4-", "cadence": 95 },
+    { "type": "interval", "id": "warmup-8", "name": "Warmup Z2", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "warmup-9", "name": "Warmup Z4@95", "duration": 60, "powerZone": "Z4", "cadence": 95 },
+
+    { "type": "interval", "id": "recover-1", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "quicka-1", "name": "Quicka @90", "duration": 60, "powerZone": "Z3", "cadence": 90 },
+    { "type": "interval", "id": "quicka-2", "name": "Quicka @95", "duration": 60, "powerZone": "Z3", "cadence": 95 },
+    { "type": "interval", "id": "quicka-3", "name": "Quicka @100", "duration": 60, "powerZone": "Z3", "cadence": 100 },
+    { "type": "interval", "id": "quicka-4", "name": "Quicka @105", "duration": 60, "powerZone": "Z3", "cadence": 105 },
+    { "type": "interval", "id": "quicka-5", "name": "Quicka @110", "duration": 60, "powerZone": "Z3", "cadence": 110 },
+
+    { "type": "interval", "id": "recover-2", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "slowa-1", "name": "Slowa @80", "duration": 60, "powerZone": "Z4-", "cadence": 80 },
+    { "type": "interval", "id": "slowa-2", "name": "Slowa @75", "duration": 60, "powerZone": "Z4-", "cadence": 75 },
+    { "type": "interval", "id": "slowa-3", "name": "Slowa @70", "duration": 60, "powerZone": "Z4-", "cadence": 70 },
+    { "type": "interval", "id": "slowa-4", "name": "Slowa @65", "duration": 60, "powerZone": "Z4-", "cadence": 65 },
+    { "type": "interval", "id": "slowa-5", "name": "Slowa @60", "duration": 60, "powerZone": "Z4-", "cadence": 60 },
+
+    { "type": "interval", "id": "recover-3", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+
+    {
+      "type": "block",
+      "id": "sprinta",
+      "name": "Sprinta",
+      "repetitions": 5,
+      "intervals": [
+        { "id": "sprinta-on", "name": "Sprinta", "duration": 30, "powerZone": "Z5" },
+        { "id": "sprinta-off", "name": "Recover", "duration": 30, "powerZone": "Z1" }
+      ]
+    },
+
+    { "type": "interval", "id": "recover-4", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "alternata-1", "name": "Alternata @105", "duration": 60, "powerZone": "Z3", "cadence": 105 },
+    { "type": "interval", "id": "alternata-2", "name": "Alternata @65", "duration": 60, "powerZone": "Z3", "cadence": 65 },
+    { "type": "interval", "id": "alternata-3", "name": "Alternata @105", "duration": 60, "powerZone": "Z3", "cadence": 105 },
+    { "type": "interval", "id": "alternata-4", "name": "Alternata @65", "duration": 60, "powerZone": "Z3", "cadence": 65 },
+    { "type": "interval", "id": "alternata-5", "name": "Alternata @105", "duration": 60, "powerZone": "Z3", "cadence": 105 },
+    { "type": "interval", "id": "alternata-6", "name": "Alternata @65", "duration": 60, "powerZone": "Z3", "cadence": 65 },
+
+    { "type": "interval", "id": "recover-5", "name": "Recover", "duration": 110, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "pyramida-1", "name": "Pyramida 15s", "duration": 15, "powerZone": "Z5" },
+    { "type": "interval", "id": "pyramida-1-rec", "name": "Recover", "duration": 15, "powerZone": "Z1" },
+    { "type": "interval", "id": "pyramida-2", "name": "Pyramida 30s", "duration": 30, "powerZone": "Z5" },
+    { "type": "interval", "id": "pyramida-2-rec", "name": "Recover", "duration": 30, "powerZone": "Z1" },
+    { "type": "interval", "id": "pyramida-3", "name": "Pyramida 45s", "duration": 45, "powerZone": "Z5" },
+    { "type": "interval", "id": "pyramida-3-rec", "name": "Recover", "duration": 45, "powerZone": "Z1" },
+    { "type": "interval", "id": "pyramida-4", "name": "Pyramida 30s", "duration": 30, "powerZone": "Z5" },
+    { "type": "interval", "id": "pyramida-4-rec", "name": "Recover", "duration": 30, "powerZone": "Z1" },
+    { "type": "interval", "id": "pyramida-5", "name": "Pyramida 15s", "duration": 15, "powerZone": "Z5" },
+    { "type": "interval", "id": "pyramida-5-rec", "name": "Recover", "duration": 15, "powerZone": "Z1" },
+    { "type": "interval", "id": "pyramida-6", "name": "Pyramida 30s", "duration": 30, "powerZone": "Z5", "notes": "Out of the saddle" },
+
+    { "type": "interval", "id": "coola-1", "name": "Coola", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "coola-2", "name": "Coola Z2", "duration": 120, "powerZone": "Z2" },
+    { "type": "interval", "id": "coola-3", "name": "Spindown", "duration": 70, "powerZone": "Z1" }
+  ],
+  "isSample": false
+}
