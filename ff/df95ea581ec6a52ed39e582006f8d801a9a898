@@ -1,0 +1,19 @@
+workouts/50min/mixa-mixa-mixa-50.json
+  s_bd3e5bfbc2e5df::t_c0fb49addf887d 1-74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ffdf95ea581ec6a52ed39e582006f8d801a9a898",
+  "prompts": {},
+  "sessions": {
+    "s_bd3e5bfbc2e5df": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "67d32684-8a78-45bd-ad8c-6c36e5f55887",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
