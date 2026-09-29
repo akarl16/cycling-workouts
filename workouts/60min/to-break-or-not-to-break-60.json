@@ -1,0 +1,106 @@
+{
+  "id": "2026-09-29-to-break-or-not-to-break-60",
+  "name": "To break or not to break",
+  "description": "Montreal Worlds, both sides of the road. A is the Chase Group and cuts into short attack/sit-up intervals; B is Off the Front and holds Z4- unchanged straight through them. The chase is the default, so riding with the group needs no input at all. Off the Front holds one number for the whole lap — press T for it, or just ride it, since the target never moves. The break never gets a real rest; the group gets the peaks and the recovery.",
+  "totalDuration": 3600,
+  "videos": [
+    {
+      "id": "video-worlds-2026-women-rr",
+      "name": "Women Elite Road Race Highlights | 2026 UCI Road World Championships",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wN7jN3_vpfg",
+      "startTime": 0,
+      "triggerIntervalId": "warmup-z1",
+      "endIntervalId": "warmup-z2"
+    },
+    {
+      "id": "video-worlds-2026-men-rr-full",
+      "name": "Men Elite Road Race | 2026 UCI Road World Championships (full race)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oPnBsSwXPzg",
+      "startTime": 4740,
+      "triggerIntervalId": "selection-climb",
+      "endIntervalId": "cool-down-2"
+    }
+  ],
+  "sequence": [
+    { "type": "interval", "id": "warmup-z1", "name": "Warm Up", "duration": 300, "powerZone": "Z1" },
+    { "type": "interval", "id": "warmup-z2", "name": "Warm Up", "duration": 180, "powerZone": "Z2" },
+    { "type": "interval", "id": "warmup-z3", "name": "Build", "duration": 120, "powerZone": "Z3", "cadence": 90 },
+
+    { "type": "interval", "id": "selection-climb", "name": "The Climb", "duration": 60, "powerZone": "Z4", "cadence": 75 },
+    { "type": "interval", "id": "selection-attack", "name": "Selection", "duration": 30, "powerZone": "Z5", "cadence": 95 },
+    { "type": "interval", "id": "selection-settle", "name": "Choose Your Race", "duration": 90, "powerZone": "Z2", "notes": "A is the chase group, B is off the front — pick your race." },
+
+    {
+      "type": "block", "id": "lap-1", "name": "Lap 1", "repetitions": 3,
+      "intervals": [
+        { "id": "l1-jump", "name": "Lap 1", "duration": 40, "powerZone": "Z5-", "notes": "Probing attacks with long gaps between.", "alternating": { "powerZoneA": "Z5-", "powerZoneB": "Z4-", "cadenceA": 95, "cadenceB": 85, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" } },
+        { "id": "l1-sit", "name": "Lap 1", "duration": 80, "powerZone": "Z3", "alternating": { "powerZoneA": "Z3", "powerZoneB": "Z4-", "cadenceA": 85, "cadenceB": 85, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" } }
+      ]
+    },
+    {
+      "type": "interval", "id": "descent-1", "name": "Descent", "duration": 90, "powerZone": "Z1",
+      "alternating": { "powerZoneA": "Z1", "powerZoneB": "Z3", "cadenceA": 75, "cadenceB": 90, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" }
+    },
+
+    {
+      "type": "block", "id": "lap-2", "name": "Lap 2", "repetitions": 4,
+      "intervals": [
+        { "id": "l2-jump", "name": "Lap 2", "duration": 20, "powerZone": "Z6", "notes": "Four stinging digs, nobody goes clear.", "alternating": { "powerZoneA": "Z6", "powerZoneB": "Z4-", "cadenceA": 105, "cadenceB": 85, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" } },
+        { "id": "l2-sit", "name": "Lap 2", "duration": 40, "powerZone": "Z2", "alternating": { "powerZoneA": "Z2", "powerZoneB": "Z4-", "cadenceA": 80, "cadenceB": 85, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" } }
+      ]
+    },
+    {
+      "type": "interval", "id": "descent-2", "name": "Descent", "duration": 90, "powerZone": "Z1",
+      "alternating": { "powerZoneA": "Z1", "powerZoneB": "Z3", "cadenceA": 75, "cadenceB": 90, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" }
+    },
+
+    {
+      "type": "block", "id": "lap-3", "name": "Lap 3", "repetitions": 4,
+      "intervals": [
+        { "id": "l3-jump", "name": "Lap 3", "duration": 45, "powerZone": "Z5", "notes": "Even work to rest — no cheap option here.", "alternating": { "powerZoneA": "Z5", "powerZoneB": "Z4-", "cadenceA": 95, "cadenceB": 85, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" } },
+        { "id": "l3-sit", "name": "Lap 3", "duration": 45, "powerZone": "Z2", "alternating": { "powerZoneA": "Z2", "powerZoneB": "Z4-", "cadenceA": 80, "cadenceB": 85, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" } }
+      ]
+    },
+    {
+      "type": "interval", "id": "descent-3", "name": "Descent", "duration": 120, "powerZone": "Z1",
+      "alternating": { "powerZoneA": "Z1", "powerZoneB": "Z2", "cadenceA": 75, "cadenceB": 90, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" }
+    },
+
+    {
+      "type": "block", "id": "lap-4", "name": "Lap 4", "repetitions": 2,
+      "intervals": [
+        { "id": "l4-jump", "name": "Lap 4", "duration": 90, "powerZone": "Z4+", "notes": "A long move, twice.", "alternating": { "powerZoneA": "Z4+", "powerZoneB": "Z4-", "cadenceA": 90, "cadenceB": 85, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" } },
+        { "id": "l4-sit", "name": "Lap 4", "duration": 90, "powerZone": "Z3", "alternating": { "powerZoneA": "Z3", "powerZoneB": "Z4-", "cadenceA": 85, "cadenceB": 85, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" } }
+      ]
+    },
+    {
+      "type": "interval", "id": "descent-4", "name": "Descent", "duration": 90, "powerZone": "Z1",
+      "alternating": { "powerZoneA": "Z1", "powerZoneB": "Z3", "cadenceA": 75, "cadenceB": 90, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" }
+    },
+
+    {
+      "type": "interval", "id": "lap-5", "name": "Lap 5", "duration": 300, "powerZone": "Z3",
+      "notes": "Nobody wants to pull.",
+      "alternating": { "powerZoneA": "Z3", "powerZoneB": "Z4-", "cadenceA": 85, "cadenceB": 85, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" }
+    },
+    {
+      "type": "interval", "id": "descent-5", "name": "Descent", "duration": 120, "powerZone": "Z1",
+      "alternating": { "powerZoneA": "Z1", "powerZoneB": "Z2", "cadenceA": 75, "cadenceB": 90, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" }
+    },
+
+    {
+      "type": "interval", "id": "bell-lap", "name": "At the Bell", "duration": 300, "powerZone": "Z4+",
+      "notes": "They finally organise — too late.",
+      "alternating": { "powerZoneA": "Z4+", "powerZoneB": "Z4-", "cadenceA": 90, "cadenceB": 85, "startWithZone": "A", "labelA": "Chase Group", "labelB": "Off the Front" }
+    },
+
+    { "type": "interval", "id": "last-climb", "name": "Last Climb", "duration": 90, "powerZone": "Z4+", "cadence": 75, "notes": "Both races converge, everyone climbs." },
+    { "type": "interval", "id": "to-the-line", "name": "To the Line", "duration": 30, "powerZone": "Z5", "cadence": 100 },
+    { "type": "interval", "id": "hands-up", "name": "Hands Up", "duration": 30, "powerZone": "Z2" },
+
+    { "type": "interval", "id": "cool-down-1", "name": "Cool Down", "duration": 60, "powerZone": "Z1" },
+    { "type": "interval", "id": "cool-down-2", "name": "Cool Down", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "cool-down-3", "name": "Cool Down", "duration": 120, "powerZone": "Z1" }
+  ],
+  "isSample": false
+}
