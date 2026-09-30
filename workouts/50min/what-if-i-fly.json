@@ -1,0 +1,304 @@
+{
+  "id": "what-if-i-fly-50",
+  "name": "What If I Fly?",
+  "description": "Six song-paced rounds that build confidence each time, finishing with a round where you learn to fly.",
+  "totalDuration": 3000,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup",
+      "name": "Warmup",
+      "duration": 240,
+      "powerZone": "Z1",
+      "notes": "Loosen up. Today we build confidence, round by round."
+    },
+    {
+      "type": "block",
+      "id": "round-1",
+      "name": "Round 1: Feel It Out",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "r1-z2a",
+          "name": "Endurance",
+          "duration": 120,
+          "powerZone": "Z2",
+          "notes": "Smooth and steady."
+        },
+        {
+          "id": "r1-z3",
+          "name": "Tempo",
+          "duration": 120,
+          "powerZone": "Z3",
+          "notes": "Find your rhythm."
+        },
+        {
+          "id": "r1-z2b",
+          "name": "Endurance",
+          "duration": 60,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "r1-z4",
+          "name": "Threshold",
+          "duration": 60,
+          "powerZone": "Z4",
+          "notes": "Strong, not scary."
+        },
+        {
+          "id": "r1-z2c",
+          "name": "Endurance",
+          "duration": 60,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "r1-z5",
+          "name": "VO2",
+          "duration": 60,
+          "powerZone": "Z5",
+          "notes": "Quick taste of the top."
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "rest-1",
+      "name": "Recover",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "rest-1-z1",
+          "name": "Recover",
+          "duration": 120,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "round-2",
+      "name": "Round 2: Settle In",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "r2-z2",
+          "name": "Endurance",
+          "duration": 120,
+          "powerZone": "Z2",
+          "notes": "You've done this before."
+        },
+        {
+          "id": "r2-z3",
+          "name": "Tempo",
+          "duration": 120,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "r2-z4",
+          "name": "Threshold",
+          "duration": 60,
+          "powerZone": "Z4",
+          "notes": "Feels a little easier, right?"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "rest-2",
+      "name": "Recover",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "rest-2-z1",
+          "name": "Recover",
+          "duration": 120,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "round-3",
+      "name": "Round 3: Trust It",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "r3-z3a",
+          "name": "Tempo",
+          "duration": 120,
+          "powerZone": "Z3",
+          "notes": "Start higher this time."
+        },
+        {
+          "id": "r3-z3b",
+          "name": "Tempo",
+          "duration": 120,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "r3-z4",
+          "name": "Threshold",
+          "duration": 60,
+          "powerZone": "Z4",
+          "notes": "Trust your legs."
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "rest-3",
+      "name": "Recover",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "rest-3-z1",
+          "name": "Recover",
+          "duration": 120,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "round-4",
+      "name": "Round 4: Push a Little",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "r4-z3",
+          "name": "Tempo",
+          "duration": 120,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "r4-z3p",
+          "name": "Tempo+",
+          "duration": 120,
+          "powerZone": "Z3+",
+          "notes": "Edge it up. Stay in control."
+        },
+        {
+          "id": "r4-z4",
+          "name": "Threshold",
+          "duration": 60,
+          "powerZone": "Z4",
+          "notes": "Confidence is building."
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "rest-4",
+      "name": "Recover",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "rest-4-z1",
+          "name": "Recover",
+          "duration": 120,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "round-5",
+      "name": "Round 5: Lean In",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "r5-z2",
+          "name": "Endurance",
+          "duration": 120,
+          "powerZone": "Z2",
+          "notes": "Breathe. Get ready."
+        },
+        {
+          "id": "r5-z4",
+          "name": "Threshold",
+          "duration": 120,
+          "powerZone": "Z4",
+          "notes": "Hold it. You can."
+        },
+        {
+          "id": "r5-z5",
+          "name": "VO2",
+          "duration": 60,
+          "powerZone": "Z5",
+          "notes": "Go get it."
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "rest-5",
+      "name": "Recover",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "rest-5-z1",
+          "name": "Recover",
+          "duration": 120,
+          "powerZone": "Z1"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "round-6",
+      "name": "Round 6: Fly",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "r6-z3",
+          "name": "Tempo",
+          "duration": 120,
+          "powerZone": "Z3",
+          "notes": "Everything you built leads here."
+        },
+        {
+          "id": "r6-z4",
+          "name": "Threshold",
+          "duration": 120,
+          "powerZone": "Z4",
+          "notes": "Open up. Let go."
+        },
+        {
+          "id": "r6-z5",
+          "name": "VO2",
+          "duration": 60,
+          "powerZone": "Z5",
+          "notes": "Fly!"
+        }
+      ]
+    },
+    {
+      "type": "block",
+      "id": "cooldown",
+      "name": "Cooldown",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "cd-1",
+          "name": "Easy",
+          "duration": 60,
+          "powerZone": "Z1",
+          "notes": "You flew."
+        },
+        {
+          "id": "cd-2",
+          "name": "Endurance",
+          "duration": 60,
+          "powerZone": "Z2"
+        },
+        {
+          "id": "cd-3",
+          "name": "Easy",
+          "duration": 60,
+          "powerZone": "Z1"
+        }
+      ]
+    }
+  ],
+  "isSample": false
+}
