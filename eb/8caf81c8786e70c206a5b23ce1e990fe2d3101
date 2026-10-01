@@ -1,0 +1,20 @@
+workouts/50min/what-if-i-fly.json
+  s_f608e2b6603632::t_6427b4342bf007 6-31,40-53,62-79,88-101,110-133,142-143
+  s_f608e2b6603632::t_63f3a67569205e 32-39,54-61,80-87,102-109,134-141
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "eb8caf81c8786e70c206a5b23ce1e990fe2d3101",
+  "prompts": {},
+  "sessions": {
+    "s_f608e2b6603632": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6f9ab623-05d5-41d1-ac9b-2be373b5a51c",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
