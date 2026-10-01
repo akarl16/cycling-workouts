@@ -3,6 +3,144 @@
   "name": "What If I Fly?",
   "description": "Six song-paced rounds that build confidence each time, finishing with a round where you learn to fly.",
   "totalDuration": 3000,
+  "videos": [
+    {
+      "id": "warmup",
+      "name": "Warmup",
+      "youtubeUrl": "https://www.youtube.com/watch?v=l50KkAb_0Uk",
+      "startTime": 9,
+      "triggerIntervalId": "warmup",
+      "endIntervalId": "warmup"
+    },
+    {
+      "id": "round-1-intense",
+      "name": "Round 1 Intensity",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BpCblEFORPQ",
+      "startTime": 116,
+      "triggerIntervalId": "r1-z4",
+      "endIntervalId": "r1-z5"
+    },
+    {
+      "id": "rest-1-scenic",
+      "name": "Recover 1 Scenery",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aIXb-RPb358",
+      "startTime": 1340,
+      "triggerIntervalId": "rest-1-z1",
+      "endIntervalId": "rest-1-z1"
+    },
+    {
+      "id": "round-2-build",
+      "name": "Round 2 Build",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NPqYzHcvRhw",
+      "startTime": 0,
+      "triggerIntervalId": "r2-z2",
+      "endIntervalId": "r2-z3"
+    },
+    {
+      "id": "round-2-intense",
+      "name": "Round 2 Intensity",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IM1vss7FXs8",
+      "startTime": 31,
+      "triggerIntervalId": "r2-z4",
+      "endIntervalId": "r2-z4"
+    },
+    {
+      "id": "rest-2-scenic",
+      "name": "Recover 2 Scenery",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aIXb-RPb358",
+      "startTime": 2215,
+      "triggerIntervalId": "rest-2-z1",
+      "endIntervalId": "rest-2-z1"
+    },
+    {
+      "id": "round-3-build",
+      "name": "Round 3 Build",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NPqYzHcvRhw",
+      "startTime": 1023,
+      "triggerIntervalId": "r3-z3a",
+      "endIntervalId": "r3-z3b"
+    },
+    {
+      "id": "round-3-intense",
+      "name": "Round 3 Intensity",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7g1UIjpxtYI",
+      "startTime": 0,
+      "triggerIntervalId": "r3-z4",
+      "endIntervalId": "r3-z4"
+    },
+    {
+      "id": "rest-3-scenic",
+      "name": "Recover 3 Scenery",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aIXb-RPb358",
+      "startTime": 612,
+      "triggerIntervalId": "rest-3-z1",
+      "endIntervalId": "rest-3-z1"
+    },
+    {
+      "id": "round-4-build",
+      "name": "Round 4 Build",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NPqYzHcvRhw",
+      "startTime": 2806,
+      "triggerIntervalId": "r4-z3",
+      "endIntervalId": "r4-z3p"
+    },
+    {
+      "id": "round-4-intense",
+      "name": "Round 4 Intensity",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9pEqyr_uT-k",
+      "startTime": 589,
+      "triggerIntervalId": "r4-z4",
+      "endIntervalId": "r4-z4"
+    },
+    {
+      "id": "rest-4-scenic",
+      "name": "Recover 4 Scenery",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aIXb-RPb358",
+      "startTime": 3127,
+      "triggerIntervalId": "rest-4-z1",
+      "endIntervalId": "rest-4-z1"
+    },
+    {
+      "id": "round-5-build",
+      "name": "Round 5 Build",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0Kurwg0FLvQ",
+      "startTime": 96,
+      "triggerIntervalId": "r5-z2",
+      "endIntervalId": "r5-z2"
+    },
+    {
+      "id": "round-5-intense",
+      "name": "Round 5 Intensity",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YPNtouPtkJY",
+      "startTime": 70,
+      "triggerIntervalId": "r5-z4",
+      "endIntervalId": "r5-z5"
+    },
+    {
+      "id": "rest-5-scenic",
+      "name": "Recover 5 Scenery",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aIXb-RPb358",
+      "startTime": 1788,
+      "triggerIntervalId": "rest-5-z1",
+      "endIntervalId": "rest-5-z1"
+    },
+    {
+      "id": "round-6-fly",
+      "name": "Round 6 Fly",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ynvoriv09Ks",
+      "startTime": 300,
+      "triggerIntervalId": "r6-z3",
+      "endIntervalId": "cd-1"
+    },
+    {
+      "id": "cooldown-fly",
+      "name": "Cooldown",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KI_dUZrmf7A",
+      "startTime": 678,
+      "triggerIntervalId": "cd-2",
+      "endIntervalId": "cd-3"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
