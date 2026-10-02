@@ -1,0 +1,21 @@
+workouts/90min/punch-out-90.json
+  s_5facb08c4aea87::t_07afabd8474026 28-109,298-315,325-342
+workouts/60min/punch-out-60.json
+  s_5facb08c4aea87::t_24b98d374cc190 1-82
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5bc1da6605905d25d1876f2129486379dba79970",
+  "prompts": {},
+  "sessions": {
+    "s_5facb08c4aea87": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a1489a18-59be-463f-8b81-cc31b11adeb2",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
