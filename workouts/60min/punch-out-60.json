@@ -1,0 +1,82 @@
+{
+  "id": "punch-out-60",
+  "name": "Punch Out",
+  "description": "60-minute cut of Punch Out: a short build ladder and tempo cadence drills, three sets of 4x Z4/Z3 over-unders, then a stepped Z5-Z6-Z7 power finale.",
+  "totalDuration": 3600,
+  "sequence": [
+    { "type": "interval", "id": "warmup-z1", "name": "Easy build", "duration": 180, "powerZone": "Z1" },
+    { "type": "interval", "id": "warmup-z2", "name": "Easy build", "duration": 120, "powerZone": "Z2" },
+
+    { "type": "interval", "id": "build-1", "name": "Build", "duration": 30, "powerZone": "Z3" },
+    { "type": "interval", "id": "active-2", "name": "Active", "duration": 30, "powerZone": "Z2" },
+    { "type": "interval", "id": "build-2", "name": "Build", "duration": 30, "powerZone": "Z3+" },
+    { "type": "interval", "id": "active-3", "name": "Active", "duration": 30, "powerZone": "Z2" },
+    { "type": "interval", "id": "build-3", "name": "Build", "duration": 30, "powerZone": "Z4-" },
+    { "type": "interval", "id": "active-4", "name": "Active", "duration": 30, "powerZone": "Z2" },
+    { "type": "interval", "id": "build-4", "name": "Build", "duration": 30, "powerZone": "Z4" },
+    { "type": "interval", "id": "active-5", "name": "Active", "duration": 30, "powerZone": "Z2" },
+    { "type": "interval", "id": "build-5", "name": "Build", "duration": 30, "powerZone": "Z4" },
+    { "type": "interval", "id": "active-6", "name": "Active", "duration": 30, "powerZone": "Z2" },
+    { "type": "interval", "id": "build-6", "name": "Build", "duration": 30, "powerZone": "Z4+" },
+
+    { "type": "interval", "id": "recover-1", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+
+    { "type": "interval", "id": "tempo-85", "name": "Tempo +Cad", "duration": 30, "powerZone": "Z3", "cadence": 85 },
+    { "type": "interval", "id": "tempo-90", "name": "Tempo +Cad", "duration": 30, "powerZone": "Z3", "cadence": 90 },
+    { "type": "interval", "id": "tempo-80", "name": "Tempo +Cad", "duration": 30, "powerZone": "Z3", "cadence": 80 },
+    { "type": "interval", "id": "tempo-100", "name": "Tempo +Cad", "duration": 30, "powerZone": "Z3", "cadence": 100 },
+    { "type": "interval", "id": "tempo-75", "name": "Tempo +Cad", "duration": 30, "powerZone": "Z3", "cadence": 75 },
+    { "type": "interval", "id": "tempo-105", "name": "Tempo +Cad", "duration": 30, "powerZone": "Z3", "cadence": 105 },
+    { "type": "interval", "id": "tempo-70", "name": "Tempo +Cad", "duration": 30, "powerZone": "Z3", "cadence": 70 },
+    { "type": "interval", "id": "tempo-110", "name": "Tempo +Cad", "duration": 30, "powerZone": "Z3", "cadence": 110 },
+
+    { "type": "interval", "id": "recover-2", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+
+    {
+      "type": "block", "id": "over-under-1", "name": "Punch Over/Under Set 1", "repetitions": 4,
+      "intervals": [
+        { "id": "ou1-over", "name": "Punch over", "duration": 60, "powerZone": "Z4" },
+        { "id": "ou1-under", "name": "Under", "duration": 60, "powerZone": "Z3" }
+      ]
+    },
+    { "type": "interval", "id": "recover-3", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+
+    {
+      "type": "block", "id": "over-under-2", "name": "Punch Over/Under Set 2", "repetitions": 4,
+      "intervals": [
+        { "id": "ou2-over", "name": "Punch over", "duration": 60, "powerZone": "Z4" },
+        { "id": "ou2-under", "name": "Under", "duration": 60, "powerZone": "Z3" }
+      ]
+    },
+    { "type": "interval", "id": "recover-4", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+
+    {
+      "type": "block", "id": "over-under-3", "name": "Punch Over/Under Set 3", "repetitions": 4,
+      "intervals": [
+        { "id": "ou3-over", "name": "Punch over", "duration": 60, "powerZone": "Z4" },
+        { "id": "ou3-under", "name": "Under", "duration": 60, "powerZone": "Z3" }
+      ]
+    },
+    { "type": "interval", "id": "recover-5", "name": "Recover", "duration": 120, "powerZone": "Z1" },
+
+    {
+      "type": "block", "id": "z5-punches", "name": "Z5 Punches", "repetitions": 2,
+      "intervals": [
+        { "id": "z5-active", "name": "Active", "duration": 60, "powerZone": "Z2" },
+        { "id": "z5-punch", "name": "Punch over", "duration": 30, "powerZone": "Z5" }
+      ]
+    },
+    {
+      "type": "block", "id": "z6-punches", "name": "Z6 Punches", "repetitions": 2,
+      "intervals": [
+        { "id": "z6-active", "name": "Active", "duration": 60, "powerZone": "Z2" },
+        { "id": "z6-punch", "name": "Punch over", "duration": 20, "powerZone": "Z6" }
+      ]
+    },
+    { "type": "interval", "id": "z7-active", "name": "Active", "duration": 60, "powerZone": "Z2" },
+    { "type": "interval", "id": "z7-all-in", "name": "All-in", "duration": 10, "powerZone": "Z7" },
+
+    { "type": "interval", "id": "spindown", "name": "Spindown", "duration": 280, "powerZone": "Z1" }
+  ],
+  "isSample": false
+}

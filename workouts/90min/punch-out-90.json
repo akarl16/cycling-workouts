@@ -25,24 +25,88 @@
       "powerZone": "2+"
     },
     {
-      "type": "block",
-      "id": "progressive-builds",
-      "name": "Progressive Build Intervals",
-      "repetitions": 6,
-      "intervals": [
-        {
-          "id": "active",
-          "name": "Active",
-          "duration": 30,
-          "powerZone": 2
-        },
-        {
-          "id": "build",
-          "name": "Build",
-          "duration": 30,
-          "powerZone": 3
-        }
-      ]
+      "type": "interval",
+      "id": "pb-active-1",
+      "name": "Active",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "pb-build-1",
+      "name": "Build",
+      "duration": 30,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "pb-active-2",
+      "name": "Active",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "pb-build-2",
+      "name": "Build",
+      "duration": 30,
+      "powerZone": "3+"
+    },
+    {
+      "type": "interval",
+      "id": "pb-active-3",
+      "name": "Active",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "pb-build-3",
+      "name": "Build",
+      "duration": 30,
+      "powerZone": "4-"
+    },
+    {
+      "type": "interval",
+      "id": "pb-active-4",
+      "name": "Active",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "pb-build-4",
+      "name": "Build",
+      "duration": 30,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "pb-active-5",
+      "name": "Active",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "pb-build-5",
+      "name": "Build",
+      "duration": 30,
+      "powerZone": 4
+    },
+    {
+      "type": "interval",
+      "id": "pb-active-6",
+      "name": "Active",
+      "duration": 30,
+      "powerZone": 2
+    },
+    {
+      "type": "interval",
+      "id": "pb-build-6",
+      "name": "Build",
+      "duration": 30,
+      "powerZone": "4+"
     },
     {
       "type": "interval",
@@ -231,16 +295,24 @@
       "powerZone": 1
     },
     {
-      "type": "interval",
-      "id": "z6-alternating",
-      "name": "Z6 Punch Intervals",
-      "duration": 360,
-      "powerZone": 2,
-      "alternating": {
-        "powerZoneA": 2,
-        "powerZoneB": 6,
-        "startWithZone": "A"
-      }
+      "type": "block",
+      "id": "z6-intervals",
+      "name": "Zone 6 Intervals",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "z6-active",
+          "name": "Active",
+          "duration": 100,
+          "powerZone": 2
+        },
+        {
+          "id": "z6-punch-over",
+          "name": "Punch over",
+          "duration": 20,
+          "powerZone": 6
+        }
+      ]
     },
     {
       "type": "interval",
@@ -250,16 +322,24 @@
       "powerZone": 1
     },
     {
-      "type": "interval",
-      "id": "z7-alternating",
-      "name": "Z7 Sprint Intervals",
-      "duration": 280,
-      "powerZone": 2,
-      "alternating": {
-        "powerZoneA": 2,
-        "powerZoneB": 7,
-        "startWithZone": "A"
-      }
+      "type": "block",
+      "id": "z7-intervals",
+      "name": "Zone 7 Intervals",
+      "repetitions": 4,
+      "intervals": [
+        {
+          "id": "z7-active",
+          "name": "Active",
+          "duration": 60,
+          "powerZone": 2
+        },
+        {
+          "id": "z7-all-in",
+          "name": "All-in",
+          "duration": 10,
+          "powerZone": 7
+        }
+      ]
     },
     {
       "type": "interval",
