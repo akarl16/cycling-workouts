@@ -8,7 +8,7 @@
     { "id": "video-king-of-coins", "name": "Lindsey Stirling & ARKAI - King of Coins", "youtubeUrl": "https://www.youtube.com/watch?v=5q9Wqt4_klI", "startTime": 0, "triggerIntervalId": "ou3-over", "endIntervalId": "ou3-under-block-over-under-3-rep-2" },
     { "id": "video-99-luftballons", "name": "Leo Moracchioli - 99 Luftballons (Metal Cover)", "youtubeUrl": "https://www.youtube.com/watch?v=Wr-ywwsjXW8", "startTime": 11, "triggerIntervalId": "ou3-over-block-over-under-3-rep-3", "endIntervalId": "ou3-under-block-over-under-3-rep-4" },
     { "id": "video-your-idol", "name": "Kayla King - YOUR IDOL (Metal Cover)", "youtubeUrl": "https://www.youtube.com/watch?v=Z-mQDzGfepI", "startTime": 0, "triggerIntervalId": "z5-active", "endIntervalId": "z5-punch-block-z5-punches-rep-2" },
-    { "id": "video-what-it-sounds-like", "name": "What It Sounds Like (Lyric Video)", "youtubeUrl": "https://www.youtube.com/watch?v=Qz7-Pa3QFQI", "startTime": 3, "triggerIntervalId": "z6-active", "endIntervalId": "z7-all-in" }
+    { "id": "video-what-it-sounds-like", "name": "What It Sounds Like (Lyric Video)", "youtubeUrl": "https://www.youtube.com/watch?v=Qz7-Pa3QFQI", "startTime": 3, "triggerIntervalId": "z6-alternating", "endIntervalId": "z7-alternating" }
   ],
   "sequence": [
     { "type": "interval", "id": "warmup-z1", "name": "Easy build", "duration": 180, "powerZone": "Z1" },
@@ -74,14 +74,15 @@
       ]
     },
     {
-      "type": "block", "id": "z6-punches", "name": "Z6 Punches", "repetitions": 2,
-      "intervals": [
-        { "id": "z6-active", "name": "Active", "duration": 60, "powerZone": "Z2" },
-        { "id": "z6-punch", "name": "Punch over", "duration": 20, "powerZone": "Z6" }
-      ]
+      "type": "interval", "id": "z6-alternating", "name": "Z6 Punches", "duration": 160, "powerZone": "Z2",
+      "notes": "Two 20s Z6 punches — hit them with the music.",
+      "alternating": { "powerZoneA": "Z2", "powerZoneB": "Z6", "startWithZone": "A", "labelA": "Active", "labelB": "Punch over" }
     },
-    { "type": "interval", "id": "z7-active", "name": "Active", "duration": 60, "powerZone": "Z2" },
-    { "type": "interval", "id": "z7-all-in", "name": "All-in", "duration": 10, "powerZone": "Z7" },
+    {
+      "type": "interval", "id": "z7-alternating", "name": "Z7 All-in", "duration": 70, "powerZone": "Z2",
+      "notes": "One 10s all-in sprint — hit it with the music.",
+      "alternating": { "powerZoneA": "Z2", "powerZoneB": "Z7", "startWithZone": "A", "labelA": "Active", "labelB": "All-in" }
+    },
 
     { "type": "interval", "id": "spindown", "name": "Spindown", "duration": 280, "powerZone": "Z1" }
   ],
