@@ -3,6 +3,13 @@
   "name": "Punch Out",
   "description": "60-minute cut of Punch Out: a short build ladder and tempo cadence drills, three sets of 4x Z4/Z3 over-unders, then a stepped Z5-Z6-Z7 power finale.",
   "totalDuration": 3600,
+  "videos": [
+    { "id": "video-sax", "name": "Fleur East - Sax", "youtubeUrl": "https://www.youtube.com/watch?v=3JZ4pnNtyxQ", "startTime": 0, "triggerIntervalId": "ou2-over", "endIntervalId": "ou2-under-block-over-under-2-rep-2" },
+    { "id": "video-king-of-coins", "name": "Lindsey Stirling & ARKAI - King of Coins", "youtubeUrl": "https://www.youtube.com/watch?v=5q9Wqt4_klI", "startTime": 0, "triggerIntervalId": "ou3-over", "endIntervalId": "ou3-under-block-over-under-3-rep-2" },
+    { "id": "video-99-luftballons", "name": "Leo Moracchioli - 99 Luftballons (Metal Cover)", "youtubeUrl": "https://www.youtube.com/watch?v=Wr-ywwsjXW8", "startTime": 11, "triggerIntervalId": "ou3-over-block-over-under-3-rep-3", "endIntervalId": "ou3-under-block-over-under-3-rep-4" },
+    { "id": "video-your-idol", "name": "Kayla King - YOUR IDOL (Metal Cover)", "youtubeUrl": "https://www.youtube.com/watch?v=Z-mQDzGfepI", "startTime": 0, "triggerIntervalId": "z5-active", "endIntervalId": "z5-punch-block-z5-punches-rep-2" },
+    { "id": "video-what-it-sounds-like", "name": "What It Sounds Like (Lyric Video)", "youtubeUrl": "https://www.youtube.com/watch?v=Qz7-Pa3QFQI", "startTime": 3, "triggerIntervalId": "z6-active", "endIntervalId": "z7-all-in" }
+  ],
   "sequence": [
     { "type": "interval", "id": "warmup-z1", "name": "Easy build", "duration": 180, "powerZone": "Z1" },
     { "type": "interval", "id": "warmup-z2", "name": "Easy build", "duration": 120, "powerZone": "Z2" },
