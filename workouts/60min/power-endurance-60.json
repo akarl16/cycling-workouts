@@ -2,6 +2,16 @@
   "id": "power-endurance-60",
   "name": "Power Endurance",
   "description": "60-minute workout with warm-up, wave intervals, endurance block with varying intensities, flower climb, and spindown",
+  "videos": [
+    {
+      "id": "video-full-ride",
+      "name": "Full Ride",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YCUui9UU3R4",
+      "startTime": 0,
+      "triggerIntervalId": "warmup",
+      "endIntervalId": "spindown"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
