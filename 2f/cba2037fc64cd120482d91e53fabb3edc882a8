@@ -1,0 +1,19 @@
+workouts/60min/power-endurance-60.json
+  s_345a0a9a52fb60::t_2d4c2c8cf212f9 5-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2fcba2037fc64cd120482d91e53fabb3edc882a8",
+  "prompts": {},
+  "sessions": {
+    "s_345a0a9a52fb60": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "34c83f01-8a80-4789-b8d8-8de1206607a7",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
