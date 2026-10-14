@@ -18,7 +18,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=4CKuH_DFhNk",
       "startTime": 0,
       "triggerIntervalId": "race1-start",
-      "endIntervalId": "race3-finish"
+      "endIntervalId": "race3-flat-2"
     }
   ],
   "sequence": [
@@ -542,18 +542,9 @@
       "id": "race3-flat-2",
       "name": "Race 3: Fast flat",
       "powerZone": "Z4",
-      "duration": 40,
+      "duration": 60,
       "cadence": 100,
       "notes": "Race to the line"
-    },
-    {
-      "type": "interval",
-      "id": "race3-finish",
-      "name": "Race 3: Sprint to the line",
-      "powerZone": "Z6",
-      "duration": 20,
-      "cadence": 100,
-      "notes": "Sprint to the line"
     },
     {
       "type": "interval",
