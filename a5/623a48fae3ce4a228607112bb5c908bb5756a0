@@ -1,0 +1,19 @@
+workouts/50min/wisconsin-cx-50.json
+  s_e83b4e15c7100e::t_5d9b8465a88cd8 21,545
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a5623a48fae3ce4a228607112bb5c908bb5756a0",
+  "prompts": {},
+  "sessions": {
+    "s_e83b4e15c7100e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "370fc477-122a-4e53-a7ad-ebf1364832d3",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
