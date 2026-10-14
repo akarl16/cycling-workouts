@@ -1,0 +1,568 @@
+{
+  "id": "wisconsin-cx-50",
+  "name": "Wisconsin CX",
+  "description": "50-minute cyclocross course ridden four times: a preview lap, then three race laps with built-in downhill recoveries",
+  "totalDuration": 3000,
+  "videos": [
+    {
+      "id": "video-warmup-preview",
+      "name": "Warm-up and preview lap",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5PoKKnCwlys",
+      "startTime": 0,
+      "triggerIntervalId": "warmup-1",
+      "endIntervalId": "preview-flat-2"
+    },
+    {
+      "id": "video-race-laps",
+      "name": "Race laps",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4CKuH_DFhNk",
+      "startTime": 0,
+      "triggerIntervalId": "race1-start",
+      "endIntervalId": "race3-finish"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup-1",
+      "name": "Warm-up",
+      "powerZone": "Z1",
+      "duration": 180,
+      "notes": "Easy spin"
+    },
+    {
+      "type": "interval",
+      "id": "warmup-2",
+      "name": "Warm-up",
+      "powerZone": "Z2",
+      "duration": 90,
+      "cadence": 85
+    },
+    {
+      "type": "interval",
+      "id": "warmup-3",
+      "name": "Warm-up",
+      "powerZone": "Z3-",
+      "duration": 90,
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "warmup-4",
+      "name": "Warm-up",
+      "powerZone": "Z3+",
+      "duration": 60,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "warmup-5",
+      "name": "Warm-up",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "preview-start",
+      "name": "Preview: Start straight",
+      "powerZone": "Z2",
+      "duration": 30,
+      "cadence": 95,
+      "notes": "Seated"
+    },
+    {
+      "type": "block",
+      "id": "preview-corners",
+      "name": "Preview: Corners",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "preview-corner-sprint",
+          "name": "Preview: Corner sprint",
+          "powerZone": "Z4",
+          "duration": 10,
+          "cadence": 105,
+          "notes": "Standing"
+        },
+        {
+          "id": "preview-corner-settle",
+          "name": "Preview: Corner settle",
+          "powerZone": "Z2",
+          "duration": 20,
+          "cadence": 90,
+          "notes": "Seated"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "preview-downhill-1",
+      "name": "Preview: Downhill",
+      "powerZone": "Z1",
+      "duration": 45,
+      "cadence": 90,
+      "notes": "Seated, recover"
+    },
+    {
+      "type": "interval",
+      "id": "preview-sand",
+      "name": "Preview: Sand",
+      "powerZone": "Z3",
+      "duration": 60,
+      "cadence": 60,
+      "notes": "Seated, big gear"
+    },
+    {
+      "type": "interval",
+      "id": "preview-flat-1",
+      "name": "Preview: Fast flat",
+      "powerZone": "Z2",
+      "duration": 60,
+      "cadence": 100,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "preview-pitch",
+      "name": "Preview: Run-up pitch",
+      "powerZone": "Z3+",
+      "duration": 30,
+      "cadence": 85,
+      "notes": "Standing"
+    },
+    {
+      "type": "interval",
+      "id": "preview-climb-1",
+      "name": "Preview: Climb",
+      "powerZone": "Z3",
+      "duration": 60,
+      "cadence": 70,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "preview-climb-2",
+      "name": "Preview: Climb",
+      "powerZone": "Z3+",
+      "duration": 30,
+      "cadence": 70,
+      "notes": "Standing"
+    },
+    {
+      "type": "interval",
+      "id": "preview-climb-3",
+      "name": "Preview: Climb",
+      "powerZone": "Z3",
+      "duration": 30,
+      "cadence": 70,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "preview-downhill-2",
+      "name": "Preview: Downhill",
+      "powerZone": "Z1",
+      "duration": 45,
+      "cadence": 90,
+      "notes": "Seated, recover"
+    },
+    {
+      "type": "interval",
+      "id": "preview-flat-2",
+      "name": "Preview: Fast flat",
+      "powerZone": "Z2",
+      "duration": 60,
+      "cadence": 100,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "recover",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 120,
+      "notes": "Staging, get ready to race"
+    },
+    {
+      "type": "interval",
+      "id": "race1-start",
+      "name": "Race 1: Start straight",
+      "powerZone": "Z6",
+      "duration": 30,
+      "cadence": 95,
+      "notes": "Seated hole-shot sprint"
+    },
+    {
+      "type": "block",
+      "id": "race1-corners",
+      "name": "Race 1: Corners",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "race1-corner-sprint",
+          "name": "Race 1: Corner sprint",
+          "powerZone": "Z5",
+          "duration": 10,
+          "cadence": 105,
+          "notes": "Standing"
+        },
+        {
+          "id": "race1-corner-settle",
+          "name": "Race 1: Corner settle",
+          "powerZone": "Z2",
+          "duration": 20,
+          "cadence": 90,
+          "notes": "Seated"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "race1-downhill-1",
+      "name": "Race 1: Downhill",
+      "powerZone": "Z1",
+      "duration": 45,
+      "cadence": 90,
+      "notes": "Seated, recover"
+    },
+    {
+      "type": "interval",
+      "id": "race1-sand",
+      "name": "Race 1: Sand",
+      "powerZone": "Z4",
+      "duration": 60,
+      "cadence": 60,
+      "notes": "Seated, big gear"
+    },
+    {
+      "type": "interval",
+      "id": "race1-flat-1",
+      "name": "Race 1: Fast flat",
+      "powerZoneRange": {
+        "start": "Z2",
+        "end": "Z3"
+      },
+      "duration": 60,
+      "cadence": 100,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "race1-pitch",
+      "name": "Race 1: Run-up pitch",
+      "powerZone": "Z5",
+      "duration": 30,
+      "cadence": 85,
+      "notes": "Standing"
+    },
+    {
+      "type": "interval",
+      "id": "race1-climb-1",
+      "name": "Race 1: Climb",
+      "powerZone": "Z4",
+      "duration": 60,
+      "cadence": 70,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "race1-climb-2",
+      "name": "Race 1: Climb",
+      "powerZone": "Z4+",
+      "duration": 30,
+      "cadence": 70,
+      "notes": "Standing"
+    },
+    {
+      "type": "interval",
+      "id": "race1-climb-3",
+      "name": "Race 1: Climb",
+      "powerZone": "Z4",
+      "duration": 30,
+      "cadence": 70,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "race1-downhill-2",
+      "name": "Race 1: Downhill",
+      "powerZone": "Z1",
+      "duration": 45,
+      "cadence": 90,
+      "notes": "Seated, recover"
+    },
+    {
+      "type": "interval",
+      "id": "race1-flat-2",
+      "name": "Race 1: Fast flat",
+      "powerZoneRange": {
+        "start": "Z2",
+        "end": "Z3"
+      },
+      "duration": 60,
+      "cadence": 100,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "race2-start",
+      "name": "Race 2: Start straight",
+      "powerZoneRange": {
+        "start": "Z2",
+        "end": "Z3"
+      },
+      "duration": 30,
+      "cadence": 95,
+      "notes": "Seated"
+    },
+    {
+      "type": "block",
+      "id": "race2-corners",
+      "name": "Race 2: Corners",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "race2-corner-sprint",
+          "name": "Race 2: Corner sprint",
+          "powerZone": "Z5",
+          "duration": 10,
+          "cadence": 105,
+          "notes": "Standing"
+        },
+        {
+          "id": "race2-corner-settle",
+          "name": "Race 2: Corner settle",
+          "powerZone": "Z2",
+          "duration": 20,
+          "cadence": 90,
+          "notes": "Seated"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "race2-downhill-1",
+      "name": "Race 2: Downhill",
+      "powerZone": "Z1",
+      "duration": 45,
+      "cadence": 90,
+      "notes": "Seated, recover"
+    },
+    {
+      "type": "interval",
+      "id": "race2-sand",
+      "name": "Race 2: Sand",
+      "powerZone": "Z4",
+      "duration": 60,
+      "cadence": 60,
+      "notes": "Seated, big gear"
+    },
+    {
+      "type": "interval",
+      "id": "race2-flat-1",
+      "name": "Race 2: Fast flat",
+      "powerZoneRange": {
+        "start": "Z2",
+        "end": "Z3"
+      },
+      "duration": 60,
+      "cadence": 100,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "race2-pitch",
+      "name": "Race 2: Run-up pitch",
+      "powerZone": "Z5",
+      "duration": 30,
+      "cadence": 85,
+      "notes": "Standing"
+    },
+    {
+      "type": "interval",
+      "id": "race2-climb-1",
+      "name": "Race 2: Climb",
+      "powerZone": "Z4",
+      "duration": 60,
+      "cadence": 70,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "race2-climb-2",
+      "name": "Race 2: Climb",
+      "powerZone": "Z4+",
+      "duration": 30,
+      "cadence": 70,
+      "notes": "Standing"
+    },
+    {
+      "type": "interval",
+      "id": "race2-climb-3",
+      "name": "Race 2: Climb",
+      "powerZone": "Z4",
+      "duration": 30,
+      "cadence": 70,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "race2-downhill-2",
+      "name": "Race 2: Downhill",
+      "powerZone": "Z1",
+      "duration": 45,
+      "cadence": 90,
+      "notes": "Seated, recover"
+    },
+    {
+      "type": "interval",
+      "id": "race2-flat-2",
+      "name": "Race 2: Fast flat",
+      "powerZoneRange": {
+        "start": "Z2",
+        "end": "Z3"
+      },
+      "duration": 60,
+      "cadence": 100,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "race3-start",
+      "name": "Race 3: Start straight",
+      "powerZoneRange": {
+        "start": "Z2",
+        "end": "Z3"
+      },
+      "duration": 30,
+      "cadence": 95,
+      "notes": "Seated"
+    },
+    {
+      "type": "block",
+      "id": "race3-corners",
+      "name": "Race 3: Corners",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "race3-corner-sprint",
+          "name": "Race 3: Corner sprint",
+          "powerZone": "Z5",
+          "duration": 10,
+          "cadence": 105,
+          "notes": "Standing"
+        },
+        {
+          "id": "race3-corner-settle",
+          "name": "Race 3: Corner settle",
+          "powerZone": "Z2",
+          "duration": 20,
+          "cadence": 90,
+          "notes": "Seated"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "race3-downhill-1",
+      "name": "Race 3: Downhill",
+      "powerZone": "Z1",
+      "duration": 45,
+      "cadence": 90,
+      "notes": "Seated, recover"
+    },
+    {
+      "type": "interval",
+      "id": "race3-sand",
+      "name": "Race 3: Sand",
+      "powerZone": "Z4",
+      "duration": 60,
+      "cadence": 60,
+      "notes": "Seated, big gear"
+    },
+    {
+      "type": "interval",
+      "id": "race3-flat-1",
+      "name": "Race 3: Fast flat",
+      "powerZoneRange": {
+        "start": "Z2",
+        "end": "Z3"
+      },
+      "duration": 60,
+      "cadence": 100,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "race3-pitch",
+      "name": "Race 3: Run-up pitch",
+      "powerZone": "Z5",
+      "duration": 30,
+      "cadence": 85,
+      "notes": "Standing"
+    },
+    {
+      "type": "interval",
+      "id": "race3-climb-1",
+      "name": "Race 3: Climb",
+      "powerZone": "Z4",
+      "duration": 60,
+      "cadence": 70,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "race3-climb-2",
+      "name": "Race 3: Climb",
+      "powerZone": "Z4+",
+      "duration": 30,
+      "cadence": 70,
+      "notes": "Standing"
+    },
+    {
+      "type": "interval",
+      "id": "race3-climb-3",
+      "name": "Race 3: Climb",
+      "powerZone": "Z4",
+      "duration": 30,
+      "cadence": 70,
+      "notes": "Seated"
+    },
+    {
+      "type": "interval",
+      "id": "race3-downhill-2",
+      "name": "Race 3: Downhill",
+      "powerZone": "Z1",
+      "duration": 45,
+      "cadence": 90,
+      "notes": "Seated, recover"
+    },
+    {
+      "type": "interval",
+      "id": "race3-flat-2",
+      "name": "Race 3: Fast flat",
+      "powerZone": "Z4",
+      "duration": 40,
+      "cadence": 100,
+      "notes": "Race to the line"
+    },
+    {
+      "type": "interval",
+      "id": "race3-finish",
+      "name": "Race 3: Sprint to the line",
+      "powerZone": "Z6",
+      "duration": 20,
+      "cadence": 100,
+      "notes": "Sprint to the line"
+    },
+    {
+      "type": "interval",
+      "id": "cooldown",
+      "name": "Cool-down",
+      "powerZone": "Z1",
+      "duration": 240,
+      "notes": "Easy spin"
+    }
+  ],
+  "isSample": false
+}
