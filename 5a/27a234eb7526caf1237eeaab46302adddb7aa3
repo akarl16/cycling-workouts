@@ -1,0 +1,19 @@
+workouts/60min/shift-mode-with-ftp-prep-60.json
+  s_e83b4e15c7100e::t_0a8b753e501fe8 1-227
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5a27a234eb7526caf1237eeaab46302adddb7aa3",
+  "prompts": {},
+  "sessions": {
+    "s_e83b4e15c7100e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "370fc477-122a-4e53-a7ad-ebf1364832d3",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
