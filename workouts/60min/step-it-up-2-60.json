@@ -1,0 +1,143 @@
+{
+  "id": "step-it-up-2-60",
+  "name": "Step It Up 2",
+  "description": "Three progressive step-up sets (Z3 to Z4+) each followed by a five-minute Z2 reset that builds cadence 5 rpm per minute, with a ramping primer up front and an overgear/fast-cadence combo at the end.",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy",
+      "duration": 300,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Step up primers Z2",
+      "duration": 120,
+      "powerZone": "Z2",
+      "cadence": 80
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Step up primers Z3",
+      "duration": 120,
+      "powerZone": "Z3",
+      "cadence": 85
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Step up primers Z3+",
+      "duration": 120,
+      "powerZone": "Z3+",
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Step up primers Z4-",
+      "duration": 60,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Step up primers Z4",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "block",
+      "id": "step-set",
+      "name": "Step Set",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "step-z3",
+          "name": "Step Z3",
+          "duration": 90,
+          "powerZone": "Z3"
+        },
+        {
+          "id": "step-z3p",
+          "name": "Step Z3+",
+          "duration": 90,
+          "powerZone": "Z3+"
+        },
+        {
+          "id": "step-z4m-1",
+          "name": "Step Z4-",
+          "duration": 90,
+          "powerZone": "Z4-"
+        },
+        {
+          "id": "step-z4m-2",
+          "name": "Step Z4- hold",
+          "duration": 90,
+          "powerZone": "Z4-"
+        },
+        {
+          "id": "step-z4p",
+          "name": "Step Z4+",
+          "duration": 90,
+          "powerZone": "Z4+"
+        },
+        {
+          "id": "step-reset",
+          "name": "Reset, +5 rpm per min",
+          "duration": 300,
+          "powerZone": "Z2"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Easy spin",
+      "duration": 60,
+      "powerZone": "Z1",
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Overgear",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Fast cadence",
+      "duration": 60,
+      "powerZone": "Z2",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Z3 finish",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Cool down",
+      "duration": 90,
+      "powerZone": "Z1"
+    }
+  ],
+  "isSample": false
+}
