@@ -1,0 +1,19 @@
+workouts/60min/step-it-up-2-60.json
+  s_f0b4eebf26e7c4::t_044dffcb130ce4 1-143
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "312e6b05df1458da0c0b0d754d604e700a998028",
+  "prompts": {},
+  "sessions": {
+    "s_f0b4eebf26e7c4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "22f19971-cd07-5550-89a2-48d8a14f9875",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
