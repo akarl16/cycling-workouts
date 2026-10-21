@@ -1,0 +1,19 @@
+workouts/50min/dude-wheres-my-zone-50.json
+  s_e83b4e15c7100e::t_9ab1c1d446bc19 1-279
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "103e05e2cd33fb05ee0b8d3b9762f35e1d302a93",
+  "prompts": {},
+  "sessions": {
+    "s_e83b4e15c7100e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "370fc477-122a-4e53-a7ad-ebf1364832d3",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
