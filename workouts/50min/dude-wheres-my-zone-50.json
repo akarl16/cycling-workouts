@@ -1,0 +1,279 @@
+{
+  "id": "dude-wheres-my-zone-50",
+  "name": "Dude, where's my zone?",
+  "description": "50-minute tour of the power zones: builds, tempo, threshold, VO2 max, anaerobic and neuromuscular efforts in turn, each with its own recovery.",
+  "totalDuration": 3000,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup-z1",
+      "name": "Warm-up",
+      "powerZone": "Z1",
+      "duration": 240
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z2",
+      "name": "Warm-up",
+      "powerZone": "Z2",
+      "duration": 120
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z3",
+      "name": "Warm-up",
+      "powerZone": "Z3",
+      "duration": 120
+    },
+    {
+      "type": "block",
+      "id": "build",
+      "name": "Builds",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "build-z2",
+          "name": "Build Z2",
+          "powerZone": "Z2",
+          "duration": 30
+        },
+        {
+          "id": "build-z4",
+          "name": "Build Z4",
+          "powerZone": "Z4",
+          "duration": 60
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "build-z2-final",
+      "name": "Build Z2",
+      "powerZone": "Z2",
+      "duration": 30
+    },
+    {
+      "type": "interval",
+      "id": "build-z5",
+      "name": "Build Z5",
+      "powerZone": "Z5",
+      "duration": 30
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 120
+    },
+    {
+      "type": "interval",
+      "id": "tempo-1",
+      "name": "Tempo",
+      "powerZone": "Z3",
+      "duration": 120,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "tempo-1-rec",
+      "name": "Tempo recover",
+      "powerZone": "Z2",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "tempo-2",
+      "name": "Tempo",
+      "powerZone": "Z3",
+      "duration": 120,
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "tempo-2-rec",
+      "name": "Tempo recover",
+      "powerZone": "Z2",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "tempo-3",
+      "name": "Tempo",
+      "powerZone": "Z3",
+      "duration": 120,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "tempo-3-rec",
+      "name": "Tempo recover",
+      "powerZone": "Z2",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "threshold-1",
+      "name": "Threshold",
+      "powerZone": "Z4",
+      "duration": 60,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "threshold-1-rec",
+      "name": "Threshold recover",
+      "powerZone": "Z2",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "threshold-2",
+      "name": "Threshold",
+      "powerZone": "Z4",
+      "duration": 60,
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "threshold-2-rec",
+      "name": "Threshold recover",
+      "powerZone": "Z2",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "threshold-3",
+      "name": "Threshold",
+      "powerZone": "Z4",
+      "duration": 60,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "threshold-3-rec",
+      "name": "Threshold recover",
+      "powerZone": "Z2",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "recover-3",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 120
+    },
+    {
+      "type": "block",
+      "id": "vo2",
+      "name": "VO2 Max",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "vo2-on",
+          "name": "VO2 Max",
+          "powerZone": "Z5",
+          "duration": 30
+        },
+        {
+          "id": "vo2-off",
+          "name": "VO2 recover",
+          "powerZone": "Z2",
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-4",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 120
+    },
+    {
+      "type": "block",
+      "id": "anaerobic",
+      "name": "Anaerobic",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "anaerobic-off",
+          "name": "Anaerobic recover",
+          "powerZone": "Z1",
+          "duration": 40
+        },
+        {
+          "id": "anaerobic-on",
+          "name": "Anaerobic",
+          "powerZone": "Z6",
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "neuromuscular-easy",
+      "name": "Neuromuscular",
+      "powerZone": "Z1",
+      "duration": 145
+    },
+    {
+      "type": "interval",
+      "id": "neuromuscular-sprint",
+      "name": "Neuromuscular",
+      "powerZone": "Z7",
+      "duration": 10
+    },
+    {
+      "type": "interval",
+      "id": "neuromuscular-recover",
+      "name": "Neuromuscular recover",
+      "powerZone": "Z1",
+      "duration": 90
+    },
+    {
+      "type": "interval",
+      "id": "neuromuscular-sprint-2",
+      "name": "Neuromuscular",
+      "powerZone": "Z7",
+      "duration": 10
+    },
+    {
+      "type": "interval",
+      "id": "recover-5",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "cooldown-1",
+      "name": "Cool-down",
+      "powerZone": "Z2",
+      "duration": 120,
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "cooldown-2",
+      "name": "Cool-down",
+      "powerZone": "Z2",
+      "duration": 120
+    },
+    {
+      "type": "interval",
+      "id": "cooldown-3",
+      "name": "Cool-down",
+      "powerZone": "Z1",
+      "duration": 45
+    }
+  ],
+  "isSample": false
+}
