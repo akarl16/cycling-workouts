@@ -1,0 +1,412 @@
+{
+  "id": "killer-minutes-50",
+  "name": "Killer Minutes",
+  "description": "50-minute ride: zone ramps, then high-cadence, low-cadence and climbing blocks of one-minute efforts, finishing with a 90-second Z4 closer.",
+  "totalDuration": 3000,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "easy-01",
+      "name": "Easy Spin",
+      "powerZone": "Z1",
+      "duration": 180
+    },
+    {
+      "type": "interval",
+      "id": "easy-02",
+      "name": "Easy Spin",
+      "powerZone": "Z2",
+      "duration": 180
+    },
+    {
+      "type": "interval",
+      "id": "ramp-03",
+      "name": "Ramp Z2",
+      "powerZone": "Z2",
+      "duration": 30,
+      "notes": "Fast cadence",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "ramp-04",
+      "name": "Ramp Z2 recover",
+      "powerZone": "Z1",
+      "duration": 30,
+      "notes": "Slow cadence",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "ramp-05",
+      "name": "Ramp Z3",
+      "powerZone": "Z3",
+      "duration": 30,
+      "notes": "Fast cadence",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "ramp-06",
+      "name": "Ramp Z3 recover",
+      "powerZone": "Z2",
+      "duration": 30,
+      "notes": "Slow cadence",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "ramp-07",
+      "name": "Ramp Z4",
+      "powerZone": "Z4",
+      "duration": 30,
+      "notes": "Fast cadence",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "ramp-08",
+      "name": "Ramp Z4 recover",
+      "powerZone": "Z2",
+      "duration": 30,
+      "notes": "Slow cadence",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "ramp-09",
+      "name": "Ramp Z5",
+      "powerZone": "Z5",
+      "duration": 30,
+      "notes": "Fast cadence",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "ramp-10",
+      "name": "Ramp Z5 recover",
+      "powerZone": "Z2",
+      "duration": 30,
+      "notes": "Slow cadence",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "ramp-11",
+      "name": "Ramp Z6",
+      "powerZone": "Z6",
+      "duration": 30,
+      "notes": "Fast cadence",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "ramp-12",
+      "name": "Ramp Z6 recover",
+      "powerZone": "Z1",
+      "duration": 30,
+      "notes": "Slow cadence",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "recover-13",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 120
+    },
+    {
+      "type": "interval",
+      "id": "highcad-14",
+      "name": "High Cadence block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "notes": "Cadence 90-100",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "highcad-15",
+      "name": "High Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 70-80",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "highcad-16",
+      "name": "High Cadence block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "notes": "Cadence 95-105",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "highcad-17",
+      "name": "High Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 70-80",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "highcad-18",
+      "name": "High Cadence block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "notes": "Cadence 100-110",
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "highcad-19",
+      "name": "High Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 70-80",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "highcad-20",
+      "name": "High Cadence block",
+      "powerZone": "Z4",
+      "duration": 60,
+      "notes": "Cadence 105-115",
+      "cadence": 110
+    },
+    {
+      "type": "interval",
+      "id": "highcad-21",
+      "name": "High Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 70-80",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "highcad-22",
+      "name": "High Cadence block",
+      "powerZone": "Z4",
+      "duration": 60,
+      "notes": "Cadence 110-120",
+      "cadence": 115
+    },
+    {
+      "type": "interval",
+      "id": "highcad-23",
+      "name": "High Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 70-80",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "recover-24",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-25",
+      "name": "Low Cadence block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "cadence": 80
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-26",
+      "name": "Low Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 90-100",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-27",
+      "name": "Low Cadence block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "cadence": 70
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-28",
+      "name": "Low Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 90-100",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-29",
+      "name": "Low Cadence block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-30",
+      "name": "Low Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 90-100",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-31",
+      "name": "Low Cadence block",
+      "powerZone": "Z4",
+      "duration": 60,
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-32",
+      "name": "Low Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 90-100",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-33",
+      "name": "Low Cadence block",
+      "powerZone": "Z4",
+      "duration": 60,
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-34",
+      "name": "Low Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 90-100",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "recover-35",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "climb-36",
+      "name": "Climbing block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "notes": "Standing, cadence your choice"
+    },
+    {
+      "type": "interval",
+      "id": "climb-37",
+      "name": "Climbing recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "climb-38",
+      "name": "Climbing block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "notes": "Seated, cadence your choice"
+    },
+    {
+      "type": "interval",
+      "id": "climb-39",
+      "name": "Climbing recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "climb-40",
+      "name": "Climbing block",
+      "powerZone": "Z4",
+      "duration": 60,
+      "notes": "Standing, cadence your choice"
+    },
+    {
+      "type": "interval",
+      "id": "climb-41",
+      "name": "Climbing recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "climb-42",
+      "name": "Climbing block",
+      "powerZone": "Z4",
+      "duration": 60,
+      "notes": "Seated, cadence your choice"
+    },
+    {
+      "type": "interval",
+      "id": "climb-43",
+      "name": "Climbing recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "climb-44",
+      "name": "Climbing block",
+      "powerZone": "Z5",
+      "duration": 60,
+      "notes": "Standing, cadence your choice"
+    },
+    {
+      "type": "interval",
+      "id": "climb-45",
+      "name": "Climbing recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "closer-46",
+      "name": "Closer",
+      "powerZone": "Z2",
+      "duration": 30
+    },
+    {
+      "type": "interval",
+      "id": "closer-47",
+      "name": "Closer",
+      "powerZone": "Z4",
+      "duration": 90
+    },
+    {
+      "type": "interval",
+      "id": "cooldown-48",
+      "name": "Cooldown",
+      "powerZone": "Z2",
+      "duration": 120
+    },
+    {
+      "type": "interval",
+      "id": "cooldown-49",
+      "name": "Cooldown",
+      "powerZone": "Z1",
+      "duration": 60
+    }
+  ],
+  "isSample": false
+}
