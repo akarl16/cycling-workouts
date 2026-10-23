@@ -27,9 +27,9 @@
     {
       "type": "interval",
       "id": "warmup4",
-      "name": "Slow Build - Z1 (short)",
+      "name": "Slow Build - Z2 (short)",
       "duration": 30,
-      "powerZone": 1
+      "powerZone": 2
     },
     {
       "type": "block",
