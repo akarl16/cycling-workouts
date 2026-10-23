@@ -103,9 +103,9 @@
         },
         {
           "id": "dec3",
-          "name": "Easy - Z1",
+          "name": "Easy - Z2",
           "duration": 30,
-          "powerZone": 1
+          "powerZone": 2
         }
       ]
     },
@@ -152,9 +152,9 @@
         },
         {
           "id": "dec3",
-          "name": "Easy - Z1",
+          "name": "Easy - Z2",
           "duration": 30,
-          "powerZone": 1
+          "powerZone": 2
         }
       ]
     },
