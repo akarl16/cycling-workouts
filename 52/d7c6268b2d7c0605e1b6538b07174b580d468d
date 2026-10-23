@@ -1,0 +1,19 @@
+workouts/60min/endurance-playground-60.json
+  s_19372ad68bf5e9::t_0bbe039355ec7c 106,108,155,157
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "52d7c6268b2d7c0605e1b6538b07174b580d468d",
+  "prompts": {},
+  "sessions": {
+    "s_19372ad68bf5e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8fe1d421-0c92-4706-a56c-e3eea4ed4de8",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
