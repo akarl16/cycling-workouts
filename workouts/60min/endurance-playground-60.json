@@ -17,14 +17,16 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=MnQHOp5DQRQ",
       "startTime": 4,
       "triggerIntervalId": "warmup2",
-      "endIntervalId": "warmup3a"
+      "endIntervalId": "warmup3",
+      "endOffset": 17
     },
     {
       "id": "video-daisy",
       "name": "DAISY",
       "youtubeUrl": "https://www.youtube.com/watch?v=lse7v84UKzI",
-      "startTime": 3,
-      "triggerIntervalId": "warmup3b",
+      "startTime": 0,
+      "triggerIntervalId": "warmup3",
+      "triggerOffset": 17,
       "endIntervalId": "warmup4"
     },
     {
@@ -48,16 +50,18 @@
       "name": "Spirits (MC4D Version)",
       "youtubeUrl": "https://www.youtube.com/watch?v=3TX6h8JS0do",
       "startTime": 3,
-      "triggerIntervalId": "ss1a",
-      "endIntervalId": "ss1a"
+      "triggerIntervalId": "ss1",
+      "endIntervalId": "ss1",
+      "endOffset": 226
     },
     {
       "id": "video-new-dimension",
       "name": "New Dimension",
       "youtubeUrl": "https://www.youtube.com/watch?v=FrtEWyngzBI",
       "startTime": 0,
-      "triggerIntervalId": "ss1b",
-      "endIntervalId": "ss1b"
+      "triggerIntervalId": "ss1",
+      "triggerOffset": 226,
+      "endIntervalId": "ss1"
     },
     {
       "id": "video-the-riptide",
@@ -88,16 +92,18 @@
       "name": "Chillin' Like a Villain",
       "youtubeUrl": "https://www.youtube.com/watch?v=tSDcbucrWmw",
       "startTime": 0,
-      "triggerIntervalId": "ss2a",
-      "endIntervalId": "ss2a"
+      "triggerIntervalId": "ss2",
+      "endIntervalId": "ss2",
+      "endOffset": 186
     },
     {
       "id": "video-ghostbusters-hard-rock-version",
       "name": "Ghostbusters - Hard Rock Version",
       "youtubeUrl": "https://www.youtube.com/watch?v=wWFl-dxfnKU",
       "startTime": 0,
-      "triggerIntervalId": "ss2b",
-      "endIntervalId": "ss2b"
+      "triggerIntervalId": "ss2",
+      "triggerOffset": 186,
+      "endIntervalId": "ss2"
     },
     {
       "id": "video-surface-pressure",
@@ -136,16 +142,18 @@
       "name": "Sweet Dreams (Are Made of This)",
       "youtubeUrl": "https://www.youtube.com/watch?v=9A2d2-V-4as",
       "startTime": 2,
-      "triggerIntervalId": "ss3a",
-      "endIntervalId": "ss3a"
+      "triggerIntervalId": "ss3",
+      "endIntervalId": "ss3",
+      "endOffset": 160
     },
     {
       "id": "video-we-pray",
       "name": "WE PRAY - TINI's Live Version",
       "youtubeUrl": "https://www.youtube.com/watch?v=mTnb4NoNdmU",
       "startTime": 0,
-      "triggerIntervalId": "ss3b",
-      "endIntervalId": "ss3b"
+      "triggerIntervalId": "ss3",
+      "triggerOffset": 160,
+      "endIntervalId": "ss3"
     },
     {
       "id": "video-means-to-an-end",
@@ -173,16 +181,9 @@
     },
     {
       "type": "interval",
-      "id": "warmup3a",
-      "name": "Slow Build - Z3 (1/2)",
-      "duration": 20,
-      "powerZone": 3
-    },
-    {
-      "type": "interval",
-      "id": "warmup3b",
-      "name": "Slow Build - Z3 (2/2)",
-      "duration": 100,
+      "id": "warmup3",
+      "name": "Slow Build - Z3",
+      "duration": 120,
       "powerZone": 3
     },
     {
@@ -230,16 +231,9 @@
     },
     {
       "type": "interval",
-      "id": "ss1a",
-      "name": "Steady State - Z3 (1/2)",
-      "duration": 225,
-      "powerZone": "Z3"
-    },
-    {
-      "type": "interval",
-      "id": "ss1b",
-      "name": "Steady State - Z3 (2/2)",
-      "duration": 195,
+      "id": "ss1",
+      "name": "Steady State - Z3",
+      "duration": 420,
       "powerZone": "Z3"
     },
     {
@@ -286,16 +280,9 @@
     },
     {
       "type": "interval",
-      "id": "ss2a",
-      "name": "Steady State - Z3+ (1/2)",
-      "duration": 185,
-      "powerZone": "Z3+"
-    },
-    {
-      "type": "interval",
-      "id": "ss2b",
-      "name": "Steady State - Z3+ (2/2)",
-      "duration": 235,
+      "id": "ss2",
+      "name": "Steady State - Z3+",
+      "duration": 420,
       "powerZone": "Z3+"
     },
     {
@@ -342,16 +329,9 @@
     },
     {
       "type": "interval",
-      "id": "ss3a",
-      "name": "Steady State - Z4- (1/2)",
-      "duration": 160,
-      "powerZone": "Z4-"
-    },
-    {
-      "type": "interval",
-      "id": "ss3b",
-      "name": "Steady State - Z4- (2/2)",
-      "duration": 260,
+      "id": "ss3",
+      "name": "Steady State - Z4-",
+      "duration": 420,
       "powerZone": "Z4-"
     },
     {

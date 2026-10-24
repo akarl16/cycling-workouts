@@ -25,12 +25,32 @@ Workouts support an optional `videos` array for interval-synced video playback i
 | `vimeoUrl` | No* | Full Vimeo URL |
 | `startTime` | No | Seconds into the video to seek to on trigger (default: 0) — **ignored for playlist URLs** |
 | `triggerIntervalId` | Yes | Interval ID that starts the video |
+| `triggerOffset` | No | Seconds into the trigger interval at which the video starts (default: 0, the start of the interval). Lets a video start mid-interval, so long intervals don't have to be split. |
 | `endIntervalId` | No | Interval ID where video stops (inclusive) |
+| `endOffset` | No | Seconds into the end interval at which the video stops (default: the end of that interval) |
 | `audioSource` | No | `"spotify"` (default) keeps the video muted and lets Spotify play. `"video"` unmutes the video and pauses Spotify for the duration of this segment; Spotify resumes when the next non-`"video"` segment begins. YouTube only. |
 
 > **Playlist URLs**: If `youtubeUrl` contains `&list=`, the app does not seek — YouTube manages track progression. `startTime` has no effect. A single entry spanning the whole workout works correctly; scrubbing does not reposition the playlist.
 
 *One of `youtubeUrl` or `vimeoUrl` must be provided.
+
+## Starting and Stopping Mid-Interval
+
+`triggerOffset` and `endOffset` move the start and stop of a video to a point inside an interval. Use them to line a video up with a song that starts partway through a long steady-state interval, instead of splitting the interval in two.
+
+- Both are in seconds, measured from the **start of that interval**.
+- `triggerOffset` applies to the trigger interval; `endOffset` applies to the end interval.
+- Leave them out and nothing changes: the video starts when the trigger interval starts and plays through the end interval.
+- They are ignored when `intervalIds` is used.
+- A video with a `triggerOffset` loads about 30 seconds before it starts.
+- `startTime` still seeks into the video itself. The offsets only decide *when in the workout* it plays.
+
+Example: a song starts 3:46 (226s) into a 7-minute interval `ss1`, and the previous video should stop at that moment:
+
+```json
+{ "id": "video-spirits", "youtubeUrl": "...", "triggerIntervalId": "ss1", "endIntervalId": "ss1", "endOffset": 226 },
+{ "id": "video-new-dimension", "youtubeUrl": "...", "triggerIntervalId": "ss1", "triggerOffset": 226, "endIntervalId": "ss1" }
+```
 
 ## Block Expansion
 
