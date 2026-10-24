@@ -2,6 +2,128 @@
   "id": "endurance-playground-60",
   "name": "Endurance Playground",
   "source": "shortened-from-endurance-playground-90",
+  "videos": [
+    {
+      "id": "video-still-young",
+      "name": "Still Young",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AL4AlDI89yk",
+      "startTime": 0,
+      "triggerIntervalId": "warmup1",
+      "endIntervalId": "warmup1"
+    },
+    {
+      "id": "video-dance-this-night-away",
+      "name": "Dance This Night Away",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MnQHOp5DQRQ",
+      "startTime": 4,
+      "triggerIntervalId": "warmup2",
+      "endIntervalId": "warmup2"
+    },
+    {
+      "id": "video-beat-it",
+      "name": "Beat It",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GaHpG6IiQUU",
+      "startTime": 0,
+      "triggerIntervalId": "acc1-block-accelerations-rep-1",
+      "endIntervalId": "acc3-block-accelerations-rep-5"
+    },
+    {
+      "id": "video-for-the-vibe",
+      "name": "For the Vibe",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SAvamW4s60A",
+      "startTime": 0,
+      "triggerIntervalId": "recovery1",
+      "endIntervalId": "recovery1"
+    },
+    {
+      "id": "video-spirits-mc4d-version",
+      "name": "Spirits (MC4D Version)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3TX6h8JS0do",
+      "startTime": 3,
+      "triggerIntervalId": "ss1",
+      "endIntervalId": "ss1"
+    },
+    {
+      "id": "video-the-riptide",
+      "name": "The Riptide - Sol Ruca Theme",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Z_7FKTPEOMk",
+      "startTime": 0,
+      "triggerIntervalId": "dec1-block-decelerations1-rep-1",
+      "endIntervalId": "dec3-block-decelerations1-rep-1"
+    },
+    {
+      "id": "video-pokemon-2026",
+      "name": "Pokémon (2026)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lnY2eCp-gnU",
+      "startTime": 10,
+      "triggerIntervalId": "dec1-block-decelerations1-rep-2",
+      "endIntervalId": "dec3-block-decelerations1-rep-2"
+    },
+    {
+      "id": "video-dark-winter",
+      "name": "Dark Winter",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SIu-30vQG3A",
+      "startTime": 0,
+      "triggerIntervalId": "recovery2",
+      "endIntervalId": "recovery2"
+    },
+    {
+      "id": "video-chillin-like-a-villain",
+      "name": "Chillin' Like a Villain",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tSDcbucrWmw",
+      "startTime": 0,
+      "triggerIntervalId": "ss2",
+      "endIntervalId": "ss2"
+    },
+    {
+      "id": "video-surface-pressure",
+      "name": "Surface Pressure",
+      "youtubeUrl": "https://www.youtube.com/watch?v=b6RDxzAEZe8",
+      "startTime": 0,
+      "triggerIntervalId": "transition2",
+      "endIntervalId": "transition2"
+    },
+    {
+      "id": "video-friend-like-me",
+      "name": "Friend Like Me",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CLfhC5FK3_s",
+      "startTime": 1,
+      "triggerIntervalId": "dec1-block-decelerations2-rep-1",
+      "endIntervalId": "dec3-block-decelerations2-rep-1"
+    },
+    {
+      "id": "video-here-we-go-now",
+      "name": "Here We Go Now",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2cH8q51IS1A",
+      "startTime": 2,
+      "triggerIntervalId": "dec1-block-decelerations2-rep-2",
+      "endIntervalId": "dec3-block-decelerations2-rep-2"
+    },
+    {
+      "id": "video-choka-choka",
+      "name": "Choka Choka",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ACNG385oWbc",
+      "startTime": 4,
+      "triggerIntervalId": "recovery3",
+      "endIntervalId": "recovery3"
+    },
+    {
+      "id": "video-sweet-dreams-are-made-of-this",
+      "name": "Sweet Dreams (Are Made of This)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9A2d2-V-4as",
+      "startTime": 2,
+      "triggerIntervalId": "ss3",
+      "endIntervalId": "ss3"
+    },
+    {
+      "id": "video-means-to-an-end",
+      "name": "Means to an End",
+      "youtubeUrl": "https://www.youtube.com/watch?v=E5ni0_plVKQ",
+      "startTime": 0,
+      "triggerIntervalId": "finale",
+      "endIntervalId": "finale"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
