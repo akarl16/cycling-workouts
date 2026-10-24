@@ -17,7 +17,15 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=MnQHOp5DQRQ",
       "startTime": 4,
       "triggerIntervalId": "warmup2",
-      "endIntervalId": "warmup2"
+      "endIntervalId": "warmup3a"
+    },
+    {
+      "id": "video-daisy",
+      "name": "DAISY",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lse7v84UKzI",
+      "startTime": 3,
+      "triggerIntervalId": "warmup3b",
+      "endIntervalId": "warmup4"
     },
     {
       "id": "video-beat-it",
@@ -40,8 +48,16 @@
       "name": "Spirits (MC4D Version)",
       "youtubeUrl": "https://www.youtube.com/watch?v=3TX6h8JS0do",
       "startTime": 3,
-      "triggerIntervalId": "ss1",
-      "endIntervalId": "ss1"
+      "triggerIntervalId": "ss1a",
+      "endIntervalId": "ss1a"
+    },
+    {
+      "id": "video-new-dimension",
+      "name": "New Dimension",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FrtEWyngzBI",
+      "startTime": 0,
+      "triggerIntervalId": "ss1b",
+      "endIntervalId": "ss1b"
     },
     {
       "id": "video-the-riptide",
@@ -72,8 +88,16 @@
       "name": "Chillin' Like a Villain",
       "youtubeUrl": "https://www.youtube.com/watch?v=tSDcbucrWmw",
       "startTime": 0,
-      "triggerIntervalId": "ss2",
-      "endIntervalId": "ss2"
+      "triggerIntervalId": "ss2a",
+      "endIntervalId": "ss2a"
+    },
+    {
+      "id": "video-ghostbusters-hard-rock-version",
+      "name": "Ghostbusters - Hard Rock Version",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wWFl-dxfnKU",
+      "startTime": 0,
+      "triggerIntervalId": "ss2b",
+      "endIntervalId": "ss2b"
     },
     {
       "id": "video-surface-pressure",
@@ -112,8 +136,16 @@
       "name": "Sweet Dreams (Are Made of This)",
       "youtubeUrl": "https://www.youtube.com/watch?v=9A2d2-V-4as",
       "startTime": 2,
-      "triggerIntervalId": "ss3",
-      "endIntervalId": "ss3"
+      "triggerIntervalId": "ss3a",
+      "endIntervalId": "ss3a"
+    },
+    {
+      "id": "video-we-pray",
+      "name": "WE PRAY - TINI's Live Version",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mTnb4NoNdmU",
+      "startTime": 0,
+      "triggerIntervalId": "ss3b",
+      "endIntervalId": "ss3b"
     },
     {
       "id": "video-means-to-an-end",
@@ -141,9 +173,16 @@
     },
     {
       "type": "interval",
-      "id": "warmup3",
-      "name": "Slow Build - Z3",
-      "duration": 120,
+      "id": "warmup3a",
+      "name": "Slow Build - Z3 (1/2)",
+      "duration": 20,
+      "powerZone": 3
+    },
+    {
+      "type": "interval",
+      "id": "warmup3b",
+      "name": "Slow Build - Z3 (2/2)",
+      "duration": 100,
       "powerZone": 3
     },
     {
@@ -191,9 +230,16 @@
     },
     {
       "type": "interval",
-      "id": "ss1",
-      "name": "Steady State - Z3",
-      "duration": 420,
+      "id": "ss1a",
+      "name": "Steady State - Z3 (1/2)",
+      "duration": 225,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "ss1b",
+      "name": "Steady State - Z3 (2/2)",
+      "duration": 195,
       "powerZone": "Z3"
     },
     {
@@ -240,9 +286,16 @@
     },
     {
       "type": "interval",
-      "id": "ss2",
-      "name": "Steady State - Z3+",
-      "duration": 420,
+      "id": "ss2a",
+      "name": "Steady State - Z3+ (1/2)",
+      "duration": 185,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "ss2b",
+      "name": "Steady State - Z3+ (2/2)",
+      "duration": 235,
       "powerZone": "Z3+"
     },
     {
@@ -289,9 +342,16 @@
     },
     {
       "type": "interval",
-      "id": "ss3",
-      "name": "Steady State - Z4-",
-      "duration": 420,
+      "id": "ss3a",
+      "name": "Steady State - Z4- (1/2)",
+      "duration": 160,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "ss3b",
+      "name": "Steady State - Z4- (2/2)",
+      "duration": 260,
       "powerZone": "Z4-"
     },
     {
