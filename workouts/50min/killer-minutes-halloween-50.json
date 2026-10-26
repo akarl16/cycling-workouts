@@ -162,17 +162,7 @@
       "triggerIntervalId": "climb-43",
       "triggerOffset": 10,
       "endIntervalId": "climb-45",
-      "endOffset": 1
-    },
-    {
-      "id": "video-the-ballad-of-the-witches-road-sacred-chant-version",
-      "name": "The Ballad of the Witches' Road (Sacred Chant Version)",
-      "youtubeUrl": "https://www.youtube.com/watch?v=ZKl_aokaQEw",
-      "startTime": 0,
-      "triggerIntervalId": "climb-45",
-      "triggerOffset": 1,
-      "endIntervalId": "cooldown-48",
-      "endOffset": 8
+      "endOffset": 10
     }
   ],
   "sequence": [
