@@ -1,0 +1,584 @@
+{
+  "id": "killer-minutes-halloween-50",
+  "name": "Killer Minutes (Halloween)",
+  "description": "Killer Minutes with a Halloween playlist and music videos: zone ramps, then high-cadence, low-cadence and climbing blocks of one-minute efforts, finishing with a 90-second Z4 closer.",
+  "totalDuration": 3000,
+  "theme": "halloween",
+  "videos": [
+    {
+      "id": "video-playground-of-shadows-alexa-bliss",
+      "name": "Playground of Shadows (Alexa Bliss)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iVUSpGMj0UA",
+      "startTime": 0,
+      "triggerIntervalId": "easy-01",
+      "endIntervalId": "easy-02",
+      "endOffset": 15
+    },
+    {
+      "id": "video-evil-but-nice-danhausen-theme-song",
+      "name": "Evil But Nice (Danhausen Theme Song)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1dh6oFsfViU",
+      "startTime": 0,
+      "triggerIntervalId": "easy-02",
+      "triggerOffset": 15,
+      "endIntervalId": "easy-02",
+      "endOffset": 167
+    },
+    {
+      "id": "video-skeleton-sam",
+      "name": "Skeleton Sam",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wbD2sYlb_hU",
+      "startTime": 0,
+      "triggerIntervalId": "easy-02",
+      "triggerOffset": 167,
+      "endIntervalId": "ramp-08",
+      "endOffset": 2
+    },
+    {
+      "id": "video-rotten-to-the-core",
+      "name": "Rotten to the Core",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UkWUPPfsSEo",
+      "startTime": 0,
+      "triggerIntervalId": "ramp-08",
+      "triggerOffset": 2,
+      "endIntervalId": "recover-13",
+      "endOffset": 4
+    },
+    {
+      "id": "video-hocus-pocus-voo-doo",
+      "name": "Hocus Pocus Voo Doo",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bwnvySa32HA",
+      "startTime": 0,
+      "triggerIntervalId": "recover-13",
+      "triggerOffset": 4,
+      "endIntervalId": "highcad-14",
+      "endOffset": 13
+    },
+    {
+      "id": "video-halloween-forever",
+      "name": "Halloween Forever",
+      "youtubeUrl": "https://www.youtube.com/watch?v=h1YBVBECgGw",
+      "startTime": 0,
+      "triggerIntervalId": "highcad-14",
+      "triggerOffset": 13,
+      "endIntervalId": "highcad-17",
+      "endOffset": 9
+    },
+    {
+      "id": "video-grim-grinning-ghosts-electro-swing-mix",
+      "name": "Grim Grinning Ghosts (Electro Swing Mix)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TLZj4OIbejU",
+      "startTime": 0,
+      "triggerIntervalId": "highcad-17",
+      "triggerOffset": 9,
+      "endIntervalId": "highcad-20",
+      "endOffset": 2
+    },
+    {
+      "id": "video-thriller",
+      "name": "Thriller",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-d2NsvFU5go",
+      "startTime": 0,
+      "triggerIntervalId": "highcad-20",
+      "triggerOffset": 2,
+      "endIntervalId": "highcad-23",
+      "endOffset": 18
+    },
+    {
+      "id": "video-w-i-t-c-h",
+      "name": "W.I.T.C.H.",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GjNY5HGcopA",
+      "startTime": 0,
+      "triggerIntervalId": "highcad-23",
+      "triggerOffset": 18,
+      "endIntervalId": "lowcad-25",
+      "endOffset": 20
+    },
+    {
+      "id": "video-time-warp",
+      "name": "Time Warp",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LApul_2xjEc",
+      "startTime": 0,
+      "triggerIntervalId": "lowcad-25",
+      "triggerOffset": 20,
+      "endIntervalId": "lowcad-28",
+      "endOffset": 29
+    },
+    {
+      "id": "video-ghosted",
+      "name": "Ghosted",
+      "youtubeUrl": "https://www.youtube.com/watch?v=J6gwBlay4Iw",
+      "startTime": 0,
+      "triggerIntervalId": "lowcad-28",
+      "triggerOffset": 29,
+      "endIntervalId": "lowcad-30",
+      "endOffset": 47
+    },
+    {
+      "id": "video-halloween-theme-metal-version",
+      "name": "Halloween Theme (Metal Version)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=g5_dYShnoQE",
+      "startTime": 0,
+      "triggerIntervalId": "lowcad-30",
+      "triggerOffset": 47,
+      "endIntervalId": "lowcad-34",
+      "endOffset": 6
+    },
+    {
+      "id": "video-beetlejuice-beetlejuice-beetlejuice",
+      "name": "Beetlejuice Beetlejuice Beetlejuice",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HaiAqgwMWNI",
+      "startTime": 0,
+      "triggerIntervalId": "lowcad-34",
+      "triggerOffset": 6,
+      "endIntervalId": "climb-36",
+      "endOffset": 7
+    },
+    {
+      "id": "video-boneshaker",
+      "name": "Boneshaker",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GvGRlSU2LOg",
+      "startTime": 0,
+      "triggerIntervalId": "climb-36",
+      "triggerOffset": 7,
+      "endIntervalId": "climb-39",
+      "endOffset": 13
+    },
+    {
+      "id": "video-ghostbusters-hard-rock-version",
+      "name": "Ghostbusters (Hard Rock Version)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wWFl-dxfnKU",
+      "startTime": 0,
+      "triggerIntervalId": "climb-39",
+      "triggerOffset": 13,
+      "endIntervalId": "climb-43",
+      "endOffset": 10
+    },
+    {
+      "id": "video-i-put-a-spell-on-you-hocus-pocus",
+      "name": "I Put a Spell on You (Hocus Pocus)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gqZOk9RJLbY",
+      "startTime": 0,
+      "triggerIntervalId": "climb-43",
+      "triggerOffset": 10,
+      "endIntervalId": "climb-45",
+      "endOffset": 1
+    },
+    {
+      "id": "video-the-ballad-of-the-witches-road-sacred-chant-version",
+      "name": "The Ballad of the Witches' Road (Sacred Chant Version)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZKl_aokaQEw",
+      "startTime": 0,
+      "triggerIntervalId": "climb-45",
+      "triggerOffset": 1,
+      "endIntervalId": "cooldown-48",
+      "endOffset": 8
+    }
+  ],
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "easy-01",
+      "name": "Easy Spin",
+      "powerZone": "Z1",
+      "duration": 180
+    },
+    {
+      "type": "interval",
+      "id": "easy-02",
+      "name": "Easy Spin",
+      "powerZone": "Z2",
+      "duration": 180
+    },
+    {
+      "type": "interval",
+      "id": "ramp-03",
+      "name": "Ramp Z2",
+      "powerZone": "Z2",
+      "duration": 30,
+      "notes": "Fast cadence",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "ramp-04",
+      "name": "Ramp Z2 recover",
+      "powerZone": "Z1",
+      "duration": 30,
+      "notes": "Slow cadence",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "ramp-05",
+      "name": "Ramp Z3",
+      "powerZone": "Z3",
+      "duration": 30,
+      "notes": "Fast cadence",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "ramp-06",
+      "name": "Ramp Z3 recover",
+      "powerZone": "Z2",
+      "duration": 30,
+      "notes": "Slow cadence",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "ramp-07",
+      "name": "Ramp Z4",
+      "powerZone": "Z4",
+      "duration": 30,
+      "notes": "Fast cadence",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "ramp-08",
+      "name": "Ramp Z4 recover",
+      "powerZone": "Z2",
+      "duration": 30,
+      "notes": "Slow cadence",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "ramp-09",
+      "name": "Ramp Z5",
+      "powerZone": "Z5",
+      "duration": 30,
+      "notes": "Fast cadence",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "ramp-10",
+      "name": "Ramp Z5 recover",
+      "powerZone": "Z2",
+      "duration": 30,
+      "notes": "Slow cadence",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "ramp-11",
+      "name": "Ramp Z6",
+      "powerZone": "Z6",
+      "duration": 30,
+      "notes": "Fast cadence",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "ramp-12",
+      "name": "Ramp Z6 recover",
+      "powerZone": "Z1",
+      "duration": 30,
+      "notes": "Slow cadence",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "recover-13",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 120
+    },
+    {
+      "type": "interval",
+      "id": "highcad-14",
+      "name": "High Cadence block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "notes": "Cadence 90-100",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "highcad-15",
+      "name": "High Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 70-80",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "highcad-16",
+      "name": "High Cadence block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "notes": "Cadence 95-105",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "highcad-17",
+      "name": "High Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 70-80",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "highcad-18",
+      "name": "High Cadence block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "notes": "Cadence 100-110",
+      "cadence": 105
+    },
+    {
+      "type": "interval",
+      "id": "highcad-19",
+      "name": "High Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 70-80",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "highcad-20",
+      "name": "High Cadence block",
+      "powerZone": "Z4",
+      "duration": 60,
+      "notes": "Cadence 105-115",
+      "cadence": 110
+    },
+    {
+      "type": "interval",
+      "id": "highcad-21",
+      "name": "High Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 70-80",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "highcad-22",
+      "name": "High Cadence block",
+      "powerZone": "Z4",
+      "duration": 60,
+      "notes": "Cadence 110-120",
+      "cadence": 115
+    },
+    {
+      "type": "interval",
+      "id": "highcad-23",
+      "name": "High Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 70-80",
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "recover-24",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-25",
+      "name": "Low Cadence block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "cadence": 80
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-26",
+      "name": "Low Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 90-100",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-27",
+      "name": "Low Cadence block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "cadence": 70
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-28",
+      "name": "Low Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 90-100",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-29",
+      "name": "Low Cadence block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-30",
+      "name": "Low Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 90-100",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-31",
+      "name": "Low Cadence block",
+      "powerZone": "Z4",
+      "duration": 60,
+      "cadence": 75
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-32",
+      "name": "Low Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 90-100",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-33",
+      "name": "Low Cadence block",
+      "powerZone": "Z4",
+      "duration": 60,
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "lowcad-34",
+      "name": "Low Cadence block",
+      "powerZone": "Z2",
+      "duration": 60,
+      "notes": "Cadence 90-100",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "recover-35",
+      "name": "Recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "climb-36",
+      "name": "Climbing block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "notes": "Standing, cadence your choice"
+    },
+    {
+      "type": "interval",
+      "id": "climb-37",
+      "name": "Climbing recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "climb-38",
+      "name": "Climbing block",
+      "powerZone": "Z3",
+      "duration": 60,
+      "notes": "Seated, cadence your choice"
+    },
+    {
+      "type": "interval",
+      "id": "climb-39",
+      "name": "Climbing recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "climb-40",
+      "name": "Climbing block",
+      "powerZone": "Z4",
+      "duration": 60,
+      "notes": "Standing, cadence your choice"
+    },
+    {
+      "type": "interval",
+      "id": "climb-41",
+      "name": "Climbing recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "climb-42",
+      "name": "Climbing block",
+      "powerZone": "Z4",
+      "duration": 60,
+      "notes": "Seated, cadence your choice"
+    },
+    {
+      "type": "interval",
+      "id": "climb-43",
+      "name": "Climbing recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "climb-44",
+      "name": "Climbing block",
+      "powerZone": "Z5",
+      "duration": 60,
+      "notes": "Standing, cadence your choice"
+    },
+    {
+      "type": "interval",
+      "id": "climb-45",
+      "name": "Climbing recover",
+      "powerZone": "Z1",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "closer-46",
+      "name": "Closer",
+      "powerZone": "Z2",
+      "duration": 30
+    },
+    {
+      "type": "interval",
+      "id": "closer-47",
+      "name": "Closer",
+      "powerZone": "Z4",
+      "duration": 90
+    },
+    {
+      "type": "interval",
+      "id": "cooldown-48",
+      "name": "Cooldown",
+      "powerZone": "Z2",
+      "duration": 120
+    },
+    {
+      "type": "interval",
+      "id": "cooldown-49",
+      "name": "Cooldown",
+      "powerZone": "Z1",
+      "duration": 60
+    }
+  ],
+  "isSample": false
+}
