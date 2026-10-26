@@ -1,0 +1,19 @@
+workouts/50min/killer-minutes-halloween-50.json
+  s_19372ad68bf5e9::t_09e4d4dbf1d99c 1-584
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e4400b4f34ef553bb811bab77a04301945b84a22",
+  "prompts": {},
+  "sessions": {
+    "s_19372ad68bf5e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8fe1d421-0c92-4706-a56c-e3eea4ed4de8",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
