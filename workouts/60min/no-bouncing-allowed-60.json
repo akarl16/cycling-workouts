@@ -234,5 +234,214 @@
       "powerZone": 1,
       "duration": 120
     }
+  ],
+  "theme": "halloween",
+  "videos": [
+    {
+      "id": "video-teardrop",
+      "name": "Teardrop",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u7K72X4eo_s",
+      "startTime": 0,
+      "triggerIntervalId": "easy",
+      "endIntervalId": "step-z2-block-step-ups-rep-1",
+      "endOffset": 20
+    },
+    {
+      "id": "video-headless-horseman",
+      "name": "Headless Horseman",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ibs2aXMqTbU",
+      "startTime": 0,
+      "triggerIntervalId": "step-z2-block-step-ups-rep-1",
+      "triggerOffset": 20,
+      "endIntervalId": "step-z3-block-step-ups-rep-1",
+      "endOffset": 103
+    },
+    {
+      "id": "video-one-way-or-another-hocus-pocus-2",
+      "name": "One Way or Another (Hocus Pocus 2)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xd_Rj_5JSJo",
+      "startTime": 0,
+      "triggerIntervalId": "step-z3-block-step-ups-rep-1",
+      "triggerOffset": 103,
+      "endIntervalId": "step-z4-plus-block-step-ups-rep-1"
+    },
+    {
+      "id": "video-spooky-scary-skeletons-undead-tombstone-remix",
+      "name": "Spooky, Scary Skeletons (Undead Tombstone Remix)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2mKN6PDZTmc",
+      "startTime": 0,
+      "triggerIntervalId": "recover-1",
+      "endIntervalId": "recover-1",
+      "endOffset": 116
+    },
+    {
+      "id": "video-i-want-candy",
+      "name": "I Want Candy",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JoXVYSV4Xcs",
+      "startTime": 0,
+      "triggerIntervalId": "recover-1",
+      "triggerOffset": 116,
+      "endIntervalId": "off-z2-block-20-on-20-off-rep-4",
+      "endOffset": 11
+    },
+    {
+      "id": "video-ways-to-be-wicked",
+      "name": "Ways to Be Wicked",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lX6g_cm2rM4",
+      "startTime": 0,
+      "triggerIntervalId": "off-z2-block-20-on-20-off-rep-4",
+      "triggerOffset": 11,
+      "endIntervalId": "off-z2-block-20-on-20-off-rep-9",
+      "endOffset": 19
+    },
+    {
+      "id": "video-w-i-t-c-h",
+      "name": "W.I.T.C.H.",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GjNY5HGcopA",
+      "startTime": 0,
+      "triggerIntervalId": "off-z2-block-20-on-20-off-rep-9",
+      "triggerOffset": 19,
+      "endIntervalId": "on-z4-10-block-10-on-10-off-rep-1",
+      "endOffset": 1
+    },
+    {
+      "id": "video-ghostbusters-i-m-not-afraid",
+      "name": "Ghostbusters (I'm Not Afraid)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CLEdRT84u4A",
+      "startTime": 0,
+      "triggerIntervalId": "on-z4-10-block-10-on-10-off-rep-1",
+      "triggerOffset": 1,
+      "endIntervalId": "off-z2-10-block-10-on-10-off-rep-9",
+      "endOffset": 7
+    },
+    {
+      "id": "video-the-witches-are-back",
+      "name": "The Witches Are Back",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qWW3qOSnSzk",
+      "startTime": 0,
+      "triggerIntervalId": "off-z2-10-block-10-on-10-off-rep-9",
+      "triggerOffset": 7,
+      "endIntervalId": "recover-3",
+      "endOffset": 91
+    },
+    {
+      "id": "video-rotten-to-the-core",
+      "name": "Rotten to the Core",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KY0GtZSDFo4",
+      "startTime": 0,
+      "triggerIntervalId": "recover-3",
+      "triggerOffset": 91,
+      "endIntervalId": "hold-z3-block-hold-high-rep-2",
+      "endOffset": 3
+    },
+    {
+      "id": "video-dragula",
+      "name": "Dragula",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EqQuihD0hoI",
+      "startTime": 0,
+      "triggerIntervalId": "hold-z3-block-hold-high-rep-2",
+      "triggerOffset": 3,
+      "endIntervalId": "hold-z1-block-hold-high-rep-3",
+      "endOffset": 6
+    },
+    {
+      "id": "video-i-put-a-spell-on-you",
+      "name": "I Put a Spell on You",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gqZOk9RJLbY",
+      "startTime": 0,
+      "triggerIntervalId": "hold-z1-block-hold-high-rep-3",
+      "triggerOffset": 6,
+      "endIntervalId": "hold-z3-block-hold-high-rep-4",
+      "endOffset": 87
+    },
+    {
+      "id": "video-monsters-after-dark",
+      "name": "Monsters After Dark",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PGDR2uGB1ck",
+      "startTime": 0,
+      "triggerIntervalId": "hold-z3-block-hold-high-rep-4",
+      "triggerOffset": 87,
+      "endIntervalId": "hold-z1-block-hold-high-rep-5",
+      "endOffset": 27
+    },
+    {
+      "id": "video-she-wolf",
+      "name": "She-Wolf",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Qcy07OvWdl0",
+      "startTime": 0,
+      "triggerIntervalId": "hold-z1-block-hold-high-rep-5",
+      "triggerOffset": 27,
+      "endIntervalId": "hold-z3-block-hold-high-rep-7",
+      "endOffset": 85
+    },
+    {
+      "id": "video-ghosted",
+      "name": "Ghosted",
+      "youtubeUrl": "https://www.youtube.com/watch?v=J6gwBlay4Iw",
+      "startTime": 0,
+      "triggerIntervalId": "hold-z3-block-hold-high-rep-7",
+      "triggerOffset": 85,
+      "endIntervalId": "hold-z1-block-hold-high-rep-8",
+      "endOffset": 13
+    },
+    {
+      "id": "video-monster-parade",
+      "name": "Monster Parade",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HJAzBRF_Jj4",
+      "startTime": 0,
+      "triggerIntervalId": "hold-z1-block-hold-high-rep-8",
+      "triggerOffset": 13,
+      "endIntervalId": "hold-z3-block-hold-high-rep-9",
+      "endOffset": 78
+    },
+    {
+      "id": "video-skeleton-sam",
+      "name": "Skeleton Sam",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wbD2sYlb_hU",
+      "startTime": 0,
+      "triggerIntervalId": "hold-z3-block-hold-high-rep-9",
+      "triggerOffset": 78,
+      "endIntervalId": "add-cad-z3-1-block-add-cad-z3-rep-1",
+      "endOffset": 3
+    },
+    {
+      "id": "video-season-of-the-witch",
+      "name": "Season of the Witch",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tOMjWHuCpe8",
+      "startTime": 0,
+      "triggerIntervalId": "add-cad-z3-1-block-add-cad-z3-rep-1",
+      "triggerOffset": 3,
+      "endIntervalId": "add-cad-z3-5-block-add-cad-z3-rep-1",
+      "endOffset": 56
+    },
+    {
+      "id": "video-halloween-haunted-mix",
+      "name": "Halloween (Haunted Mix)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8JCjeD6znaQ",
+      "startTime": 0,
+      "triggerIntervalId": "add-cad-z3-5-block-add-cad-z3-rep-1",
+      "triggerOffset": 56,
+      "endIntervalId": "add-cad-z4-1-block-add-cad-z4-rep-1",
+      "endOffset": 13
+    },
+    {
+      "id": "video-thriller-steve-aoki-midnight-hour-remix",
+      "name": "Thriller (Steve Aoki Midnight Hour Remix)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=b0RyiTp8gSA",
+      "startTime": 0,
+      "triggerIntervalId": "add-cad-z4-1-block-add-cad-z4-rep-1",
+      "triggerOffset": 13,
+      "endIntervalId": "spindown",
+      "endOffset": 4
+    },
+    {
+      "id": "video-un-poco-loco",
+      "name": "Un Poco Loco",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yg8116aeD7E",
+      "startTime": 0,
+      "triggerIntervalId": "spindown",
+      "triggerOffset": 4,
+      "endIntervalId": "spindown"
+    }
   ]
 }
