@@ -1,0 +1,218 @@
+{
+  "id": "head-games-50",
+  "name": "Head Games",
+  "description": "50-minute FTP-test prep: three sustained efforts between Z3 and Z4- that use cadence and position changes to make the time pass, ending with a steady 4-minute seated block.",
+  "totalDuration": 3000,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "warmup-z1",
+      "name": "Easy",
+      "powerZone": 1,
+      "duration": 180
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z2",
+      "name": "Easy",
+      "powerZone": 2,
+      "duration": 120
+    },
+    {
+      "type": "interval",
+      "id": "warmup-z3",
+      "name": "Easy",
+      "powerZone": 3,
+      "duration": 60
+    },
+    {
+      "type": "block",
+      "id": "cadence-prep",
+      "name": "Cadence prep",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "prep-z3",
+          "name": "Cadence prep",
+          "powerZone": 3,
+          "duration": 60,
+          "cadence": 85
+        },
+        {
+          "id": "prep-z3-plus",
+          "name": "Cadence prep",
+          "powerZone": "3+",
+          "duration": 60,
+          "cadence": 95
+        },
+        {
+          "id": "prep-z4-minus",
+          "name": "Cadence prep",
+          "powerZone": "4-",
+          "duration": 60,
+          "cadence": 105
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-1",
+      "name": "Recover",
+      "powerZone": 1,
+      "duration": 60
+    },
+    {
+      "type": "block",
+      "id": "position-prep",
+      "name": "Position prep",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "prep-seated",
+          "name": "Position prep",
+          "powerZone": 3,
+          "duration": 60,
+          "notes": "Seated"
+        },
+        {
+          "id": "prep-standing",
+          "name": "Position prep",
+          "powerZone": "4-",
+          "duration": 30,
+          "notes": "Standing"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "settle",
+      "name": "Settle",
+      "powerZone": 1,
+      "duration": 30
+    },
+    {
+      "type": "block",
+      "id": "effort-1",
+      "name": "Effort 1: cadence",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "e1-z3",
+          "name": "Effort 1",
+          "powerZone": 3,
+          "duration": 90,
+          "cadence": 85
+        },
+        {
+          "id": "e1-z3-plus",
+          "name": "Effort 1",
+          "powerZone": "3+",
+          "duration": 60,
+          "cadence": 95
+        },
+        {
+          "id": "e1-z4-minus",
+          "name": "Effort 1",
+          "powerZone": "4-",
+          "duration": 60,
+          "cadence": 105
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-2",
+      "name": "Recover",
+      "powerZone": 1,
+      "duration": 150
+    },
+    {
+      "type": "block",
+      "id": "effort-2",
+      "name": "Effort 2: position",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "e2-z3-plus",
+          "name": "Effort 2",
+          "powerZone": "3+",
+          "duration": 90,
+          "notes": "Seated"
+        },
+        {
+          "id": "e2-z3",
+          "name": "Effort 2",
+          "powerZone": 3,
+          "duration": 60,
+          "notes": "Saddle slide"
+        },
+        {
+          "id": "e2-z4-minus",
+          "name": "Effort 2",
+          "powerZone": "4-",
+          "duration": 30,
+          "notes": "Standing"
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "recover-3",
+      "name": "Recover",
+      "powerZone": 1,
+      "duration": 150
+    },
+    {
+      "type": "block",
+      "id": "effort-3",
+      "name": "Effort 3: both",
+      "repetitions": 2,
+      "intervals": [
+        {
+          "id": "e3-z3-plus",
+          "name": "Effort 3",
+          "powerZone": "3+",
+          "duration": 60,
+          "cadence": 85
+        },
+        {
+          "id": "e3-z3",
+          "name": "Effort 3",
+          "powerZone": 3,
+          "duration": 60,
+          "cadence": 100,
+          "notes": "Saddle slide"
+        },
+        {
+          "id": "e3-z4-minus",
+          "name": "Effort 3",
+          "powerZone": "4-",
+          "duration": 30,
+          "notes": "Standing"
+        },
+        {
+          "id": "e3-z3-b",
+          "name": "Effort 3",
+          "powerZone": 3,
+          "duration": 30,
+          "cadence": 90
+        }
+      ]
+    },
+    {
+      "type": "interval",
+      "id": "steady",
+      "name": "Steady",
+      "powerZone": "4-",
+      "duration": 240,
+      "notes": "Seated, no changes"
+    },
+    {
+      "type": "interval",
+      "id": "cooldown",
+      "name": "Cooldown",
+      "powerZone": 1,
+      "duration": 240
+    }
+  ]
+}
