@@ -214,5 +214,176 @@
       "powerZone": 1,
       "duration": 240
     }
+  ],
+  "theme": "halloween",
+  "videos": [
+    {
+      "id": "video-ballad-of-the-witches-road",
+      "name": "Ballad of the Witches' Road",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VnjYeJ5blxo",
+      "startTime": 0,
+      "triggerIntervalId": "warmup-z1",
+      "endIntervalId": "warmup-z2",
+      "endOffset": 8
+    },
+    {
+      "id": "video-she-wolf",
+      "name": "She Wolf",
+      "youtubeUrl": "https://www.youtube.com/watch?v=booKP974B0k",
+      "startTime": 0,
+      "triggerIntervalId": "warmup-z2",
+      "triggerOffset": 8,
+      "endIntervalId": "prep-z3-block-cadence-prep-rep-1",
+      "endOffset": 7
+    },
+    {
+      "id": "video-time-warp",
+      "name": "Time Warp",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YC1E8yVJIS4",
+      "startTime": 0,
+      "triggerIntervalId": "prep-z3-block-cadence-prep-rep-1",
+      "triggerOffset": 7,
+      "endIntervalId": "recover-1",
+      "endOffset": 16
+    },
+    {
+      "id": "video-goosebumps-theme",
+      "name": "Goosebumps Theme",
+      "youtubeUrl": "https://www.youtube.com/watch?v=37ZX5kGLV_4",
+      "startTime": 0,
+      "triggerIntervalId": "recover-1",
+      "triggerOffset": 16,
+      "endIntervalId": "prep-seated-block-position-prep-rep-1",
+      "endOffset": 11
+    },
+    {
+      "id": "video-feed-my-frankenstein",
+      "name": "Feed My Frankenstein",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yn-WO8oJchY",
+      "startTime": 0,
+      "triggerIntervalId": "prep-seated-block-position-prep-rep-1",
+      "triggerOffset": 11,
+      "endIntervalId": "settle",
+      "endOffset": 16
+    },
+    {
+      "id": "video-disturbia",
+      "name": "Disturbia",
+      "youtubeUrl": "https://www.youtube.com/watch?v=E1mU6h4Xdxc",
+      "startTime": 0,
+      "triggerIntervalId": "settle",
+      "triggerOffset": 16,
+      "endIntervalId": "e1-z3-block-effort-1-rep-2",
+      "endOffset": 5
+    },
+    {
+      "id": "video-ghostbusters",
+      "name": "Ghostbusters",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Fe93CLbHjxQ",
+      "startTime": 0,
+      "triggerIntervalId": "e1-z3-block-effort-1-rep-2",
+      "triggerOffset": 5,
+      "endIntervalId": "recover-2",
+      "endOffset": 13
+    },
+    {
+      "id": "video-it-s-halloween",
+      "name": "It's Halloween!",
+      "youtubeUrl": "https://www.youtube.com/watch?v=s8PoZCULuPA",
+      "startTime": 0,
+      "triggerIntervalId": "recover-2",
+      "triggerOffset": 13,
+      "endIntervalId": "e2-z3-plus-block-effort-2-rep-1",
+      "endOffset": 2
+    },
+    {
+      "id": "video-witch-please",
+      "name": "Witch Please",
+      "youtubeUrl": "https://www.youtube.com/watch?v=M2eBrBzvJkQ",
+      "startTime": 0,
+      "triggerIntervalId": "e2-z3-plus-block-effort-2-rep-1",
+      "triggerOffset": 2,
+      "endIntervalId": "e2-z3-plus-block-effort-2-rep-2",
+      "endOffset": 6
+    },
+    {
+      "id": "video-ghosted",
+      "name": "Ghosted",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1qAyqFrbtMU",
+      "startTime": 0,
+      "triggerIntervalId": "e2-z3-plus-block-effort-2-rep-2",
+      "triggerOffset": 6,
+      "endIntervalId": "e2-z3-plus-block-effort-2-rep-3",
+      "endOffset": 13
+    },
+    {
+      "id": "video-grim-grinning-ghosts",
+      "name": "Grim Grinning Ghosts",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TLZj4OIbejU",
+      "startTime": 0,
+      "triggerIntervalId": "e2-z3-plus-block-effort-2-rep-3",
+      "triggerOffset": 13,
+      "endIntervalId": "recover-3",
+      "endOffset": 7
+    },
+    {
+      "id": "video-evil-but-nice",
+      "name": "Evil But Nice",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1dh6oFsfViU",
+      "startTime": 0,
+      "triggerIntervalId": "recover-3",
+      "triggerOffset": 7,
+      "endIntervalId": "e3-z3-plus-block-effort-3-rep-1",
+      "endOffset": 9
+    },
+    {
+      "id": "video-zombie",
+      "name": "Zombie",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WX9miGKXyrw",
+      "startTime": 0,
+      "triggerIntervalId": "e3-z3-plus-block-effort-3-rep-1",
+      "triggerOffset": 9,
+      "endIntervalId": "e3-z3-b-block-effort-3-rep-1",
+      "endOffset": 9
+    },
+    {
+      "id": "video-calling-all-the-monsters",
+      "name": "Calling All the Monsters",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bmSpn3EnsE0",
+      "startTime": 0,
+      "triggerIntervalId": "e3-z3-b-block-effort-3-rep-1",
+      "triggerOffset": 9,
+      "endIntervalId": "e3-z3-b-block-effort-3-rep-2",
+      "endOffset": 26
+    },
+    {
+      "id": "video-feed-my-frankenstein-live",
+      "name": "Feed My Frankenstein (Live)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3oXH25JHzaA",
+      "startTime": 0,
+      "triggerIntervalId": "e3-z3-b-block-effort-3-rep-2",
+      "triggerOffset": 26,
+      "endIntervalId": "cooldown",
+      "endOffset": 30
+    },
+    {
+      "id": "video-retro-spook",
+      "name": "Retro Spook",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Y4GKAxouXgQ",
+      "startTime": 0,
+      "triggerIntervalId": "cooldown",
+      "triggerOffset": 30,
+      "endIntervalId": "cooldown",
+      "endOffset": 163
+    },
+    {
+      "id": "video-coco",
+      "name": "Coco",
+      "youtubeUrl": "https://www.youtube.com/watch?v=q4o-Bjl0Hkw",
+      "startTime": 0,
+      "triggerIntervalId": "cooldown",
+      "triggerOffset": 163,
+      "endIntervalId": "cooldown"
+    }
   ]
 }
