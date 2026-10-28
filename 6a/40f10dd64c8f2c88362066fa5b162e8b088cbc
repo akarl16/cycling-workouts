@@ -1,0 +1,19 @@
+workouts/50min/head-games-50.json
+  s_19372ad68bf5e9::t_541a9b244ce92e 1-218
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6a40f10dd64c8f2c88362066fa5b162e8b088cbc",
+  "prompts": {},
+  "sessions": {
+    "s_19372ad68bf5e9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8fe1d421-0c92-4706-a56c-e3eea4ed4de8",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
