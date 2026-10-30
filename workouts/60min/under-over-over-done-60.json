@@ -178,6 +178,7 @@
       "type": "block",
       "id": "matts-cooldown",
       "name": "Matt's Cool Down",
+      "hidden": true,
       "repetitions": 1,
       "intervals": [
         {
