@@ -568,6 +568,11 @@
         "notes": {
           "type": "string",
           "description": "Optional notes or coaching cues for this interval"
+        },
+        "hidden": {
+          "type": "boolean",
+          "description": "Show this interval as ??? in the overview and previews, revealing it just before it starts",
+          "default": false
         }
       },
       "required": [
@@ -613,6 +618,11 @@
             "$ref": "#/definitions/WorkoutInterval"
           },
           "minItems": 1
+        },
+        "hidden": {
+          "type": "boolean",
+          "description": "Hide every interval in the block as ??? until just before it starts",
+          "default": false
         }
       },
       "required": [
@@ -777,6 +787,11 @@
         "notes": {
           "type": "string",
           "description": "Optional notes or coaching cues for this interval"
+        },
+        "hidden": {
+          "type": "boolean",
+          "description": "Show this interval as ??? in the overview and previews, revealing it just before it starts",
+          "default": false
         }
       },
       "required": [
@@ -828,6 +843,11 @@
             "$ref": "#/definitions/WorkoutInterval"
           },
           "minItems": 1
+        },
+        "hidden": {
+          "type": "boolean",
+          "description": "Hide every interval in the block as ??? until just before it starts",
+          "default": false
         }
       },
       "required": [

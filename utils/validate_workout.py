@@ -132,7 +132,12 @@ def validate_interval(interval: Dict[str, Any], path: str = "") -> List[str]:
     if "notes" in interval:
         if not isinstance(interval["notes"], str):
             errors.append(f"{path}: notes must be a string")
-    
+
+    # Validate hidden if present (optional boolean)
+    if "hidden" in interval:
+        if not isinstance(interval["hidden"], bool):
+            errors.append(f"{path}: hidden must be a boolean")
+
     return errors
 
 
@@ -151,6 +156,11 @@ def validate_block(block: Dict[str, Any], path: str = "") -> List[str]:
         if not isinstance(block["repetitions"], int) or block["repetitions"] < 1:
             errors.append(f"{path}: repetitions must be a positive integer")
     
+    # Validate hidden if present (optional boolean)
+    if "hidden" in block:
+        if not isinstance(block["hidden"], bool):
+            errors.append(f"{path}: hidden must be a boolean")
+
     # Validate intervals
     if "intervals" in block:
         if not isinstance(block["intervals"], list):
