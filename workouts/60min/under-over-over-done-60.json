@@ -1,0 +1,218 @@
+{
+  "id": "under-over-over-done-60",
+  "name": "Under, Over, Over, Done",
+  "description": "60-minute workout with priming blocks, two sets of over/unders, and Matt's cool down",
+  "totalDuration": 3600,
+  "sequence": [
+    {
+      "id": "warmup",
+      "name": "Warm up",
+      "duration": 300,
+      "powerZone": 1,
+      "type": "interval"
+    },
+    {
+      "id": "prime-1-z2",
+      "name": "Priming blocks",
+      "duration": 120,
+      "powerZone": 2,
+      "type": "interval"
+    },
+    {
+      "id": "prime-1-z3",
+      "name": "Priming Z3",
+      "duration": 30,
+      "powerZone": 3,
+      "cadence": 100,
+      "type": "interval"
+    },
+    {
+      "id": "prime-1-z1",
+      "name": "Priming recover",
+      "duration": 30,
+      "powerZone": 1,
+      "type": "interval"
+    },
+    {
+      "id": "prime-2-z2",
+      "name": "Priming blocks",
+      "duration": 120,
+      "powerZone": 2,
+      "type": "interval"
+    },
+    {
+      "id": "prime-2-z3-plus",
+      "name": "Priming Z3+",
+      "duration": 30,
+      "powerZone": "3+",
+      "cadence": 100,
+      "type": "interval"
+    },
+    {
+      "id": "prime-2-z1",
+      "name": "Priming recover",
+      "duration": 30,
+      "powerZone": 1,
+      "type": "interval"
+    },
+    {
+      "id": "prime-3-z2",
+      "name": "Priming blocks",
+      "duration": 120,
+      "powerZone": 2,
+      "type": "interval"
+    },
+    {
+      "id": "prime-3-z4-minus",
+      "name": "Priming Z4-",
+      "duration": 30,
+      "powerZone": "4-",
+      "cadence": 100,
+      "type": "interval"
+    },
+    {
+      "id": "prime-3-z1",
+      "name": "Priming recover",
+      "duration": 30,
+      "powerZone": 1,
+      "type": "interval"
+    },
+    {
+      "id": "prime-4-z2",
+      "name": "Priming blocks",
+      "duration": 120,
+      "powerZone": 2,
+      "type": "interval"
+    },
+    {
+      "id": "prime-4-z5",
+      "name": "Priming Z5",
+      "duration": 30,
+      "powerZone": 5,
+      "cadence": 100,
+      "type": "interval"
+    },
+    {
+      "id": "recover-1-z1",
+      "name": "Recover",
+      "duration": 90,
+      "powerZone": 1,
+      "type": "interval"
+    },
+    {
+      "id": "recover-1-z2",
+      "name": "Recover",
+      "duration": 90,
+      "powerZone": 2,
+      "type": "interval"
+    },
+    {
+      "type": "block",
+      "id": "over-under-set-1",
+      "name": "Over/Under Set 1",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "over-1",
+          "name": "Over",
+          "duration": 60,
+          "powerZone": 5
+        },
+        {
+          "id": "under-1",
+          "name": "Under",
+          "duration": 180,
+          "powerZone": 3
+        }
+      ]
+    },
+    {
+      "id": "recover-2-z1",
+      "name": "Recover",
+      "duration": 90,
+      "powerZone": 1,
+      "type": "interval"
+    },
+    {
+      "id": "recover-2-z2",
+      "name": "Recover",
+      "duration": 90,
+      "powerZone": 2,
+      "type": "interval"
+    },
+    {
+      "type": "block",
+      "id": "over-under-set-2",
+      "name": "Over/Under Set 2",
+      "repetitions": 3,
+      "intervals": [
+        {
+          "id": "over-2",
+          "name": "Over",
+          "duration": 60,
+          "powerZone": 5
+        },
+        {
+          "id": "under-2",
+          "name": "Under",
+          "duration": 180,
+          "powerZone": 3
+        }
+      ]
+    },
+    {
+      "id": "recover-3-z1",
+      "name": "Recover",
+      "duration": 90,
+      "powerZone": 1,
+      "type": "interval"
+    },
+    {
+      "id": "recover-3-z2",
+      "name": "Recover",
+      "duration": 90,
+      "powerZone": 2,
+      "type": "interval"
+    },
+    {
+      "type": "block",
+      "id": "matts-cooldown",
+      "name": "Matt's Cool Down",
+      "repetitions": 1,
+      "intervals": [
+        {
+          "id": "matts-z3",
+          "name": "Matt's Cool Down",
+          "duration": 180,
+          "powerZone": 3
+        },
+        {
+          "id": "matts-z4",
+          "name": "Matt's Cool Down",
+          "duration": 120,
+          "powerZone": 4
+        },
+        {
+          "id": "matts-z5",
+          "name": "Matt's Cool Down",
+          "duration": 60,
+          "powerZone": 5
+        },
+        {
+          "id": "matts-z6",
+          "name": "Matt's Cool Down",
+          "duration": 30,
+          "powerZone": 6
+        }
+      ]
+    },
+    {
+      "id": "actual-cooldown",
+      "name": "Actual Cool Down",
+      "duration": 240,
+      "powerZone": 1,
+      "type": "interval"
+    }
+  ],
+  "isSample": false
+}
