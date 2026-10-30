@@ -214,5 +214,182 @@
       "type": "interval"
     }
   ],
-  "isSample": false
+  "isSample": false,
+  "theme": "halloween",
+  "videos": [
+    {
+      "id": "video-fire-on-high",
+      "name": "Fire On High",
+      "youtubeUrl": "https://www.youtube.com/watch?v=22Ndi2HUheg",
+      "startTime": 0,
+      "triggerIntervalId": "warmup",
+      "endIntervalId": "prime-1-z2",
+      "endOffset": 21
+    },
+    {
+      "id": "video-spooky-dooky",
+      "name": "Spooky Dooky",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1f4_p8yqHiQ",
+      "startTime": 0,
+      "triggerIntervalId": "prime-1-z2",
+      "triggerOffset": 21,
+      "endIntervalId": "prime-2-z2",
+      "endOffset": 19
+    },
+    {
+      "id": "video-witch-out-the-closet",
+      "name": "Witch Out The Closet",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4dYitQEpBf4",
+      "startTime": 0,
+      "triggerIntervalId": "prime-2-z2",
+      "triggerOffset": 19,
+      "endIntervalId": "prime-3-z2",
+      "endOffset": 3
+    },
+    {
+      "id": "video-skeleton-swing",
+      "name": "Skeleton Swing",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wZZxPPM-bv0",
+      "startTime": 0,
+      "triggerIntervalId": "prime-3-z2",
+      "triggerOffset": 3,
+      "endIntervalId": "prime-3-z1",
+      "endOffset": 6
+    },
+    {
+      "id": "video-halloween-forever",
+      "name": "Halloween Forever",
+      "youtubeUrl": "https://www.youtube.com/watch?v=h1YBVBECgGw",
+      "startTime": 0,
+      "triggerIntervalId": "prime-3-z1",
+      "triggerOffset": 6,
+      "endIntervalId": "recover-1-z1",
+      "endOffset": 2
+    },
+    {
+      "id": "video-the-ghost-and-molly-mcgee",
+      "name": "The Ghost and Molly McGee",
+      "youtubeUrl": "https://www.youtube.com/watch?v=w-9N-Ycr8U8",
+      "startTime": 0,
+      "triggerIntervalId": "recover-1-z1",
+      "triggerOffset": 2,
+      "endIntervalId": "recover-1-z1",
+      "endOffset": 32
+    },
+    {
+      "id": "video-come-little-children",
+      "name": "Come Little Children",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LXotry-FFfA",
+      "startTime": 0,
+      "triggerIntervalId": "recover-1-z1",
+      "triggerOffset": 32,
+      "endIntervalId": "recover-1-z2"
+    },
+    {
+      "id": "video-thriller-no-resolve",
+      "name": "Thriller (No Resolve)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=I9srsaaEjVs",
+      "startTime": 0,
+      "triggerIntervalId": "over-1-block-over-under-set-1-rep-1",
+      "endIntervalId": "under-1-block-over-under-set-1-rep-2",
+      "endOffset": 52
+    },
+    {
+      "id": "video-playground-of-shadows",
+      "name": "Playground of Shadows",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iVUSpGMj0UA",
+      "startTime": 0,
+      "triggerIntervalId": "under-1-block-over-under-set-1-rep-2",
+      "triggerOffset": 52,
+      "endIntervalId": "under-1-block-over-under-set-1-rep-3",
+      "endOffset": 6
+    },
+    {
+      "id": "video-you-make-me-feel-like-it-s-halloween",
+      "name": "You Make Me Feel Like It's Halloween",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oyu1WO0hRB0",
+      "startTime": 0,
+      "triggerIntervalId": "under-1-block-over-under-set-1-rep-3",
+      "triggerOffset": 6,
+      "endIntervalId": "under-1-block-over-under-set-1-rep-3",
+      "endOffset": 177
+    },
+    {
+      "id": "video-bury-a-friend",
+      "name": "bury a friend",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HUHC9tYz8ik",
+      "startTime": 0,
+      "triggerIntervalId": "under-1-block-over-under-set-1-rep-3",
+      "triggerOffset": 177,
+      "endIntervalId": "recover-2-z2"
+    },
+    {
+      "id": "video-round-two-fright",
+      "name": "Round Two, Fright!",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OhGBkyV2GJY",
+      "startTime": 0,
+      "triggerIntervalId": "over-2-block-over-under-set-2-rep-1",
+      "endIntervalId": "under-2-block-over-under-set-2-rep-2",
+      "endOffset": 43
+    },
+    {
+      "id": "video-kidnap-the-sandy-claws",
+      "name": "Kidnap the Sandy Claws",
+      "youtubeUrl": "https://www.youtube.com/watch?v=W2IVn0wiYXs",
+      "startTime": 0,
+      "triggerIntervalId": "under-2-block-over-under-set-2-rep-2",
+      "triggerOffset": 43,
+      "endIntervalId": "under-2-block-over-under-set-2-rep-3",
+      "endOffset": 10
+    },
+    {
+      "id": "video-afraid-of-the-night",
+      "name": "Afraid of the Night",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1p5thsMAaGQ",
+      "startTime": 0,
+      "triggerIntervalId": "under-2-block-over-under-set-2-rep-3",
+      "triggerOffset": 10,
+      "endIntervalId": "recover-3-z1",
+      "endOffset": 1
+    },
+    {
+      "id": "video-heads-will-roll-a-trak-remix",
+      "name": "Heads Will Roll (A-Trak Remix)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XEA6-RlhSb4",
+      "startTime": 0,
+      "triggerIntervalId": "recover-3-z1",
+      "triggerOffset": 1,
+      "endIntervalId": "matts-z4-block-matts-cooldown-rep-1",
+      "endOffset": 14
+    },
+    {
+      "id": "video-halloween-theme-metal",
+      "name": "Halloween Theme (Metal)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=g5_dYShnoQE",
+      "startTime": 0,
+      "triggerIntervalId": "matts-z4-block-matts-cooldown-rep-1",
+      "triggerOffset": 14,
+      "endIntervalId": "actual-cooldown",
+      "endOffset": 3
+    },
+    {
+      "id": "video-my-family",
+      "name": "My Family",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HSlDuIWKnBs",
+      "startTime": 0,
+      "triggerIntervalId": "actual-cooldown",
+      "triggerOffset": 3,
+      "endIntervalId": "actual-cooldown",
+      "endOffset": 171
+    },
+    {
+      "id": "video-season-of-the-witch",
+      "name": "Season Of The Witch",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zA4OjrpVsiY",
+      "startTime": 0,
+      "triggerIntervalId": "actual-cooldown",
+      "triggerOffset": 171,
+      "endIntervalId": "actual-cooldown"
+    }
+  ]
 }
