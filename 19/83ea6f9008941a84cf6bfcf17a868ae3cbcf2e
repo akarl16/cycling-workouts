@@ -1,0 +1,19 @@
+workouts/60min/tricks-or-treats-60.json
+  s_c0b6ef1e1b5642::t_436f6758b68160 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1983ea6f9008941a84cf6bfcf17a868ae3cbcf2e",
+  "prompts": {},
+  "sessions": {
+    "s_c0b6ef1e1b5642": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5fd09b58-d0c7-4379-9535-97a5e6f6a3af",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
