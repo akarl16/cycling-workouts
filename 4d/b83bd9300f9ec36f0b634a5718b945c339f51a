@@ -1,0 +1,21 @@
+workouts/60min/under-over-over-done-60.json
+  s_c0b6ef1e1b5642::t_9682e27c9a163c 181
+workouts/90min/under-over-over-done-90.json
+  s_c0b6ef1e1b5642::t_6607bd6d0ba999 316
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4db83bd9300f9ec36f0b634a5718b945c339f51a",
+  "prompts": {},
+  "sessions": {
+    "s_c0b6ef1e1b5642": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5fd09b58-d0c7-4379-9535-97a5e6f6a3af",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
