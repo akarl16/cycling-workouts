@@ -72,5 +72,16 @@
     { "type": "interval", "id": "i035", "name": "Punch Dorn", "duration": 30, "powerZone": "Z7", "notes": "SPRINT!" },
     { "type": "interval", "id": "i036", "name": "Cool Down", "duration": 180, "powerZone": "Z1", "notes": "Roll back to the cars. Fist bumps all around." }
   ],
+  "videos": [
+    {
+      "id": "video-centennial-park-ride",
+      "name": "Centennial Park ride video",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gOWSgSp7574",
+      "startTime": 0,
+      "triggerIntervalId": "i001",
+      "triggerOffset": 219,
+      "endIntervalId": "i036"
+    }
+  ],
   "isSample": false
 }
