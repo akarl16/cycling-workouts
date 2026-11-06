@@ -1,0 +1,16 @@
+.agents/skills/import-workout-csv
+  h_fc3ad7b886d6c7 1
+.claude/skills/import-workout-csv/SKILL.md
+  h_fc3ad7b886d6c7 15-16,18,20-22,28-29,123
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "415f2ece20cd0594a6d29806d43424162d32826e",
+  "prompts": {},
+  "humans": {
+    "h_fc3ad7b886d6c7": {
+      "author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
