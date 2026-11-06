@@ -12,16 +12,20 @@ Convert a structured cycling workout (power zones, cadence, durations, optional 
 | Source | How to read it |
 |--------|----------------|
 | Pasted CSV / table | Use the text directly |
-| Local `.csv` file | `Read` the file |
-| **Google Sheets / Drive URL** | **Prefer `download_file_content` with `exportMimeType: "text/csv"`** (it returns base64 — decode it) over `read_file_content`. The natural-language `read_file_content` view **silently drops rows** (e.g. an opening warm-up) and merges cells — do not trust it for the workout table. If you only have the NL view, durations appear as `<span type="duration" hours=.. minutes=.. seconds=..>H:MM:SS</span>` — parse the `H:MM:SS` text inside the span. |
+| Local `.csv` file | Read the file from the workspace |
+| **Google Sheets / Drive URL** | Read all workout rows from the intended tab using the session's Sheets tools or a Drive CSV export. In Claude Code, `download_file_content` with `exportMimeType: "text/csv"` returns base64, which you must decode. Verify the export represents the intended tab. |
 
-**Cross-check against the Cumulative column.** Most of these sheets carry a `Cumulative` column whose last data row is the true total (e.g. `1:00:00`). After parsing, confirm your summed `totalDuration` equals that final cumulative value. If it's short, you dropped a row — re-read from the CSV export.
+The natural-language Drive preview can drop rows and merge cells. If the session cannot retrieve the complete table, ask for a CSV export or the pasted table.
 
-**Google Sheets URL → file ID:** `https://docs.google.com/spreadsheets/d/<FILE_ID>/edit?...` — the `<FILE_ID>` is the long token after `/d/`. Also grab the sheet `title` via `get_file_metadata` for naming.
+**Cross-check against the Cumulative column.** When present, compare the last data row's cumulative time (e.g. `1:00:00`) with the expanded `totalDuration`. If they differ, check the source rows and parsing before saving.
+
+For a Google Sheets URL, the spreadsheet ID follows `/d/`. Get the title from Sheets or Drive metadata when available.
 
 Spreadsheets often contain **a workout table plus unrelated planning columns** (e.g. a Spotify song/timing list, cumulative-time helper columns). Use only the workout table (Name, Power zone, Cadence, Duration). Ignore song lists and cumulative/diff helper columns — call out in your summary that you did.
 
 ## Process
+
+Run the import from the `cycling-workouts` repository root so the paths below resolve correctly.
 
 ### 1. Analyze structure
 - Header row contains: Name, Power zone (or Zone), Cadence, Duration, Notes.
@@ -116,4 +120,4 @@ Fix every error before reporting success.
 Report: `✓ Imported '<name>' — X intervals, Y min total → workouts/<duration>min/<file>.json (validator passed)`. Note any columns/rows you ignored and any zone-range or block interpretations you made.
 
 ## Optional: Add Videos After Import
-To sync YouTube/Vimeo playback with intervals, see [VIDEOS.md](../../VIDEOS.md) (block expansion + timing rules) and the `create-interval-workout` skill's video step.
+To sync YouTube/Vimeo playback with intervals, see [VIDEOS.md](../../../VIDEOS.md) for block expansion and timing rules.
