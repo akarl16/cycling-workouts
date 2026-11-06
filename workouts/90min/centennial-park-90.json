@@ -33,7 +33,7 @@
       "repetitions": 5,
       "intervals": [
         { "id": "b002-i1", "name": "Take Your Pull", "duration": 60, "powerZone": "Z4", "cadence": 90, "notes": "On the front, into the wind." },
-        { "id": "b002-i2", "name": "Sit In", "duration": 60, "powerZone": "Z3", "cadence": 95, "notes": "Hide in the draft." }
+        { "id": "b002-i2", "name": "Sit In", "duration": 60, "powerZone": "Z2", "cadence": 95, "notes": "Hide in the draft." }
       ]
     },
     { "type": "interval", "id": "i013", "name": "Attack + Chase", "duration": 240, "powerZone": "Z2", "cadence": 90, "notes": "Soft pedal in the bunch." },
@@ -57,8 +57,8 @@
       "repetitions": 3,
       "intervals": [
         { "id": "b003-i1", "name": "Counter Attack!", "duration": 30, "powerZone": "Z6", "cadence": 100, "notes": "Jump hard at speed." },
-        { "id": "b003-i2", "name": "Keep It Rolling", "duration": 60, "powerZone": "Z3+", "cadence": 95, "notes": "The gap holds." },
-        { "id": "b003-i3", "name": "Sit In", "duration": 60, "powerZone": "Z2+", "cadence": 90, "notes": "Absorbed back into the bunch." }
+        { "id": "b003-i2", "name": "Keep It Rolling", "duration": 60, "powerZone": "Z3", "cadence": 95, "notes": "The gap holds." },
+        { "id": "b003-i3", "name": "Sit In", "duration": 60, "powerZone": "Z2", "cadence": 90, "notes": "Absorbed back into the bunch." }
       ]
     },
     { "type": "interval", "id": "i027", "name": "Beaver Rollers", "duration": 120, "powerZone": "Z1", "notes": "Final regroup before the run home." },
