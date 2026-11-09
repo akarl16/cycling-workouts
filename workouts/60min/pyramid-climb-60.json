@@ -3,6 +3,196 @@
   "name": "Pyramid Climb",
   "description": "60-minute pyramid workout building up and down through zones with progressive intervals",
   "totalDuration": 3600,
+  "videos": [
+    {
+      "id": "video-high-hopes",
+      "name": "High Hopes",
+      "youtubeUrl": "https://www.youtube.com/watch?v=krrYR2oF2J0",
+      "startTime": 0,
+      "triggerIntervalId": "warmup",
+      "endIntervalId": "warmup",
+      "endOffset": 229
+    },
+    {
+      "id": "video-dangerous",
+      "name": "Dangerous",
+      "youtubeUrl": "https://www.youtube.com/watch?v=N3fjhMXA8nM",
+      "startTime": 0,
+      "triggerIntervalId": "warmup",
+      "triggerOffset": 229,
+      "endIntervalId": "ramp-z3-off",
+      "endOffset": 19
+    },
+    {
+      "id": "video-cantando",
+      "name": "Cantando",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nur8PDIl15g",
+      "startTime": 0,
+      "triggerIntervalId": "ramp-z3-off",
+      "triggerOffset": 19,
+      "endIntervalId": "ramp-recovery",
+      "endOffset": 27
+    },
+    {
+      "id": "video-let-it-rock",
+      "name": "Let It Rock",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5tXWMc0wLlA",
+      "startTime": 0,
+      "triggerIntervalId": "ramp-recovery",
+      "triggerOffset": 27,
+      "endIntervalId": "recovery-30s-block-ramps-30s-rep-1",
+      "endOffset": 14
+    },
+    {
+      "id": "video-sweet-dreams-are-made-of-this",
+      "name": "Sweet Dreams (Are Made of This)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mZXac7A4dFA",
+      "startTime": 0,
+      "triggerIntervalId": "recovery-30s-block-ramps-30s-rep-1",
+      "triggerOffset": 14,
+      "endIntervalId": "recovery-30s-block-ramps-30s-rep-3",
+      "endOffset": 49
+    },
+    {
+      "id": "video-bassthoven",
+      "name": "Bassthoven",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OX2LuNn9QvU",
+      "startTime": 0,
+      "triggerIntervalId": "recovery-30s-block-ramps-30s-rep-3",
+      "triggerOffset": 49,
+      "endIntervalId": "climb-60s-z5-block-ramps-60s-rep-1",
+      "endOffset": 17
+    },
+    {
+      "id": "video-dance-on-mondays",
+      "name": "Dance on Mondays",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TmLByOF_wjg",
+      "startTime": 0,
+      "triggerIntervalId": "climb-60s-z5-block-ramps-60s-rep-1",
+      "triggerOffset": 17,
+      "endIntervalId": "recovery-60s-block-ramps-60s-rep-3",
+      "endOffset": 5
+    },
+    {
+      "id": "video-beautiful-liar",
+      "name": "Beautiful Liar",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QrOe2h9RtWI",
+      "startTime": 0,
+      "triggerIntervalId": "recovery-60s-block-ramps-60s-rep-3",
+      "triggerOffset": 5,
+      "endIntervalId": "climb-90s-z5-block-ramps-90s-up-rep-1",
+      "endOffset": 25
+    },
+    {
+      "id": "video-middle-of-nowhere",
+      "name": "Middle of Nowhere",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5j8yo_L53vc",
+      "startTime": 0,
+      "triggerIntervalId": "climb-90s-z5-block-ramps-90s-up-rep-1",
+      "triggerOffset": 25,
+      "endIntervalId": "climb-90s-z3-block-ramps-90s-up-rep-3",
+      "endOffset": 25
+    },
+    {
+      "id": "video-takin-off",
+      "name": "Takin' Off",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ndSGCAxsJIo",
+      "startTime": 0,
+      "triggerIntervalId": "climb-90s-z3-block-ramps-90s-up-rep-3",
+      "triggerOffset": 25,
+      "endIntervalId": "downhill-90s-z4-block-ramps-90s-down-rep-1",
+      "endOffset": 13
+    },
+    {
+      "id": "video-do-it-to-it",
+      "name": "Do It To It",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cBSYJqv0Fjc",
+      "startTime": 0,
+      "triggerIntervalId": "downhill-90s-z4-block-ramps-90s-down-rep-1",
+      "triggerOffset": 13,
+      "endIntervalId": "downhill-90s-z4-block-ramps-90s-down-rep-2",
+      "endOffset": 21
+    },
+    {
+      "id": "video-hawaiian-roller-coaster-ride",
+      "name": "Hawaiian Roller Coaster Ride",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rO_OM3o2IW8",
+      "startTime": 0,
+      "triggerIntervalId": "downhill-90s-z4-block-ramps-90s-down-rep-2",
+      "triggerOffset": 21,
+      "endIntervalId": "downhill-90s-z4-block-ramps-90s-down-rep-3",
+      "endOffset": 26
+    },
+    {
+      "id": "video-trompa",
+      "name": "TROMPA",
+      "youtubeUrl": "https://www.youtube.com/watch?v=20xrC0rLePo",
+      "startTime": 0,
+      "triggerIntervalId": "downhill-90s-z4-block-ramps-90s-down-rep-3",
+      "triggerOffset": 26,
+      "endIntervalId": "downhill-60s-z5-block-ramps-60s-down-rep-1",
+      "endOffset": 10
+    },
+    {
+      "id": "video-cramp-your-style",
+      "name": "Cramp Your Style",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MFy_GPG5L4Q",
+      "startTime": 0,
+      "triggerIntervalId": "downhill-60s-z5-block-ramps-60s-down-rep-1",
+      "triggerOffset": 10,
+      "endIntervalId": "downhill-60s-z5-block-ramps-60s-down-rep-2",
+      "endOffset": 16
+    },
+    {
+      "id": "video-rock-n-roll-medley",
+      "name": "Rock n' Roll Medley",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7c6-q6mY7UY",
+      "startTime": 0,
+      "triggerIntervalId": "downhill-60s-z5-block-ramps-60s-down-rep-2",
+      "triggerOffset": 16,
+      "endIntervalId": "recovery-30s-down-block-ramps-30s-down-rep-2",
+      "endOffset": 35
+    },
+    {
+      "id": "video-kingdom",
+      "name": "Kingdom",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-wGXH7-ESaE",
+      "startTime": 0,
+      "triggerIntervalId": "recovery-30s-down-block-ramps-30s-down-rep-2",
+      "triggerOffset": 35,
+      "endIntervalId": "time-trial",
+      "endOffset": 36
+    },
+    {
+      "id": "video-black-plastic",
+      "name": "Black Plastic",
+      "youtubeUrl": "https://www.youtube.com/watch?v=93JdHTvwoGs",
+      "startTime": 0,
+      "triggerIntervalId": "time-trial",
+      "triggerOffset": 36,
+      "endIntervalId": "time-trial",
+      "endOffset": 171
+    },
+    {
+      "id": "video-animal",
+      "name": "Animal",
+      "youtubeUrl": "https://www.youtube.com/watch?v=S33hgFkiMsA",
+      "startTime": 0,
+      "triggerIntervalId": "time-trial",
+      "triggerOffset": 171,
+      "endIntervalId": "cooldown-z2-block-cooldown-rep-1",
+      "endOffset": 54
+    },
+    {
+      "id": "video-teenage-dirtbag",
+      "name": "Teenage Dirtbag",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FC3y9llDXuM",
+      "startTime": 0,
+      "triggerIntervalId": "cooldown-z2-block-cooldown-rep-1",
+      "triggerOffset": 54,
+      "endIntervalId": "cooldown-z1-2-block-cooldown-rep-1"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
