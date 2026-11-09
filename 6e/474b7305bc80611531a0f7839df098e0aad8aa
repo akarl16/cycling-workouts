@@ -1,0 +1,19 @@
+workouts/60min/pyramid-climb-60.json
+  s_755384a2ba30fb::t_4a22d43293b018 6-195
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6e474b7305bc80611531a0f7839df098e0aad8aa",
+  "prompts": {},
+  "sessions": {
+    "s_755384a2ba30fb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ee96ac5c-69d1-42ba-aca2-919de3612c40",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
