@@ -1,0 +1,25 @@
+.claude/skills/align-workout-videos/align_videos.py
+  s_755384a2ba30fb::t_869b84a0bcb4c3 1-97
+workouts/60min/pyramid-climb-60.json
+  s_755384a2ba30fb::t_1bebb5723449dd 14,22-23,31,39,46-47,55,62-63,70-71,78-79,86-87,94-95,102-103,110-111,118-119,126-127,134-135,142-143,151,158
+.claude/skills/align-workout-videos/SKILL.md
+  s_755384a2ba30fb::t_8a20c2e4b3da63 1-59
+.agents/skills/align-workout-videos
+  s_755384a2ba30fb::t_47f8874a3904c3 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "075005d1d5b418fc33b0f475e29b5d64785b641e",
+  "prompts": {},
+  "sessions": {
+    "s_755384a2ba30fb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ee96ac5c-69d1-42ba-aca2-919de3612c40",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
