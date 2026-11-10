@@ -1,0 +1,19 @@
+.claude/skills/align-workout-videos/SKILL.md
+  s_755384a2ba30fb::t_d4ce6b32a28cd9 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "174efc8d677474807c6002f15e75b14cf4180806",
+  "prompts": {},
+  "sessions": {
+    "s_755384a2ba30fb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ee96ac5c-69d1-42ba-aca2-919de3612c40",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
