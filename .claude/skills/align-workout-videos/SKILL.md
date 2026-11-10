@@ -1,6 +1,6 @@
 ---
 name: align-workout-videos
-description: Use when adding a Spotify playlist's songs as YouTube videos to a workout JSON's `videos` array, or re-syncing videos that drift out of time with the music. Triggers on "add the playlist/songs/videos to the workout", a Spotify playlist URL plus a workout, or "the videos are out of sync". Not for a single backdrop video (see VIDEOS.md).
+description: Use when adding a Spotify playlist's songs as YouTube videos to a workout JSON's `videos` array, or re-syncing videos that drift out of time with the music. Triggers on "add the playlist/songs/videos to the workout", "make the videos match the songs", "re-sync / re-align the videos", "videos drifted / out of sync", crossfade timing, "YouTube videos for the tracks" when a workout is involved, or a Spotify playlist URL plus a workout. Not for a single backdrop video (see VIDEOS.md).
 ---
 
 # Align Playlist Videos to a Workout
