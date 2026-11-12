@@ -1,0 +1,14 @@
+workouts/50min/dude-wheres-my-zone-50.json
+  h_fc3ad7b886d6c7 6-151,175-200,211-213,243,258,280,288,310,342,355,359-368,379-391,398
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "46052a53e127795257961bf2c419690cd8a7e115",
+  "prompts": {},
+  "humans": {
+    "h_fc3ad7b886d6c7": {
+      "author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
