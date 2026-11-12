@@ -3,6 +3,152 @@
   "name": "Dude, where's my zone?",
   "description": "50-minute tour of the power zones: builds, tempo, threshold, VO2 max, anaerobic and neuromuscular efforts in turn, each with its own recovery.",
   "totalDuration": 3000,
+  "videos": [
+    {
+      "id": "video-draw-you-out",
+      "name": "Draw You Out",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OSdQnT_FhAs",
+      "startTime": 0,
+      "triggerIntervalId": "warmup-z1",
+      "endIntervalId": "warmup-z2",
+      "endOffset": 6
+    },
+    {
+      "id": "video-save-all-that-for-another-day",
+      "name": "Save All That for Another Day",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NQetfaMKdfQ",
+      "startTime": 0,
+      "triggerIntervalId": "warmup-z2",
+      "triggerOffset": 6,
+      "endIntervalId": "build-z2",
+      "endOffset": 5
+    },
+    {
+      "id": "video-just-sing-trolls-world-tour",
+      "name": "Just Sing (Trolls World Tour)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DoJtK7upCdg",
+      "startTime": 0,
+      "triggerIntervalId": "build-z2",
+      "triggerOffset": 5,
+      "endIntervalId": "build-z4"
+    },
+    {
+      "id": "video-alphabet-aerobics",
+      "name": "Alphabet Aerobics",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zlynqOgBAUw",
+      "startTime": 0,
+      "triggerIntervalId": "recover-1",
+      "endIntervalId": "recover-1"
+    },
+    {
+      "id": "video-the-ai-took-my-soul",
+      "name": "The AI took my soul",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hJB2HNG2-7Q",
+      "startTime": 0,
+      "triggerIntervalId": "tempo-1",
+      "endIntervalId": "tempo-1-rec"
+    },
+    {
+      "id": "video-hope-chant",
+      "name": "Hope Chant",
+      "youtubeUrl": "https://www.youtube.com/watch?v=G_XnLyREEMM",
+      "startTime": 0,
+      "triggerIntervalId": "tempo-2",
+      "endIntervalId": "tempo-2-rec"
+    },
+    {
+      "id": "video-shine-a-light",
+      "name": "Shine a Light",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PMO3b-V1XUU",
+      "startTime": 0,
+      "triggerIntervalId": "tempo-3",
+      "endIntervalId": "tempo-3",
+      "endOffset": 231
+    },
+    {
+      "id": "video-get-it-going",
+      "name": "Get It Going",
+      "youtubeUrl": "https://www.youtube.com/watch?v=X5URISJ9ZCc",
+      "startTime": 0,
+      "triggerIntervalId": "tempo-3",
+      "triggerOffset": 231,
+      "endIntervalId": "recover-2"
+    },
+    {
+      "id": "video-uprising",
+      "name": "Uprising",
+      "youtubeUrl": "https://www.youtube.com/watch?v=itUJUs95LqU",
+      "startTime": 0,
+      "triggerIntervalId": "threshold-1",
+      "endIntervalId": "threshold-3",
+      "endOffset": 113
+    },
+    {
+      "id": "video-throwback-love",
+      "name": "Throwback Love",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Gn5iSIJOoH8",
+      "startTime": 0,
+      "triggerIntervalId": "threshold-3",
+      "triggerOffset": 113,
+      "endIntervalId": "recover-3"
+    },
+    {
+      "id": "video-dance-at-my-funeral",
+      "name": "Dance at My Funeral",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OrGA2tCvHRU",
+      "startTime": 0,
+      "triggerIntervalId": "vo2-on-block-vo2-rep-1",
+      "endIntervalId": "vo2-off-block-vo2-rep-3",
+      "endOffset": 9
+    },
+    {
+      "id": "video-yes-i-m-a-mess",
+      "name": "Yes I'm A Mess",
+      "youtubeUrl": "https://www.youtube.com/watch?v=W1Cicb0IDy0",
+      "startTime": 0,
+      "triggerIntervalId": "vo2-off-block-vo2-rep-3",
+      "triggerOffset": 9,
+      "endIntervalId": "anaerobic",
+      "endOffset": 14
+    },
+    {
+      "id": "video-seasons-in-the-sun",
+      "name": "Seasons in the Sun",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nBt1JodxCcE",
+      "startTime": 0,
+      "triggerIntervalId": "anaerobic",
+      "triggerOffset": 14,
+      "endIntervalId": "anaerobic"
+    },
+    {
+      "id": "video-a-sky-full-of-stars",
+      "name": "A Sky Full of Stars",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cusA8wYBZKU",
+      "startTime": 0,
+      "triggerIntervalId": "recover-5",
+      "endIntervalId": "neuromuscular",
+      "endOffset": 137
+    },
+    {
+      "id": "video-free-bird-totem-remix",
+      "name": "Free Bird - TOTEM Remix",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zcdxwKRPM7E",
+      "startTime": 0,
+      "triggerIntervalId": "neuromuscular",
+      "triggerOffset": 137,
+      "endIntervalId": "neuromuscular",
+      "endOffset": 293
+    },
+    {
+      "id": "video-living-our-best-life",
+      "name": "Living Our Best Life",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iq-biSdpXDA",
+      "startTime": 0,
+      "triggerIntervalId": "neuromuscular",
+      "triggerOffset": 293,
+      "endIntervalId": "cooldown-3"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
@@ -26,24 +172,32 @@
       "duration": 120
     },
     {
-      "type": "block",
-      "id": "build",
-      "name": "Builds",
-      "repetitions": 2,
-      "intervals": [
-        {
-          "id": "build-z2",
-          "name": "Build Z2",
-          "powerZone": "Z2",
-          "duration": 30
-        },
-        {
-          "id": "build-z4",
-          "name": "Build Z4",
-          "powerZone": "Z4",
-          "duration": 60
-        }
-      ]
+      "type": "interval",
+      "id": "build-z2",
+      "name": "Build Z2",
+      "powerZone": "Z2",
+      "duration": 30
+    },
+    {
+      "type": "interval",
+      "id": "build-z3-plus",
+      "name": "Build Z3+",
+      "powerZone": "Z3+",
+      "duration": 60
+    },
+    {
+      "type": "interval",
+      "id": "build-z2-2",
+      "name": "Build Z2",
+      "powerZone": "Z2",
+      "duration": 30
+    },
+    {
+      "type": "interval",
+      "id": "build-z4-minus",
+      "name": "Build Z4-",
+      "powerZone": "Z4-",
+      "duration": 60
     },
     {
       "type": "interval",
@@ -54,9 +208,9 @@
     },
     {
       "type": "interval",
-      "id": "build-z5",
-      "name": "Build Z5",
-      "powerZone": "Z5",
+      "id": "build-z4",
+      "name": "Build Z4",
+      "powerZone": "Z4",
       "duration": 30
     },
     {
@@ -86,7 +240,7 @@
       "id": "tempo-2",
       "name": "Tempo",
       "powerZone": "Z3",
-      "duration": 120,
+      "duration": 180,
       "cadence": 75
     },
     {
@@ -101,7 +255,7 @@
       "id": "tempo-3",
       "name": "Tempo",
       "powerZone": "Z3",
-      "duration": 120,
+      "duration": 240,
       "cadence": 95
     },
     {
@@ -123,7 +277,7 @@
       "id": "threshold-1",
       "name": "Threshold",
       "powerZone": "Z4",
-      "duration": 60,
+      "duration": 30,
       "cadence": 95
     },
     {
@@ -131,7 +285,7 @@
       "id": "threshold-1-rec",
       "name": "Threshold recover",
       "powerZone": "Z2",
-      "duration": 60
+      "duration": 30
     },
     {
       "type": "interval",
@@ -153,7 +307,7 @@
       "id": "threshold-3",
       "name": "Threshold",
       "powerZone": "Z4",
-      "duration": 60,
+      "duration": 120,
       "cadence": 95
     },
     {
@@ -185,7 +339,7 @@
         {
           "id": "vo2-off",
           "name": "VO2 recover",
-          "powerZone": "Z2",
+          "powerZone": "Z1",
           "duration": 30
         }
       ]
@@ -198,52 +352,20 @@
       "duration": 120
     },
     {
-      "type": "block",
+      "type": "interval",
       "id": "anaerobic",
       "name": "Anaerobic",
-      "repetitions": 3,
-      "intervals": [
-        {
-          "id": "anaerobic-off",
-          "name": "Anaerobic recover",
-          "powerZone": "Z1",
-          "duration": 40
-        },
-        {
-          "id": "anaerobic-on",
-          "name": "Anaerobic",
-          "powerZone": "Z6",
-          "duration": 20
-        }
-      ]
-    },
-    {
-      "type": "interval",
-      "id": "neuromuscular-easy",
-      "name": "Neuromuscular",
       "powerZone": "Z1",
-      "duration": 145
-    },
-    {
-      "type": "interval",
-      "id": "neuromuscular-sprint",
-      "name": "Neuromuscular",
-      "powerZone": "Z7",
-      "duration": 10
-    },
-    {
-      "type": "interval",
-      "id": "neuromuscular-recover",
-      "name": "Neuromuscular recover",
-      "powerZone": "Z1",
-      "duration": 90
-    },
-    {
-      "type": "interval",
-      "id": "neuromuscular-sprint-2",
-      "name": "Neuromuscular",
-      "powerZone": "Z7",
-      "duration": 10
+      "duration": 150,
+      "cadence": 95,
+      "notes": "3x drops",
+      "alternating": {
+        "powerZoneA": "Z1",
+        "powerZoneB": "Z6",
+        "cadenceA": 95,
+        "cadenceB": 95,
+        "startWithZone": "A"
+      }
     },
     {
       "type": "interval",
@@ -254,25 +376,26 @@
     },
     {
       "type": "interval",
-      "id": "cooldown-1",
-      "name": "Cool-down",
-      "powerZone": "Z2",
-      "duration": 120,
-      "cadence": 95
-    },
-    {
-      "type": "interval",
-      "id": "cooldown-2",
-      "name": "Cool-down",
-      "powerZone": "Z2",
-      "duration": 120
+      "id": "neuromuscular",
+      "name": "Neuromuscular",
+      "powerZone": "Z1",
+      "duration": 300,
+      "cadence": 100,
+      "notes": "2x drops",
+      "alternating": {
+        "powerZoneA": "Z1",
+        "powerZoneB": "Z7",
+        "cadenceA": 100,
+        "cadenceB": 100,
+        "startWithZone": "A"
+      }
     },
     {
       "type": "interval",
       "id": "cooldown-3",
       "name": "Cool-down",
       "powerZone": "Z1",
-      "duration": 45
+      "duration": 90
     }
   ],
   "isSample": false
