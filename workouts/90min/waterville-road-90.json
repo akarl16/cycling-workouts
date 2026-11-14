@@ -1,0 +1,247 @@
+{
+  "id": "waterville-road-90",
+  "name": "Waterville Road",
+  "description": "90 minute road-inspired workout through Waterville Rise, Col du Waterville, four tempo efforts, an overgear/fast cadence set, and a neighborhood race finish",
+  "totalDuration": 5400,
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Easy spin",
+      "duration": 150,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Waterville Rd",
+      "duration": 40,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Waterville Rise",
+      "duration": 87,
+      "powerZone": "Z3+",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Waterville Curves",
+      "duration": 104,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Build to tempo",
+      "duration": 346,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Tempo 1",
+      "duration": 557,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Col du Waterville",
+      "duration": 52,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Col du Waterville",
+      "duration": 60,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Col du Waterville",
+      "duration": 76,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "Col du Waterville",
+      "duration": 60,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "Ride to ZZ",
+      "duration": 215,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "ZZ West",
+      "duration": 191,
+      "powerZone": "Z3",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "Easy",
+      "duration": 109,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Tempo 2",
+      "duration": 330,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "Tempo 2",
+      "duration": 331,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Tempo 3",
+      "duration": 426,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i018",
+      "name": "Recover",
+      "duration": 129,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i019",
+      "name": "Hollander Hill",
+      "duration": 65,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "i020",
+      "name": "Recover",
+      "duration": 352,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i021",
+      "name": "Settle",
+      "duration": 240,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i022",
+      "name": "Tempo 4",
+      "duration": 600,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i023",
+      "name": "Short rise",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i024",
+      "name": "Overgear-Fast Cadence",
+      "duration": 30,
+      "powerZone": "Z3+",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "i025",
+      "name": "Overgear-Fast Cadence",
+      "duration": 30,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i026",
+      "name": "Overgear-Fast Cadence",
+      "duration": 30,
+      "powerZone": "Z3+",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i027",
+      "name": "Overgear-Fast Cadence",
+      "duration": 30,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i028",
+      "name": "Overgear-Fast Cadence",
+      "duration": 30,
+      "powerZone": "Z3",
+      "cadence": 65
+    },
+    {
+      "type": "interval",
+      "id": "i029",
+      "name": "Overgear-Fast Cadence",
+      "duration": 30,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i030",
+      "name": "Overgear-Fast Cadence",
+      "duration": 30,
+      "powerZone": "Z3",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "i031",
+      "name": "Overgear-Fast Cadence",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i032",
+      "name": "Neighborhood race",
+      "duration": 240,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i033",
+      "name": "Cool-down",
+      "duration": 130,
+      "powerZone": "Z1"
+    }
+  ],
+  "isSample": false
+}
