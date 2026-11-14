@@ -1,0 +1,19 @@
+workouts/90min/waterville-road-90.json
+  s_d242cb3c846d62::t_bb4652ef1339b1 1-247
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e2160282724e599f55c3a62ae7e4307c6a2f4646",
+  "prompts": {},
+  "sessions": {
+    "s_d242cb3c846d62": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "027e3bd3-9533-4e2b-aff4-37a7014e2351",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
