@@ -243,5 +243,15 @@
       "powerZone": "Z1"
     }
   ],
-  "isSample": false
+  "isSample": false,
+  "videos": [
+    {
+      "id": "waterville-road-video",
+      "name": "Waterville Road",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KpaqoGomPMM",
+      "startTime": 0,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i033"
+    }
+  ]
 }
