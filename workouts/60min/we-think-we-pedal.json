@@ -5,6 +5,15 @@
   "totalDuration": 3600,
   "videos": [
     {
+      "id": "video-playground",
+      "name": "Playground",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aZpJGMF14Do",
+      "startTime": 0,
+      "triggerIntervalId": "warm-up-1",
+      "endIntervalId": "warm-up-1",
+      "endOffset": 158
+    },
+    {
       "id": "video-good-to-be-alive",
       "name": "Good To Be Alive",
       "youtubeUrl": "https://www.youtube.com/watch?v=J_vHjWmVRlM",
@@ -15,6 +24,16 @@
       "endOffset": 299
     },
     {
+      "id": "video-i-trust-my-feet",
+      "name": "I Trust My Feet",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5nvIJQP9rh0",
+      "startTime": 0,
+      "triggerIntervalId": "warm-up-1",
+      "triggerOffset": 299,
+      "endIntervalId": "builds-z4-1",
+      "endOffset": 5
+    },
+    {
       "id": "video-underdog-raps",
       "name": "Underdog Raps",
       "youtubeUrl": "https://www.youtube.com/watch?v=4Fe9GEoB-z0",
@@ -23,6 +42,36 @@
       "triggerOffset": 5,
       "endIntervalId": "builds-z5-1",
       "endOffset": 1
+    },
+    {
+      "id": "video-sunroof",
+      "name": "Sunroof",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wAwMvRz9oI4",
+      "startTime": 0,
+      "triggerIntervalId": "builds-z5-1",
+      "triggerOffset": 1,
+      "endIntervalId": "builds-z4-2",
+      "endOffset": 118
+    },
+    {
+      "id": "video-show-me-the-good-stuff",
+      "name": "Show Me the Good Stuff",
+      "youtubeUrl": "https://www.youtube.com/watch?v=r3MHMBsoyQY",
+      "startTime": 0,
+      "triggerIntervalId": "builds-z4-2",
+      "triggerOffset": 118,
+      "endIntervalId": "single-leg-left-block-single-leg-drills-rep-1",
+      "endOffset": 2
+    },
+    {
+      "id": "video-all-eyes-on-me",
+      "name": "All Eyes On Me",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_LxUr8Gx9wY",
+      "startTime": 0,
+      "triggerIntervalId": "single-leg-left-block-single-leg-drills-rep-1",
+      "triggerOffset": 2,
+      "endIntervalId": "single-leg-left-block-single-leg-drills-rep-2",
+      "endOffset": 4
     },
     {
       "id": "video-here-to-dance",
@@ -109,6 +158,16 @@
       "endOffset": 178
     },
     {
+      "id": "video-shinin",
+      "name": "Shinin'",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Dm9r29WHTCA",
+      "startTime": 0,
+      "triggerIntervalId": "fast-cadence-1-block-overgear-fast-cadence-block-rep-2",
+      "triggerOffset": 178,
+      "endIntervalId": "recover-1-block-overgear-fast-cadence-block-rep-2",
+      "endOffset": 112
+    },
+    {
       "id": "video-nothing-can-stop-me-now",
       "name": "Nothing Can Stop Me Now",
       "youtubeUrl": "https://www.youtube.com/watch?v=-8fKlWAXJEc",
@@ -117,6 +176,16 @@
       "triggerOffset": 112,
       "endIntervalId": "overgear-2-block-overgear-fast-cadence-block-rep-2",
       "endOffset": 147
+    },
+    {
+      "id": "video-no-diggity",
+      "name": "No Diggity",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c3g8x3yYFpw",
+      "startTime": 0,
+      "triggerIntervalId": "overgear-2-block-overgear-fast-cadence-block-rep-2",
+      "triggerOffset": 147,
+      "endIntervalId": "recover-2-block-overgear-fast-cadence-block-rep-2",
+      "endOffset": 114
     },
     {
       "id": "video-a-good-look",
