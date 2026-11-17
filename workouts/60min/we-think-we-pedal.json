@@ -3,6 +3,160 @@
   "name": "We think, We pedal",
   "description": "60-minute structured workout with builds, single-leg drills, overgear/fast cadence intervals, and high-intensity Z6 work",
   "totalDuration": 3600,
+  "videos": [
+    {
+      "id": "video-good-to-be-alive",
+      "name": "Good To Be Alive",
+      "youtubeUrl": "https://www.youtube.com/watch?v=J_vHjWmVRlM",
+      "startTime": 0,
+      "triggerIntervalId": "warm-up-1",
+      "triggerOffset": 158,
+      "endIntervalId": "warm-up-1",
+      "endOffset": 299
+    },
+    {
+      "id": "video-underdog-raps",
+      "name": "Underdog Raps",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4Fe9GEoB-z0",
+      "startTime": 0,
+      "triggerIntervalId": "builds-z4-1",
+      "triggerOffset": 5,
+      "endIntervalId": "builds-z5-1",
+      "endOffset": 1
+    },
+    {
+      "id": "video-here-to-dance",
+      "name": "Here To Dance",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-aDzCchM1rk",
+      "startTime": 0,
+      "triggerIntervalId": "single-leg-left-block-single-leg-drills-rep-2",
+      "triggerOffset": 4,
+      "endIntervalId": "recovery-right-block-single-leg-drills-rep-2"
+    },
+    {
+      "id": "video-jackpot",
+      "name": "Jackpot",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jJgh0kEkf5k",
+      "startTime": 0,
+      "triggerIntervalId": "recover-2",
+      "endIntervalId": "recover-2",
+      "endOffset": 118
+    },
+    {
+      "id": "video-might-not-like-me",
+      "name": "Might Not Like Me",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6wP4hqkJx5U",
+      "startTime": 0,
+      "triggerIntervalId": "recover-2",
+      "triggerOffset": 118,
+      "endIntervalId": "fast-cadence-1-block-overgear-fast-cadence-block-rep-1",
+      "endOffset": 4
+    },
+    {
+      "id": "video-elizabeth-taylor",
+      "name": "Elizabeth Taylor",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KJSXRrk_u0U",
+      "startTime": 0,
+      "triggerIntervalId": "fast-cadence-1-block-overgear-fast-cadence-block-rep-1",
+      "triggerOffset": 4,
+      "endIntervalId": "fast-cadence-1-block-overgear-fast-cadence-block-rep-1"
+    },
+    {
+      "id": "video-cups",
+      "name": "Cups",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cmSbXsFE3l8",
+      "startTime": 76,
+      "triggerIntervalId": "recover-1-block-overgear-fast-cadence-block-rep-1",
+      "endIntervalId": "recover-1-block-overgear-fast-cadence-block-rep-1",
+      "endOffset": 118
+    },
+    {
+      "id": "video-walking-on-sunshine",
+      "name": "Walking On Sunshine",
+      "youtubeUrl": "https://www.youtube.com/watch?v=w-nKsBl3m2w",
+      "startTime": 0,
+      "triggerIntervalId": "recover-1-block-overgear-fast-cadence-block-rep-1",
+      "triggerOffset": 118,
+      "endIntervalId": "recover-2-block-overgear-fast-cadence-block-rep-1",
+      "endOffset": 1
+    },
+    {
+      "id": "video-crazy-little-thing-called-love",
+      "name": "Crazy Little Thing Called Love",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lCnZCGl9qjw",
+      "startTime": 0,
+      "triggerIntervalId": "recover-2-block-overgear-fast-cadence-block-rep-1",
+      "triggerOffset": 1,
+      "endIntervalId": "recover-2-block-overgear-fast-cadence-block-rep-1"
+    },
+    {
+      "id": "video-little-girl-gone",
+      "name": "Little Girl Gone",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gnPKYVkK_iA",
+      "startTime": 0,
+      "triggerIntervalId": "overgear-1-block-overgear-fast-cadence-block-rep-2",
+      "endIntervalId": "overgear-1-block-overgear-fast-cadence-block-rep-2",
+      "endOffset": 178
+    },
+    {
+      "id": "video-hey-homie",
+      "name": "Hey Homie",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6wYLQmMyhF0",
+      "startTime": 0,
+      "triggerIntervalId": "overgear-1-block-overgear-fast-cadence-block-rep-2",
+      "triggerOffset": 178,
+      "endIntervalId": "fast-cadence-1-block-overgear-fast-cadence-block-rep-2",
+      "endOffset": 178
+    },
+    {
+      "id": "video-nothing-can-stop-me-now",
+      "name": "Nothing Can Stop Me Now",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-8fKlWAXJEc",
+      "startTime": 0,
+      "triggerIntervalId": "recover-1-block-overgear-fast-cadence-block-rep-2",
+      "triggerOffset": 112,
+      "endIntervalId": "overgear-2-block-overgear-fast-cadence-block-rep-2",
+      "endOffset": 147
+    },
+    {
+      "id": "video-a-good-look",
+      "name": "A Good Look",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_uVNBohaWoM",
+      "startTime": 0,
+      "triggerIntervalId": "recover-2-block-overgear-fast-cadence-block-rep-2",
+      "triggerOffset": 114,
+      "endIntervalId": "overgear-recovery-block-z6-intervals-set-1-rep-3"
+    },
+    {
+      "id": "video-bad-habits",
+      "name": "Bad Habits",
+      "youtubeUrl": "https://www.youtube.com/watch?v=993sMUYAj9A",
+      "startTime": 0,
+      "triggerIntervalId": "recover-3",
+      "endIntervalId": "fast-cadence-z6-2-block-z6-intervals-set-2-rep-3",
+      "endOffset": 8
+    },
+    {
+      "id": "video-throw-some-ass",
+      "name": "Throw Some Ass",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nRpCivrtmXM",
+      "startTime": 0,
+      "triggerIntervalId": "fast-cadence-z6-2-block-z6-intervals-set-2-rep-3",
+      "triggerOffset": 8,
+      "endIntervalId": "z2-cadence-95",
+      "endOffset": 106
+    },
+    {
+      "id": "video-we-need-a-bigger-bus",
+      "name": "We Need a Bigger Bus",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Bs6pc8UBTXM",
+      "startTime": 0,
+      "triggerIntervalId": "z2-cadence-95",
+      "triggerOffset": 106,
+      "endIntervalId": "cool-down-z1",
+      "endOffset": 47
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
