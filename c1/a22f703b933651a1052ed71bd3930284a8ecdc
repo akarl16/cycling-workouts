@@ -1,0 +1,14 @@
+workouts/60min/we-think-we-pedal.json
+  h_fc3ad7b886d6c7 7-15,26-35,46-75,160-169,181-190
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c1a22f703b933651a1052ed71bd3930284a8ecdc",
+  "prompts": {},
+  "humans": {
+    "h_fc3ad7b886d6c7": {
+      "author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
