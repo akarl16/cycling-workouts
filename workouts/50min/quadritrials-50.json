@@ -1,7 +1,7 @@
 {
   "id": "quadritrials-50",
   "name": "QuadriTrials",
-  "description": "Four Zone 4 time trials of 4, 6, 8, and 10 minutes with Zone 1 recoveries.",
+  "description": "Four progressive time trials of 4, 6, 8, and 10 minutes with Zone 1 recoveries. The trials start at Z3+ and build to Z4 by the end of the final trial.",
   "totalDuration": 3000,
   "videos": [
     {
@@ -30,14 +30,16 @@
       "startTime": 0,
       "triggerIntervalId": "i004",
       "triggerOffset": 109,
-      "endIntervalId": "i006"
+      "endIntervalId": "i006",
+      "endOffset": 56
     },
     {
       "id": "video-on-top-of-the-world",
       "name": "ON TOP OF THE WORLD",
       "youtubeUrl": "https://www.youtube.com/watch?v=F1yIgek5pTA",
       "startTime": 0,
-      "triggerIntervalId": "i007",
+      "triggerIntervalId": "i006",
+      "triggerOffset": 56,
       "endIntervalId": "i008"
     },
     {
@@ -46,14 +48,16 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=67mkuae8ChY",
       "startTime": 0,
       "triggerIntervalId": "i009",
-      "endIntervalId": "i009"
+      "endIntervalId": "i009",
+      "endOffset": 116
     },
     {
       "id": "video-amazing",
       "name": "Amazing",
       "youtubeUrl": "https://www.youtube.com/watch?v=-PBx7lrvjGc",
       "startTime": 0,
-      "triggerIntervalId": "i010",
+      "triggerIntervalId": "i009",
+      "triggerOffset": 116,
       "endIntervalId": "i011",
       "endOffset": 6
     },
@@ -84,16 +88,16 @@
       "startTime": 0,
       "triggerIntervalId": "i012",
       "triggerOffset": 208,
-      "endIntervalId": "i012",
-      "endOffset": 354
+      "endIntervalId": "i012-2",
+      "endOffset": 144
     },
     {
       "id": "video-fix-you",
       "name": "Fix You",
       "youtubeUrl": "https://www.youtube.com/watch?v=k4V3Mo61fJM",
       "startTime": 0,
-      "triggerIntervalId": "i012",
-      "triggerOffset": 354,
+      "triggerIntervalId": "i012-2",
+      "triggerOffset": 144,
       "endIntervalId": "i014",
       "endOffset": 100
     },
@@ -104,16 +108,16 @@
       "startTime": 0,
       "triggerIntervalId": "i014",
       "triggerOffset": 100,
-      "endIntervalId": "i014",
-      "endOffset": 466
+      "endIntervalId": "i014-2",
+      "endOffset": 346
     },
     {
       "id": "video-hey-cowboy",
       "name": "Hey Cowboy",
       "youtubeUrl": "https://www.youtube.com/watch?v=rORqh-tCKEY",
       "startTime": 0,
-      "triggerIntervalId": "i014",
-      "triggerOffset": 466,
+      "triggerIntervalId": "i014-2",
+      "triggerOffset": 346,
       "endIntervalId": "i015",
       "endOffset": 163
     },
@@ -134,26 +138,26 @@
       "startTime": 0,
       "triggerIntervalId": "i016",
       "triggerOffset": 158,
-      "endIntervalId": "i016",
-      "endOffset": 423
+      "endIntervalId": "i016-2",
+      "endOffset": 243
     },
     {
       "id": "video-new-york-groove-audiomachine-remix",
       "name": "New York Groove - Audiomachine Remix",
       "youtubeUrl": "https://www.youtube.com/watch?v=j2Un-v2XubM",
       "startTime": 0,
-      "triggerIntervalId": "i016",
-      "triggerOffset": 423,
-      "endIntervalId": "i016",
-      "endOffset": 583
+      "triggerIntervalId": "i016-2",
+      "triggerOffset": 243,
+      "endIntervalId": "i016-3",
+      "endOffset": 133
     },
     {
       "id": "video-joy",
       "name": "Joy",
       "youtubeUrl": "https://www.youtube.com/watch?v=zYuVPcyjobY",
       "startTime": 0,
-      "triggerIntervalId": "i016",
-      "triggerOffset": 583,
+      "triggerIntervalId": "i016-3",
+      "triggerOffset": 133,
       "endIntervalId": "i017"
     }
   ],
@@ -231,7 +235,7 @@
       "id": "i010",
       "name": "TT #1",
       "duration": 240,
-      "powerZone": "Z4"
+      "powerZone": "Z3+"
     },
     {
       "type": "interval",
@@ -244,8 +248,15 @@
       "type": "interval",
       "id": "i012",
       "name": "TT #2",
-      "duration": 360,
-      "powerZone": "Z4"
+      "duration": 210,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i012-2",
+      "name": "TT #2 (continued)",
+      "duration": 150,
+      "powerZone": "Z4-"
     },
     {
       "type": "interval",
@@ -258,8 +269,15 @@
       "type": "interval",
       "id": "i014",
       "name": "TT #3",
-      "duration": 480,
-      "powerZone": "Z4"
+      "duration": 120,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i014-2",
+      "name": "TT #3 (continued)",
+      "duration": 360,
+      "powerZone": "Z4-"
     },
     {
       "type": "interval",
@@ -272,7 +290,21 @@
       "type": "interval",
       "id": "i016",
       "name": "TT #4",
-      "duration": 600,
+      "duration": 180,
+      "powerZone": "Z3+"
+    },
+    {
+      "type": "interval",
+      "id": "i016-2",
+      "name": "TT #4 (continued)",
+      "duration": 270,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "i016-3",
+      "name": "TT #4 (continued)",
+      "duration": 150,
       "powerZone": "Z4"
     },
     {
