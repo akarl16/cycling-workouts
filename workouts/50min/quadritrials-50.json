@@ -1,0 +1,287 @@
+{
+  "id": "quadritrials-50",
+  "name": "QuadriTrials",
+  "description": "Four Zone 4 time trials of 4, 6, 8, and 10 minutes with Zone 1 recoveries.",
+  "totalDuration": 3000,
+  "videos": [
+    {
+      "id": "video-my-my",
+      "name": "My My",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QcYdJTEqwhk",
+      "startTime": 0,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i002",
+      "endOffset": 52
+    },
+    {
+      "id": "video-make-you-a-believer",
+      "name": "Make You a Believer",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uS5ni4irLUw",
+      "startTime": 0,
+      "triggerIntervalId": "i002",
+      "triggerOffset": 52,
+      "endIntervalId": "i004",
+      "endOffset": 109
+    },
+    {
+      "id": "video-do-it",
+      "name": "Do It",
+      "youtubeUrl": "https://www.youtube.com/watch?v=y7VcZVW3Pvo",
+      "startTime": 0,
+      "triggerIntervalId": "i004",
+      "triggerOffset": 109,
+      "endIntervalId": "i006"
+    },
+    {
+      "id": "video-on-top-of-the-world",
+      "name": "ON TOP OF THE WORLD",
+      "youtubeUrl": "https://www.youtube.com/watch?v=F1yIgek5pTA",
+      "startTime": 0,
+      "triggerIntervalId": "i007",
+      "endIntervalId": "i008"
+    },
+    {
+      "id": "video-follow-the-leader",
+      "name": "Follow the Leader",
+      "youtubeUrl": "https://www.youtube.com/watch?v=67mkuae8ChY",
+      "startTime": 0,
+      "triggerIntervalId": "i009",
+      "endIntervalId": "i009"
+    },
+    {
+      "id": "video-amazing",
+      "name": "Amazing",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-PBx7lrvjGc",
+      "startTime": 0,
+      "triggerIntervalId": "i010",
+      "endIntervalId": "i011",
+      "endOffset": 6
+    },
+    {
+      "id": "video-hollywood-forever",
+      "name": "Hollywood Forever",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PdLuNvfI0Pc",
+      "startTime": 0,
+      "triggerIntervalId": "i011",
+      "triggerOffset": 6,
+      "endIntervalId": "i012",
+      "endOffset": 9
+    },
+    {
+      "id": "video-the-place-to-be",
+      "name": "The Place To Be",
+      "youtubeUrl": "https://www.youtube.com/watch?v=quqCH6J-0NI",
+      "startTime": 0,
+      "triggerIntervalId": "i012",
+      "triggerOffset": 9,
+      "endIntervalId": "i012",
+      "endOffset": 208
+    },
+    {
+      "id": "video-the-chemical-worker-s-song-process-man",
+      "name": "The Chemical Worker's Song - Process Man",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bo8dzNlt7aU",
+      "startTime": 0,
+      "triggerIntervalId": "i012",
+      "triggerOffset": 208,
+      "endIntervalId": "i012",
+      "endOffset": 354
+    },
+    {
+      "id": "video-fix-you",
+      "name": "Fix You",
+      "youtubeUrl": "https://www.youtube.com/watch?v=k4V3Mo61fJM",
+      "startTime": 0,
+      "triggerIntervalId": "i012",
+      "triggerOffset": 354,
+      "endIntervalId": "i014",
+      "endOffset": 100
+    },
+    {
+      "id": "video-man-of-constant-sorrow",
+      "name": "Man of Constant Sorrow",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iOnlwghDyvg",
+      "startTime": 0,
+      "triggerIntervalId": "i014",
+      "triggerOffset": 100,
+      "endIntervalId": "i014",
+      "endOffset": 466
+    },
+    {
+      "id": "video-hey-cowboy",
+      "name": "Hey Cowboy",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rORqh-tCKEY",
+      "startTime": 0,
+      "triggerIntervalId": "i014",
+      "triggerOffset": 466,
+      "endIntervalId": "i015",
+      "endOffset": 163
+    },
+    {
+      "id": "video-wings",
+      "name": "Wings",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SklVmOoQ-K0",
+      "startTime": 0,
+      "triggerIntervalId": "i015",
+      "triggerOffset": 163,
+      "endIntervalId": "i016",
+      "endOffset": 158
+    },
+    {
+      "id": "video-fighter",
+      "name": "Fighter",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lugOQalQ4o0",
+      "startTime": 0,
+      "triggerIntervalId": "i016",
+      "triggerOffset": 158,
+      "endIntervalId": "i016",
+      "endOffset": 423
+    },
+    {
+      "id": "video-new-york-groove-audiomachine-remix",
+      "name": "New York Groove - Audiomachine Remix",
+      "youtubeUrl": "https://www.youtube.com/watch?v=j2Un-v2XubM",
+      "startTime": 0,
+      "triggerIntervalId": "i016",
+      "triggerOffset": 423,
+      "endIntervalId": "i016",
+      "endOffset": 583
+    },
+    {
+      "id": "video-joy",
+      "name": "Joy",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zYuVPcyjobY",
+      "startTime": 0,
+      "triggerIntervalId": "i016",
+      "triggerOffset": 583,
+      "endIntervalId": "i017"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "i001",
+      "name": "Z1",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i002",
+      "name": "Z2",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "i003",
+      "name": "Z1 at 95+ rpm",
+      "duration": 60,
+      "powerZone": "Z1",
+      "cadence": 95,
+      "notes": "Cadence 95+ rpm."
+    },
+    {
+      "type": "interval",
+      "id": "i004",
+      "name": "Z3",
+      "duration": 120,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "i005",
+      "name": "Z1 at 95+ rpm",
+      "duration": 60,
+      "powerZone": "Z1",
+      "cadence": 95,
+      "notes": "Cadence 95+ rpm."
+    },
+    {
+      "type": "interval",
+      "id": "i006",
+      "name": "Z4",
+      "duration": 60,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i007",
+      "name": "Recover",
+      "duration": 60,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i008",
+      "name": "Z4",
+      "duration": 120,
+      "powerZone": "Z4",
+      "cadence": 60
+    },
+    {
+      "type": "interval",
+      "id": "i009",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i010",
+      "name": "TT #1",
+      "duration": 240,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i011",
+      "name": "Recover",
+      "duration": 120,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i012",
+      "name": "TT #2",
+      "duration": 360,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i013",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i014",
+      "name": "TT #3",
+      "duration": 480,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i015",
+      "name": "Recover",
+      "duration": 180,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "i016",
+      "name": "TT #4",
+      "duration": 600,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "i017",
+      "name": "Z1",
+      "duration": 60,
+      "powerZone": "Z1"
+    }
+  ],
+  "isSample": false
+}
