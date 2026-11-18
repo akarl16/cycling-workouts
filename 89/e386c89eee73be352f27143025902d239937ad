@@ -1,0 +1,19 @@
+workouts/50min/quadritrials-50.json
+  s_508fa46d5dca1e::t_b24a2303de02b2 1-287
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "89e386c89eee73be352f27143025902d239937ad",
+  "prompts": {},
+  "sessions": {
+    "s_508fa46d5dca1e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8d75e974-8f7b-4878-beea-d7455698eef4",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
