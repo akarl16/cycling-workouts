@@ -1,0 +1,19 @@
+workouts/50min/electric-harmony-50.json
+  s_12baba20d5765d::t_c0928b0a44963d 1-586
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "46707297dafe5c1adead684f0eeab0daa436a7e5",
+  "prompts": {},
+  "sessions": {
+    "s_12baba20d5765d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6fa39fcd-5550-4dde-985e-f0ca962e31a3",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
