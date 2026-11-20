@@ -1,0 +1,586 @@
+{
+  "id": "electric-harmony-50",
+  "name": "Electric Harmony",
+  "description": "50-minute music-led ride: the Electric Love opening ceremony with its own audio, an out-of-the-saddle pyramid to DJ Sammy's Heaven (video audio), then EPCOT's Harmonious synced to the Spotify album (10s crossfade).",
+  "totalDuration": 3000,
+  "videos": [
+    {
+      "id": "video-electric-love",
+      "name": "Electric Love Festival Opening Ceremony 2026",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4c0AIeBdCFQ",
+      "startTime": 0,
+      "triggerIntervalId": "el-01",
+      "endIntervalId": "oos-01",
+      "endOffset": 10,
+      "audioSource": "video"
+    },
+    {
+      "id": "video-heaven",
+      "name": "DJ Sammy - Heaven (Miss Cyanna Remix)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mX7jybOisas",
+      "startTime": 0,
+      "triggerIntervalId": "oos-02",
+      "endIntervalId": "oos-07",
+      "audioSource": "video"
+    },
+    {
+      "id": "video-harmonious-01",
+      "name": "Harmonious: Opening Chants",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 124.5,
+      "triggerIntervalId": "h-01",
+      "endIntervalId": "h-01",
+      "endOffset": 94
+    },
+    {
+      "id": "video-harmonious-02",
+      "name": "Harmonious: Awakening",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 228.5,
+      "triggerIntervalId": "h-01",
+      "triggerOffset": 94,
+      "endIntervalId": "h-04",
+      "endOffset": 73
+    },
+    {
+      "id": "video-harmonious-03",
+      "name": "Harmonious: Middle East",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 394.2,
+      "triggerIntervalId": "h-04",
+      "triggerOffset": 73,
+      "endIntervalId": "h-07",
+      "endOffset": 5
+    },
+    {
+      "id": "video-harmonious-04",
+      "name": "Harmonious: India",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 457.2,
+      "triggerIntervalId": "h-07",
+      "triggerOffset": 5,
+      "endIntervalId": "h-07",
+      "endOffset": 82
+    },
+    {
+      "id": "video-harmonious-05",
+      "name": "Harmonious: China",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 538.8,
+      "triggerIntervalId": "h-07",
+      "triggerOffset": 82,
+      "endIntervalId": "h-08",
+      "endOffset": 69
+    },
+    {
+      "id": "video-harmonious-06",
+      "name": "Harmonious: China (re-sync at 74s)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 593.7,
+      "triggerIntervalId": "h-08",
+      "triggerOffset": 69,
+      "endIntervalId": "h-10",
+      "endOffset": 38
+    },
+    {
+      "id": "video-harmonious-07",
+      "name": "Harmonious: Africa",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 674.1,
+      "triggerIntervalId": "h-10",
+      "triggerOffset": 38,
+      "endIntervalId": "h-12",
+      "endOffset": 5
+    },
+    {
+      "id": "video-harmonious-08",
+      "name": "Harmonious: Africa (re-sync at 50s)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 690.5,
+      "triggerIntervalId": "h-12",
+      "triggerOffset": 5,
+      "endIntervalId": "h-13"
+    },
+    {
+      "id": "video-harmonious-09",
+      "name": "Harmonious: Europe",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 764.6,
+      "triggerIntervalId": "h-14",
+      "endIntervalId": "h-17",
+      "endOffset": 40
+    },
+    {
+      "id": "video-harmonious-10",
+      "name": "Harmonious: Latin America",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 904.5,
+      "triggerIntervalId": "h-17",
+      "triggerOffset": 40,
+      "endIntervalId": "h-18",
+      "endOffset": 22
+    },
+    {
+      "id": "video-harmonious-11",
+      "name": "Harmonious: Latin America (re-sync at 52s)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 936.3,
+      "triggerIntervalId": "h-18",
+      "triggerOffset": 22,
+      "endIntervalId": "h-20",
+      "endOffset": 33
+    },
+    {
+      "id": "video-harmonious-12",
+      "name": "Harmonious: U.S.A.",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 1030.7,
+      "triggerIntervalId": "h-20",
+      "triggerOffset": 33,
+      "endIntervalId": "h-20",
+      "endOffset": 53
+    },
+    {
+      "id": "video-harmonious-13",
+      "name": "Harmonious: U.S.A. (re-sync at 20s)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 1041.7,
+      "triggerIntervalId": "h-20",
+      "triggerOffset": 53,
+      "endIntervalId": "h-21",
+      "endOffset": 16
+    },
+    {
+      "id": "video-harmonious-14",
+      "name": "Harmonious: U.S.A. (re-sync at 58s)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 1075.5,
+      "triggerIntervalId": "h-21",
+      "triggerOffset": 16,
+      "endIntervalId": "h-23",
+      "endOffset": 11
+    },
+    {
+      "id": "video-harmonious-15",
+      "name": "Harmonious: Finale",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
+      "startTime": 1178.3,
+      "triggerIntervalId": "h-23",
+      "triggerOffset": 11,
+      "endIntervalId": "cooldown",
+      "endOffset": 69
+    }
+  ],
+  "sequence": [
+    {
+      "type": "interval",
+      "id": "el-01",
+      "name": "Electric Love",
+      "duration": 140,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "el-02",
+      "name": "Electric Love",
+      "duration": 85,
+      "powerZone": "Z2",
+      "cadence": 90
+    },
+    {
+      "type": "interval",
+      "id": "el-03",
+      "name": "Electric Love",
+      "duration": 113,
+      "powerZone": "Z3",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "el-04",
+      "name": "Electric Love",
+      "duration": 98,
+      "powerZone": "Z2",
+      "notes": "Energy dips; ease off"
+    },
+    {
+      "type": "interval",
+      "id": "el-05",
+      "name": "Electric Love",
+      "duration": 30,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "el-06",
+      "name": "Electric Love",
+      "duration": 21,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "el-07",
+      "name": "Electric Love",
+      "duration": 30,
+      "powerZone": "Z3",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "el-08",
+      "name": "Electric Love",
+      "duration": 30,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "el-09",
+      "name": "Electric Love",
+      "duration": 30,
+      "powerZone": "Z4-",
+      "notes": "Out of the saddle"
+    },
+    {
+      "type": "interval",
+      "id": "el-10",
+      "name": "Electric Love",
+      "duration": 110,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "el-11",
+      "name": "Electric Love",
+      "duration": 33,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "el-12",
+      "name": "Electric Love",
+      "duration": 65,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "el-13",
+      "name": "Electric Love",
+      "duration": 25,
+      "powerZone": "Z4",
+      "notes": "Out of the saddle"
+    },
+    {
+      "type": "interval",
+      "id": "el-14",
+      "name": "Electric Love",
+      "duration": 20,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "el-15",
+      "name": "Electric Love",
+      "duration": 25,
+      "powerZone": "Z2",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "el-16",
+      "name": "Electric Love",
+      "duration": 25,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "el-17",
+      "name": "Electric Love",
+      "duration": 130,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "el-18",
+      "name": "Electric Love",
+      "duration": 20,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "el-19",
+      "name": "Electric Love",
+      "duration": 35,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "el-20",
+      "name": "Electric Love",
+      "duration": 35,
+      "powerZone": "Z5"
+    },
+    {
+      "type": "interval",
+      "id": "oos-01",
+      "name": "Out of the Saddle Challenge",
+      "duration": 90,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "oos-02",
+      "name": "Out of the Saddle Challenge",
+      "duration": 60,
+      "powerZone": "Z2",
+      "notes": "Out of the saddle"
+    },
+    {
+      "type": "interval",
+      "id": "oos-03",
+      "name": "Out of the Saddle Challenge",
+      "duration": 45,
+      "powerZone": "Z3",
+      "notes": "Out of the saddle"
+    },
+    {
+      "type": "interval",
+      "id": "oos-04",
+      "name": "Out of the Saddle Challenge",
+      "duration": 30,
+      "powerZone": "Z4",
+      "notes": "Out of the saddle"
+    },
+    {
+      "type": "interval",
+      "id": "oos-05",
+      "name": "Out of the Saddle Challenge",
+      "duration": 30,
+      "powerZone": "Z5",
+      "notes": "Out of the saddle"
+    },
+    {
+      "type": "interval",
+      "id": "oos-06",
+      "name": "Out of the Saddle Challenge",
+      "duration": 30,
+      "powerZone": "Z4",
+      "notes": "Out of the saddle"
+    },
+    {
+      "type": "interval",
+      "id": "oos-07",
+      "name": "Out of the Saddle Challenge",
+      "duration": 45,
+      "powerZone": "Z3",
+      "notes": "Out of the saddle"
+    },
+    {
+      "type": "interval",
+      "id": "oos-08",
+      "name": "Out of the Saddle Challenge",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "oos-09",
+      "name": "Out of the Saddle Challenge",
+      "duration": 90,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "h-01",
+      "name": "Harmonious",
+      "duration": 99,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "h-02",
+      "name": "Harmonious",
+      "duration": 43,
+      "powerZone": "Z2",
+      "cadence": 70,
+      "notes": "Out of the saddle"
+    },
+    {
+      "type": "interval",
+      "id": "h-03",
+      "name": "Harmonious",
+      "duration": 43,
+      "powerZone": "Z3",
+      "cadence": 70
+    },
+    {
+      "type": "interval",
+      "id": "h-04",
+      "name": "Harmonious",
+      "duration": 80,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "h-05",
+      "name": "Harmonious",
+      "duration": 24,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "h-06",
+      "name": "Harmonious",
+      "duration": 38,
+      "powerZone": "Z2",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "h-07",
+      "name": "Harmonious",
+      "duration": 87,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "h-08",
+      "name": "Harmonious",
+      "duration": 70,
+      "powerZone": "Z2",
+      "cadence": 70
+    },
+    {
+      "type": "interval",
+      "id": "h-09",
+      "name": "Harmonious",
+      "duration": 35,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "h-10",
+      "name": "Harmonious",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "h-11",
+      "name": "Harmonious",
+      "duration": 23,
+      "powerZone": "Z3"
+    },
+    {
+      "type": "interval",
+      "id": "h-12",
+      "name": "Harmonious",
+      "duration": 35,
+      "powerZone": "Z3+",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "h-13",
+      "name": "Harmonious",
+      "duration": 45,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "h-14",
+      "name": "Harmonious",
+      "duration": 30,
+      "powerZone": "Z3",
+      "notes": "Out of the saddle"
+    },
+    {
+      "type": "interval",
+      "id": "h-15",
+      "name": "Harmonious",
+      "duration": 12,
+      "powerZone": "Z4",
+      "notes": "Out of the saddle"
+    },
+    {
+      "type": "interval",
+      "id": "h-16",
+      "name": "Harmonious",
+      "duration": 55,
+      "powerZone": "Z4",
+      "cadence": 95
+    },
+    {
+      "type": "interval",
+      "id": "h-17",
+      "name": "Harmonious",
+      "duration": 70,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "h-18",
+      "name": "Harmonious",
+      "duration": 55,
+      "powerZone": "Z3+",
+      "cadence": 100
+    },
+    {
+      "type": "interval",
+      "id": "h-19",
+      "name": "Harmonious",
+      "duration": 25,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "h-20",
+      "name": "Harmonious",
+      "duration": 75,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "h-21",
+      "name": "Harmonious",
+      "duration": 40,
+      "powerZone": "Z4"
+    },
+    {
+      "type": "interval",
+      "id": "h-22",
+      "name": "Harmonious",
+      "duration": 59,
+      "powerZone": "Z1"
+    },
+    {
+      "type": "interval",
+      "id": "h-23",
+      "name": "Harmonious",
+      "duration": 60,
+      "powerZone": "Z2"
+    },
+    {
+      "type": "interval",
+      "id": "h-24",
+      "name": "Harmonious",
+      "duration": 48,
+      "powerZone": "Z4-"
+    },
+    {
+      "type": "interval",
+      "id": "h-25",
+      "name": "Harmonious",
+      "duration": 20,
+      "powerZone": "Z5",
+      "notes": "Out of the saddle"
+    },
+    {
+      "type": "interval",
+      "id": "cooldown",
+      "name": "Cooldown",
+      "duration": 189,
+      "powerZone": "Z1"
+    }
+  ]
+}
