@@ -169,6 +169,31 @@ By default a workout video plays muted as a visual backdrop and Spotify carries 
 }
 ```
 
+## Spotify Cues (workout-timed track changes)
+
+Spotify plays an album's tracks **gapless, with no crossfade**, when they sit in album order — even inside your own playlist, and whatever the app's crossfade setting says. Tracks with silent endings then leave gaps, and any video sync that assumed a crossfade drifts by the crossfade length at every song change.
+
+A top-level `spotifyCues` array fixes this by putting song changes on the workout clock. At each cue the app jumps the selected workout playlist to `trackUri`, starting `positionMs` into it. Fire each cue just after the previous song's music ends, and use `positionMs` to skip the next song's leading silence. Cues don't fire during an `audioSource: "video"` segment.
+
+```json
+"spotifyCues": [
+  { "id": "cue-harmonious-03", "name": "Harmonious: Middle East",
+    "triggerIntervalId": "h-04", "triggerOffset": 81,
+    "trackUri": "spotify:track:1woyLkspRtNOvGlYJbupZX", "positionMs": 420 }
+]
+```
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `id` | Yes | Unique cue id |
+| `name` | No | Label, e.g. the song |
+| `triggerIntervalId` | Yes | Interval the cue fires in |
+| `triggerOffset` | No | Whole seconds into that interval (default 0) |
+| `trackUri` | Yes | `spotify:track:<id>`; keep it in the workout playlist so playback carries on after it |
+| `positionMs` | No | Where in the track to start (default 0) |
+
+`workouts/50min/electric-harmony-50.json` is the reference: Harmonious is driven by cues, and the muted show video is synced to the cue times.
+
 ## Pre-class Intro Video
 
 A separate top-level `introVideo` field plays an ambient video behind the workout-summary screen before the rider hits Start. It loops automatically and stops cleanly when the workout begins.

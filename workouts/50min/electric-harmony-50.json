@@ -1,7 +1,7 @@
 {
   "id": "electric-harmony-50",
   "name": "Electric Harmony",
-  "description": "50-minute music-led ride: the Electric Love opening ceremony with its own audio, an out-of-the-saddle pyramid to DJ Sammy's Heaven (video audio), then EPCOT's Harmonious synced to the Spotify album (10s crossfade).",
+  "description": "50-minute music-led ride: the Electric Love opening ceremony with its own audio, an out-of-the-saddle pyramid to DJ Sammy's Heaven (video audio), then EPCOT's Harmonious synced to the Spotify album, with the app changing tracks on the workout clock.",
   "totalDuration": 3000,
   "videos": [
     {
@@ -30,37 +30,37 @@
       "startTime": 124.5,
       "triggerIntervalId": "h-01",
       "endIntervalId": "h-01",
-      "endOffset": 94
+      "endOffset": 104
     },
     {
       "id": "video-harmonious-02",
       "name": "Harmonious: Awakening",
       "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
-      "startTime": 228.5,
+      "startTime": 228.4,
       "triggerIntervalId": "h-01",
-      "triggerOffset": 94,
+      "triggerOffset": 104,
       "endIntervalId": "h-04",
-      "endOffset": 73
+      "endOffset": 81
     },
     {
       "id": "video-harmonious-03",
       "name": "Harmonious: Middle East",
       "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
-      "startTime": 394.2,
+      "startTime": 394.5,
       "triggerIntervalId": "h-04",
-      "triggerOffset": 73,
+      "triggerOffset": 81,
       "endIntervalId": "h-07",
-      "endOffset": 5
+      "endOffset": 14
     },
     {
       "id": "video-harmonious-04",
       "name": "Harmonious: India",
       "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
-      "startTime": 457.2,
+      "startTime": 457.0,
       "triggerIntervalId": "h-07",
-      "triggerOffset": 5,
+      "triggerOffset": 14,
       "endIntervalId": "h-07",
-      "endOffset": 82
+      "endOffset": 99
     },
     {
       "id": "video-harmonious-05",
@@ -68,7 +68,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
       "startTime": 538.8,
       "triggerIntervalId": "h-07",
-      "triggerOffset": 82,
+      "triggerOffset": 99,
       "endIntervalId": "h-08",
       "endOffset": 69
     },
@@ -80,15 +80,15 @@
       "triggerIntervalId": "h-08",
       "triggerOffset": 69,
       "endIntervalId": "h-10",
-      "endOffset": 38
+      "endOffset": 45
     },
     {
       "id": "video-harmonious-07",
       "name": "Harmonious: Africa",
       "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
-      "startTime": 674.1,
+      "startTime": 673.8,
       "triggerIntervalId": "h-10",
-      "triggerOffset": 38,
+      "triggerOffset": 45,
       "endIntervalId": "h-12",
       "endOffset": 5
     },
@@ -96,27 +96,29 @@
       "id": "video-harmonious-08",
       "name": "Harmonious: Africa (re-sync at 50s)",
       "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
-      "startTime": 690.5,
+      "startTime": 690.2,
       "triggerIntervalId": "h-12",
       "triggerOffset": 5,
-      "endIntervalId": "h-13"
+      "endIntervalId": "h-14",
+      "endOffset": 7
     },
     {
       "id": "video-harmonious-09",
       "name": "Harmonious: Europe",
       "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
-      "startTime": 764.6,
+      "startTime": 765.1,
       "triggerIntervalId": "h-14",
+      "triggerOffset": 7,
       "endIntervalId": "h-17",
-      "endOffset": 40
+      "endOffset": 47
     },
     {
       "id": "video-harmonious-10",
       "name": "Harmonious: Latin America",
       "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
-      "startTime": 904.5,
+      "startTime": 904.8,
       "triggerIntervalId": "h-17",
-      "triggerOffset": 40,
+      "triggerOffset": 47,
       "endIntervalId": "h-18",
       "endOffset": 22
     },
@@ -124,29 +126,29 @@
       "id": "video-harmonious-11",
       "name": "Harmonious: Latin America (re-sync at 52s)",
       "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
-      "startTime": 936.3,
+      "startTime": 936.6,
       "triggerIntervalId": "h-18",
       "triggerOffset": 22,
       "endIntervalId": "h-20",
-      "endOffset": 33
+      "endOffset": 39
     },
     {
       "id": "video-harmonious-12",
       "name": "Harmonious: U.S.A.",
       "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
-      "startTime": 1030.7,
+      "startTime": 1030.6,
       "triggerIntervalId": "h-20",
-      "triggerOffset": 33,
+      "triggerOffset": 39,
       "endIntervalId": "h-20",
-      "endOffset": 53
+      "endOffset": 59
     },
     {
       "id": "video-harmonious-13",
       "name": "Harmonious: U.S.A. (re-sync at 20s)",
       "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
-      "startTime": 1041.7,
+      "startTime": 1041.6,
       "triggerIntervalId": "h-20",
-      "triggerOffset": 53,
+      "triggerOffset": 59,
       "endIntervalId": "h-21",
       "endOffset": 16
     },
@@ -154,11 +156,11 @@
       "id": "video-harmonious-14",
       "name": "Harmonious: U.S.A. (re-sync at 58s)",
       "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
-      "startTime": 1075.5,
+      "startTime": 1075.4,
       "triggerIntervalId": "h-21",
       "triggerOffset": 16,
       "endIntervalId": "h-23",
-      "endOffset": 11
+      "endOffset": 17
     },
     {
       "id": "video-harmonious-15",
@@ -166,9 +168,79 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=XLnrePnk04Q",
       "startTime": 1178.3,
       "triggerIntervalId": "h-23",
-      "triggerOffset": 11,
+      "triggerOffset": 17,
       "endIntervalId": "cooldown",
-      "endOffset": 69
+      "endOffset": 66
+    }
+  ],
+  "spotifyCues": [
+    {
+      "id": "cue-harmonious-02",
+      "name": "Harmonious: Awakening",
+      "triggerIntervalId": "h-01",
+      "triggerOffset": 104,
+      "trackUri": "spotify:track:6oRBeWhqPU2aDjjz6W4fvw"
+    },
+    {
+      "id": "cue-harmonious-03",
+      "name": "Harmonious: Middle East",
+      "triggerIntervalId": "h-04",
+      "triggerOffset": 81,
+      "trackUri": "spotify:track:1woyLkspRtNOvGlYJbupZX",
+      "positionMs": 420
+    },
+    {
+      "id": "cue-harmonious-04",
+      "name": "Harmonious: India",
+      "triggerIntervalId": "h-07",
+      "triggerOffset": 14,
+      "trackUri": "spotify:track:7iPLtvrI5FzmzaD8mVfaE1"
+    },
+    {
+      "id": "cue-harmonious-05",
+      "name": "Harmonious: China",
+      "triggerIntervalId": "h-07",
+      "triggerOffset": 99,
+      "trackUri": "spotify:track:2Sfisjfif55dxebAHPH1I6"
+    },
+    {
+      "id": "cue-harmonious-06",
+      "name": "Harmonious: Africa",
+      "triggerIntervalId": "h-10",
+      "triggerOffset": 45,
+      "trackUri": "spotify:track:4FjXVninfbhkXgvUAw4vYa"
+    },
+    {
+      "id": "cue-harmonious-07",
+      "name": "Harmonious: Europe",
+      "triggerIntervalId": "h-14",
+      "triggerOffset": 7,
+      "trackUri": "spotify:track:7j6Vpd9hid2SvBNchZ9zQh",
+      "positionMs": 260
+    },
+    {
+      "id": "cue-harmonious-08",
+      "name": "Harmonious: Latin America",
+      "triggerIntervalId": "h-17",
+      "triggerOffset": 47,
+      "trackUri": "spotify:track:0qLgU6T4QbL8zlbiLGV7Bd",
+      "positionMs": 670
+    },
+    {
+      "id": "cue-harmonious-09",
+      "name": "Harmonious: U.S.A.",
+      "triggerIntervalId": "h-20",
+      "triggerOffset": 39,
+      "trackUri": "spotify:track:1q0agJXvSQOkiU1t7CcBiJ",
+      "positionMs": 400
+    },
+    {
+      "id": "cue-harmonious-10",
+      "name": "Harmonious: Finale",
+      "triggerIntervalId": "h-23",
+      "triggerOffset": 17,
+      "trackUri": "spotify:track:4aVZ63wuFxMHFEPeqBQDnQ",
+      "positionMs": 210
     }
   ],
   "sequence": [
@@ -393,7 +465,7 @@
       "type": "interval",
       "id": "h-01",
       "name": "Harmonious",
-      "duration": 99,
+      "duration": 109,
       "powerZone": "Z2"
     },
     {
@@ -417,7 +489,7 @@
       "type": "interval",
       "id": "h-04",
       "name": "Harmonious",
-      "duration": 80,
+      "duration": 88,
       "powerZone": "Z4"
     },
     {
@@ -439,7 +511,7 @@
       "type": "interval",
       "id": "h-07",
       "name": "Harmonious",
-      "duration": 87,
+      "duration": 104,
       "powerZone": "Z3"
     },
     {
@@ -461,7 +533,7 @@
       "type": "interval",
       "id": "h-10",
       "name": "Harmonious",
-      "duration": 60,
+      "duration": 67,
       "powerZone": "Z2"
     },
     {
@@ -490,7 +562,7 @@
       "type": "interval",
       "id": "h-14",
       "name": "Harmonious",
-      "duration": 30,
+      "duration": 37,
       "powerZone": "Z3",
       "notes": "Out of the saddle"
     },
@@ -514,7 +586,7 @@
       "type": "interval",
       "id": "h-17",
       "name": "Harmonious",
-      "duration": 70,
+      "duration": 77,
       "powerZone": "Z2"
     },
     {
@@ -536,7 +608,7 @@
       "type": "interval",
       "id": "h-20",
       "name": "Harmonious",
-      "duration": 75,
+      "duration": 81,
       "powerZone": "Z2"
     },
     {
@@ -557,7 +629,7 @@
       "type": "interval",
       "id": "h-23",
       "name": "Harmonious",
-      "duration": 60,
+      "duration": 66,
       "powerZone": "Z2"
     },
     {
@@ -579,7 +651,7 @@
       "type": "interval",
       "id": "cooldown",
       "name": "Cooldown",
-      "duration": 189,
+      "duration": 121,
       "powerZone": "Z1"
     }
   ]
