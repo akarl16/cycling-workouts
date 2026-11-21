@@ -184,6 +184,32 @@
       "endIntervalId": "i089"
     }
   ],
+  "spotifyCues": [
+    {
+      "id": "cue-one-little-spark",
+      "name": "One Little Spark (after Fantasmic!)",
+      "triggerIntervalId": "i031",
+      "trackUri": "spotify:track:5HKI802GrltiJGY539BQoL"
+    },
+    {
+      "id": "cue-one-way-or-another",
+      "name": "One Way Or Another (after World Showcase)",
+      "triggerIntervalId": "i050",
+      "trackUri": "spotify:track:59CLe8stbcx4XYBWdsfbwK"
+    },
+    {
+      "id": "cue-flitterin",
+      "name": "Flitterin' (after Monorail)",
+      "triggerIntervalId": "i057",
+      "trackUri": "spotify:track:5ck1R6ND9tuAbIphYVzi9A"
+    },
+    {
+      "id": "cue-great-big-beautiful-tomorrow",
+      "name": "Great Big Beautiful Tomorrow (after Happily Ever After)",
+      "triggerIntervalId": "i088",
+      "trackUri": "spotify:track:0bfhBvdpWSSLDS2q7Qx2Oy"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
