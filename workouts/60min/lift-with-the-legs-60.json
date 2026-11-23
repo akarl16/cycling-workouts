@@ -3,6 +3,218 @@
   "name": "Lift with the Legs",
   "description": "60-minute strength-focused ride featuring a simple build warmup, low-cadence primers, and three progressive low-cadence strength sets (Z2→Z3→Z3+→Z4).",
   "totalDuration": 3600,
+  "videos": [
+    {
+      "id": "video-neckties",
+      "name": "Neckties",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BWXVqyWIXto",
+      "startTime": 0,
+      "triggerIntervalId": "i001",
+      "endIntervalId": "i002",
+      "endOffset": 44,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-till-it-hurts",
+      "name": "Till It Hurts",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fzX9uVmzwrY",
+      "startTime": 0,
+      "triggerIntervalId": "i002",
+      "triggerOffset": 44,
+      "endIntervalId": "i003",
+      "endOffset": 57,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-cantando",
+      "name": "Cantando",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nur8PDIl15g",
+      "startTime": 0,
+      "triggerIntervalId": "i003",
+      "triggerOffset": 57,
+      "endIntervalId": "i004",
+      "endOffset": 55,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-queen-machine",
+      "name": "Queen Machine",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yHBJpcO-sUk",
+      "startTime": 0,
+      "triggerIntervalId": "i004",
+      "triggerOffset": 55,
+      "endIntervalId": "i008",
+      "endOffset": 5,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-fat-bottomed-girls",
+      "name": "Fat Bottomed Girls",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VxiBVxiEY0o",
+      "startTime": 0,
+      "triggerIntervalId": "i008",
+      "triggerOffset": 5,
+      "endIntervalId": "i009",
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-work-shoes",
+      "name": "Work Shoes",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1eWLqX9zrIg",
+      "startTime": 0,
+      "triggerIntervalId": "i010",
+      "endIntervalId": "i010",
+      "endOffset": 174,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-what-you-got",
+      "name": "What You Got",
+      "youtubeUrl": "https://www.youtube.com/watch?v=epLX2GoRy50",
+      "startTime": 0,
+      "triggerIntervalId": "i010",
+      "triggerOffset": 174,
+      "endIntervalId": "s002-block-b001-rep-1",
+      "endOffset": 104,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-bring-down-the-house-remix",
+      "name": "Bring Down the House - Remix",
+      "youtubeUrl": "https://www.youtube.com/watch?v=r9_0u0porO8",
+      "startTime": 26,
+      "triggerIntervalId": "s002-block-b001-rep-1",
+      "triggerOffset": 104,
+      "endIntervalId": "s003-block-b001-rep-1",
+      "endOffset": 161,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-the-phantom-of-the-opera-supermini-2118-remix",
+      "name": "The Phantom of the Opera - Supermini & 2118 Remix",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dXwihweh7wc",
+      "startTime": 0,
+      "triggerIntervalId": "s003-block-b001-rep-1",
+      "triggerOffset": 161,
+      "endIntervalId": "s004-block-b001-rep-1",
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-can-t-hold-me-down",
+      "name": "Can't Hold Me Down",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AuIBwqcWeWA",
+      "startTime": 0,
+      "triggerIntervalId": "s005-block-b001-rep-1",
+      "endIntervalId": "s005-block-b001-rep-1",
+      "endOffset": 115,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-hypnotized",
+      "name": "Hypnotized",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7LZgSUNnnrw",
+      "startTime": 0,
+      "triggerIntervalId": "s005-block-b001-rep-1",
+      "triggerOffset": 115,
+      "endIntervalId": "s002-block-b001-rep-2",
+      "endOffset": 114,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-dig-duggin",
+      "name": "Dig Duggin",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ztwJbq5oeTI",
+      "startTime": 0,
+      "triggerIntervalId": "s002-block-b001-rep-2",
+      "triggerOffset": 114,
+      "endIntervalId": "s003-block-b001-rep-2",
+      "endOffset": 178,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-mmmbop-80s-glam-metal",
+      "name": "Mmmbop (80s Glam Metal)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AhpCpe6cInQ",
+      "startTime": 0,
+      "triggerIntervalId": "s003-block-b001-rep-2",
+      "triggerOffset": 178,
+      "endIntervalId": "s005-block-b001-rep-2",
+      "endOffset": 10,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-cobrastyle",
+      "name": "Cobrastyle",
+      "youtubeUrl": "https://www.youtube.com/watch?v=s5SA6L722kI",
+      "startTime": 0,
+      "triggerIntervalId": "s005-block-b001-rep-2",
+      "triggerOffset": 10,
+      "endIntervalId": "s001-block-b001-rep-3",
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-wayhome",
+      "name": "Wayhome",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RrqUCxsiLoM",
+      "startTime": 0,
+      "triggerIntervalId": "s002-block-b001-rep-3",
+      "endIntervalId": "s003-block-b001-rep-3",
+      "endOffset": 148,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-madness",
+      "name": "Madness",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ek0SgwWmF9w",
+      "startTime": 26,
+      "triggerIntervalId": "s003-block-b001-rep-3",
+      "triggerOffset": 148,
+      "endIntervalId": "s004-block-b001-rep-3",
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-sweet-sweet-2011-remaster",
+      "name": "Sweet Sweet - 2011 Remaster",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LtkFvsaTD0g",
+      "startTime": 0,
+      "triggerIntervalId": "s005-block-b001-rep-3",
+      "endIntervalId": "s005-block-b001-rep-3",
+      "endOffset": 88,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-lay-your-head-on-me",
+      "name": "Lay Your Head On Me",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zceRp4y12ws",
+      "startTime": 0,
+      "triggerIntervalId": "s005-block-b001-rep-3",
+      "triggerOffset": 88,
+      "endIntervalId": "i011",
+      "endOffset": 154,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-steal-the-show",
+      "name": "Steal The Show",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5Tz66MJvuck",
+      "startTime": 0,
+      "triggerIntervalId": "i011",
+      "triggerOffset": 154,
+      "endIntervalId": "i013",
+      "endOffset": 37,
+      "audioSource": "spotify"
+    },
+    {
+      "id": "video-no-rain",
+      "name": "No Rain",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cGSoEZQmUZQ",
+      "startTime": 16,
+      "triggerIntervalId": "i013",
+      "triggerOffset": 37,
+      "endIntervalId": "i013",
+      "audioSource": "spotify"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
