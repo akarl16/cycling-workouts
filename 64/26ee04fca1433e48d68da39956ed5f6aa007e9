@@ -1,0 +1,19 @@
+workouts/melodic-roulette/melodic-roulette-50.json
+  s_013961b0f1ad17::t_f2b5cf03dc6fb3 1-196
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6426ee04fca1433e48d68da39956ed5f6aa007e9",
+  "prompts": {},
+  "sessions": {
+    "s_013961b0f1ad17": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "85eae6d6-31cf-4452-9287-13a330def990",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
