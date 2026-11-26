@@ -1,0 +1,19 @@
+workouts/50min/electric-love-festival-50.json
+  s_62370a3a0b8b8e::t_ffc704eae13e5f 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6eeb0cef6a8cba6b5b1b7e773656a1ffe2c8eb4a",
+  "prompts": {},
+  "sessions": {
+    "s_62370a3a0b8b8e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a2139b-ead7-7e33-89eb-5b840af46faa",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Adam Karl <akarl16@gmail.com>"
+    }
+  }
+}
