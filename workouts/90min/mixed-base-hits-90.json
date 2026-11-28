@@ -3,6 +3,293 @@
   "name": "Mixed Base Hits",
   "description": "90-minute mixed base workout with strength intervals, ascent/descent work, and VO2 hits",
   "totalDuration": 5400,
+  "videos": [
+    {
+      "id": "video-even-flow-funky",
+      "name": "Even flow Funky",
+      "youtubeUrl": "https://www.youtube.com/watch?v=N72JyHRaYyo",
+      "startTime": 0,
+      "triggerIntervalId": "interval-1",
+      "endIntervalId": "interval-1",
+      "endOffset": 282
+    },
+    {
+      "id": "video-frequencies",
+      "name": "Frequencies",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RBDxynxEddo",
+      "startTime": 0,
+      "triggerIntervalId": "interval-1",
+      "triggerOffset": 282,
+      "endIntervalId": "interval-3",
+      "endOffset": 5
+    },
+    {
+      "id": "video-dancing-with-you",
+      "name": "Pitbull ft Rosé - Dancing With You",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xWUI8SVgY34",
+      "startTime": 0,
+      "triggerIntervalId": "interval-3",
+      "triggerOffset": 5,
+      "endIntervalId": "interval-9",
+      "endOffset": 2,
+      "audioSource": "video"
+    },
+    {
+      "id": "video-i-m-ready",
+      "name": "I'm Ready",
+      "youtubeUrl": "https://www.youtube.com/watch?v=i-2rnwtOkL0",
+      "startTime": 0,
+      "triggerIntervalId": "interval-9",
+      "triggerOffset": 2,
+      "endIntervalId": "interval-10"
+    },
+    {
+      "id": "video-zoo-from-zootopia-2",
+      "name": "Zoo - From \"Zootopia 2\"",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Kw3935PH01E",
+      "startTime": 0,
+      "triggerIntervalId": "base-strength-high-block-base-strength-block-rep-1",
+      "endIntervalId": "base-strength-low-block-base-strength-block-rep-1"
+    },
+    {
+      "id": "video-symmetry-feat-karan-aujla-remix",
+      "name": "Symmetry (feat. Karan Aujla) - Remix",
+      "youtubeUrl": "https://www.youtube.com/watch?v=32sPcsb9ClQ",
+      "startTime": 0,
+      "triggerIntervalId": "base-strength-high-block-base-strength-block-rep-2",
+      "endIntervalId": "base-strength-low-block-base-strength-block-rep-2"
+    },
+    {
+      "id": "video-ruthlessness",
+      "name": "Ruthlessness",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ARaQZTQfa2o",
+      "startTime": 0,
+      "triggerIntervalId": "base-strength-high-block-base-strength-block-rep-3",
+      "endIntervalId": "base-strength-low-block-base-strength-block-rep-3"
+    },
+    {
+      "id": "video-love-you-twice",
+      "name": "Love You Twice",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5zBK1MH3Pgk",
+      "startTime": 0,
+      "triggerIntervalId": "base-strength-high-block-base-strength-block-rep-4",
+      "endIntervalId": "base-strength-low-block-base-strength-block-rep-4"
+    },
+    {
+      "id": "video-seven-nation-army-epic-version",
+      "name": "Seven Nation Army - Epic Version",
+      "youtubeUrl": "https://www.youtube.com/watch?v=M4E0-KWjLg4",
+      "startTime": 0,
+      "triggerIntervalId": "base-strength-high-block-base-strength-block-rep-5",
+      "endIntervalId": "base-strength-low-block-base-strength-block-rep-5"
+    },
+    {
+      "id": "video-all-day-crab-rangoon",
+      "name": "all day (crab rangoon)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hZmVbRIZ7pE",
+      "startTime": 0,
+      "triggerIntervalId": "interval-21",
+      "endIntervalId": "interval-21",
+      "endOffset": 177
+    },
+    {
+      "id": "video-mr-crowley",
+      "name": "Jack Black feat. Roman Morello, Revel Ian, Yoyoka Soma & Hugo Weiss - Mr Crowley",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hm-M8GvgYws",
+      "startTime": 0,
+      "triggerIntervalId": "interval-21",
+      "triggerOffset": 177,
+      "endIntervalId": "interval-22",
+      "endOffset": 299,
+      "audioSource": "video"
+    },
+    {
+      "id": "video-ring-of-fire",
+      "name": "Ring of Fire",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UD5DgzxFRjg",
+      "startTime": 0,
+      "triggerIntervalId": "interval-22",
+      "triggerOffset": 299,
+      "endIntervalId": "interval-23",
+      "endOffset": 125
+    },
+    {
+      "id": "video-lighter-wizkid-extended",
+      "name": "Lighter - Wizkid Extended",
+      "youtubeUrl": "https://www.youtube.com/watch?v=k-DQo-48rAg",
+      "startTime": 0,
+      "triggerIntervalId": "interval-23",
+      "triggerOffset": 125,
+      "endIntervalId": "interval-23"
+    },
+    {
+      "id": "video-midwest",
+      "name": "midwest",
+      "youtubeUrl": "https://www.youtube.com/watch?v=M_e5I5Fa_ms",
+      "startTime": 0,
+      "triggerIntervalId": "interval-24",
+      "endIntervalId": "interval-24",
+      "endOffset": 132
+    },
+    {
+      "id": "video-this-must-be-girl-dad-life",
+      "name": "This Must Be Girl Dad Life",
+      "youtubeUrl": "https://www.youtube.com/watch?v=faUvxqQNMBA",
+      "startTime": 0,
+      "triggerIntervalId": "interval-24",
+      "triggerOffset": 132,
+      "endIntervalId": "interval-24"
+    },
+    {
+      "id": "video-that-universal-song",
+      "name": "That Universal Song",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4hIal2u4zWE",
+      "startTime": 0,
+      "triggerIntervalId": "interval-25",
+      "endIntervalId": "interval-25"
+    },
+    {
+      "id": "video-livin-la-vida-loca",
+      "name": "Livin' La Vida Loca",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kZO7HtOfyx4",
+      "startTime": 0,
+      "triggerIntervalId": "interval-26",
+      "endIntervalId": "interval-26",
+      "endOffset": 222
+    },
+    {
+      "id": "video-aeterna",
+      "name": "AETERNA",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OtVnV_uIPaQ",
+      "startTime": 0,
+      "triggerIntervalId": "interval-26",
+      "triggerOffset": 222,
+      "endIntervalId": "interval-27",
+      "endOffset": 165
+    },
+    {
+      "id": "video-a-whole-new-world",
+      "name": "A Whole New World",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BlI0PRvLHBA",
+      "startTime": 0,
+      "triggerIntervalId": "interval-27",
+      "triggerOffset": 165,
+      "endIntervalId": "interval-27"
+    },
+    {
+      "id": "video-domino",
+      "name": "Domino",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nI8m7dQafoo",
+      "startTime": 0,
+      "triggerIntervalId": "interval-28",
+      "endIntervalId": "interval-28",
+      "endOffset": 140
+    },
+    {
+      "id": "video-catchy-song-feat-t-pain-that-girl-lay-lay",
+      "name": "Catchy Song (feat. T-Pain & That Girl Lay Lay)",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jrT9tcAyMMY",
+      "startTime": 0,
+      "triggerIntervalId": "interval-28",
+      "triggerOffset": 140,
+      "endIntervalId": "interval-28"
+    },
+    {
+      "id": "video-born-to-bleed",
+      "name": "Born To Bleed",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ggpDJ2UkV4A",
+      "startTime": 0,
+      "triggerIntervalId": "interval-29",
+      "endIntervalId": "interval-29"
+    },
+    {
+      "id": "video-freak-like-me",
+      "name": "Freak Like Me",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4sXoA7B5yJo",
+      "startTime": 0,
+      "triggerIntervalId": "vo2-hit-block-vo2-to-base-block-rep-1",
+      "endIntervalId": "vo2-base-block-vo2-to-base-block-rep-1",
+      "endOffset": 152
+    },
+    {
+      "id": "video-run-it",
+      "name": "Run It",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3aSxdwwT62M",
+      "startTime": 0,
+      "triggerIntervalId": "vo2-base-block-vo2-to-base-block-rep-1",
+      "triggerOffset": 152,
+      "endIntervalId": "vo2-base-block-vo2-to-base-block-rep-1"
+    },
+    {
+      "id": "video-everything-is-awesome-with-eban-schletter-tween-dream-remix",
+      "name": "Everything Is Awesome (with Eban Schletter) - Tween Dream Remix",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rIqltEPyJTI",
+      "startTime": 5,
+      "triggerIntervalId": "vo2-recover-block-vo2-to-base-block-rep-1",
+      "endIntervalId": "vo2-recover-block-vo2-to-base-block-rep-1",
+      "endOffset": 104
+    },
+    {
+      "id": "video-start-today",
+      "name": "Start Today",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CP7pPIxjLRA",
+      "startTime": 0,
+      "triggerIntervalId": "vo2-recover-block-vo2-to-base-block-rep-1",
+      "triggerOffset": 104,
+      "endIntervalId": "vo2-base-block-vo2-to-base-block-rep-2",
+      "endOffset": 37
+    },
+    {
+      "id": "video-victorious",
+      "name": "Victorious",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2hEyZT2ZDTc",
+      "startTime": 0,
+      "triggerIntervalId": "vo2-base-block-vo2-to-base-block-rep-2",
+      "triggerOffset": 37,
+      "endIntervalId": "vo2-base-block-vo2-to-base-block-rep-2",
+      "endOffset": 287
+    },
+    {
+      "id": "video-bells-and-whistles",
+      "name": "Bells and Whistles",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Y1b-qu-nw9c",
+      "startTime": 0,
+      "triggerIntervalId": "vo2-recover-block-vo2-to-base-block-rep-2",
+      "endIntervalId": "vo2-recover-block-vo2-to-base-block-rep-2"
+    },
+    {
+      "id": "video-lion",
+      "name": "Lion",
+      "youtubeUrl": "https://www.youtube.com/watch?v=22c5BtjuanA",
+      "startTime": 0,
+      "triggerIntervalId": "interval-38",
+      "endIntervalId": "interval-38"
+    },
+    {
+      "id": "video-where-i-want-to-be",
+      "name": "Where I Want To Be",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GilVilxvkqM",
+      "startTime": 0,
+      "triggerIntervalId": "interval-39",
+      "endIntervalId": "interval-39"
+    }
+  ],
+  "spotifyCues": [
+    {
+      "id": "cue-im-ready",
+      "name": "I'm Ready",
+      "triggerIntervalId": "interval-9",
+      "triggerOffset": 2,
+      "trackUri": "spotify:track:00eOImaJD86Qp3UQ3VEnjw"
+    },
+    {
+      "id": "cue-ring-of-fire",
+      "name": "Ring of Fire",
+      "triggerIntervalId": "interval-22",
+      "triggerOffset": 299,
+      "trackUri": "spotify:track:3UoyCBnr5YJ4qKzHkrM2fj"
+    }
+  ],
   "sequence": [
     {
       "type": "interval",
